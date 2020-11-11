@@ -44,8 +44,9 @@ server <- function(input, output, session) {
     filename = function() {
       paste0(input$name, "-", Sys.Date(), ".csv")
     },
-    content = function(file) {
-      rv$results[nrow(rv$results) + 1,] = c(df$id[rv$n], df$full_text[rv$n], input$topic, input$eval);
+    content = function(file) { 
+      rv$results[nrow(rv$results) + 1,] = c(df$id[rv$n], df$full_text[rv$n], 
+                                            input$topic, input$eval, input$duplicated);
       write_csv(rv$results, file)
     }
   )
