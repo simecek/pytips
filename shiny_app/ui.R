@@ -15,23 +15,27 @@ ui <- fluidPage(
   # Application title
   titlePanel("Pytips Evaluator"),
   
-    
   # Sidebar with a slider input
   sliderInput("n",
               "Tweet nb:",
               min = 1,
               max = nrow(df),
               value = 1,
-              width = "100%"),
+              width = "60%"),
 
   selectInput("topic", "Choose topic:", topics),
-  sliderInput("eval", "Quality of tweet:", min = 1, max = 5, value = 3),
-  actionButton("run2", "Previous"),
-  actionButton("run", "Next"),
-  
+  radioButtons("eval", "Quality of the tweet:", selected = "3", inline = TRUE,
+               choices = c("1" = "1", "2" = "2", "3" = "3", "4" = "4", "5" = "5", "6" = "6", "7" = "7")),
+  checkboxInput("duplicated", "Duplicated (already seen)"), 
+  actionButton("goPrevious", "Previous"),
+  actionButton("goNext", "Next"),
     
   # Show a plot of the generated distribution
-  uiOutput("tweet")
+  uiOutput("tweet"),
   
-
+  conditionalPanel(condition = "input.n == 73",
+      textInput("name", "To be saved under a name:", "")),
+  
+  conditionalPanel(condition = "input.n == 73",
+                   downloadButton("downloadResults", "Save"))
 )
