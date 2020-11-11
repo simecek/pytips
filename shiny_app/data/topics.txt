@@ -1,5 +1,13 @@
-Year 2020
-Clusterfuck
-Beaver and handstands
-Pomegranates and three-inch rivets of Titanic
-Those little fun bags
+Iterators, Generators and Other Friends
+List, Dictionary
+String & Formatting
+Less known Python libraries
+Visualizations
+Math & Numerics
+Pandas & Data
+Date, Time etc.
+OOP & Under the hood
+Jupyter Notebook
+Python Superpowers
+New features in Python
+Others
