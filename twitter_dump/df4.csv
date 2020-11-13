@@ -1,13 +1,18 @@
-id,created_at,favorite_count,retweet_count,full_text,is_reply,is_retweet,url,urls,media,score,days,days2,smoothed_score
-1306228363766435840,2020-09-16 13:48:05+00:00,171,35,"#pythontip by @NurmeAve:
+id,created_at,favorite_count,retweet_count,full_text,is_reply,is_retweet,url,urls,media,score,days,days2,smoothed_score,smoothed_score_plus
+1312523832297582594,2020-10-03 22:44:01+00:00,194,47,"AutoScraper: give it a URL and an example what would you like to scrape, and it learns the scraping rules and returns similar elements
+
+https://t.co/38avVIvoBc
+
+Example: web page, code, results https://t.co/gFXQWvsiS6",False,False,https://twitter.com/python_tip/status/1312523832297582594,"[{'url': 'https://t.co/38avVIvoBc', 'expanded_url': 'https://medium.com/better-programming/introducing-autoscraper-a-smart-fast-and-lightweight-web-scraper-for-python-20987f52c749', 'display_url': 'medium.com/better-program…'}]","[{'url': 'https://t.co/gFXQWvsiS6', 'media_url': 'http://pbs.twimg.com/media/EjcE70ZXsAESsVb.png', 'display_url': 'pic.twitter.com/gFXQWvsiS6'}]",5.817111159963204,1338 days 01:46:40,1338,4.602069387305408,5.602069387305408
+1306228363766435840,2020-09-16 13:48:05+00:00,174,35,"#pythontip by @NurmeAve:
 
 You can use an asterisk for unpacking and with any separator (for printing) you like. 
 
-A few examples shown below. https://t.co/kXN3JMVvTU",False,False,https://twitter.com/python_tip/status/1306228363766435840,[],"[{'url': 'https://t.co/kXN3JMVvTU', 'media_url': 'http://pbs.twimg.com/media/EiCncHaWoAEZk7-.jpg', 'display_url': 'pic.twitter.com/kXN3JMVvTU'}]",5.6240175061873385,1320 days 16:50:44,1320,4.597234722954562
-1303329692913668101,2020-09-08 13:49:48+00:00,273,66,"Use handcalcs as  #Jupyter cell magic to render python calculation code in LaTeX 
+A few examples shown below. https://t.co/kXN3JMVvTU",False,False,https://twitter.com/python_tip/status/1306228363766435840,[],"[{'url': 'https://t.co/kXN3JMVvTU', 'media_url': 'http://pbs.twimg.com/media/EiCncHaWoAEZk7-.jpg', 'display_url': 'pic.twitter.com/kXN3JMVvTU'}]",5.634789603169249,1320 days 16:50:44,1320,4.603893809316336,5.603893809316336
+1303329692913668101,2020-09-08 13:49:48+00:00,273,67,"Use handcalcs as  #Jupyter cell magic to render python calculation code in LaTeX 
 
-https://t.co/aWIriXDfyw https://t.co/hNWPIA5ZxT",False,False,https://twitter.com/python_tip/status/1303329692913668101,"[{'url': 'https://t.co/aWIriXDfyw', 'expanded_url': 'https://github.com/connorferster/handcalcs', 'display_url': 'github.com/connorferster/…'}]","[{'url': 'https://t.co/hNWPIA5ZxT', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/EhZbRSrWkAEVKC5.jpg', 'display_url': 'pic.twitter.com/hNWPIA5ZxT'}]",6.156978985585555,1312 days 16:52:27,1312,4.5983129850232665
-1301039905347231749,2020-09-02 06:11:00+00:00,205,70,"Python 3.9 is coming!
+https://t.co/aWIriXDfyw https://t.co/hNWPIA5ZxT",False,False,https://twitter.com/python_tip/status/1303329692913668101,"[{'url': 'https://t.co/aWIriXDfyw', 'expanded_url': 'https://github.com/connorferster/handcalcs', 'display_url': 'github.com/connorferster/…'}]","[{'url': 'https://t.co/hNWPIA5ZxT', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/EhZbRSrWkAEVKC5.jpg', 'display_url': 'pic.twitter.com/hNWPIA5ZxT'}]",6.163314804034641,1312 days 16:52:27,1312,4.604698161695892,5.604698161695892
+1301039905347231749,2020-09-02 06:11:00+00:00,207,68,"Python 3.9 is coming!
 
 Check the new features:
 * Dictionary merge (|) and update (|=) operators
@@ -15,20 +20,20 @@ Check the new features:
 * Easier type annotations for lists and dicts
 * ...
 
-https://t.co/lEP9z8Yuvj",False,False,https://twitter.com/python_tip/status/1301039905347231749,"[{'url': 'https://t.co/lEP9z8Yuvj', 'expanded_url': 'https://docs.python.org/3.9/whatsnew/3.9.html', 'display_url': 'docs.python.org/3.9/whatsnew/3…'}]",[],6.030685260261263,1306 days 09:13:39,1306,4.599116655915406
+https://t.co/lEP9z8Yuvj",False,False,https://twitter.com/python_tip/status/1301039905347231749,"[{'url': 'https://t.co/lEP9z8Yuvj', 'expanded_url': 'https://docs.python.org/3.9/whatsnew/3.9.html', 'display_url': 'docs.python.org/3.9/whatsnew/3…'}]",[],6.021023349349527,1306 days 09:13:39,1306,4.605298131247691,5.605298131247691
 1300793389802233856,2020-09-01 13:51:26+00:00,519,164,"handcalcs - a library to render Python calculation code automatically in Latex (+some extra magic allowing numeric substitutions into formula) -- via @omarsar0
 
-https://t.co/aWIriXDfyw https://t.co/C8LOYm301K",False,False,https://twitter.com/python_tip/status/1300793389802233856,"[{'url': 'https://t.co/aWIriXDfyw', 'expanded_url': 'https://github.com/connorferster/handcalcs', 'display_url': 'github.com/connorferster/…'}]","[{'url': 'https://t.co/C8LOYm301K', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/Eg1Yr2TXsAAYxRL.jpg', 'display_url': 'pic.twitter.com/C8LOYm301K'}]",6.919683849847411,1305 days 16:54:05,1305,4.5992501430945785
+https://t.co/aWIriXDfyw https://t.co/C8LOYm301K",False,False,https://twitter.com/python_tip/status/1300793389802233856,"[{'url': 'https://t.co/aWIriXDfyw', 'expanded_url': 'https://github.com/connorferster/handcalcs', 'display_url': 'github.com/connorferster/…'}]","[{'url': 'https://t.co/C8LOYm301K', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/Eg1Yr2TXsAAYxRL.jpg', 'display_url': 'pic.twitter.com/C8LOYm301K'}]",6.919683849847411,1305 days 16:54:05,1305,4.605397820777341,5.605397820777341
 1296690999171772416,2020-08-21 06:10:00+00:00,166,40,"Tqdm is a well known tool for progress bars. But did you know you can have double progress bars and name them?
 
 Colab: 👇👇
-https://t.co/gIWJ2e9jAJ https://t.co/v2ltoUDK15",False,False,https://twitter.com/python_tip/status/1296690999171772416,"[{'url': 'https://t.co/gIWJ2e9jAJ', 'expanded_url': 'https://gist.github.com/simecek/0ee10e9d1fbc54c156b566386ca6806f', 'display_url': 'gist.github.com/simecek/0ee10e…'}]","[{'url': 'https://t.co/v2ltoUDK15', 'media_url': 'http://pbs.twimg.com/media/EftfFpDWkAgXYJM.png', 'display_url': 'pic.twitter.com/v2ltoUDK15'}]",5.659482215759621,1294 days 09:12:39,1294,4.60070904373758
-1290393929221918722,2020-08-03 21:07:41+00:00,196,55,"Youtube-dl: Python package to download YouTube videos (also a command line tool).
+https://t.co/gIWJ2e9jAJ https://t.co/v2ltoUDK15",False,False,https://twitter.com/python_tip/status/1296690999171772416,"[{'url': 'https://t.co/gIWJ2e9jAJ', 'expanded_url': 'https://gist.github.com/simecek/0ee10e9d1fbc54c156b566386ca6806f', 'display_url': 'gist.github.com/simecek/0ee10e…'}]","[{'url': 'https://t.co/v2ltoUDK15', 'media_url': 'http://pbs.twimg.com/media/EftfFpDWkAgXYJM.png', 'display_url': 'pic.twitter.com/v2ltoUDK15'}]",5.659482215759621,1294 days 09:12:39,1294,4.606487977681138,5.606487977681138
+1290393929221918722,2020-08-03 21:07:41+00:00,196,54,"Youtube-dl: Python package to download YouTube videos (also a command line tool).
 
-https://t.co/MCAMQcpRVc https://t.co/VRYDEPYqrr",False,False,https://twitter.com/python_tip/status/1290393929221918722,"[{'url': 'https://t.co/MCAMQcpRVc', 'expanded_url': 'https://github.com/ytdl-org/youtube-dl#embedding-youtube-dl', 'display_url': 'github.com/ytdl-org/youtu…'}]","[{'url': 'https://t.co/VRYDEPYqrr', 'media_url': 'http://pbs.twimg.com/media/EehmAABWAAEyja7.png', 'display_url': 'pic.twitter.com/VRYDEPYqrr'}]",5.891644211825771,1277 days 00:10:20,1277,4.60292500597381
-1278388902345224192,2020-07-01 18:04:00+00:00,262,43,">>> import calendar
->>> print(calendar.month(2020, 7)) https://t.co/XQTc4mNtgJ",False,False,https://twitter.com/python_tip/status/1278388902345224192,[],"[{'url': 'https://t.co/XQTc4mNtgJ', 'media_url': 'http://pbs.twimg.com/media/Eb0Wl0cWAAE-8F2.png', 'display_url': 'pic.twitter.com/XQTc4mNtgJ'}]",5.971261839790462,1243 days 21:06:39,1243,4.607184207129386
-1278198251284508672,2020-07-01 05:26:25+00:00,203,38,"zip magic
+https://t.co/MCAMQcpRVc https://t.co/VRYDEPYqrr",False,False,https://twitter.com/python_tip/status/1290393929221918722,"[{'url': 'https://t.co/MCAMQcpRVc', 'expanded_url': 'https://github.com/ytdl-org/youtube-dl#embedding-youtube-dl', 'display_url': 'github.com/ytdl-org/youtu…'}]","[{'url': 'https://t.co/VRYDEPYqrr', 'media_url': 'http://pbs.twimg.com/media/EehmAABWAAEyja7.png', 'display_url': 'pic.twitter.com/VRYDEPYqrr'}]",5.883322388488279,1277 days 00:10:20,1277,4.608145702683054,5.608145702683054
+1278388902345224192,2020-07-01 18:04:00+00:00,259,43,">>> import calendar
+>>> print(calendar.month(2020, 7)) https://t.co/XQTc4mNtgJ",False,False,https://twitter.com/python_tip/status/1278388902345224192,[],"[{'url': 'https://t.co/XQTc4mNtgJ', 'media_url': 'http://pbs.twimg.com/media/Eb0Wl0cWAAE-8F2.png', 'display_url': 'pic.twitter.com/XQTc4mNtgJ'}]",5.963579343618446,1243 days 21:06:39,1243,4.611333916501409,5.611333916501409
+1278198251284508672,2020-07-01 05:26:25+00:00,202,38,"zip magic
 
 >>> a = ['a', 'b', 'c']
 >>> b = [1, 2, 3]
@@ -43,8 +48,8 @@ https://t.co/MCAMQcpRVc https://t.co/VRYDEPYqrr",False,False,https://twitter.com
 >>> dict(zip(a, b))
 {'a': 1, 'b': 2, 'c': 3}
 
-#python",False,False,https://twitter.com/python_tip/status/1278198251284508672,[],[],5.762051382780177,1243 days 08:29:04,1243,4.607184207129386
-1276035394400706560,2020-06-25 06:12:00+00:00,250,44,"Zip is its own inverse!
+#python",False,False,https://twitter.com/python_tip/status/1278198251284508672,[],[],5.75890177387728,1243 days 08:29:04,1243,4.611333916501409,5.611333916501409
+1276035394400706560,2020-06-25 06:12:00+00:00,252,44,"Zip is its own inverse!
 
 a = (1, 2, 3, 4)
 b = (5, 6, 7, 8)
@@ -53,8 +58,8 @@ ab_zip = zip(a, b)
 # ab_zip = [(1, 5), (2, 6), (3, 7), (4, 8)]
 
 zip(*ab_zip)
-# returns [(1, 2, 3, 4), (5, 6, 7, 8)] https://t.co/tTGUM5d0eT",False,False,https://twitter.com/python_tip/status/1276035394400706560,[],"[{'url': 'https://t.co/tTGUM5d0eT', 'media_url': 'http://pbs.twimg.com/media/EbJCQV6WoAgaeKN.png', 'display_url': 'pic.twitter.com/tTGUM5d0eT'}]",5.948034989180646,1237 days 09:14:39,1237,4.607908227563555
-1254733346908901381,2020-04-27 11:25:16+00:00,112,56,"Thanks, Springer, for releasing many Python/ML/DS books for free:
+# returns [(1, 2, 3, 4), (5, 6, 7, 8)] https://t.co/tTGUM5d0eT",False,False,https://twitter.com/python_tip/status/1276035394400706560,[],"[{'url': 'https://t.co/tTGUM5d0eT', 'media_url': 'http://pbs.twimg.com/media/EbJCQV6WoAgaeKN.png', 'display_url': 'pic.twitter.com/tTGUM5d0eT'}]",5.953243334287785,1237 days 09:14:39,1237,4.611875418960051,5.611875418960051
+1254733346908901381,2020-04-27 11:25:16+00:00,111,55,"Thanks, Springer, for releasing many Python/ML/DS books for free:
 
 https://t.co/p3PcoWmIRQ
 
@@ -64,52 +69,52 @@ Data Structures and Algorithms with Python, https://t.co/zzbeTudBF1
 
 Python Programming Fundamentals, https://t.co/Ca5sUwyWVG
 
-Python For ArcGIS, https://t.co/0UsuDYmYN8",False,False,https://twitter.com/python_tip/status/1254733346908901381,"[{'url': 'https://t.co/p3PcoWmIRQ', 'expanded_url': 'https://towardsdatascience.com/springer-has-released-65-machine-learning-and-data-books-for-free-961f8181f189', 'display_url': 'towardsdatascience.com/springer-has-r…'}, {'url': 'https://t.co/zzbeTudBF1', 'expanded_url': 'https://link.springer.com/book/10.1007/978-3-319-13072-9', 'display_url': 'link.springer.com/book/10.1007/9…'}, {'url': 'https://t.co/Ca5sUwyWVG', 'expanded_url': 'https://link.springer.com/book/10.1007/978-1-4471-6642-9', 'display_url': 'link.springer.com/book/10.1007/9…'}, {'url': 'https://t.co/0UsuDYmYN8', 'expanded_url': 'https://link.springer.com/book/10.1007/978-3-319-18398-5', 'display_url': 'link.springer.com/book/10.1007/9…'}]",[],5.638354669333745,1178 days 14:27:55,1178,4.6144326675475655
-1240016313881448449,2020-03-17 20:45:02+00:00,168,80,"Do you want to analyze COVID-19 data in Python?
+Python For ArcGIS, https://t.co/0UsuDYmYN8",False,False,https://twitter.com/python_tip/status/1254733346908901381,"[{'url': 'https://t.co/p3PcoWmIRQ', 'expanded_url': 'https://towardsdatascience.com/springer-has-released-65-machine-learning-and-data-books-for-free-961f8181f189', 'display_url': 'towardsdatascience.com/springer-has-r…'}, {'url': 'https://t.co/zzbeTudBF1', 'expanded_url': 'https://link.springer.com/book/10.1007/978-3-319-13072-9', 'display_url': 'link.springer.com/book/10.1007/9…'}, {'url': 'https://t.co/Ca5sUwyWVG', 'expanded_url': 'https://link.springer.com/book/10.1007/978-1-4471-6642-9', 'display_url': 'link.springer.com/book/10.1007/9…'}, {'url': 'https://t.co/0UsuDYmYN8', 'expanded_url': 'https://link.springer.com/book/10.1007/978-3-319-18398-5', 'display_url': 'link.springer.com/book/10.1007/9…'}]",[],5.6240175061873385,1178 days 14:27:55,1178,4.61671748071002,5.61671748071002
+1240016313881448449,2020-03-17 20:45:02+00:00,167,80,"Do you want to analyze COVID-19 data in Python?
 
 a)  Johns Hopkins CSSE dataset https://t.co/uSKsTyFYqD
 
 b) COVID-19 Dashboards (click on ""View on Github"" to see Python code producing dashboards) https://t.co/cKk6Jqj3aL
 
 c) Lots of inspiration on Kaggle
-https://t.co/yQO9Mqf6Go",False,False,https://twitter.com/python_tip/status/1240016313881448449,"[{'url': 'https://t.co/uSKsTyFYqD', 'expanded_url': 'https://github.com/CSSEGISandData/COVID-19', 'display_url': 'github.com/CSSEGISandData…'}, {'url': 'https://t.co/cKk6Jqj3aL', 'expanded_url': 'http://covid19dashboards.com/', 'display_url': 'covid19dashboards.com'}, {'url': 'https://t.co/yQO9Mqf6Go', 'expanded_url': 'https://www.kaggle.com/search?q=coronavirus+in%3Anotebooks', 'display_url': 'kaggle.com/search?q=coron…'}]",[],6.013715156042802,1137 days 23:47:41,1137,4.618151854774435
-1234224117160857604,2020-03-01 21:08:54+00:00,164,42,"Enable interactive features of #matplotlib plots in #jupyter notebook by adding 
+https://t.co/yQO9Mqf6Go",False,False,https://twitter.com/python_tip/status/1240016313881448449,"[{'url': 'https://t.co/uSKsTyFYqD', 'expanded_url': 'https://github.com/CSSEGISandData/COVID-19', 'display_url': 'github.com/CSSEGISandData…'}, {'url': 'https://t.co/cKk6Jqj3aL', 'expanded_url': 'http://covid19dashboards.com/', 'display_url': 'covid19dashboards.com'}, {'url': 'https://t.co/yQO9Mqf6Go', 'expanded_url': 'https://www.kaggle.com/search?q=coronavirus+in%3Anotebooks', 'display_url': 'kaggle.com/search?q=coron…'}]",[],6.0112671744041615,1137 days 23:47:41,1137,4.619390328644121,5.619390328644121
+1234224117160857604,2020-03-01 21:08:54+00:00,163,42,"Enable interactive features of #matplotlib plots in #jupyter notebook by adding 
 
 %matplotlib widget
 
-https://t.co/68RC48uDuG https://t.co/EOhI6kegoY",False,False,https://twitter.com/python_tip/status/1234224117160857604,"[{'url': 'https://t.co/68RC48uDuG', 'expanded_url': 'https://github.com/matplotlib/jupyter-matplotlib/', 'display_url': 'github.com/matplotlib/jup…'}]","[{'url': 'https://t.co/EOhI6kegoY', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/ESDYPj2WsAEAky-.jpg', 'display_url': 'pic.twitter.com/EOhI6kegoY'}]",5.673323267171493,1122 days 00:11:33,1122,4.619323319424736
-1231725159297536012,2020-02-23 23:38:56+00:00,223,61,"Do you want to do yourself a favor? Learn how to use #PDB debugger.
+https://t.co/68RC48uDuG https://t.co/EOhI6kegoY",False,False,https://twitter.com/python_tip/status/1234224117160857604,"[{'url': 'https://t.co/68RC48uDuG', 'expanded_url': 'https://github.com/matplotlib/jupyter-matplotlib/', 'display_url': 'github.com/matplotlib/jup…'}]","[{'url': 'https://t.co/EOhI6kegoY', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/ESDYPj2WsAEAky-.jpg', 'display_url': 'pic.twitter.com/EOhI6kegoY'}]",5.66988092298052,1122 days 00:11:33,1122,4.620200572881333,5.620200572881333
+1231725159297536012,2020-02-23 23:38:56+00:00,223,62,"Do you want to do yourself a favor? Learn how to use #PDB debugger.
 
 For Jupyter notebooks, it is easy. If you get an error...
 
 1) Type %debug into a new cell and run it
 
 2) To examine the code, this cheatsheet might help:
-https://t.co/SVIxoBI6ab https://t.co/VJSJpaOCLx",False,False,https://twitter.com/python_tip/status/1231725159297536012,"[{'url': 'https://t.co/SVIxoBI6ab', 'expanded_url': 'https://appletree.or.kr/quick_reference_cards/Python/Python%20Debugger%20Cheatsheet.pdf', 'display_url': 'appletree.or.kr/quick_referenc…'}]","[{'url': 'https://t.co/VJSJpaOCLx', 'media_url': 'http://pbs.twimg.com/media/ERf3Qy0WkAAEAuZ.jpg', 'display_url': 'pic.twitter.com/VJSJpaOCLx'}]",6.008813185442595,1115 days 02:41:35,1115,4.619838306617542
-1224976238676205568,2020-02-05 08:41:08+00:00,125,55,"There are 69 built-in functions in Python. How many of them can you name?
+https://t.co/SVIxoBI6ab https://t.co/VJSJpaOCLx",False,False,https://twitter.com/python_tip/status/1231725159297536012,"[{'url': 'https://t.co/SVIxoBI6ab', 'expanded_url': 'https://appletree.or.kr/quick_reference_cards/Python/Python%20Debugger%20Cheatsheet.pdf', 'display_url': 'appletree.or.kr/quick_referenc…'}]","[{'url': 'https://t.co/VJSJpaOCLx', 'media_url': 'http://pbs.twimg.com/media/ERf3Qy0WkAAEAuZ.jpg', 'display_url': 'pic.twitter.com/VJSJpaOCLx'}]",6.016157159698354,1115 days 02:41:35,1115,4.620549819136442,5.620549819136442
+1224976238676205568,2020-02-05 08:41:08+00:00,125,54,"There are 69 built-in functions in Python. How many of them can you name?
 
 You might have used `print`, `range` and `enumerate.` But have you ever heard about `frozenset`? 
 
 Hint: It makes a set immutable (see 👇👇👇)
 
-(Thanks @ilyaschurov for pointing to mistake in prev. tweet.) https://t.co/JNe6vCxJen",False,False,https://twitter.com/python_tip/status/1224976238676205568,[],"[{'url': 'https://t.co/JNe6vCxJen', 'media_url': 'http://pbs.twimg.com/media/EP_8-DkXsAAn-2v.png', 'display_url': 'pic.twitter.com/JNe6vCxJen'}]",5.673323267171493,1096 days 11:43:47,1096,4.621144505632734
-1206963913084018689,2019-12-17 15:46:35+00:00,211,29,">>> ""a""*10
+(Thanks @ilyaschurov for pointing to mistake in prev. tweet.) https://t.co/JNe6vCxJen",False,False,https://twitter.com/python_tip/status/1224976238676205568,[],"[{'url': 'https://t.co/JNe6vCxJen', 'media_url': 'http://pbs.twimg.com/media/EP_8-DkXsAAn-2v.png', 'display_url': 'pic.twitter.com/JNe6vCxJen'}]",5.662960480135946,1096 days 11:43:47,1096,4.621412377889629,5.621412377889629
+1206963913084018689,2019-12-17 15:46:35+00:00,210,29,">>> ""a""*10
 'aaaaaaaaaa'
 >>> [""a""]*10
 ['a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
 
-#python",False,False,https://twitter.com/python_tip/status/1206963913084018689,[],[],5.700443573390686,1046 days 18:49:14,1046,4.624132454174618
+#python",False,False,https://twitter.com/python_tip/status/1206963913084018689,[],[],5.697093486505405,1046 days 18:49:14,1046,4.623235035662663,5.623235035662663
 1206344010027208705,2019-12-15 22:43:19+00:00,181,37,"The Python visualization world can be sometimes a frustrating place. It helps if you understand basic building blocks - see ""Effectively Using #Matplotlib"" tutorial
 
-https://t.co/13KtUwHZrd https://t.co/eGldoUkymM",False,False,https://twitter.com/python_tip/status/1206344010027208705,"[{'url': 'https://t.co/13KtUwHZrd', 'expanded_url': 'https://pbpython.com/effective-matplotlib.html', 'display_url': 'pbpython.com/effective-matp…'}]","[{'url': 'https://t.co/eGldoUkymM', 'media_url': 'http://pbs.twimg.com/media/EL3LL3oWkAcm2Zr.jpg', 'display_url': 'pic.twitter.com/eGldoUkymM'}]",5.680172609017068,1045 days 01:45:58,1045,4.624189036103159
+https://t.co/13KtUwHZrd https://t.co/eGldoUkymM",False,False,https://twitter.com/python_tip/status/1206344010027208705,"[{'url': 'https://t.co/13KtUwHZrd', 'expanded_url': 'https://pbpython.com/effective-matplotlib.html', 'display_url': 'pbpython.com/effective-matp…'}]","[{'url': 'https://t.co/eGldoUkymM', 'media_url': 'http://pbs.twimg.com/media/EL3LL3oWkAcm2Zr.jpg', 'display_url': 'pic.twitter.com/eGldoUkymM'}]",5.680172609017068,1045 days 01:45:58,1045,4.623267738944208,5.623267738944208
 1201126011942965248,2019-12-01 13:08:51+00:00,399,97,"Do you run long, time-demanding calculations in Jupyter Notebook?
 
 With `jupyter-notify` extension, you will get a browser notification when your calculation is done (=when the cell is completed)
 
 https://t.co/2xjocGl2S4
 
-Example: 👇 https://t.co/uugYC26qCk",False,False,https://twitter.com/python_tip/status/1201126011942965248,"[{'url': 'https://t.co/2xjocGl2S4', 'expanded_url': 'https://github.com/ShopRunner/jupyter-notify', 'display_url': 'github.com/ShopRunner/jup…'}]","[{'url': 'https://t.co/uugYC26qCk', 'media_url': 'http://pbs.twimg.com/media/EKtBnMOXUAw0HEW.png', 'display_url': 'pic.twitter.com/uugYC26qCk'}]",6.53813982376767,1030 days 16:11:30,1030,4.625040055059662
-1192938647588409349,2019-11-08 22:55:11+00:00,280,65,"With the walrus operator
+Example: 👇 https://t.co/uugYC26qCk",False,False,https://twitter.com/python_tip/status/1201126011942965248,"[{'url': 'https://t.co/2xjocGl2S4', 'expanded_url': 'https://github.com/ShopRunner/jupyter-notify', 'display_url': 'github.com/ShopRunner/jup…'}]","[{'url': 'https://t.co/uugYC26qCk', 'media_url': 'http://pbs.twimg.com/media/EKtBnMOXUAw0HEW.png', 'display_url': 'pic.twitter.com/uugYC26qCk'}]",6.53813982376767,1030 days 16:11:30,1030,4.623755191813986,5.623755191813986
+1192938647588409349,2019-11-08 22:55:11+00:00,279,65,"With the walrus operator
 
 while True:
     line = fp.readline()
@@ -124,26 +129,26 @@ while line := fp.readline():
 
 More examples: https://t.co/4WCBSdizFF
 
-#python3_8 #walrusoperator",False,False,https://twitter.com/python_tip/status/1192938647588409349,"[{'url': 'https://t.co/4WCBSdizFF', 'expanded_url': 'https://www.python.org/dev/peps/pep-0572/#examples', 'display_url': 'python.org/dev/peps/pep-0…'}]",[],6.16541785423142,1008 days 01:57:50,1008,4.62633523976186
-1192055718075088897,2019-11-06 12:26:45+00:00,251,66,"Do you need to extract tables from a pdf document? Try camelot.
+#python3_8 #walrusoperator",False,False,https://twitter.com/python_tip/status/1192938647588409349,"[{'url': 'https://t.co/4WCBSdizFF', 'expanded_url': 'https://www.python.org/dev/peps/pep-0572/#examples', 'display_url': 'python.org/dev/peps/pep-0…'}]",[],6.163314804034641,1008 days 01:57:50,1008,4.624493867707955,5.624493867707955
+1192055718075088897,2019-11-06 12:26:45+00:00,249,65,"Do you need to extract tables from a pdf document? Try camelot.
 >>> import camelot
 >>> tables = https://t.co/ttwuRpFpGR_pdf('foo.pdf')
 >>> tables[0].to_csv('foo.csv') 
 >>> tables[0].df # get a pandas DataFrame!
 
-https://t.co/p7ckqIoC46",False,False,https://twitter.com/python_tip/status/1192055718075088897,"[{'url': 'https://t.co/ttwuRpFpGR', 'expanded_url': 'http://camelot.read', 'display_url': 'camelot.read'}, {'url': 'https://t.co/p7ckqIoC46', 'expanded_url': 'https://camelot-py.readthedocs.io/en/master/', 'display_url': 'camelot-py.readthedocs.io/en/master/'}]",[],6.1092475827643655,1005 days 15:29:24,1005,4.626520499461637
-1190407280111628288,2019-11-01 23:16:26+00:00,212,64,"Data-to-Viz will help you to choose the visualization for your data. It provides the code to reproduce the graph, not only for #python, but for #rstats and #d3 as well.
+https://t.co/p7ckqIoC46",False,False,https://twitter.com/python_tip/status/1192055718075088897,"[{'url': 'https://t.co/ttwuRpFpGR', 'expanded_url': 'http://camelot.read', 'display_url': 'camelot.read'}, {'url': 'https://t.co/p7ckqIoC46', 'expanded_url': 'https://camelot-py.readthedocs.io/en/master/', 'display_url': 'camelot-py.readthedocs.io/en/master/'}]",[],6.09807428216624,1005 days 15:29:24,1005,4.624600644854108,5.624600644854108
+1190407280111628288,2019-11-01 23:16:26+00:00,210,64,"Data-to-Viz will help you to choose the visualization for your data. It provides the code to reproduce the graph, not only for #python, but for #rstats and #d3 as well.
 
 https://t.co/X3G3oePfp3
-https://t.co/RSQiHuUv2y https://t.co/ONZY0WbDFK",False,False,https://twitter.com/python_tip/status/1190407280111628288,"[{'url': 'https://t.co/X3G3oePfp3', 'expanded_url': 'https://www.data-to-viz.com/', 'display_url': 'data-to-viz.com'}, {'url': 'https://t.co/RSQiHuUv2y', 'expanded_url': 'https://python-graph-gallery.com/', 'display_url': 'python-graph-gallery.com'}]","[{'url': 'https://t.co/ONZY0WbDFK', 'media_url': 'http://pbs.twimg.com/media/EIUq6u8WwAAHBCP.jpg', 'display_url': 'pic.twitter.com/ONZY0WbDFK'}]",6.003887067106539,1001 days 02:19:05,1001,4.626772026973563
-1187614763813167104,2019-10-25 06:19:59+00:00,254,72,"convert two lists into dictionary:
+https://t.co/RSQiHuUv2y https://t.co/ONZY0WbDFK",False,False,https://twitter.com/python_tip/status/1190407280111628288,"[{'url': 'https://t.co/X3G3oePfp3', 'expanded_url': 'https://www.data-to-viz.com/', 'display_url': 'data-to-viz.com'}, {'url': 'https://t.co/RSQiHuUv2y', 'expanded_url': 'https://python-graph-gallery.com/', 'display_url': 'python-graph-gallery.com'}]","[{'url': 'https://t.co/ONZY0WbDFK', 'media_url': 'http://pbs.twimg.com/media/EIUq6u8WwAAHBCP.jpg', 'display_url': 'pic.twitter.com/ONZY0WbDFK'}]",5.998936561946683,1001 days 02:19:05,1001,4.624746456158597,5.624746456158597
+1187614763813167104,2019-10-25 06:19:59+00:00,253,71,"convert two lists into dictionary:
 
 >>> a = ['a', 'b', 'c']
 >>> b = [1, 2, 3]
 >>> dict(zip(a, b))
 {'a': 1, 'b': 2, 'c': 3}
 
-#python",False,False,https://twitter.com/python_tip/status/1187614763813167104,[],[],6.154858094016418,993 days 09:22:38,993,4.6272930687763125
+#python",False,False,https://twitter.com/python_tip/status/1187614763813167104,[],[],6.1463292576688975,993 days 09:22:38,993,4.625052244959092,5.625052244959092
 1162485252813725697,2019-08-16 22:04:16+00:00,177,43,"print() function's sep and end arguments may come in handy:
 
 >>> lst = [""a"", ""b"", ""c""]
@@ -154,8 +159,8 @@ a, b, c
 >>> print(*lst, sep="", "", end=""!!!\n"")
 a, b, c!!!
 
-#python",False,False,https://twitter.com/python_tip/status/1162485252813725697,[],[],5.726847747587197,924 days 01:06:55,924,4.63381590880661
-1137962597423013888,2019-06-10 06:00:00+00:00,320,92,"Adding __call__ method makes an object callable.
+#python",False,False,https://twitter.com/python_tip/status/1162485252813725697,[],[],5.726847747587197,924 days 01:06:55,924,4.629545977141005,5.629545977141005
+1137962597423013888,2019-06-10 06:00:00+00:00,320,93,"Adding __call__ method makes an object callable.
 
 class add_n:
     def __init__(self, n):
@@ -169,11 +174,11 @@ class add_n:
 12
 
 This can be really useful for decorators:
-https://t.co/dsfsdN6um2 https://t.co/rxpezDXkFV",False,False,https://twitter.com/python_tip/status/1137962597423013888,"[{'url': 'https://t.co/dsfsdN6um2', 'expanded_url': 'https://gist.github.com/simecek/8a3f579037dc31d9e91c5043f91e4509', 'display_url': 'gist.github.com/simecek/8a3f57…'}]","[{'url': 'https://t.co/rxpezDXkFV', 'media_url': 'http://pbs.twimg.com/media/D8mb9TfW4AUyATM.jpg', 'display_url': 'pic.twitter.com/rxpezDXkFV'}]",6.391917113392602,856 days 09:02:39,856,4.640690748671248
-1121722631231815683,2019-04-26 10:28:10+00:00,252,40,">>> df.isnull().mean()*100
+https://t.co/dsfsdN6um2 https://t.co/rxpezDXkFV",False,False,https://twitter.com/python_tip/status/1137962597423013888,"[{'url': 'https://t.co/dsfsdN6um2', 'expanded_url': 'https://gist.github.com/simecek/8a3f579037dc31d9e91c5043f91e4509', 'display_url': 'gist.github.com/simecek/8a3f57…'}]","[{'url': 'https://t.co/rxpezDXkFV', 'media_url': 'http://pbs.twimg.com/media/D8mb9TfW4AUyATM.jpg', 'display_url': 'pic.twitter.com/rxpezDXkFV'}]",6.396929655216146,856 days 09:02:39,856,4.63237044415675,5.63237044415675
+1121722631231815683,2019-04-26 10:28:10+00:00,251,40,">>> df.isnull().mean()*100
 
-Find percentage of missing values in each column of a #pandas dataframe. https://t.co/08RTREuusi",False,False,https://twitter.com/python_tip/status/1121722631231815683,[],"[{'url': 'https://t.co/08RTREuusi', 'media_url': 'http://pbs.twimg.com/media/D5EouFWWAAAES6G.png', 'display_url': 'pic.twitter.com/08RTREuusi'}]",5.921578419643816,811 days 13:30:49,811,4.636823147038922
-1091069962570088448,2019-01-31 20:25:24+00:00,141,45,"Add leading zeros to your strings using zfill()
+Find percentage of missing values in each column of a #pandas dataframe. https://t.co/08RTREuusi",False,False,https://twitter.com/python_tip/status/1121722631231815683,[],"[{'url': 'https://t.co/08RTREuusi', 'media_url': 'http://pbs.twimg.com/media/D5EouFWWAAAES6G.png', 'display_url': 'pic.twitter.com/08RTREuusi'}]",5.918893854273146,811 days 13:30:49,811,4.626970566104655,5.626970566104655
+1091069962570088448,2019-01-31 20:25:24+00:00,140,44,"Add leading zeros to your strings using zfill()
 
 >>> for i in [1, 11, 222, ""aaa"", 1234]:
 ...     str(i).zfill(4)
@@ -186,8 +191,8 @@ Find percentage of missing values in each column of a #pandas dataframe. https:/
 
 https://t.co/IdSTEzqRYi
 
-#python",False,False,https://twitter.com/python_tip/status/1091069962570088448,"[{'url': 'https://t.co/IdSTEzqRYi', 'expanded_url': 'https://docs.python.org/3.7/library/stdtypes.html#str.zfill', 'display_url': 'docs.python.org/3.7/library/st…'}]",[],5.6240175061873385,726 days 23:28:03,726,4.600536398026625
-1080200666369441792,2019-01-01 20:34:42+00:00,144,44,"Use #holidays library to check whether a date is holiday or not.
+#python",False,False,https://twitter.com/python_tip/status/1091069962570088448,"[{'url': 'https://t.co/IdSTEzqRYi', 'expanded_url': 'https://docs.python.org/3.7/library/stdtypes.html#str.zfill', 'display_url': 'docs.python.org/3.7/library/st…'}]",[],5.60947179518496,726 days 23:28:03,726,4.5896377459803706,5.5896377459803706
+1080200666369441792,2019-01-01 20:34:42+00:00,143,44,"Use #holidays library to check whether a date is holiday or not.
 
 >>> from datetime import date
 >>> import holidays
@@ -196,7 +201,7 @@ https://t.co/IdSTEzqRYi
 True
 
 Happy New Year! #Python 
-https://t.co/UsuKl4eGLI",False,False,https://twitter.com/python_tip/status/1080200666369441792,"[{'url': 'https://t.co/DAMy3gbWaN', 'expanded_url': 'http://date.today', 'display_url': 'date.today'}, {'url': 'https://t.co/UsuKl4eGLI', 'expanded_url': 'https://www.geeksforgeeks.org/python-holidays-library/', 'display_url': 'geeksforgeeks.org/python-holiday…'}]",[],5.6240175061873385,696 days 23:37:21,696,4.578171463918922
+https://t.co/UsuKl4eGLI",False,False,https://twitter.com/python_tip/status/1080200666369441792,"[{'url': 'https://t.co/DAMy3gbWaN', 'expanded_url': 'http://date.today', 'display_url': 'date.today'}, {'url': 'https://t.co/UsuKl4eGLI', 'expanded_url': 'https://www.geeksforgeeks.org/python-holidays-library/', 'display_url': 'geeksforgeeks.org/python-holiday…'}]",[],5.62040086571715,696 days 23:37:21,696,4.567293708451691,5.567293708451691
 1079698304244609024,2018-12-31 11:18:30+00:00,172,38,"#python lists have the count() method that returns the number of occurrences of an element:
 
 >>> lst = [1, 1, 2, 3, 4, 5, 1, 3, 3, 3, 7, 9, 3]
@@ -205,8 +210,8 @@ https://t.co/UsuKl4eGLI",False,False,https://twitter.com/python_tip/status/10802
 
 Most common item:
 >>> max(lst, key=lst.count) 
-3",False,False,https://twitter.com/python_tip/status/1079698304244609024,[],[],5.659482215759621,695 days 14:21:09,695,4.577593892445987
-1065380586435555329,2018-11-21 23:05:00+00:00,139,43,"#Python3 pathlib is awesome. You can join paths by '/' operator:
+3",False,False,https://twitter.com/python_tip/status/1079698304244609024,[],[],5.659482215759621,695 days 14:21:09,695,4.5664976335372325,5.5664976335372325
+1065380586435555329,2018-11-21 23:05:00+00:00,136,42,"#Python3 pathlib is awesome. You can join paths by '/' operator:
 
 data_folder = Path(""my_project/data/"")
 file_to_open = data_folder/""raw_data.txt""
@@ -215,19 +220,19 @@ Moreover, you can directly get a content of the file, for example,
 
 print(file_to_open.read_text())
 
-https://t.co/MnvcCCtbHz",False,False,https://twitter.com/python_tip/status/1065380586435555329,"[{'url': 'https://t.co/MnvcCCtbHz', 'expanded_url': 'https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux-11a072b58d5f', 'display_url': 'medium.com/@ageitgey/pyth…'}]",[],5.594711379601839,656 days 02:07:39,656,4.545388967782492
-1058856295854264320,2018-11-03 22:59:48+00:00,137,52,"Which line of code is eating all the memory? Discover it with memory_profiler:
+https://t.co/MnvcCCtbHz",False,False,https://twitter.com/python_tip/status/1065380586435555329,"[{'url': 'https://t.co/MnvcCCtbHz', 'expanded_url': 'https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux-11a072b58d5f', 'display_url': 'medium.com/@ageitgey/pyth…'}]",[],5.572154032177765,656 days 02:07:39,656,4.53284408339883,5.53284408339883
+1058856295854264320,2018-11-03 22:59:48+00:00,136,52,"Which line of code is eating all the memory? Discover it with memory_profiler:
 
 $ python -m memory_profiler profiling_memory.py
 
-(Unfortunately, this is a bit hard to do in Jupyter notebook. Either use %memit or see %mprun example from https://t.co/2g58UQpuNc) https://t.co/58JwM0YWsZ",False,False,https://twitter.com/python_tip/status/1058856295854264320,"[{'url': 'https://t.co/2g58UQpuNc', 'expanded_url': 'https://jakevdp.github.io/PythonDataScienceHandbook/01.07-timing-and-profiling.html', 'display_url': 'jakevdp.github.io/PythonDataScie…'}]","[{'url': 'https://t.co/58JwM0YWsZ', 'media_url': 'http://pbs.twimg.com/media/DrHP8ebVYAAhN4t.jpg', 'display_url': 'pic.twitter.com/58JwM0YWsZ'}]",5.683579767338681,638 days 02:02:27,638,4.528328788719288
-1054607253251088384,2018-10-23 05:35:37+00:00,434,161,"Finally sorted out! Which came first, the chicken or the egg?
+(Unfortunately, this is a bit hard to do in Jupyter notebook. Either use %memit or see %mprun example from https://t.co/2g58UQpuNc) https://t.co/58JwM0YWsZ",False,False,https://twitter.com/python_tip/status/1058856295854264320,"[{'url': 'https://t.co/2g58UQpuNc', 'expanded_url': 'https://jakevdp.github.io/PythonDataScienceHandbook/01.07-timing-and-profiling.html', 'display_url': 'jakevdp.github.io/PythonDataScie…'}]","[{'url': 'https://t.co/58JwM0YWsZ', 'media_url': 'http://pbs.twimg.com/media/DrHP8ebVYAAhN4t.jpg', 'display_url': 'pic.twitter.com/58JwM0YWsZ'}]",5.680172609017068,638 days 02:02:27,638,4.516196697584433,5.516196697584433
+1054607253251088384,2018-10-23 05:35:37+00:00,433,160,"Finally sorted out! Which came first, the chicken or the egg?
 
 >>> x = ['\U0001F95A',  '\U0001F414']
 >>> sorted(x)
 ['🐔', '🥚'] 
-#emoji #python3",False,False,https://twitter.com/python_tip/status/1054607253251088384,[],[],6.822197390620491,626 days 08:38:16,626,4.516560159612378
-1052916751980212225,2018-10-18 13:38:10+00:00,142,43,"Add elements of one dictionary to another with the update() method:
+#emoji #python3",False,False,https://twitter.com/python_tip/status/1054607253251088384,[],[],6.81783057145415,626 days 08:38:16,626,4.503948287337263,5.503948287337263
+1052916751980212225,2018-10-18 13:38:10+00:00,139,44,"Add elements of one dictionary to another with the update() method:
 
 >>> d1 = {'a' : 1, ""b"" : 2}
 >>> d2 = {'c' : 2, ""d"" : 42, ""a"" : 3}
@@ -235,8 +240,8 @@ $ python -m memory_profiler profiling_memory.py
 >>> d1
 {'a': 3, 'b': 2, 'c': 2, 'd': 42}
 
-#python",False,False,https://twitter.com/python_tip/status/1052916751980212225,[],[],5.605802066295998,621 days 16:40:49,621,4.511521491233994
-1047526246656225280,2018-10-03 16:38:13+00:00,166,39,"Use itertools.chain to iterate over items in separate lists:
+#python",False,False,https://twitter.com/python_tip/status/1052916751980212225,[],[],5.605802066295998,621 days 16:40:49,621,4.498535570499799,5.498535570499799
+1047526246656225280,2018-10-03 16:38:13+00:00,165,39,"Use itertools.chain to iterate over items in separate lists:
 
 >>> from itertools import chain
 >>> x = [1, 2, 3]
@@ -254,21 +259,21 @@ $ python -m memory_profiler profiling_memory.py
 a
 b
 
-#python #itertools",False,False,https://twitter.com/python_tip/status/1047526246656225280,[],[],5.648974238161206,606 days 19:40:52,606,4.496874107907718
-1044483137890279424,2018-09-25 07:06:00+00:00,219,73,"When web-scraping with Python, you can use cookies from your Firefox/Chrome browser:
+#python #itertools",False,False,https://twitter.com/python_tip/status/1047526246656225280,[],[],5.645446897643238,606 days 19:40:52,606,4.483337671472171,5.483337671472171
+1044483137890279424,2018-09-25 07:06:00+00:00,217,73,"When web-scraping with Python, you can use cookies from your Firefox/Chrome browser:
 
-https://t.co/IbouMJVl4u https://t.co/jNS0F45eLa",False,False,https://twitter.com/python_tip/status/1044483137890279424,"[{'url': 'https://t.co/IbouMJVl4u', 'expanded_url': 'https://bitbucket.org/richardpenman/browsercookie', 'display_url': 'bitbucket.org/richardpenman/…'}]","[{'url': 'https://t.co/jNS0F45eLa', 'media_url': 'http://pbs.twimg.com/media/DnvH_UUUUAAJdoJ.jpg', 'display_url': 'pic.twitter.com/jNS0F45eLa'}]",6.0844994130751715,598 days 10:08:39,598,4.487913817282017
-1043257783628361728,2018-09-21 21:56:53+00:00,164,57,"With 'tqdm' you can add a progress meter to any iterable object (see examples in @kondrej's short video):
+https://t.co/IbouMJVl4u https://t.co/jNS0F45eLa",False,False,https://twitter.com/python_tip/status/1044483137890279424,"[{'url': 'https://t.co/IbouMJVl4u', 'expanded_url': 'https://bitbucket.org/richardpenman/browsercookie', 'display_url': 'bitbucket.org/richardpenman/…'}]","[{'url': 'https://t.co/jNS0F45eLa', 'media_url': 'http://pbs.twimg.com/media/DnvH_UUUUAAJdoJ.jpg', 'display_url': 'pic.twitter.com/jNS0F45eLa'}]",6.07993319509559,598 days 10:08:39,598,4.475257807372809,5.475257807372809
+1043257783628361728,2018-09-21 21:56:53+00:00,162,57,"With 'tqdm' you can add a progress meter to any iterable object (see examples in @kondrej's short video):
 
 https://t.co/mS1J4YIZd0
 
-#pythontip #iterable #tqdm",False,False,https://twitter.com/python_tip/status/1043257783628361728,[],"[{'url': 'https://t.co/mS1J4YIZd0', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/DnhTHGGW4AA04DV.jpg', 'display_url': 'pic.twitter.com/mS1J4YIZd0'}]",5.817111159963204,595 days 00:59:32,595,4.484950013343721
-1042396175968677888,2018-09-19 12:53:09+00:00,195,66,"Use ""\N"" escape sequence to print #unicode symbols by name.
+#pythontip #iterable #tqdm",False,False,https://twitter.com/python_tip/status/1043257783628361728,[],"[{'url': 'https://t.co/mS1J4YIZd0', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/DnhTHGGW4AA04DV.jpg', 'display_url': 'pic.twitter.com/mS1J4YIZd0'}]",5.8111409929767,595 days 00:59:32,595,4.471931753804455,5.471931753804455
+1042396175968677888,2018-09-19 12:53:09+00:00,195,65,"Use ""\N"" escape sequence to print #unicode symbols by name.
 
 >>> print('\N{smiling face with sunglasses}’)
 😎
 
-#python",False,False,https://twitter.com/python_tip/status/1042396175968677888,[],[],5.976350909297934,592 days 15:55:48,592,4.4812832137927145
+#python",False,False,https://twitter.com/python_tip/status/1042396175968677888,[],[],5.968707559985366,592 days 15:55:48,592,4.468905563931441,5.468905563931441
 1036606549798662144,2018-09-03 13:27:15+00:00,132,36,"enumerate() takes a second parameter to change the starting count:
 
 >>> names = [""Alice"", ""Bob"", ""Charlie""]
@@ -277,34 +282,34 @@ https://t.co/mS1J4YIZd0
 
 https://t.co/SECAO6sci5
 
-#python",False,False,https://twitter.com/python_tip/status/1036606549798662144,"[{'url': 'https://t.co/SECAO6sci5', 'expanded_url': 'https://docs.python.org/3/library/functions.html#enumerate', 'display_url': 'docs.python.org/3/library/func…'}]",[],5.484796933490655,576 days 16:29:54,576,4.462939984722549
-1035407587284602880,2018-08-31 06:03:00+00:00,134,53,"Every time you
+#python",False,False,https://twitter.com/python_tip/status/1036606549798662144,"[{'url': 'https://t.co/SECAO6sci5', 'expanded_url': 'https://docs.python.org/3/library/functions.html#enumerate', 'display_url': 'docs.python.org/3/library/func…'}]",[],5.484796933490655,576 days 16:29:54,576,4.449770306629062,5.449770306629062
+1035407587284602880,2018-08-31 06:03:00+00:00,133,52,"Every time you
 
 >>> import your_module
 
 Python creates .pyc file with compiled bytecode. If you want to avoid .pyc files (for example, you do not want to commit them with git), set env. variable PYTHONDONTWRITEBYTECODE or use
 
 import sys
-sys.dont_write_bytecode = True",False,False,https://twitter.com/python_tip/status/1035407587284602880,[],[],5.683579767338681,573 days 09:05:39,573,4.459390363975278
-1035056020152672256,2018-08-30 06:46:00+00:00,132,47,"Speed-up your code with @lru_cache decorator:
+sys.dont_write_bytecode = True",False,False,https://twitter.com/python_tip/status/1035407587284602880,[],[],5.66988092298052,573 days 09:05:39,573,4.446550055638113,5.446550055638113
+1035056020152672256,2018-08-30 06:46:00+00:00,130,46,"Speed-up your code with @lru_cache decorator:
 
 https://t.co/Io3V6H6Dyz
 
 Example - calculation of 35th Fibonacci number
-(speedup from 4.32s to 0.000055s): https://t.co/QPonLSbWIm https://t.co/ufPkakn4Nm",False,False,https://twitter.com/python_tip/status/1035056020152672256,"[{'url': 'https://t.co/Io3V6H6Dyz', 'expanded_url': 'https://twitter.com/jakevdp/status/1027298136178319360', 'display_url': 'twitter.com/jakevdp/status…'}, {'url': 'https://t.co/QPonLSbWIm', 'expanded_url': 'https://colab.research.google.com/gist/simecek/61e46b0049a0e4be1c4dba4a3f5c34f8/lru_cache-decorator.ipynb', 'display_url': 'colab.research.google.com/gist/simecek/6…'}]","[{'url': 'https://t.co/ufPkakn4Nm', 'media_url': 'http://pbs.twimg.com/media/Dlj-_F3U8AA9KOf.jpg', 'display_url': 'pic.twitter.com/ufPkakn4Nm'}]",5.6131281063880705,572 days 09:48:39,572,4.458199214446801
-1029632055284363264,2018-08-15 07:33:06+00:00,325,96,Wanna know which line of your function is eating all the time? Measure it with #lprun: https://t.co/1NpmVNH6F1,False,False,https://twitter.com/python_tip/status/1029632055284363264,[],"[{'url': 'https://t.co/1NpmVNH6F1', 'media_url': 'http://pbs.twimg.com/media/Dkn7CBLU4AAN7td.jpg', 'display_url': 'pic.twitter.com/1NpmVNH6F1'}]",6.419994928147142,557 days 10:35:45,557,4.439851338773158
-1027509800391856131,2018-08-09 11:00:01+00:00,107,46,"Add annotations to your #python functions to give hints about  how the function is supposed to be used. (They are not type checks and they don't alter python behavior!)
+(speedup from 4.32s to 0.000055s): https://t.co/QPonLSbWIm https://t.co/ufPkakn4Nm",False,False,https://twitter.com/python_tip/status/1035056020152672256,"[{'url': 'https://t.co/Io3V6H6Dyz', 'expanded_url': 'https://twitter.com/jakevdp/status/1027298136178319360', 'display_url': 'twitter.com/jakevdp/status…'}, {'url': 'https://t.co/QPonLSbWIm', 'expanded_url': 'https://colab.research.google.com/gist/simecek/61e46b0049a0e4be1c4dba4a3f5c34f8/lru_cache-decorator.ipynb', 'display_url': 'colab.research.google.com/gist/simecek/6…'}]","[{'url': 'https://t.co/ufPkakn4Nm', 'media_url': 'http://pbs.twimg.com/media/Dlj-_F3U8AA9KOf.jpg', 'display_url': 'pic.twitter.com/ufPkakn4Nm'}]",5.594711379601839,572 days 09:48:39,572,4.445354176064924,5.445354176064924
+1029632055284363264,2018-08-15 07:33:06+00:00,326,96,Wanna know which line of your function is eating all the time? Measure it with #lprun: https://t.co/1NpmVNH6F1,False,False,https://twitter.com/python_tip/status/1029632055284363264,[],"[{'url': 'https://t.co/1NpmVNH6F1', 'media_url': 'http://pbs.twimg.com/media/Dkn7CBLU4AAN7td.jpg', 'display_url': 'pic.twitter.com/1NpmVNH6F1'}]",6.421622267806518,557 days 10:35:45,557,4.426965812344893,5.426965812344893
+1027509800391856131,2018-08-09 11:00:01+00:00,107,44,"Add annotations to your #python functions to give hints about  how the function is supposed to be used. (They are not type checks and they don't alter python behavior!)
 
 def myfun(a:int, b:int) -> int:
-    return a + b https://t.co/Qs7TRN6JHX",False,False,https://twitter.com/python_tip/status/1027509800391856131,[],"[{'url': 'https://t.co/Qs7TRN6JHX', 'media_url': 'http://pbs.twimg.com/media/DkFKop1XgAAbBhx.jpg', 'display_url': 'pic.twitter.com/Qs7TRN6JHX'}]",5.5053315359323625,551 days 14:02:40,551,4.43225951962253
-1026354685891014656,2018-08-06 06:30:00+00:00,742,385,"Be careful when reversing #unicode strings. You may be surprised…
+    return a + b https://t.co/Qs7TRN6JHX",False,False,https://twitter.com/python_tip/status/1027509800391856131,[],"[{'url': 'https://t.co/Qs7TRN6JHX', 'media_url': 'http://pbs.twimg.com/media/DkFKop1XgAAbBhx.jpg', 'display_url': 'pic.twitter.com/Qs7TRN6JHX'}]",5.480638923341991,551 days 14:02:40,551,4.419366650405288,5.419366650405288
+1026354685891014656,2018-08-06 06:30:00+00:00,742,382,"Be careful when reversing #unicode strings. You may be surprised…
 
 >>> s = ""Welcome in 🇬🇧”
 >>> s[::-1]
 '🇧🇬 ni emocleW'
 
-(thanks @piskvor for the inspiration!) https://t.co/JKNb0MotzQ",False,False,https://twitter.com/python_tip/status/1026354685891014656,[],"[{'url': 'https://t.co/JKNb0MotzQ', 'media_url': 'http://pbs.twimg.com/media/Dj2ITdWXoAIhuml.jpg', 'display_url': 'pic.twitter.com/JKNb0MotzQ'}]",7.5485559791698735,548 days 09:32:39,548,4.428408640398317
-1023842213116035073,2018-07-30 08:06:20+00:00,184,54,"Create an animated GIF with 'imageio', Python library for reading and writing image data.
+(thanks @piskvor for the inspiration!) https://t.co/JKNb0MotzQ",False,False,https://twitter.com/python_tip/status/1026354685891014656,[],"[{'url': 'https://t.co/JKNb0MotzQ', 'media_url': 'http://pbs.twimg.com/media/Dj2ITdWXoAIhuml.jpg', 'display_url': 'pic.twitter.com/JKNb0MotzQ'}]",7.543802867501509,548 days 09:32:39,548,4.415512198124816,5.415512198124816
+1023842213116035073,2018-07-30 08:06:20+00:00,185,54,"Create an animated GIF with 'imageio', Python library for reading and writing image data.
 
 >>> from imageio import imread, mimsave
 >>> images = []
@@ -312,12 +317,10 @@ def myfun(a:int, b:int) -> int:
     images.append(imread(f))
 >>> mimsave('movie.gif', images)
 
-Source code: https://t.co/hKLOQkYrmJ https://t.co/xUoFCs77GN",False,False,https://twitter.com/python_tip/status/1023842213116035073,"[{'url': 'https://t.co/hKLOQkYrmJ', 'expanded_url': 'http://bit.ly/2vipC0z', 'display_url': 'bit.ly/2vipC0z'}]","[{'url': 'https://t.co/xUoFCs77GN', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/DjVpAegU8AEaZGi.jpg', 'display_url': 'pic.twitter.com/xUoFCs77GN'}]",5.849324779946859,541 days 11:08:59,541,4.419277473696707
-1016663178816737282,2018-07-10 12:39:25+00:00,114,35,"For string concatenation, s1 += s2 + s3 is faster than s1 = s1 + s2 + s3 because s1 is not destroyed while calculating the complete string.
+Source code: https://t.co/hKLOQkYrmJ https://t.co/xUoFCs77GN",False,False,https://twitter.com/python_tip/status/1023842213116035073,"[{'url': 'https://t.co/hKLOQkYrmJ', 'expanded_url': 'http://bit.ly/2vipC0z', 'display_url': 'bit.ly/2vipC0z'}]","[{'url': 'https://t.co/xUoFCs77GN', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/DjVpAegU8AEaZGi.jpg', 'display_url': 'pic.twitter.com/xUoFCs77GN'}]",5.8522024797744745,541 days 11:08:59,541,4.4060054521077445,5.4060054521077445
+1015127204320239616,2018-07-06 06:56:00+00:00,95,40,"How Encoding Works in Python2 vs Python3? The best explanation of encode, decode and UTF-8 I have ever seen:
 
-https://t.co/5qn3jDzSHU
-
-#python https://t.co/dmgqkdJ8p8",False,False,https://twitter.com/python_tip/status/1016663178816737282,"[{'url': 'https://t.co/5qn3jDzSHU', 'expanded_url': 'https://www.codementor.io/satwikkansal/do-you-really-think-you-know-strings-in-python-fnxh8mtha', 'display_url': 'codementor.io/satwikkansal/d…'}]","[{'url': 'https://t.co/dmgqkdJ8p8', 'media_url': 'http://pbs.twimg.com/media/Dhvpw7XWAAAHEFr.jpg', 'display_url': 'pic.twitter.com/dmgqkdJ8p8'}]",5.393627546352361,521 days 15:42:04,521,4.391974571863117
+https://t.co/esPYEXbHaR https://t.co/hvr6x0sMvH",False,False,https://twitter.com/python_tip/status/1015127204320239616,"[{'url': 'https://t.co/esPYEXbHaR', 'expanded_url': 'https://pybit.es/python-encodings.html', 'display_url': 'pybit.es/python-encodin…'}]","[{'url': 'https://t.co/hvr6x0sMvH', 'media_url': 'http://pbs.twimg.com/media/DhASe_cVQAARQrk.jpg', 'display_url': 'pic.twitter.com/hvr6x0sMvH'}]",5.375278407684165,517 days 09:58:39,517,4.372890642854738,5.372890642854738
 1014388335438004224,2018-07-04 06:00:00+00:00,126,41,"zip() is its own inverse (via @jakevdp):
 
 >>> data = [(1, 2, 3), ('a', 'b', 'c')]
@@ -328,15 +331,15 @@ https://t.co/5qn3jDzSHU
 >>> unzipped
 [(1, 2, 3), ('a', 'b', 'c')]
 
-#pythontip #zip",False,False,https://twitter.com/python_tip/status/1014388335438004224,[],[],5.521460917862246,515 days 09:02:39,515,4.383398368624604
-1012325041252552704,2018-06-28 13:21:12+00:00,116,63,"#Python 3.7 is released. Data classes, built-in breakpoint(), context variables and more.
-https://t.co/udgh1vyXqN",False,False,https://twitter.com/python_tip/status/1012325041252552704,"[{'url': 'https://t.co/udgh1vyXqN', 'expanded_url': 'https://realpython.com/python37-new-features/', 'display_url': 'realpython.com/python37-new-f…'}]",[],5.723585101952381,509 days 16:23:51,509,4.374628961790517
-1008597844662472704,2018-06-18 06:30:39+00:00,198,76,"In #Python3, the print function has options
+#pythontip #zip",False,False,https://twitter.com/python_tip/status/1014388335438004224,[],[],5.521460917862246,515 days 09:02:39,515,4.37077218652798,5.37077218652798
+1012325041252552704,2018-06-28 13:21:12+00:00,116,62,"#Python 3.7 is released. Data classes, built-in breakpoint(), context variables and more.
+https://t.co/udgh1vyXqN",False,False,https://twitter.com/python_tip/status/1012325041252552704,"[{'url': 'https://t.co/udgh1vyXqN', 'expanded_url': 'https://realpython.com/python37-new-features/', 'display_url': 'realpython.com/python37-new-f…'}]",[],5.713732805509369,509 days 16:23:51,509,4.3615825309088185,5.3615825309088185
+1008597844662472704,2018-06-18 06:30:39+00:00,197,76,"In #Python3, the print function has options
 * 'sep' to separate the arguments
 * 'end' to be printed after the last argument
 
-https://t.co/Jm8LgiGnAJ https://t.co/V56ARBc7ku",False,False,https://twitter.com/python_tip/status/1008597844662472704,"[{'url': 'https://t.co/Jm8LgiGnAJ', 'expanded_url': 'https://docs.python.org/3/library/functions.html#print', 'display_url': 'docs.python.org/3/library/func…'}]","[{'url': 'https://t.co/V56ARBc7ku', 'media_url': 'http://pbs.twimg.com/media/Df9BvDMVQAAUvDL.jpg', 'display_url': 'pic.twitter.com/V56ARBc7ku'}]",6.056784013228625,499 days 09:33:18,499,4.359560088430807
-996333363391860737,2018-05-15 10:15:59+00:00,117,34,"Difference between list.append() and list.extend(): 
+https://t.co/Jm8LgiGnAJ https://t.co/V56ARBc7ku",False,False,https://twitter.com/python_tip/status/1008597844662472704,"[{'url': 'https://t.co/Jm8LgiGnAJ', 'expanded_url': 'https://docs.python.org/3/library/functions.html#print', 'display_url': 'docs.python.org/3/library/func…'}]","[{'url': 'https://t.co/V56ARBc7ku', 'media_url': 'http://pbs.twimg.com/media/Df9BvDMVQAAUvDL.jpg', 'display_url': 'pic.twitter.com/V56ARBc7ku'}]",6.054439346269371,499 days 09:33:18,499,4.3464505805251825,5.3464505805251825
+996333363391860737,2018-05-15 10:15:59+00:00,116,34,"Difference between list.append() and list.extend(): 
 
 >>> x = [1, 2, 3]
 >>> x.append([4, 5])
@@ -348,18 +351,18 @@ https://t.co/Jm8LgiGnAJ https://t.co/V56ARBc7ku",False,False,https://twitter.com
 >>> print(x)
 [1, 2, 3, 4, 5]
 
-#python",False,False,https://twitter.com/python_tip/status/996333363391860737,[],[],5.393627546352361,465 days 13:18:38,465,4.303780937033865
-994073352435314688,2018-05-09 04:35:30+00:00,235,96,"Colab (Google's flavor of Jupyter Notebook) can now open/save notebooks directly from Github. Just add your Github path to https://t.co/8B58ZpRZDq
+#python",False,False,https://twitter.com/python_tip/status/996333363391860737,[],[],5.389071729816501,465 days 13:18:38,465,4.290423432600841,5.290423432600841
+994073352435314688,2018-05-09 04:35:30+00:00,232,95,"Colab (Google's flavor of Jupyter Notebook) can now open/save notebooks directly from Github. Just add your Github path to https://t.co/8B58ZpRZDq
 
 For example, to open
 https://t.co/wMDaguQOuv
 use the following URL https://t.co/nlNkO0S800
 
-More details at https://t.co/WI3NUvBduc",False,False,https://twitter.com/python_tip/status/994073352435314688,"[{'url': 'https://t.co/8B58ZpRZDq', 'expanded_url': 'http://colab.research.google.com/github/', 'display_url': 'colab.research.google.com/github/'}, {'url': 'https://t.co/wMDaguQOuv', 'expanded_url': 'https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/hello_t2t.ipynb', 'display_url': 'github.com/tensorflow/ten…'}, {'url': 'https://t.co/nlNkO0S800', 'expanded_url': 'https://colab.research.google.com/github/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/hello_t2t.ipynb', 'display_url': 'colab.research.google.com/github/tensorf…'}, {'url': 'https://t.co/WI3NUvBduc', 'expanded_url': 'https://medium.com/tensorflow/colab-an-easy-way-to-learn-and-use-tensorflow-d74d1686e309', 'display_url': 'medium.com/tensorflow/col…'}]",[],6.261491684321042,459 days 07:38:09,459,4.29293359564672
-990951411302256642,2018-04-30 13:50:02+00:00,124,37,"Print calendar of a given month and year:
+More details at https://t.co/WI3NUvBduc",False,False,https://twitter.com/python_tip/status/994073352435314688,"[{'url': 'https://t.co/8B58ZpRZDq', 'expanded_url': 'http://colab.research.google.com/github/', 'display_url': 'colab.research.google.com/github/'}, {'url': 'https://t.co/wMDaguQOuv', 'expanded_url': 'https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/hello_t2t.ipynb', 'display_url': 'github.com/tensorflow/ten…'}, {'url': 'https://t.co/nlNkO0S800', 'expanded_url': 'https://colab.research.google.com/github/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/hello_t2t.ipynb', 'display_url': 'colab.research.google.com/github/tensorf…'}, {'url': 'https://t.co/WI3NUvBduc', 'expanded_url': 'https://medium.com/tensorflow/colab-an-easy-way-to-learn-and-use-tensorflow-d74d1686e309', 'display_url': 'medium.com/tensorflow/col…'}]",[],6.249975242259483,459 days 07:38:09,459,4.2795339109658235,5.2795339109658235
+990951411302256642,2018-04-30 13:50:02+00:00,123,37,"Print calendar of a given month and year:
 >>> import calendar
 >>> print(calendar.month(2018, 5))
-#python https://t.co/ivX91vqT59",False,False,https://twitter.com/python_tip/status/990951411302256642,[],"[{'url': 'https://t.co/ivX91vqT59', 'media_url': 'http://pbs.twimg.com/media/DcCRDaOX0AEq7l4.jpg', 'display_url': 'pic.twitter.com/ivX91vqT59'}]",5.4638318050256105,450 days 16:52:41,450,4.276536056247631
+#python https://t.co/ivX91vqT59",False,False,https://twitter.com/python_tip/status/990951411302256642,[],"[{'url': 'https://t.co/ivX91vqT59', 'media_url': 'http://pbs.twimg.com/media/DcCRDaOX0AEq7l4.jpg', 'display_url': 'pic.twitter.com/ivX91vqT59'}]",5.459585514144159,450 days 16:52:41,450,4.262609642427751,5.262609642427751
 971052138729222146,2018-03-06 15:57:25+00:00,76,35,"Use itertools.compress to filter a sequence based on the results of filtering another related sequence:
 
 counts = [0, 5, 6, 3, 2]
@@ -367,7 +370,7 @@ names = ['Bob', 'Alice', 'Jane', 'Joe', 'Luke']
 more3 = [n > 3 for n in counts]
 list(compress(names, more3))
 
-#python https://t.co/vyUL0VPXEf",False,False,https://twitter.com/python_tip/status/971052138729222146,[],"[{'url': 'https://t.co/vyUL0VPXEf', 'media_url': 'http://pbs.twimg.com/media/DXneEcJXcAA8JR8.jpg', 'display_url': 'pic.twitter.com/vyUL0VPXEf'}]",5.204006687076795,395 days 19:00:04,395,4.133094410230681
+#python https://t.co/vyUL0VPXEf",False,False,https://twitter.com/python_tip/status/971052138729222146,[],"[{'url': 'https://t.co/vyUL0VPXEf', 'media_url': 'http://pbs.twimg.com/media/DXneEcJXcAA8JR8.jpg', 'display_url': 'pic.twitter.com/vyUL0VPXEf'}]",5.204006687076795,395 days 19:00:04,395,4.114739624505033,5.114739624505033
 956545313195642881,2018-01-25 15:12:29+00:00,89,34,"Know the difference between append() and extend():
 
 >>> x = [1,2,3]
@@ -381,7 +384,7 @@ list(compress(names, more3))
 >>> x
 [1, 2, 3, [4, 5], 6, 7, 'a', 'b', 'c']
 
-https://t.co/qbMrM1bRAf",False,False,https://twitter.com/python_tip/status/956545313195642881,"[{'url': 'https://t.co/qbMrM1bRAf', 'expanded_url': 'https://stackoverflow.com/questions/252703/difference-between-append-vs-extend-list-methods-in-python', 'display_url': 'stackoverflow.com/questions/2527…'}]",[],5.2574953720277815,355 days 18:15:08,355,4.012035374236165
+https://t.co/qbMrM1bRAf",False,False,https://twitter.com/python_tip/status/956545313195642881,"[{'url': 'https://t.co/qbMrM1bRAf', 'expanded_url': 'https://stackoverflow.com/questions/252703/difference-between-append-vs-extend-list-methods-in-python', 'display_url': 'stackoverflow.com/questions/2527…'}]",[],5.2574953720277815,355 days 18:15:08,355,3.996572874666731,4.996572874666731
 954603461353422848,2018-01-20 06:36:15+00:00,124,59,"Microsoft offers free #Jupyter notebooks in the cloud:
 
 https://t.co/VYbNmjZFwf
@@ -390,8 +393,8 @@ Even better, Google's free Colaboratory notebooks (https://t.co/m6vNsFxku5) now 
 
 https://t.co/3c9ISNIq7y
 
-#pythontip #deeplearning #colab https://t.co/IPrUm5Hp9V",False,False,https://twitter.com/python_tip/status/954603461353422848,"[{'url': 'https://t.co/VYbNmjZFwf', 'expanded_url': 'https://notebooks.azure.com/', 'display_url': 'notebooks.azure.com'}, {'url': 'https://t.co/m6vNsFxku5', 'expanded_url': 'http://colab.research.google.com/', 'display_url': 'colab.research.google.com'}, {'url': 'https://t.co/3c9ISNIq7y', 'expanded_url': 'https://www.kaggle.com/getting-started/47096#post271139', 'display_url': 'kaggle.com/getting-starte…'}]","[{'url': 'https://t.co/IPrUm5Hp9V', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/DT9uxhuU8AAHnOr.jpg', 'display_url': 'pic.twitter.com/IPrUm5Hp9V'}]",5.71042701737487,350 days 09:38:54,350,3.996634949025502
-940506518042169350,2017-12-12 09:00:02+00:00,69,21,Compare two floats with math.isclose() to see if they are nearly equal #python https://t.co/y9QiKtpbNP,False,False,https://twitter.com/python_tip/status/940506518042169350,[],"[{'url': 'https://t.co/y9QiKtpbNP', 'media_url': 'http://pbs.twimg.com/media/DQwgxCOUEAEwFqD.jpg', 'display_url': 'pic.twitter.com/y9QiKtpbNP'}]",4.890349128221754,311 days 12:02:41,311,3.87538549461829
+#pythontip #deeplearning #colab https://t.co/IPrUm5Hp9V",False,False,https://twitter.com/python_tip/status/954603461353422848,"[{'url': 'https://t.co/VYbNmjZFwf', 'expanded_url': 'https://notebooks.azure.com/', 'display_url': 'notebooks.azure.com'}, {'url': 'https://t.co/m6vNsFxku5', 'expanded_url': 'http://colab.research.google.com/', 'display_url': 'colab.research.google.com'}, {'url': 'https://t.co/3c9ISNIq7y', 'expanded_url': 'https://www.kaggle.com/getting-started/47096#post271139', 'display_url': 'kaggle.com/getting-starte…'}]","[{'url': 'https://t.co/IPrUm5Hp9V', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/DT9uxhuU8AAHnOr.jpg', 'display_url': 'pic.twitter.com/IPrUm5Hp9V'}]",5.71042701737487,350 days 09:38:54,350,3.9815869472639225,4.9815869472639225
+940506518042169350,2017-12-12 09:00:02+00:00,69,21,Compare two floats with math.isclose() to see if they are nearly equal #python https://t.co/y9QiKtpbNP,False,False,https://twitter.com/python_tip/status/940506518042169350,[],"[{'url': 'https://t.co/y9QiKtpbNP', 'media_url': 'http://pbs.twimg.com/media/DQwgxCOUEAEwFqD.jpg', 'display_url': 'pic.twitter.com/y9QiKtpbNP'}]",4.890349128221754,311 days 12:02:41,311,3.8637072399804553,4.863707239980455
 938317088183242752,2017-12-06 08:00:01+00:00,84,46,"#Python3 is coming. Still need to code in Python2? Use these 4 lines and your future self will thank you:
 
 from __future__ import absolute_import
@@ -399,13 +402,13 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
-https://t.co/V3TGunnoR8",False,False,https://twitter.com/python_tip/status/938317088183242752,"[{'url': 'https://t.co/V3TGunnoR8', 'expanded_url': 'http://python-future.org/quickstart.html', 'display_url': 'python-future.org/quickstart.html'}]",[],5.407171771460119,305 days 11:02:40,305,3.856590900012058
-925689685468499969,2017-11-01 11:43:14+00:00,109,50,"a += b doesn't always behave the same way as a = a + b!
+https://t.co/V3TGunnoR8",False,False,https://twitter.com/python_tip/status/938317088183242752,"[{'url': 'https://t.co/V3TGunnoR8', 'expanded_url': 'http://python-future.org/quickstart.html', 'display_url': 'python-future.org/quickstart.html'}]",[],5.407171771460119,305 days 11:02:40,305,3.845443236836422,4.845443236836422
+925689685468499969,2017-11-01 11:43:14+00:00,108,50,"a += b doesn't always behave the same way as a = a + b!
 https://t.co/osZWBD9HDT
-#python https://t.co/D9thf9b5ZD",False,False,https://twitter.com/python_tip/status/925689685468499969,"[{'url': 'https://t.co/osZWBD9HDT', 'expanded_url': 'https://github.com/satwikkansal/wtfpython/blob/master/README.md#same-operands-different-story', 'display_url': 'github.com/satwikkansal/w…'}]","[{'url': 'https://t.co/D9thf9b5ZD', 'media_url': 'http://pbs.twimg.com/media/DNi1xvtXUAAJ7xJ.jpg', 'display_url': 'pic.twitter.com/D9thf9b5ZD'}]",5.560681631015528,270 days 14:45:53,270,3.7463572096674187
+#python https://t.co/D9thf9b5ZD",False,False,https://twitter.com/python_tip/status/925689685468499969,"[{'url': 'https://t.co/osZWBD9HDT', 'expanded_url': 'https://github.com/satwikkansal/wtfpython/blob/master/README.md#same-operands-different-story', 'display_url': 'github.com/satwikkansal/w…'}]","[{'url': 'https://t.co/D9thf9b5ZD', 'media_url': 'http://pbs.twimg.com/media/DNi1xvtXUAAJ7xJ.jpg', 'display_url': 'pic.twitter.com/D9thf9b5ZD'}]",5.556828061699537,270 days 14:45:53,270,3.73832992345509,4.73832992345509
 925337967094304768,2017-10-31 12:25:37+00:00,53,27,"Want colorful terminal spinners? Try halo. 
 https://t.co/CElzEp75vZ
-#python https://t.co/roJhvlCtrb",False,False,https://twitter.com/python_tip/status/925337967094304768,"[{'url': 'https://t.co/CElzEp75vZ', 'expanded_url': 'https://github.com/ManrajGrover/halo', 'display_url': 'github.com/ManrajGrover/h…'}]","[{'url': 'https://t.co/roJhvlCtrb', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/DNd19MjWAAAzFyW.jpg', 'display_url': 'pic.twitter.com/roJhvlCtrb'}]",4.90527477843843,269 days 15:28:16,269,3.743193513629684
+#python https://t.co/roJhvlCtrb",False,False,https://twitter.com/python_tip/status/925337967094304768,"[{'url': 'https://t.co/CElzEp75vZ', 'expanded_url': 'https://github.com/ManrajGrover/halo', 'display_url': 'github.com/ManrajGrover/h…'}]","[{'url': 'https://t.co/roJhvlCtrb', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/DNd19MjWAAAzFyW.jpg', 'display_url': 'pic.twitter.com/roJhvlCtrb'}]",4.90527477843843,269 days 15:28:16,269,3.7352557389118823,4.735255738911882
 912207345312194566,2017-09-25 06:49:13+00:00,71,23,"Make your numbers, dates, etc. human readable:
 
 >>> humanize.intword(123455913)
@@ -413,7 +416,7 @@ https://t.co/CElzEp75vZ
 
 https://t.co/KsDi4zn50I
 
-#python #i18n",False,False,https://twitter.com/python_tip/status/912207345312194566,"[{'url': 'https://t.co/KsDi4zn50I', 'expanded_url': 'https://pypi.python.org/pypi/humanize', 'display_url': 'pypi.python.org/pypi/humanize'}]",[],4.948759890378168,233 days 09:51:52,233,3.6287930123687007
+#python #i18n",False,False,https://twitter.com/python_tip/status/912207345312194566,"[{'url': 'https://t.co/KsDi4zn50I', 'expanded_url': 'https://pypi.python.org/pypi/humanize', 'display_url': 'pypi.python.org/pypi/humanize'}]",[],4.948759890378168,233 days 09:51:52,233,3.624080193594916,4.624080193594915
 908356538435125248,2017-09-14 15:47:29+00:00,43,28,"Equality vs Identity:
 
 >>> a = [""x"", ""y""]
@@ -427,7 +430,7 @@ True
 >>> a is c
 False
 
-#python",False,False,https://twitter.com/python_tip/status/908356538435125248,[],[],4.852030263919617,222 days 18:50:08,222,3.593638355711047
+#python",False,False,https://twitter.com/python_tip/status/908356538435125248,[],[],4.852030263919617,222 days 18:50:08,222,3.58991027060644,4.58991027060644
 907129498495197184,2017-09-11 06:31:40+00:00,55,17,"List Slicing with None as argument:
 
 >>> a = [0, 1, 2, 3, 4, 5]
@@ -435,55 +438,55 @@ False
 >>> a[LASTTHREE]
 [3, 4, 5]
 
-#python",False,False,https://twitter.com/python_tip/status/907129498495197184,[],[],4.672828834461906,219 days 09:34:19,219,3.584034236839992
-905742157033689088,2017-09-07 10:38:52+00:00,55,23,"You can use a comma for extracting a value from a list of length one: ""x, = s"". It's even faster than ""x = s[0]"". #python https://t.co/QG3nLuOMFc",False,False,https://twitter.com/python_tip/status/905742157033689088,[],"[{'url': 'https://t.co/QG3nLuOMFc', 'media_url': 'http://pbs.twimg.com/media/DJHXrzxXYAMPGWY.jpg', 'display_url': 'pic.twitter.com/QG3nLuOMFc'}]",4.8283137373023015,215 days 13:41:31,215,3.5712176219982372
+#python",False,False,https://twitter.com/python_tip/status/907129498495197184,[],[],4.672828834461906,219 days 09:34:19,219,3.5805745533353113,4.580574553335311
+905742157033689088,2017-09-07 10:38:52+00:00,54,23,"You can use a comma for extracting a value from a list of length one: ""x, = s"". It's even faster than ""x = s[0]"". #python https://t.co/QG3nLuOMFc",False,False,https://twitter.com/python_tip/status/905742157033689088,[],"[{'url': 'https://t.co/QG3nLuOMFc', 'media_url': 'http://pbs.twimg.com/media/DJHXrzxXYAMPGWY.jpg', 'display_url': 'pic.twitter.com/QG3nLuOMFc'}]",4.820281565605037,215 days 13:41:31,215,3.568115684280475,4.568115684280475
 900631011268153344,2017-08-24 08:09:00+00:00,51,25,"#python formatting tip:
 d = dict(name = 'Joe', age = 30)
 print('{name} is {age} years old'.format_map(d))
 
-Joe is 30 years old",False,False,https://twitter.com/python_tip/status/900631011268153344,[],[],4.844187086458591,201 days 11:11:39,201,3.5262570817658756
+Joe is 30 years old",False,False,https://twitter.com/python_tip/status/900631011268153344,[],[],4.844187086458591,201 days 11:11:39,201,3.5244061012037853,4.524406101203786
 898099306820972544,2017-08-17 08:28:55+00:00,50,20,"Ever miscounted the number of 0? Underscores in #python3.6 can help you.
 >>> m = 1_000_000_000
 >>> m
 1000000000
-https://t.co/2z5HRtMtXx",False,False,https://twitter.com/python_tip/status/898099306820972544,"[{'url': 'https://t.co/2z5HRtMtXx', 'expanded_url': 'https://docs.python.org/3/whatsnew/3.6.html#pep-515-underscores-in-numeric-literals', 'display_url': 'docs.python.org/3/whatsnew/3.6…'}]",[],4.709530201312334,194 days 11:31:34,194,3.503714841077896
-897728384976928768,2017-08-16 07:55:00+00:00,47,17,"In Jupyter Notebook, use Shift+Tab to show a tooltip with arguments of function/class and docstring. https://t.co/taZQXHWOxE",False,False,https://twitter.com/python_tip/status/897728384976928768,[],"[{'url': 'https://t.co/taZQXHWOxE', 'media_url': 'http://pbs.twimg.com/media/DHTScurXoAAUfBZ.jpg', 'display_url': 'pic.twitter.com/taZQXHWOxE'}]",4.59511985013459,193 days 10:57:39,193,3.5004910146418307
-892671812160684032,2017-08-02 09:01:59+00:00,43,23,"%%HTML magic renders #jupyter notebook cell as HTML, so you can embed an image or other media:
+https://t.co/2z5HRtMtXx",False,False,https://twitter.com/python_tip/status/898099306820972544,"[{'url': 'https://t.co/2z5HRtMtXx', 'expanded_url': 'https://docs.python.org/3/whatsnew/3.6.html#pep-515-underscores-in-numeric-literals', 'display_url': 'docs.python.org/3/whatsnew/3.6…'}]",[],4.709530201312334,194 days 11:31:34,194,3.5024887011948462,4.502488701194846
+897728384976928768,2017-08-16 07:55:00+00:00,47,17,"In Jupyter Notebook, use Shift+Tab to show a tooltip with arguments of function/class and docstring. https://t.co/taZQXHWOxE",False,False,https://twitter.com/python_tip/status/897728384976928768,[],"[{'url': 'https://t.co/taZQXHWOxE', 'media_url': 'http://pbs.twimg.com/media/DHTScurXoAAUfBZ.jpg', 'display_url': 'pic.twitter.com/taZQXHWOxE'}]",4.59511985013459,193 days 10:57:39,193,3.4993541072743284,4.499354107274328
+892671812160684032,2017-08-02 09:01:59+00:00,42,23,"%%HTML magic renders #jupyter notebook cell as HTML, so you can embed an image or other media:
 
-https://t.co/KfmfPz27j5 https://t.co/RiToK88XJ1",False,False,https://twitter.com/python_tip/status/892671812160684032,"[{'url': 'https://t.co/KfmfPz27j5', 'expanded_url': 'https://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks/', 'display_url': 'blog.dominodatalab.com/lesser-known-w…'}]","[{'url': 'https://t.co/RiToK88XJ1', 'media_url': 'http://pbs.twimg.com/media/DGNoBBsXgAEH3uK.jpg', 'display_url': 'pic.twitter.com/RiToK88XJ1'}]",4.727387818712341,179 days 12:04:38,179,3.4552612692389104
+https://t.co/KfmfPz27j5 https://t.co/RiToK88XJ1",False,False,https://twitter.com/python_tip/status/892671812160684032,"[{'url': 'https://t.co/KfmfPz27j5', 'expanded_url': 'https://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks/', 'display_url': 'blog.dominodatalab.com/lesser-known-w…'}]","[{'url': 'https://t.co/RiToK88XJ1', 'media_url': 'http://pbs.twimg.com/media/DGNoBBsXgAEH3uK.jpg', 'display_url': 'pic.twitter.com/RiToK88XJ1'}]",4.718498871295094,179 days 12:04:38,179,3.455372994539106,4.455372994539106
 884353407380852736,2017-07-10 10:07:37+00:00,45,19,"Use the pathlib module to recursively search for files 
 >>> from pathlib import Path
 >>> Path('.').glob('**/*.py')
-#python",False,False,https://twitter.com/python_tip/status/884353407380852736,[],[],4.634728988229636,156 days 13:10:16,156,3.380538259404209
-880678711393177601,2017-06-30 06:45:41+00:00,36,16,#Matplotlib supports interactive controls: https://t.co/lpjPNPJQFr https://t.co/hCiygiBMeE #Python https://t.co/hK6PaLPdG8,False,False,https://twitter.com/python_tip/status/880678711393177601,"[{'url': 'https://t.co/lpjPNPJQFr', 'expanded_url': 'https://matplotlib.org/examples/widgets/index.html', 'display_url': 'matplotlib.org/examples/widge…'}, {'url': 'https://t.co/hCiygiBMeE', 'expanded_url': 'https://matplotlib.org/examples/event_handling/index.html', 'display_url': 'matplotlib.org/examples/event…'}]","[{'url': 'https://t.co/hK6PaLPdG8', 'media_url': 'http://pbs.twimg.com/ext_tw_video_thumb/880678677092212737/pu/img/pgBVRYdQVyet3IEM.jpg', 'display_url': 'pic.twitter.com/hK6PaLPdG8'}]",4.442651256490317,146 days 09:48:20,146,3.347874800922005
+#python",False,False,https://twitter.com/python_tip/status/884353407380852736,[],[],4.634728988229636,156 days 13:10:16,156,3.3827000086277565,4.382700008627756
+880678711393177601,2017-06-30 06:45:41+00:00,35,16,#Matplotlib supports interactive controls: https://t.co/lpjPNPJQFr https://t.co/hCiygiBMeE #Python https://t.co/hK6PaLPdG8,False,False,https://twitter.com/python_tip/status/880678711393177601,"[{'url': 'https://t.co/lpjPNPJQFr', 'expanded_url': 'https://matplotlib.org/examples/widgets/index.html', 'display_url': 'matplotlib.org/examples/widge…'}, {'url': 'https://t.co/hCiygiBMeE', 'expanded_url': 'https://matplotlib.org/examples/event_handling/index.html', 'display_url': 'matplotlib.org/examples/event…'}]","[{'url': 'https://t.co/hK6PaLPdG8', 'media_url': 'http://pbs.twimg.com/ext_tw_video_thumb/880678677092212737/pu/img/pgBVRYdQVyet3IEM.jpg', 'display_url': 'pic.twitter.com/hK6PaLPdG8'}]",4.430816798843313,146 days 09:48:20,146,3.350928051947319,4.350928051947319
 877398427121930240,2017-06-21 05:31:00+00:00,34,14,"Use named groups for more readable regular expressions:
 
 https://t.co/Hu7fU20Vkz
-https://t.co/B30VUIXc4f https://t.co/ts6PAPU4C5",False,False,https://twitter.com/python_tip/status/877398427121930240,"[{'url': 'https://t.co/Hu7fU20Vkz', 'expanded_url': 'https://stackoverflow.com/questions/10059673/named-regular-expression-group-pgroup-nameregexp-what-does-p-stand-for', 'display_url': 'stackoverflow.com/questions/1005…'}, {'url': 'https://t.co/B30VUIXc4f', 'expanded_url': 'https://docs.python.org/3/library/re.html', 'display_url': 'docs.python.org/3/library/re.h…'}]","[{'url': 'https://t.co/ts6PAPU4C5', 'media_url': 'http://pbs.twimg.com/media/DCrSSp9XkAA5ay5.jpg', 'display_url': 'pic.twitter.com/ts6PAPU4C5'}]",4.343805421853684,137 days 08:33:39,137,3.318379993141237
-876706551788163072,2017-06-19 07:41:45+00:00,44,20,"Learn to parse command line arguments with argparse:
+https://t.co/B30VUIXc4f https://t.co/ts6PAPU4C5",False,False,https://twitter.com/python_tip/status/877398427121930240,"[{'url': 'https://t.co/Hu7fU20Vkz', 'expanded_url': 'https://stackoverflow.com/questions/10059673/named-regular-expression-group-pgroup-nameregexp-what-does-p-stand-for', 'display_url': 'stackoverflow.com/questions/1005…'}, {'url': 'https://t.co/B30VUIXc4f', 'expanded_url': 'https://docs.python.org/3/library/re.html', 'display_url': 'docs.python.org/3/library/re.h…'}]","[{'url': 'https://t.co/ts6PAPU4C5', 'media_url': 'http://pbs.twimg.com/media/DCrSSp9XkAA5ay5.jpg', 'display_url': 'pic.twitter.com/ts6PAPU4C5'}]",4.343805421853684,137 days 08:33:39,137,3.322236095160944,4.322236095160944
+876706551788163072,2017-06-19 07:41:45+00:00,43,20,"Learn to parse command line arguments with argparse:
 
 https://t.co/cUIPGC5Rn7
-https://t.co/OrjT9CoW2N https://t.co/9zCs4xIUk5",False,False,https://twitter.com/python_tip/status/876706551788163072,"[{'url': 'https://t.co/cUIPGC5Rn7', 'expanded_url': 'https://docs.python.org/2/howto/argparse.html', 'display_url': 'docs.python.org/2/howto/argpar…'}, {'url': 'https://t.co/OrjT9CoW2N', 'expanded_url': 'http://stackoverflow.com/questions/7427101/dead-simple-argparse-example-wanted-1-argument-3-results', 'display_url': 'stackoverflow.com/questions/7427…'}]","[{'url': 'https://t.co/9zCs4xIUk5', 'media_url': 'http://pbs.twimg.com/media/DCqv9PvXYAA2hNF.jpg', 'display_url': 'pic.twitter.com/9zCs4xIUk5'}]",4.653960350157523,135 days 10:44:24,135,3.311812518643292
+https://t.co/OrjT9CoW2N https://t.co/9zCs4xIUk5",False,False,https://twitter.com/python_tip/status/876706551788163072,"[{'url': 'https://t.co/cUIPGC5Rn7', 'expanded_url': 'https://docs.python.org/2/howto/argparse.html', 'display_url': 'docs.python.org/2/howto/argpar…'}, {'url': 'https://t.co/OrjT9CoW2N', 'expanded_url': 'http://stackoverflow.com/questions/7427101/dead-simple-argparse-example-wanted-1-argument-3-results', 'display_url': 'stackoverflow.com/questions/7427…'}]","[{'url': 'https://t.co/9zCs4xIUk5', 'media_url': 'http://pbs.twimg.com/media/DCqv9PvXYAA2hNF.jpg', 'display_url': 'pic.twitter.com/9zCs4xIUk5'}]",4.6443908991413725,135 days 10:44:24,135,3.3158471287680245,4.3158471287680245
 875623983307264000,2017-06-16 08:00:00+00:00,43,22,"str.startswith() accepts also a tuple of prefixes to look for:
 >>> ""somestring"".startswith((""aa"", ""xx"", ""z"", ""som""))
 True
-#python",False,False,https://twitter.com/python_tip/status/875623983307264000,[],[],4.700480365792417,132 days 11:02:39,132,3.3019521659349196
-875242817857171456,2017-06-15 06:45:23+00:00,28,16,Add interactivity to your #Jupyter notebooks with ipywidgets. https://t.co/Ex1H0joaMD https://t.co/54tOsgZCDY,False,False,https://twitter.com/python_tip/status/875242817857171456,"[{'url': 'https://t.co/Ex1H0joaMD', 'expanded_url': 'http://ipywidgets.readthedocs.io/en/latest/index.html', 'display_url': 'ipywidgets.readthedocs.io/en/latest/inde…'}]","[{'url': 'https://t.co/54tOsgZCDY', 'media_url': 'http://pbs.twimg.com/ext_tw_video_thumb/875242780624375808/pu/img/SFdICAW_lfqG3ONf.jpg', 'display_url': 'pic.twitter.com/54tOsgZCDY'}]",4.343805421853684,131 days 09:48:02,131,3.298662918179451
-874159340323610627,2017-06-12 07:00:02+00:00,39,16,"Read tables from a webpage into a list of #pandas dataframes:
+#python",False,False,https://twitter.com/python_tip/status/875623983307264000,[],[],4.700480365792417,132 days 11:02:39,132,3.306254619386451,4.306254619386451
+875242817857171456,2017-06-15 06:45:23+00:00,28,15,Add interactivity to your #Jupyter notebooks with ipywidgets. https://t.co/Ex1H0joaMD https://t.co/54tOsgZCDY,False,False,https://twitter.com/python_tip/status/875242817857171456,"[{'url': 'https://t.co/Ex1H0joaMD', 'expanded_url': 'http://ipywidgets.readthedocs.io/en/latest/index.html', 'display_url': 'ipywidgets.readthedocs.io/en/latest/inde…'}]","[{'url': 'https://t.co/54tOsgZCDY', 'media_url': 'http://pbs.twimg.com/ext_tw_video_thumb/875242780624375808/pu/img/SFdICAW_lfqG3ONf.jpg', 'display_url': 'pic.twitter.com/54tOsgZCDY'}]",4.304065093204169,131 days 09:48:02,131,3.303054676126477,4.303054676126477
+874159340323610627,2017-06-12 07:00:02+00:00,40,16,"Read tables from a webpage into a list of #pandas dataframes:
 
 dfs = https://t.co/KBWVZb2pZj_html('https://t.co/0hkIqtoWE4’)
 
-#python https://t.co/ikKblTaXQB",False,False,https://twitter.com/python_tip/status/874159340323610627,"[{'url': 'https://t.co/KBWVZb2pZj', 'expanded_url': 'http://pd.read', 'display_url': 'pd.read'}, {'url': 'https://t.co/0hkIqtoWE4', 'expanded_url': 'https://en.wikipedia.org/wiki/List_of_countries_by_alcohol_consumption_per_capita', 'display_url': 'en.wikipedia.org/wiki/List_of_c…'}]","[{'url': 'https://t.co/ikKblTaXQB', 'media_url': 'http://pbs.twimg.com/media/DCEDGpjXoAAy7mh.jpg', 'display_url': 'pic.twitter.com/ikKblTaXQB'}]",4.477336814478207,128 days 10:02:41,128,3.288787688646265
-866518988867555328,2017-05-22 05:00:00+00:00,59,51,"All #PyCon2017 talks are online
+#python https://t.co/ikKblTaXQB",False,False,https://twitter.com/python_tip/status/874159340323610627,"[{'url': 'https://t.co/KBWVZb2pZj', 'expanded_url': 'http://pd.read', 'display_url': 'pd.read'}, {'url': 'https://t.co/0hkIqtoWE4', 'expanded_url': 'https://en.wikipedia.org/wiki/List_of_countries_by_alcohol_consumption_per_capita', 'display_url': 'en.wikipedia.org/wiki/List_of_c…'}]","[{'url': 'https://t.co/ikKblTaXQB', 'media_url': 'http://pbs.twimg.com/media/DCEDGpjXoAAy7mh.jpg', 'display_url': 'pic.twitter.com/ikKblTaXQB'}]",4.48863636973214,128 days 10:02:41,128,3.2934474367876847,4.293447436787685
+866518988867555328,2017-05-22 05:00:00+00:00,58,51,"All #PyCon2017 talks are online
 
 https://t.co/cOZoelIh1g
 
 Feeling overwhelmed? Here is the list:
 
-https://t.co/mqSA0QMoJx",False,False,https://twitter.com/python_tip/status/866518988867555328,"[{'url': 'https://t.co/cOZoelIh1g', 'expanded_url': 'https://www.youtube.com/channel/UCrJhliKNQ8g0qoE_zvL8eVg', 'display_url': 'youtube.com/channel/UCrJhl…'}, {'url': 'https://t.co/mqSA0QMoJx', 'expanded_url': 'https://us.pycon.org/2017/schedule/talks/', 'display_url': 'us.pycon.org/2017/schedule/…'}]",[],5.3612921657094255,107 days 08:02:39,107,3.2193302839521776
+https://t.co/mqSA0QMoJx",False,False,https://twitter.com/python_tip/status/866518988867555328,"[{'url': 'https://t.co/cOZoelIh1g', 'expanded_url': 'https://www.youtube.com/channel/UCrJhliKNQ8g0qoE_zvL8eVg', 'display_url': 'youtube.com/channel/UCrJhl…'}, {'url': 'https://t.co/mqSA0QMoJx', 'expanded_url': 'https://us.pycon.org/2017/schedule/talks/', 'display_url': 'us.pycon.org/2017/schedule/…'}]",[],5.356586274672012,107 days 08:02:39,107,3.2258703499705055,4.2258703499705055
 855360210818527233,2017-04-21 09:59:00+00:00,27,12,">>> numbers = ['9','44','8','222']
 >>> max(numbers)
 '9'
 >>> max(numbers, key=int)
 '222'
-#python",False,False,https://twitter.com/python_tip/status/855360210818527233,[],[],4.1588830833596715,76 days 13:01:39,76,3.11563723403068
+#python",False,False,https://twitter.com/python_tip/status/855360210818527233,[],[],4.1588830833596715,76 days 13:01:39,76,3.1249745190326053,4.124974519032605

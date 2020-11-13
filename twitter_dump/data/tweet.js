@@ -363,7 +363,7 @@
       } ]
     },
     "display_text_range" : [ "0", "139" ],
-    "favorite_count" : "4",
+    "favorite_count" : "3",
     "id_str" : "833632289846226949",
     "truncated" : false,
     "retweet_count" : "2",
@@ -796,7 +796,7 @@
       } ]
     },
     "display_text_range" : [ "0", "135" ],
-    "favorite_count" : "4",
+    "favorite_count" : "3",
     "id_str" : "847682099435847681",
     "truncated" : false,
     "retweet_count" : "2",
@@ -958,7 +958,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "158" ],
-    "favorite_count" : "10",
+    "favorite_count" : "9",
     "id_str" : "846572807911751680",
     "truncated" : false,
     "retweet_count" : "3",
@@ -1349,7 +1349,7 @@
       } ],
       "symbols" : [ ],
       "user_mentions" : [ {
-        "name" : "Doug (ダグ) with cairn terrier Ella",
+        "name" : "Doug (ダグ) with Cairn Terrier Ella",
         "screen_name" : "cairn3dogs",
         "indices" : [ "0", "11" ],
         "id_str" : "354438238",
@@ -1382,7 +1382,7 @@
       "hashtags" : [ ],
       "symbols" : [ ],
       "user_mentions" : [ {
-        "name" : "Doug (ダグ) with cairn terrier Ella",
+        "name" : "Doug (ダグ) with Cairn Terrier Ella",
         "screen_name" : "cairn3dogs",
         "indices" : [ "0", "11" ],
         "id_str" : "354438238",
@@ -1855,7 +1855,7 @@
       } ]
     },
     "display_text_range" : [ "0", "234" ],
-    "favorite_count" : "37",
+    "favorite_count" : "38",
     "id_str" : "941243060108906496",
     "truncated" : false,
     "retweet_count" : "9",
@@ -2165,7 +2165,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "152" ],
-    "favorite_count" : "25",
+    "favorite_count" : "24",
     "id_str" : "938686214495911936",
     "truncated" : false,
     "retweet_count" : "7",
@@ -3064,7 +3064,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "307" ],
-    "favorite_count" : "41",
+    "favorite_count" : "40",
     "id_str" : "952812602819739654",
     "truncated" : false,
     "retweet_count" : "8",
@@ -3129,7 +3129,7 @@
     "favorite_count" : "42",
     "id_str" : "951383599449767937",
     "truncated" : false,
-    "retweet_count" : "5",
+    "retweet_count" : "4",
     "id" : "951383599449767937",
     "possibly_sensitive" : false,
     "created_at" : "Thu Jan 11 09:21:40 +0000 2018",
@@ -3196,7 +3196,7 @@
       } ]
     },
     "display_text_range" : [ "0", "118" ],
-    "favorite_count" : "41",
+    "favorite_count" : "40",
     "id_str" : "950649826739392512",
     "truncated" : false,
     "retweet_count" : "16",
@@ -3336,7 +3336,7 @@
       } ]
     },
     "display_text_range" : [ "0", "234" ],
-    "favorite_count" : "31",
+    "favorite_count" : "30",
     "id_str" : "949516017838956545",
     "truncated" : false,
     "retweet_count" : "8",
@@ -3539,7 +3539,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "62" ],
-    "favorite_count" : "59",
+    "favorite_count" : "58",
     "id_str" : "947739169291423744",
     "truncated" : false,
     "retweet_count" : "25",
@@ -3602,7 +3602,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "251" ],
-    "favorite_count" : "73",
+    "favorite_count" : "72",
     "id_str" : "946764011080732672",
     "truncated" : false,
     "retweet_count" : "17",
@@ -3692,7 +3692,7 @@
       } ]
     },
     "display_text_range" : [ "0", "120" ],
-    "favorite_count" : "57",
+    "favorite_count" : "56",
     "id_str" : "946381556591054849",
     "truncated" : false,
     "retweet_count" : "24",
@@ -4040,7 +4040,7 @@
       } ]
     },
     "display_text_range" : [ "0", "239" ],
-    "favorite_count" : "31",
+    "favorite_count" : "30",
     "id_str" : "962959466936270848",
     "truncated" : false,
     "retweet_count" : "5",
@@ -4150,7 +4150,7 @@
       } ]
     },
     "display_text_range" : [ "0", "209" ],
-    "favorite_count" : "31",
+    "favorite_count" : "30",
     "id_str" : "961975962513571842",
     "truncated" : false,
     "retweet_count" : "5",
@@ -4211,7 +4211,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "111" ],
-    "favorite_count" : "33",
+    "favorite_count" : "32",
     "id_str" : "961646715328712705",
     "truncated" : false,
     "retweet_count" : "5",
@@ -4392,7 +4392,7 @@
       } ]
     },
     "display_text_range" : [ "0", "224" ],
-    "favorite_count" : "37",
+    "favorite_count" : "36",
     "id_str" : "961299457928175616",
     "truncated" : false,
     "retweet_count" : "14",
@@ -4850,7 +4850,7 @@
       } ]
     },
     "display_text_range" : [ "0", "242" ],
-    "favorite_count" : "55",
+    "favorite_count" : "54",
     "id_str" : "958248415632113664",
     "truncated" : false,
     "retweet_count" : "10",
@@ -5343,7 +5343,7 @@
       } ]
     },
     "display_text_range" : [ "0", "304" ],
-    "favorite_count" : "84",
+    "favorite_count" : "83",
     "id_str" : "973076122307936257",
     "truncated" : false,
     "retweet_count" : "23",
@@ -5726,7 +5726,7 @@
       } ]
     },
     "display_text_range" : [ "0", "212" ],
-    "favorite_count" : "34",
+    "favorite_count" : "32",
     "id_str" : "970696992799195136",
     "truncated" : false,
     "retweet_count" : "7",
@@ -6196,7 +6196,7 @@
       } ]
     },
     "display_text_range" : [ "0", "242" ],
-    "favorite_count" : "37",
+    "favorite_count" : "36",
     "id_str" : "968033139749658624",
     "truncated" : false,
     "retweet_count" : "6",
@@ -6392,7 +6392,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "188" ],
-    "favorite_count" : "70",
+    "favorite_count" : "69",
     "id_str" : "966704808328646657",
     "truncated" : false,
     "retweet_count" : "29",
@@ -6460,7 +6460,7 @@
       } ]
     },
     "display_text_range" : [ "0", "148" ],
-    "favorite_count" : "32",
+    "favorite_count" : "31",
     "id_str" : "966323104866816000",
     "truncated" : false,
     "retweet_count" : "5",
@@ -6568,7 +6568,7 @@
       } ]
     },
     "display_text_range" : [ "0", "129" ],
-    "favorite_count" : "15",
+    "favorite_count" : "14",
     "id_str" : "966039756487274496",
     "truncated" : false,
     "retweet_count" : "4",
@@ -6636,7 +6636,7 @@
       } ]
     },
     "display_text_range" : [ "0", "195" ],
-    "favorite_count" : "20",
+    "favorite_count" : "19",
     "id_str" : "965496173275443201",
     "truncated" : false,
     "retweet_count" : "5",
@@ -6702,7 +6702,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "117" ],
-    "favorite_count" : "17",
+    "favorite_count" : "16",
     "id_str" : "964409009699770368",
     "truncated" : false,
     "retweet_count" : "5",
@@ -6765,7 +6765,7 @@
     "favorite_count" : "54",
     "id_str" : "964046629128024065",
     "truncated" : false,
-    "retweet_count" : "17",
+    "retweet_count" : "16",
     "id" : "964046629128024065",
     "created_at" : "Thu Feb 15 08:00:02 +0000 2018",
     "favorited" : false,
@@ -6778,7 +6778,7 @@
     "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
     "entities" : {
       "user_mentions" : [ {
-        "name" : "👩‍💻 DynamicWebPaige @ 127.0.0.1 🏠",
+        "name" : "👩‍💻 Paige Bailey @ 127.0.0.1 🏠",
         "screen_name" : "DynamicWebPaige",
         "indices" : [ "3", "19" ],
         "id_str" : "18104734",
@@ -6911,7 +6911,7 @@
       } ]
     },
     "display_text_range" : [ "0", "85" ],
-    "favorite_count" : "26",
+    "favorite_count" : "25",
     "id_str" : "963684235906306048",
     "truncated" : false,
     "retweet_count" : "7",
@@ -6974,7 +6974,7 @@
       } ]
     },
     "display_text_range" : [ "0", "138" ],
-    "favorite_count" : "16",
+    "favorite_count" : "15",
     "id_str" : "963321850934697984",
     "truncated" : false,
     "retweet_count" : "2",
@@ -7037,7 +7037,7 @@
     "favorite_count" : "41",
     "id_str" : "983962857221091328",
     "truncated" : false,
-    "retweet_count" : "14",
+    "retweet_count" : "13",
     "id" : "983962857221091328",
     "created_at" : "Wed Apr 11 07:00:00 +0000 2018",
     "favorited" : false,
@@ -7205,7 +7205,7 @@
       } ]
     },
     "display_text_range" : [ "0", "146" ],
-    "favorite_count" : "52",
+    "favorite_count" : "51",
     "id_str" : "983238078725853184",
     "truncated" : false,
     "retweet_count" : "16",
@@ -7260,7 +7260,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "220" ],
-    "favorite_count" : "50",
+    "favorite_count" : "49",
     "id_str" : "982266551188389888",
     "truncated" : false,
     "retweet_count" : "18",
@@ -7331,10 +7331,10 @@
       } ]
     },
     "display_text_range" : [ "0", "180" ],
-    "favorite_count" : "22",
+    "favorite_count" : "21",
     "id_str" : "981938295272861699",
     "truncated" : false,
-    "retweet_count" : "9",
+    "retweet_count" : "8",
     "id" : "981938295272861699",
     "possibly_sensitive" : false,
     "created_at" : "Thu Apr 05 16:55:07 +0000 2018",
@@ -7400,7 +7400,7 @@
       } ]
     },
     "display_text_range" : [ "0", "211" ],
-    "favorite_count" : "50",
+    "favorite_count" : "49",
     "id_str" : "981552759597142016",
     "truncated" : false,
     "retweet_count" : "17",
@@ -7530,7 +7530,7 @@
       } ]
     },
     "display_text_range" : [ "0", "249" ],
-    "favorite_count" : "21",
+    "favorite_count" : "20",
     "id_str" : "980882587332829184",
     "truncated" : false,
     "retweet_count" : "8",
@@ -7666,7 +7666,7 @@
       } ]
     },
     "display_text_range" : [ "0", "286" ],
-    "favorite_count" : "47",
+    "favorite_count" : "46",
     "id_str" : "979236713749921793",
     "truncated" : false,
     "retweet_count" : "14",
@@ -8592,7 +8592,7 @@
       } ]
     },
     "display_text_range" : [ "0", "164" ],
-    "favorite_count" : "17",
+    "favorite_count" : "15",
     "id_str" : "973800901277356033",
     "truncated" : false,
     "retweet_count" : "8",
@@ -8814,7 +8814,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "158" ],
-    "favorite_count" : "53",
+    "favorite_count" : "52",
     "id_str" : "992062625679921153",
     "truncated" : false,
     "retweet_count" : "9",
@@ -8867,7 +8867,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "60" ],
-    "favorite_count" : "34",
+    "favorite_count" : "33",
     "id_str" : "991410807354339329",
     "truncated" : false,
     "retweet_count" : "17",
@@ -9039,7 +9039,7 @@
       } ]
     },
     "display_text_range" : [ "0", "146" ],
-    "favorite_count" : "124",
+    "favorite_count" : "123",
     "id_str" : "990951411302256642",
     "truncated" : false,
     "retweet_count" : "37",
@@ -9096,7 +9096,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "281" ],
-    "favorite_count" : "28",
+    "favorite_count" : "26",
     "id_str" : "989761062856724480",
     "truncated" : false,
     "retweet_count" : "12",
@@ -9260,7 +9260,7 @@
       } ]
     },
     "display_text_range" : [ "0", "115" ],
-    "favorite_count" : "67",
+    "favorite_count" : "66",
     "id_str" : "989036287440146432",
     "truncated" : false,
     "retweet_count" : "19",
@@ -9459,7 +9459,7 @@
       } ]
     },
     "display_text_range" : [ "0", "154" ],
-    "favorite_count" : "28",
+    "favorite_count" : "27",
     "id_str" : "988321270314909696",
     "truncated" : false,
     "retweet_count" : "10",
@@ -9561,7 +9561,7 @@
       } ]
     },
     "display_text_range" : [ "0", "201" ],
-    "favorite_count" : "68",
+    "favorite_count" : "67",
     "id_str" : "987316485545750529",
     "truncated" : false,
     "retweet_count" : "23",
@@ -9790,7 +9790,7 @@
     "favorite_count" : "13",
     "id_str" : "986563995011309568",
     "truncated" : false,
-    "retweet_count" : "7",
+    "retweet_count" : "6",
     "id" : "986563995011309568",
     "possibly_sensitive" : false,
     "created_at" : "Wed Apr 18 11:16:00 +0000 2018",
@@ -9944,7 +9944,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "194" ],
-    "favorite_count" : "52",
+    "favorite_count" : "51",
     "id_str" : "985896744922820609",
     "truncated" : false,
     "retweet_count" : "26",
@@ -10154,7 +10154,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "349" ],
-    "favorite_count" : "46",
+    "favorite_count" : "45",
     "id_str" : "984325249243086848",
     "truncated" : false,
     "retweet_count" : "18",
@@ -10436,7 +10436,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "192" ],
-    "favorite_count" : "37",
+    "favorite_count" : "36",
     "id_str" : "1003875482838786049",
     "truncated" : false,
     "retweet_count" : "5",
@@ -10467,7 +10467,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "239" ],
-    "favorite_count" : "87",
+    "favorite_count" : "86",
     "id_str" : "1003548320890048512",
     "truncated" : false,
     "retweet_count" : "23",
@@ -10771,7 +10771,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "221" ],
-    "favorite_count" : "107",
+    "favorite_count" : "106",
     "id_str" : "1001809904221515776",
     "truncated" : false,
     "retweet_count" : "28",
@@ -10840,7 +10840,7 @@
       } ]
     },
     "display_text_range" : [ "0", "210" ],
-    "favorite_count" : "64",
+    "favorite_count" : "63",
     "id_str" : "1001504188910600192",
     "truncated" : false,
     "retweet_count" : "21",
@@ -11085,13 +11085,7 @@
     "retweeted" : false,
     "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
     "entities" : {
-      "user_mentions" : [ {
-        "name" : "John Jung",
-        "screen_name" : "bminor232",
-        "indices" : [ "16", "26" ],
-        "id_str" : "864655353753088004",
-        "id" : "864655353753088004"
-      } ],
+      "user_mentions" : [ ],
       "urls" : [ {
         "url" : "https://t.co/TdDAmWH7U1",
         "expanded_url" : "https://tomaugspurger.github.io/method-chaining",
@@ -11149,10 +11143,10 @@
       } ]
     },
     "display_text_range" : [ "0", "182" ],
-    "favorite_count" : "35",
+    "favorite_count" : "34",
     "id_str" : "998821755543212033",
     "truncated" : false,
-    "retweet_count" : "13",
+    "retweet_count" : "12",
     "id" : "998821755543212033",
     "possibly_sensitive" : false,
     "created_at" : "Tue May 22 07:03:58 +0000 2018",
@@ -11332,7 +11326,7 @@
       } ]
     },
     "display_text_range" : [ "0", "204" ],
-    "favorite_count" : "64",
+    "favorite_count" : "63",
     "id_str" : "997165361287061504",
     "truncated" : false,
     "retweet_count" : "16",
@@ -11426,7 +11420,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "255" ],
-    "favorite_count" : "117",
+    "favorite_count" : "116",
     "id_str" : "996333363391860737",
     "truncated" : false,
     "retweet_count" : "34",
@@ -11573,7 +11567,7 @@
       } ]
     },
     "display_text_range" : [ "0", "310" ],
-    "favorite_count" : "57",
+    "favorite_count" : "56",
     "id_str" : "994449201739239424",
     "truncated" : false,
     "retweet_count" : "15",
@@ -11650,10 +11644,10 @@
       } ]
     },
     "display_text_range" : [ "0", "279" ],
-    "favorite_count" : "235",
+    "favorite_count" : "232",
     "id_str" : "994073352435314688",
     "truncated" : false,
-    "retweet_count" : "96",
+    "retweet_count" : "95",
     "id" : "994073352435314688",
     "possibly_sensitive" : false,
     "created_at" : "Wed May 09 04:35:30 +0000 2018",
@@ -11749,7 +11743,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "83" ],
-    "favorite_count" : "53",
+    "favorite_count" : "52",
     "id_str" : "1016945324005515264",
     "truncated" : false,
     "retweet_count" : "9",
@@ -11812,10 +11806,10 @@
       } ]
     },
     "display_text_range" : [ "0", "197" ],
-    "favorite_count" : "114",
+    "favorite_count" : "113",
     "id_str" : "1016663178816737282",
     "truncated" : false,
-    "retweet_count" : "35",
+    "retweet_count" : "34",
     "id" : "1016663178816737282",
     "possibly_sensitive" : false,
     "created_at" : "Tue Jul 10 12:39:25 +0000 2018",
@@ -12016,7 +12010,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "157" ],
-    "favorite_count" : "96",
+    "favorite_count" : "95",
     "id_str" : "1015127204320239616",
     "truncated" : false,
     "retweet_count" : "40",
@@ -12086,7 +12080,7 @@
       } ]
     },
     "display_text_range" : [ "0", "234" ],
-    "favorite_count" : "42",
+    "favorite_count" : "43",
     "id_str" : "1014762551857557509",
     "truncated" : false,
     "retweet_count" : "18",
@@ -12258,7 +12252,7 @@
       } ]
     },
     "display_text_range" : [ "0", "130" ],
-    "favorite_count" : "73",
+    "favorite_count" : "72",
     "id_str" : "1013671361259008000",
     "truncated" : false,
     "retweet_count" : "16",
@@ -12331,7 +12325,7 @@
     "favorite_count" : "116",
     "id_str" : "1012325041252552704",
     "truncated" : false,
-    "retweet_count" : "63",
+    "retweet_count" : "62",
     "id" : "1012325041252552704",
     "possibly_sensitive" : false,
     "created_at" : "Thu Jun 28 13:21:12 +0000 2018",
@@ -12359,7 +12353,7 @@
       } ]
     },
     "display_text_range" : [ "0", "199" ],
-    "favorite_count" : "56",
+    "favorite_count" : "55",
     "id_str" : "1011981261978599426",
     "truncated" : false,
     "retweet_count" : "20",
@@ -12463,7 +12457,7 @@
       } ]
     },
     "display_text_range" : [ "0", "271" ],
-    "favorite_count" : "65",
+    "favorite_count" : "64",
     "id_str" : "1010040389263245312",
     "truncated" : false,
     "retweet_count" : "24",
@@ -12524,7 +12518,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "134" ],
-    "favorite_count" : "44",
+    "favorite_count" : "43",
     "id_str" : "1009632246892937217",
     "truncated" : false,
     "retweet_count" : "14",
@@ -12678,7 +12672,7 @@
       "hashtags" : [ ],
       "symbols" : [ ],
       "user_mentions" : [ {
-        "name" : "ichux",
+        "name" : "iChux",
         "screen_name" : "zuoike",
         "indices" : [ "3", "10" ],
         "id_str" : "275625140",
@@ -12876,7 +12870,7 @@
       } ]
     },
     "display_text_range" : [ "0", "172" ],
-    "favorite_count" : "198",
+    "favorite_count" : "197",
     "id_str" : "1008597844662472704",
     "truncated" : false,
     "retweet_count" : "76",
@@ -13181,7 +13175,7 @@
       } ]
     },
     "display_text_range" : [ "0", "194" ],
-    "favorite_count" : "34",
+    "favorite_count" : "33",
     "id_str" : "1006904704201297920",
     "truncated" : false,
     "retweet_count" : "8",
@@ -13253,7 +13247,7 @@
     "favorite_count" : "18",
     "id_str" : "1006525736348454912",
     "truncated" : false,
-    "retweet_count" : "8",
+    "retweet_count" : "7",
     "id" : "1006525736348454912",
     "possibly_sensitive" : false,
     "created_at" : "Tue Jun 12 13:16:50 +0000 2018",
@@ -13276,10 +13270,10 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "291" ],
-    "favorite_count" : "76",
+    "favorite_count" : "75",
     "id_str" : "1006260262117232641",
     "truncated" : false,
-    "retweet_count" : "24",
+    "retweet_count" : "23",
     "id" : "1006260262117232641",
     "created_at" : "Mon Jun 11 19:41:56 +0000 2018",
     "favorited" : false,
@@ -13356,7 +13350,7 @@
       } ]
     },
     "display_text_range" : [ "0", "220" ],
-    "favorite_count" : "38",
+    "favorite_count" : "36",
     "id_str" : "1004994185093496832",
     "truncated" : false,
     "retweet_count" : "15",
@@ -13442,7 +13436,7 @@
     "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
     "entities" : {
       "user_mentions" : [ {
-        "name" : "Piškvor drží opatření,NE VLÁDU! #demisi",
+        "name" : "Maruška Piškvor Vopičková",
         "screen_name" : "piskvor",
         "indices" : [ "146", "154" ],
         "id_str" : "15135430",
@@ -13492,7 +13486,7 @@
     "favorite_count" : "742",
     "id_str" : "1026354685891014656",
     "truncated" : false,
-    "retweet_count" : "385",
+    "retweet_count" : "382",
     "id" : "1026354685891014656",
     "possibly_sensitive" : false,
     "created_at" : "Mon Aug 06 06:30:00 +0000 2018",
@@ -13592,7 +13586,7 @@
       } ]
     },
     "display_text_range" : [ "0", "130" ],
-    "favorite_count" : "22",
+    "favorite_count" : "21",
     "id_str" : "1025262991443259392",
     "truncated" : false,
     "retweet_count" : "6",
@@ -13809,7 +13803,7 @@
       } ]
     },
     "display_text_range" : [ "0", "175" ],
-    "favorite_count" : "66",
+    "favorite_count" : "65",
     "id_str" : "1024912431695454208",
     "truncated" : false,
     "retweet_count" : "24",
@@ -13914,7 +13908,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "302" ],
-    "favorite_count" : "18",
+    "favorite_count" : "17",
     "id_str" : "1024542242885824512",
     "truncated" : false,
     "retweet_count" : "3",
@@ -14219,7 +14213,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "330" ],
-    "favorite_count" : "184",
+    "favorite_count" : "185",
     "id_str" : "1023842213116035073",
     "truncated" : false,
     "retweet_count" : "54",
@@ -14328,7 +14322,7 @@
     "favorite_count" : "75",
     "id_str" : "1022431882183667712",
     "truncated" : false,
-    "retweet_count" : "27",
+    "retweet_count" : "26",
     "id" : "1022431882183667712",
     "created_at" : "Thu Jul 26 10:42:11 +0000 2018",
     "favorited" : false,
@@ -14621,7 +14615,7 @@
       } ]
     },
     "display_text_range" : [ "0", "189" ],
-    "favorite_count" : "64",
+    "favorite_count" : "63",
     "id_str" : "1019459417513738240",
     "truncated" : false,
     "retweet_count" : "28",
@@ -14800,7 +14794,7 @@
       } ],
       "symbols" : [ ],
       "user_mentions" : [ {
-        "name" : "👩‍💻 DynamicWebPaige @ 127.0.0.1 🏠",
+        "name" : "👩‍💻 Paige Bailey @ 127.0.0.1 🏠",
         "screen_name" : "DynamicWebPaige",
         "indices" : [ "16", "32" ],
         "id_str" : "18104734",
@@ -14862,10 +14856,10 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "277" ],
-    "favorite_count" : "134",
+    "favorite_count" : "133",
     "id_str" : "1035407587284602880",
     "truncated" : false,
-    "retweet_count" : "53",
+    "retweet_count" : "52",
     "id" : "1035407587284602880",
     "created_at" : "Fri Aug 31 06:03:00 +0000 2018",
     "favorited" : false,
@@ -14977,10 +14971,10 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "201" ],
-    "favorite_count" : "132",
+    "favorite_count" : "130",
     "id_str" : "1035056020152672256",
     "truncated" : false,
-    "retweet_count" : "47",
+    "retweet_count" : "46",
     "id" : "1035056020152672256",
     "possibly_sensitive" : false,
     "created_at" : "Thu Aug 30 06:46:00 +0000 2018",
@@ -15188,7 +15182,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "187" ],
-    "favorite_count" : "25",
+    "favorite_count" : "24",
     "id_str" : "1034327469581455365",
     "truncated" : false,
     "retweet_count" : "5",
@@ -15356,10 +15350,10 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "304" ],
-    "favorite_count" : "57",
+    "favorite_count" : "56",
     "id_str" : "1033959293580533760",
     "truncated" : false,
-    "retweet_count" : "20",
+    "retweet_count" : "19",
     "id" : "1033959293580533760",
     "possibly_sensitive" : false,
     "created_at" : "Mon Aug 27 06:08:00 +0000 2018",
@@ -15467,7 +15461,7 @@
       } ]
     },
     "display_text_range" : [ "0", "206" ],
-    "favorite_count" : "48",
+    "favorite_count" : "47",
     "id_str" : "1032998115756912641",
     "truncated" : false,
     "retweet_count" : "12",
@@ -15502,7 +15496,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "311" ],
-    "favorite_count" : "93",
+    "favorite_count" : "92",
     "id_str" : "1032682881011916800",
     "truncated" : false,
     "retweet_count" : "27",
@@ -15545,7 +15539,7 @@
     "favorite_count" : "59",
     "id_str" : "1032262965469294592",
     "truncated" : false,
-    "retweet_count" : "18",
+    "retweet_count" : "17",
     "id" : "1032262965469294592",
     "possibly_sensitive" : false,
     "created_at" : "Wed Aug 22 13:47:24 +0000 2018",
@@ -15606,7 +15600,7 @@
       } ]
     },
     "display_text_range" : [ "0", "198" ],
-    "favorite_count" : "45",
+    "favorite_count" : "44",
     "id_str" : "1031878446299922432",
     "truncated" : false,
     "retweet_count" : "8",
@@ -15854,10 +15848,10 @@
       } ]
     },
     "display_text_range" : [ "0", "278" ],
-    "favorite_count" : "86",
+    "favorite_count" : "87",
     "id_str" : "1029973782146904064",
     "truncated" : false,
-    "retweet_count" : "29",
+    "retweet_count" : "28",
     "id" : "1029973782146904064",
     "possibly_sensitive" : false,
     "created_at" : "Thu Aug 16 06:11:00 +0000 2018",
@@ -15951,7 +15945,7 @@
       } ]
     },
     "display_text_range" : [ "0", "110" ],
-    "favorite_count" : "325",
+    "favorite_count" : "326",
     "id_str" : "1029632055284363264",
     "truncated" : false,
     "retweet_count" : "96",
@@ -16048,10 +16042,10 @@
       } ]
     },
     "display_text_range" : [ "0", "227" ],
-    "favorite_count" : "54",
+    "favorite_count" : "53",
     "id_str" : "1029249762942377984",
     "truncated" : false,
-    "retweet_count" : "24",
+    "retweet_count" : "22",
     "id" : "1029249762942377984",
     "possibly_sensitive" : false,
     "created_at" : "Tue Aug 14 06:14:00 +0000 2018",
@@ -16302,7 +16296,7 @@
     "favorite_count" : "107",
     "id_str" : "1027509800391856131",
     "truncated" : false,
-    "retweet_count" : "46",
+    "retweet_count" : "44",
     "id" : "1027509800391856131",
     "possibly_sensitive" : false,
     "created_at" : "Thu Aug 09 11:00:01 +0000 2018",
@@ -16395,7 +16389,7 @@
       } ]
     },
     "display_text_range" : [ "0", "151" ],
-    "favorite_count" : "53",
+    "favorite_count" : "52",
     "id_str" : "1027176351873286144",
     "truncated" : false,
     "retweet_count" : "15",
@@ -17133,7 +17127,7 @@
       } ]
     },
     "display_text_range" : [ "0", "146" ],
-    "favorite_count" : "6",
+    "favorite_count" : "5",
     "id_str" : "851781899387379713",
     "truncated" : false,
     "retweet_count" : "4",
@@ -17483,7 +17477,7 @@
       } ]
     },
     "display_text_range" : [ "0", "256" ],
-    "favorite_count" : "64",
+    "favorite_count" : "63",
     "id_str" : "1046838233429135362",
     "truncated" : false,
     "retweet_count" : "17",
@@ -17577,7 +17571,7 @@
     "favorite_count" : "73",
     "id_str" : "1045569043682320384",
     "truncated" : false,
-    "retweet_count" : "11",
+    "retweet_count" : "10",
     "id" : "1045569043682320384",
     "possibly_sensitive" : false,
     "created_at" : "Fri Sep 28 07:01:00 +0000 2018",
@@ -17645,7 +17639,7 @@
       } ]
     },
     "display_text_range" : [ "0", "225" ],
-    "favorite_count" : "28",
+    "favorite_count" : "27",
     "id_str" : "1045378961218318336",
     "truncated" : false,
     "retweet_count" : "10",
@@ -17678,7 +17672,7 @@
       } ]
     },
     "display_text_range" : [ "0", "206" ],
-    "favorite_count" : "47",
+    "favorite_count" : "46",
     "id_str" : "1044844267708043264",
     "truncated" : false,
     "retweet_count" : "12",
@@ -17738,7 +17732,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "133" ],
-    "favorite_count" : "219",
+    "favorite_count" : "217",
     "id_str" : "1044483137890279424",
     "truncated" : false,
     "retweet_count" : "73",
@@ -17978,7 +17972,7 @@
       } ]
     },
     "display_text_range" : [ "0", "158" ],
-    "favorite_count" : "164",
+    "favorite_count" : "162",
     "id_str" : "1043257783628361728",
     "truncated" : false,
     "retweet_count" : "57",
@@ -18056,7 +18050,7 @@
       } ]
     },
     "display_text_range" : [ "0", "140" ],
-    "favorite_count" : "23",
+    "favorite_count" : "22",
     "id_str" : "1042829817090064386",
     "truncated" : false,
     "retweet_count" : "6",
@@ -18088,7 +18082,7 @@
     "favorite_count" : "195",
     "id_str" : "1042396175968677888",
     "truncated" : false,
-    "retweet_count" : "66",
+    "retweet_count" : "65",
     "id" : "1042396175968677888",
     "created_at" : "Wed Sep 19 12:53:09 +0000 2018",
     "favorited" : false,
@@ -18180,10 +18174,10 @@
       } ]
     },
     "display_text_range" : [ "0", "152" ],
-    "favorite_count" : "106",
+    "favorite_count" : "104",
     "id_str" : "1041606233894133760",
     "truncated" : false,
-    "retweet_count" : "31",
+    "retweet_count" : "30",
     "id" : "1041606233894133760",
     "possibly_sensitive" : false,
     "created_at" : "Mon Sep 17 08:34:12 +0000 2018",
@@ -18375,10 +18369,10 @@
       } ]
     },
     "display_text_range" : [ "0", "250" ],
-    "favorite_count" : "112",
+    "favorite_count" : "111",
     "id_str" : "1040117874013089792",
     "truncated" : false,
-    "retweet_count" : "27",
+    "retweet_count" : "26",
     "id" : "1040117874013089792",
     "possibly_sensitive" : false,
     "created_at" : "Thu Sep 13 06:00:00 +0000 2018",
@@ -18864,7 +18858,7 @@
       } ]
     },
     "display_text_range" : [ "0", "200" ],
-    "favorite_count" : "58",
+    "favorite_count" : "56",
     "id_str" : "1037353846719356928",
     "truncated" : false,
     "retweet_count" : "20",
@@ -18963,10 +18957,10 @@
       } ]
     },
     "display_text_range" : [ "0", "98" ],
-    "favorite_count" : "61",
+    "favorite_count" : "60",
     "id_str" : "1036935333340950529",
     "truncated" : false,
-    "retweet_count" : "13",
+    "retweet_count" : "12",
     "id" : "1036935333340950529",
     "possibly_sensitive" : false,
     "created_at" : "Tue Sep 04 11:13:43 +0000 2018",
@@ -19049,7 +19043,7 @@
       "hashtags" : [ ],
       "symbols" : [ ],
       "user_mentions" : [ {
-        "name" : "ichux",
+        "name" : "iChux",
         "screen_name" : "zuoike",
         "indices" : [ "3", "10" ],
         "id_str" : "275625140",
@@ -19169,10 +19163,10 @@
       } ]
     },
     "display_text_range" : [ "0", "279" ],
-    "favorite_count" : "42",
+    "favorite_count" : "41",
     "id_str" : "1055350870617903104",
     "truncated" : false,
-    "retweet_count" : "14",
+    "retweet_count" : "13",
     "id" : "1055350870617903104",
     "possibly_sensitive" : false,
     "created_at" : "Thu Oct 25 06:50:29 +0000 2018",
@@ -19189,7 +19183,7 @@
       "hashtags" : [ ],
       "symbols" : [ ],
       "user_mentions" : [ {
-        "name" : "Kelechi C Emenike #PyDataCo",
+        "name" : "#PyDataCo #5for5",
         "screen_name" : "kcemenike",
         "indices" : [ "3", "13" ],
         "id_str" : "70899039",
@@ -19296,10 +19290,10 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "160" ],
-    "favorite_count" : "434",
+    "favorite_count" : "433",
     "id_str" : "1054607253251088384",
     "truncated" : false,
-    "retweet_count" : "161",
+    "retweet_count" : "160",
     "id" : "1054607253251088384",
     "created_at" : "Tue Oct 23 05:35:37 +0000 2018",
     "favorited" : false,
@@ -19453,7 +19447,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "152" ],
-    "favorite_count" : "74",
+    "favorite_count" : "73",
     "id_str" : "1053352156487671808",
     "truncated" : false,
     "retweet_count" : "20",
@@ -19477,10 +19471,10 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "238" ],
-    "favorite_count" : "142",
+    "favorite_count" : "139",
     "id_str" : "1052916751980212225",
     "truncated" : false,
-    "retweet_count" : "43",
+    "retweet_count" : "44",
     "id" : "1052916751980212225",
     "created_at" : "Thu Oct 18 13:38:10 +0000 2018",
     "favorited" : false,
@@ -19535,7 +19529,7 @@
       } ]
     },
     "display_text_range" : [ "0", "169" ],
-    "favorite_count" : "60",
+    "favorite_count" : "59",
     "id_str" : "1052583379529596929",
     "truncated" : false,
     "retweet_count" : "15",
@@ -19948,10 +19942,10 @@
       } ]
     },
     "display_text_range" : [ "0", "275" ],
-    "favorite_count" : "42",
+    "favorite_count" : "41",
     "id_str" : "1050280088510423042",
     "truncated" : false,
-    "retweet_count" : "16",
+    "retweet_count" : "15",
     "id" : "1050280088510423042",
     "possibly_sensitive" : false,
     "created_at" : "Thu Oct 11 07:01:01 +0000 2018",
@@ -20154,7 +20148,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "46" ],
-    "favorite_count" : "15",
+    "favorite_count" : "14",
     "in_reply_to_status_id_str" : "1048288346693423105",
     "id_str" : "1048289177681481729",
     "in_reply_to_user_id" : "827002120373207040",
@@ -20220,10 +20214,10 @@
       } ]
     },
     "display_text_range" : [ "0", "131" ],
-    "favorite_count" : "54",
+    "favorite_count" : "53",
     "id_str" : "1048288346693423105",
     "truncated" : false,
-    "retweet_count" : "11",
+    "retweet_count" : "10",
     "id" : "1048288346693423105",
     "possibly_sensitive" : false,
     "created_at" : "Fri Oct 05 19:06:32 +0000 2018",
@@ -20311,7 +20305,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "196" ],
-    "favorite_count" : "132",
+    "favorite_count" : "131",
     "id_str" : "1047839410321084416",
     "truncated" : false,
     "retweet_count" : "34",
@@ -20408,7 +20402,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "286" ],
-    "favorite_count" : "166",
+    "favorite_count" : "165",
     "id_str" : "1047526246656225280",
     "truncated" : false,
     "retweet_count" : "39",
@@ -20452,7 +20446,7 @@
       } ]
     },
     "display_text_range" : [ "0", "133" ],
-    "favorite_count" : "30",
+    "favorite_count" : "29",
     "id_str" : "1047128390103420928",
     "truncated" : false,
     "retweet_count" : "11",
@@ -20730,10 +20724,10 @@
       } ]
     },
     "display_text_range" : [ "0", "272" ],
-    "favorite_count" : "139",
+    "favorite_count" : "136",
     "id_str" : "1065380586435555329",
     "truncated" : false,
-    "retweet_count" : "43",
+    "retweet_count" : "42",
     "id" : "1065380586435555329",
     "possibly_sensitive" : false,
     "created_at" : "Wed Nov 21 23:05:00 +0000 2018",
@@ -20756,7 +20750,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "170" ],
-    "favorite_count" : "56",
+    "favorite_count" : "55",
     "id_str" : "1065017192536633345",
     "truncated" : false,
     "retweet_count" : "11",
@@ -20877,7 +20871,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "189" ],
-    "favorite_count" : "46",
+    "favorite_count" : "45",
     "id_str" : "1064288596356726784",
     "truncated" : false,
     "retweet_count" : "11",
@@ -20902,7 +20896,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "160" ],
-    "favorite_count" : "71",
+    "favorite_count" : "70",
     "id_str" : "1063446102572179456",
     "truncated" : false,
     "retweet_count" : "17",
@@ -20929,7 +20923,7 @@
       } ]
     },
     "display_text_range" : [ "0", "280" ],
-    "favorite_count" : "126",
+    "favorite_count" : "125",
     "id_str" : "1063340121410478080",
     "truncated" : false,
     "retweet_count" : "31",
@@ -21392,10 +21386,10 @@
       } ]
     },
     "display_text_range" : [ "0", "304" ],
-    "favorite_count" : "56",
+    "favorite_count" : "55",
     "id_str" : "1060083003794182144",
     "truncated" : false,
-    "retweet_count" : "12",
+    "retweet_count" : "11",
     "id" : "1060083003794182144",
     "possibly_sensitive" : false,
     "created_at" : "Wed Nov 07 08:14:18 +0000 2018",
@@ -21497,7 +21491,7 @@
     "favorite_count" : "50",
     "id_str" : "1059717269809455105",
     "truncated" : false,
-    "retweet_count" : "14",
+    "retweet_count" : "13",
     "id" : "1059717269809455105",
     "possibly_sensitive" : false,
     "created_at" : "Tue Nov 06 08:01:00 +0000 2018",
@@ -21589,7 +21583,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "284" ],
-    "favorite_count" : "137",
+    "favorite_count" : "136",
     "id_str" : "1058856295854264320",
     "truncated" : false,
     "retweet_count" : "52",
@@ -21715,7 +21709,7 @@
       } ]
     },
     "display_text_range" : [ "0", "227" ],
-    "favorite_count" : "67",
+    "favorite_count" : "66",
     "id_str" : "1058474244873601026",
     "truncated" : false,
     "retweet_count" : "16",
@@ -22038,7 +22032,7 @@
       } ]
     },
     "display_text_range" : [ "0", "188" ],
-    "favorite_count" : "120",
+    "favorite_count" : "117",
     "id_str" : "1056928098246184960",
     "truncated" : false,
     "retweet_count" : "34",
@@ -22305,7 +22299,7 @@
     "favorite_count" : "36",
     "id_str" : "1077283605444001793",
     "truncated" : false,
-    "retweet_count" : "3",
+    "retweet_count" : "4",
     "id" : "1077283605444001793",
     "possibly_sensitive" : false,
     "created_at" : "Mon Dec 24 19:23:21 +0000 2018",
@@ -22415,10 +22409,10 @@
       } ]
     },
     "display_text_range" : [ "0", "135" ],
-    "favorite_count" : "81",
+    "favorite_count" : "78",
     "id_str" : "1076013147142610944",
     "truncated" : false,
-    "retweet_count" : "26",
+    "retweet_count" : "25",
     "id" : "1076013147142610944",
     "possibly_sensitive" : false,
     "created_at" : "Fri Dec 21 07:15:00 +0000 2018",
@@ -22648,10 +22642,10 @@
       } ]
     },
     "display_text_range" : [ "0", "131" ],
-    "favorite_count" : "53",
+    "favorite_count" : "51",
     "id_str" : "1075334585972609024",
     "truncated" : false,
-    "retweet_count" : "17",
+    "retweet_count" : "16",
     "id" : "1075334585972609024",
     "possibly_sensitive" : false,
     "created_at" : "Wed Dec 19 10:18:38 +0000 2018",
@@ -22962,7 +22956,7 @@
       } ]
     },
     "display_text_range" : [ "0", "246" ],
-    "favorite_count" : "38",
+    "favorite_count" : "37",
     "id_str" : "1071187630551912448",
     "truncated" : false,
     "retweet_count" : "13",
@@ -23028,7 +23022,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "271" ],
-    "favorite_count" : "36",
+    "favorite_count" : "35",
     "id_str" : "1070815901740621824",
     "truncated" : false,
     "retweet_count" : "12",
@@ -23153,7 +23147,7 @@
     "favorite_count" : "42",
     "id_str" : "1070107248523952128",
     "truncated" : false,
-    "retweet_count" : "24",
+    "retweet_count" : "23",
     "id" : "1070107248523952128",
     "possibly_sensitive" : false,
     "created_at" : "Wed Dec 05 00:07:04 +0000 2018",
@@ -23252,7 +23246,7 @@
       } ]
     },
     "display_text_range" : [ "0", "211" ],
-    "favorite_count" : "70",
+    "favorite_count" : "69",
     "id_str" : "1069728260077031424",
     "truncated" : false,
     "retweet_count" : "27",
@@ -23551,7 +23545,7 @@
     "favorite_count" : "46",
     "id_str" : "1090271399715827715",
     "truncated" : false,
-    "retweet_count" : "16",
+    "retweet_count" : "15",
     "id" : "1090271399715827715",
     "possibly_sensitive" : false,
     "created_at" : "Tue Jan 29 15:32:12 +0000 2019",
@@ -23785,10 +23779,10 @@
       } ]
     },
     "display_text_range" : [ "0", "273" ],
-    "favorite_count" : "74",
+    "favorite_count" : "73",
     "id_str" : "1087484736430395392",
     "truncated" : false,
-    "retweet_count" : "19",
+    "retweet_count" : "18",
     "id" : "1087484736430395392",
     "possibly_sensitive" : false,
     "created_at" : "Mon Jan 21 22:59:00 +0000 2019",
@@ -23986,10 +23980,10 @@
       } ]
     },
     "display_text_range" : [ "0", "195" ],
-    "favorite_count" : "55",
+    "favorite_count" : "54",
     "id_str" : "1087139487816302592",
     "truncated" : false,
-    "retweet_count" : "12",
+    "retweet_count" : "11",
     "id" : "1087139487816302592",
     "possibly_sensitive" : false,
     "created_at" : "Mon Jan 21 00:07:06 +0000 2019",
@@ -24045,7 +24039,7 @@
     "favorite_count" : "79",
     "id_str" : "1085987380790726658",
     "truncated" : false,
-    "retweet_count" : "27",
+    "retweet_count" : "26",
     "id" : "1085987380790726658",
     "created_at" : "Thu Jan 17 19:49:02 +0000 2019",
     "favorited" : false,
@@ -24303,7 +24297,7 @@
       } ]
     },
     "display_text_range" : [ "0", "223" ],
-    "favorite_count" : "47",
+    "favorite_count" : "46",
     "id_str" : "1083498973313155074",
     "truncated" : false,
     "retweet_count" : "12",
@@ -24339,7 +24333,7 @@
       } ]
     },
     "display_text_range" : [ "0", "311" ],
-    "favorite_count" : "74",
+    "favorite_count" : "75",
     "id_str" : "1083136585829359618",
     "truncated" : false,
     "retweet_count" : "31",
@@ -24370,7 +24364,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "163" ],
-    "favorite_count" : "128",
+    "favorite_count" : "127",
     "id_str" : "1082774197611495426",
     "truncated" : false,
     "retweet_count" : "35",
@@ -24463,7 +24457,7 @@
       } ]
     },
     "display_text_range" : [ "0", "294" ],
-    "favorite_count" : "33",
+    "favorite_count" : "32",
     "id_str" : "1082654235932741634",
     "truncated" : false,
     "retweet_count" : "6",
@@ -24548,7 +24542,7 @@
       } ]
     },
     "display_text_range" : [ "0", "167" ],
-    "favorite_count" : "85",
+    "favorite_count" : "84",
     "id_str" : "1081297369893871616",
     "truncated" : false,
     "retweet_count" : "18",
@@ -24622,7 +24616,7 @@
       } ]
     },
     "display_text_range" : [ "0", "186" ],
-    "favorite_count" : "34",
+    "favorite_count" : "33",
     "id_str" : "1080560924258373632",
     "truncated" : false,
     "retweet_count" : "5",
@@ -24661,7 +24655,7 @@
       } ]
     },
     "display_text_range" : [ "0", "274" ],
-    "favorite_count" : "144",
+    "favorite_count" : "143",
     "id_str" : "1080200666369441792",
     "truncated" : false,
     "retweet_count" : "44",
@@ -24728,7 +24722,7 @@
       } ]
     },
     "display_text_range" : [ "0", "223" ],
-    "favorite_count" : "99",
+    "favorite_count" : "98",
     "id_str" : "1101218800635129864",
     "truncated" : false,
     "retweet_count" : "29",
@@ -24837,7 +24831,7 @@
       } ]
     },
     "display_text_range" : [ "0", "181" ],
-    "favorite_count" : "80",
+    "favorite_count" : "81",
     "id_str" : "1100786859817414656",
     "truncated" : false,
     "retweet_count" : "28",
@@ -24909,7 +24903,7 @@
     "favorite_count" : "47",
     "id_str" : "1100419891939758080",
     "truncated" : false,
-    "retweet_count" : "18",
+    "retweet_count" : "17",
     "id" : "1100419891939758080",
     "created_at" : "Tue Feb 26 15:38:41 +0000 2019",
     "favorited" : false,
@@ -25084,10 +25078,10 @@
       } ]
     },
     "display_text_range" : [ "0", "119" ],
-    "favorite_count" : "48",
+    "favorite_count" : "47",
     "id_str" : "1098356875823697920",
     "truncated" : false,
-    "retweet_count" : "17",
+    "retweet_count" : "16",
     "id" : "1098356875823697920",
     "possibly_sensitive" : false,
     "created_at" : "Wed Feb 20 23:01:00 +0000 2019",
@@ -25153,7 +25147,7 @@
       } ]
     },
     "display_text_range" : [ "0", "258" ],
-    "favorite_count" : "83",
+    "favorite_count" : "82",
     "id_str" : "1097632100323377152",
     "truncated" : false,
     "retweet_count" : "38",
@@ -25264,10 +25258,10 @@
       } ]
     },
     "display_text_range" : [ "0", "274" ],
-    "favorite_count" : "43",
+    "favorite_count" : "42",
     "id_str" : "1097269712705052673",
     "truncated" : false,
-    "retweet_count" : "15",
+    "retweet_count" : "14",
     "id" : "1097269712705052673",
     "possibly_sensitive" : false,
     "created_at" : "Sun Feb 17 23:01:00 +0000 2019",
@@ -25331,7 +25325,7 @@
       } ]
     },
     "display_text_range" : [ "0", "96" ],
-    "favorite_count" : "47",
+    "favorite_count" : "46",
     "id_str" : "1096448758802509824",
     "truncated" : false,
     "retweet_count" : "8",
@@ -26392,10 +26386,10 @@
       } ]
     },
     "display_text_range" : [ "0", "195" ],
-    "favorite_count" : "141",
+    "favorite_count" : "140",
     "id_str" : "1091069962570088448",
     "truncated" : false,
-    "retweet_count" : "45",
+    "retweet_count" : "44",
     "id" : "1091069962570088448",
     "possibly_sensitive" : false,
     "created_at" : "Thu Jan 31 20:25:24 +0000 2019",
@@ -26669,7 +26663,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "214" ],
-    "favorite_count" : "113",
+    "favorite_count" : "112",
     "id_str" : "1110598681517015041",
     "truncated" : false,
     "retweet_count" : "27",
@@ -26729,7 +26723,7 @@
       } ]
     },
     "display_text_range" : [ "0", "148" ],
-    "favorite_count" : "116",
+    "favorite_count" : "114",
     "id_str" : "1110280631802576902",
     "truncated" : false,
     "retweet_count" : "26",
@@ -27019,7 +27013,7 @@
       } ]
     },
     "display_text_range" : [ "0", "294" ],
-    "favorite_count" : "65",
+    "favorite_count" : "64",
     "id_str" : "1107917164542074880",
     "truncated" : false,
     "retweet_count" : "19",
@@ -27197,7 +27191,7 @@
       } ]
     },
     "display_text_range" : [ "0", "168" ],
-    "favorite_count" : "67",
+    "favorite_count" : "65",
     "id_str" : "1106228439131009024",
     "truncated" : false,
     "retweet_count" : "13",
@@ -27403,7 +27397,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "125" ],
-    "favorite_count" : "143",
+    "favorite_count" : "141",
     "id_str" : "1105473155139846144",
     "truncated" : false,
     "retweet_count" : "40",
@@ -27574,7 +27568,7 @@
       } ]
     },
     "display_text_range" : [ "0", "201" ],
-    "favorite_count" : "53",
+    "favorite_count" : "52",
     "id_str" : "1103792192718548992",
     "truncated" : false,
     "retweet_count" : "15",
@@ -27673,7 +27667,7 @@
       } ]
     },
     "display_text_range" : [ "0", "292" ],
-    "favorite_count" : "71",
+    "favorite_count" : "70",
     "id_str" : "1103242802861871104",
     "truncated" : false,
     "retweet_count" : "27",
@@ -27935,7 +27929,7 @@
       } ]
     },
     "display_text_range" : [ "0", "329" ],
-    "favorite_count" : "95",
+    "favorite_count" : "93",
     "id_str" : "1121020021357076482",
     "truncated" : false,
     "retweet_count" : "24",
@@ -27997,7 +27991,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "92" ],
-    "favorite_count" : "69",
+    "favorite_count" : "68",
     "id_str" : "1120301900509908994",
     "truncated" : false,
     "retweet_count" : "9",
@@ -28029,10 +28023,10 @@
       } ]
     },
     "display_text_range" : [ "0", "112" ],
-    "favorite_count" : "74",
+    "favorite_count" : "73",
     "id_str" : "1118998136922439683",
     "truncated" : false,
-    "retweet_count" : "24",
+    "retweet_count" : "23",
     "id" : "1118998136922439683",
     "possibly_sensitive" : false,
     "created_at" : "Thu Apr 18 22:02:00 +0000 2019",
@@ -28099,7 +28093,7 @@
     "favorite_count" : "63",
     "id_str" : "1118636503238754304",
     "truncated" : false,
-    "retweet_count" : "19",
+    "retweet_count" : "18",
     "id" : "1118636503238754304",
     "possibly_sensitive" : false,
     "created_at" : "Wed Apr 17 22:05:00 +0000 2019",
@@ -28322,7 +28316,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "333" ],
-    "favorite_count" : "45",
+    "favorite_count" : "44",
     "id_str" : "1117916509224022018",
     "truncated" : false,
     "retweet_count" : "14",
@@ -28431,7 +28425,7 @@
       } ]
     },
     "display_text_range" : [ "0", "140" ],
-    "favorite_count" : "46",
+    "favorite_count" : "47",
     "id_str" : "1117548333323694080",
     "truncated" : false,
     "retweet_count" : "5",
@@ -28461,7 +28455,7 @@
       } ]
     },
     "display_text_range" : [ "0", "149" ],
-    "favorite_count" : "51",
+    "favorite_count" : "50",
     "id_str" : "1116793992430018560",
     "truncated" : false,
     "retweet_count" : "7",
@@ -28524,7 +28518,7 @@
       } ]
     },
     "display_text_range" : [ "0", "157" ],
-    "favorite_count" : "37",
+    "favorite_count" : "35",
     "id_str" : "1116283605368606721",
     "truncated" : false,
     "retweet_count" : "8",
@@ -28732,7 +28726,7 @@
       } ]
     },
     "display_text_range" : [ "0", "325" ],
-    "favorite_count" : "91",
+    "favorite_count" : "90",
     "id_str" : "1115630193702395904",
     "truncated" : false,
     "retweet_count" : "17",
@@ -29047,7 +29041,7 @@
       } ]
     },
     "display_text_range" : [ "0", "133" ],
-    "favorite_count" : "45",
+    "favorite_count" : "44",
     "id_str" : "1113200182114574340",
     "truncated" : false,
     "retweet_count" : "9",
@@ -29526,7 +29520,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "250" ],
-    "favorite_count" : "49",
+    "favorite_count" : "48",
     "id_str" : "1129452958628941830",
     "truncated" : false,
     "retweet_count" : "8",
@@ -29798,10 +29792,10 @@
       } ]
     },
     "display_text_range" : [ "0", "115" ],
-    "favorite_count" : "63",
+    "favorite_count" : "62",
     "id_str" : "1128540764852506625",
     "truncated" : false,
-    "retweet_count" : "13",
+    "retweet_count" : "12",
     "id" : "1128540764852506625",
     "possibly_sensitive" : false,
     "created_at" : "Wed May 15 06:01:00 +0000 2019",
@@ -29961,7 +29955,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "137" ],
-    "favorite_count" : "129",
+    "favorite_count" : "127",
     "id_str" : "1126967452859019264",
     "truncated" : false,
     "retweet_count" : "27",
@@ -30010,7 +30004,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "244" ],
-    "favorite_count" : "112",
+    "favorite_count" : "110",
     "id_str" : "1126235819109429248",
     "truncated" : false,
     "retweet_count" : "21",
@@ -30037,7 +30031,7 @@
       } ]
     },
     "display_text_range" : [ "0", "309" ],
-    "favorite_count" : "41",
+    "favorite_count" : "39",
     "id_str" : "1125862732002136078",
     "truncated" : false,
     "retweet_count" : "10",
@@ -30068,7 +30062,7 @@
       } ]
     },
     "display_text_range" : [ "0", "149" ],
-    "favorite_count" : "57",
+    "favorite_count" : "56",
     "id_str" : "1125499437105786881",
     "truncated" : false,
     "retweet_count" : "12",
@@ -30163,7 +30157,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "102" ],
-    "favorite_count" : "35",
+    "favorite_count" : "34",
     "id_str" : "1124235310391529472",
     "truncated" : false,
     "retweet_count" : "11",
@@ -30406,7 +30400,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "173" ],
-    "favorite_count" : "81",
+    "favorite_count" : "80",
     "id_str" : "1123829473512759296",
     "truncated" : false,
     "retweet_count" : "21",
@@ -30468,7 +30462,7 @@
       } ]
     },
     "display_text_range" : [ "0", "203" ],
-    "favorite_count" : "158",
+    "favorite_count" : "157",
     "id_str" : "1123464314579329024",
     "truncated" : false,
     "retweet_count" : "40",
@@ -30562,7 +30556,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "205" ],
-    "favorite_count" : "53",
+    "favorite_count" : "52",
     "id_str" : "1123104697248833537",
     "truncated" : false,
     "retweet_count" : "9",
@@ -30683,7 +30677,7 @@
       } ]
     },
     "display_text_range" : [ "0", "133" ],
-    "favorite_count" : "252",
+    "favorite_count" : "251",
     "id_str" : "1121722631231815683",
     "truncated" : false,
     "retweet_count" : "40",
@@ -30744,7 +30738,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "172" ],
-    "favorite_count" : "127",
+    "favorite_count" : "124",
     "id_str" : "1121499642011758593",
     "truncated" : false,
     "retweet_count" : "28",
@@ -30905,7 +30899,7 @@
       } ]
     },
     "display_text_range" : [ "0", "66" ],
-    "favorite_count" : "20",
+    "favorite_count" : "19",
     "id_str" : "1140686445771988992",
     "truncated" : false,
     "retweet_count" : "7",
@@ -30957,7 +30951,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "294" ],
-    "favorite_count" : "47",
+    "favorite_count" : "46",
     "id_str" : "1139049762349563904",
     "truncated" : false,
     "retweet_count" : "9",
@@ -30981,7 +30975,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "155" ],
-    "favorite_count" : "44",
+    "favorite_count" : "43",
     "id_str" : "1138687374710284289",
     "truncated" : false,
     "retweet_count" : "8",
@@ -31016,7 +31010,7 @@
       } ]
     },
     "display_text_range" : [ "0", "104" ],
-    "favorite_count" : "14",
+    "favorite_count" : "13",
     "id_str" : "1138324985963876352",
     "truncated" : false,
     "retweet_count" : "1",
@@ -31079,7 +31073,7 @@
     "favorite_count" : "320",
     "id_str" : "1137962597423013888",
     "truncated" : false,
-    "retweet_count" : "92",
+    "retweet_count" : "93",
     "id" : "1137962597423013888",
     "possibly_sensitive" : false,
     "created_at" : "Mon Jun 10 06:00:00 +0000 2019",
@@ -31174,10 +31168,10 @@
       } ]
     },
     "display_text_range" : [ "0", "178" ],
-    "favorite_count" : "98",
+    "favorite_count" : "97",
     "id_str" : "1137260736093282304",
     "truncated" : false,
-    "retweet_count" : "34",
+    "retweet_count" : "33",
     "id" : "1137260736093282304",
     "possibly_sensitive" : false,
     "created_at" : "Sat Jun 08 07:31:03 +0000 2019",
@@ -31341,7 +31335,7 @@
       "hashtags" : [ ],
       "symbols" : [ ],
       "user_mentions" : [ {
-        "name" : "Łukasz Langa",
+        "name" : "Łukasz Langa ⚡️",
         "screen_name" : "llanga",
         "indices" : [ "3", "10" ],
         "id_str" : "47967527",
@@ -31454,7 +31448,7 @@
       } ]
     },
     "display_text_range" : [ "0", "176" ],
-    "favorite_count" : "51",
+    "favorite_count" : "50",
     "id_str" : "1135569280978870272",
     "truncated" : false,
     "retweet_count" : "9",
@@ -31561,7 +31555,7 @@
       } ]
     },
     "display_text_range" : [ "0", "179" ],
-    "favorite_count" : "46",
+    "favorite_count" : "45",
     "id_str" : "1134338720356847616",
     "truncated" : false,
     "retweet_count" : "7",
@@ -31662,7 +31656,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "193" ],
-    "favorite_count" : "57",
+    "favorite_count" : "58",
     "id_str" : "1133976331488768000",
     "truncated" : false,
     "retweet_count" : "5",
@@ -31688,10 +31682,10 @@
       } ]
     },
     "display_text_range" : [ "0", "249" ],
-    "favorite_count" : "122",
+    "favorite_count" : "121",
     "id_str" : "1133613943178420224",
     "truncated" : false,
-    "retweet_count" : "38",
+    "retweet_count" : "37",
     "id" : "1133613943178420224",
     "possibly_sensitive" : false,
     "created_at" : "Wed May 29 06:00:00 +0000 2019",
@@ -31789,7 +31783,7 @@
       } ]
     },
     "display_text_range" : [ "0", "322" ],
-    "favorite_count" : "86",
+    "favorite_count" : "87",
     "id_str" : "1132889167304597504",
     "truncated" : false,
     "retweet_count" : "20",
@@ -31857,7 +31851,7 @@
       } ]
     },
     "display_text_range" : [ "0", "70" ],
-    "favorite_count" : "54",
+    "favorite_count" : "53",
     "id_str" : "1132267097277566977",
     "truncated" : false,
     "retweet_count" : "17",
@@ -31882,7 +31876,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "170" ],
-    "favorite_count" : "94",
+    "favorite_count" : "95",
     "id_str" : "1131672706213130240",
     "truncated" : false,
     "retweet_count" : "11",
@@ -31955,7 +31949,7 @@
     "favorite_count" : "107",
     "id_str" : "1131217626770882560",
     "truncated" : false,
-    "retweet_count" : "22",
+    "retweet_count" : "21",
     "id" : "1131217626770882560",
     "possibly_sensitive" : false,
     "created_at" : "Wed May 22 15:17:53 +0000 2019",
@@ -32237,7 +32231,7 @@
       } ]
     },
     "display_text_range" : [ "0", "121" ],
-    "favorite_count" : "59",
+    "favorite_count" : "58",
     "id_str" : "866518988867555328",
     "truncated" : false,
     "retweet_count" : "51",
@@ -32306,7 +32300,7 @@
       } ]
     },
     "display_text_range" : [ "0", "97" ],
-    "favorite_count" : "7",
+    "favorite_count" : "6",
     "id_str" : "865493734028226561",
     "truncated" : false,
     "retweet_count" : "2",
@@ -32992,7 +32986,7 @@
       } ]
     },
     "display_text_range" : [ "0", "138" ],
-    "favorite_count" : "8",
+    "favorite_count" : "7",
     "id_str" : "857806835180605440",
     "truncated" : false,
     "retweet_count" : "4",
@@ -33148,7 +33142,7 @@
       } ]
     },
     "display_text_range" : [ "0", "171" ],
-    "favorite_count" : "60",
+    "favorite_count" : "59",
     "id_str" : "1153182889271365634",
     "truncated" : false,
     "retweet_count" : "11",
@@ -33249,7 +33243,7 @@
       } ]
     },
     "display_text_range" : [ "0", "117" ],
-    "favorite_count" : "153",
+    "favorite_count" : "152",
     "id_str" : "1152327599336517632",
     "truncated" : false,
     "retweet_count" : "23",
@@ -33344,10 +33338,10 @@
       } ]
     },
     "display_text_range" : [ "0", "209" ],
-    "favorite_count" : "84",
+    "favorite_count" : "96",
     "id_str" : "1151584666866081792",
     "truncated" : false,
-    "retweet_count" : "29",
+    "retweet_count" : "32",
     "id" : "1151584666866081792",
     "possibly_sensitive" : false,
     "created_at" : "Wed Jul 17 20:09:14 +0000 2019",
@@ -33407,7 +33401,7 @@
       } ]
     },
     "display_text_range" : [ "0", "241" ],
-    "favorite_count" : "52",
+    "favorite_count" : "51",
     "id_str" : "1151091868328955904",
     "truncated" : false,
     "retweet_count" : "10",
@@ -33543,7 +33537,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "239" ],
-    "favorite_count" : "97",
+    "favorite_count" : "96",
     "id_str" : "1149565847054233600",
     "truncated" : false,
     "retweet_count" : "18",
@@ -33659,7 +33653,7 @@
     "favorite_count" : "47",
     "id_str" : "1149104601305665536",
     "truncated" : false,
-    "retweet_count" : "11",
+    "retweet_count" : "10",
     "id" : "1149104601305665536",
     "possibly_sensitive" : false,
     "created_at" : "Wed Jul 10 23:54:20 +0000 2019",
@@ -33796,7 +33790,7 @@
       } ]
     },
     "display_text_range" : [ "0", "302" ],
-    "favorite_count" : "153",
+    "favorite_count" : "152",
     "id_str" : "1148819134500577284",
     "truncated" : false,
     "retweet_count" : "31",
@@ -33867,7 +33861,7 @@
       } ]
     },
     "display_text_range" : [ "0", "113" ],
-    "favorite_count" : "65",
+    "favorite_count" : "64",
     "id_str" : "1148354152260612097",
     "truncated" : false,
     "retweet_count" : "9",
@@ -33884,7 +33878,7 @@
     "source" : "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
     "entities" : {
       "user_mentions" : [ {
-        "name" : "Jassim Alammar",
+        "name" : "Foxlock87",
         "screen_name" : "JAlammar",
         "indices" : [ "28", "37" ],
         "id_str" : "1251900423306387456",
@@ -33936,10 +33930,10 @@
       } ]
     },
     "display_text_range" : [ "0", "87" ],
-    "favorite_count" : "88",
+    "favorite_count" : "87",
     "id_str" : "1148020517523337217",
     "truncated" : false,
-    "retweet_count" : "26",
+    "retweet_count" : "25",
     "id" : "1148020517523337217",
     "possibly_sensitive" : false,
     "created_at" : "Mon Jul 08 00:06:35 +0000 2019",
@@ -34138,7 +34132,7 @@
     "favorite_count" : "48",
     "id_str" : "1147265067538419713",
     "truncated" : false,
-    "retweet_count" : "12",
+    "retweet_count" : "11",
     "id" : "1147265067538419713",
     "possibly_sensitive" : false,
     "created_at" : "Fri Jul 05 22:04:41 +0000 2019",
@@ -34195,7 +34189,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "291" ],
-    "favorite_count" : "84",
+    "favorite_count" : "83",
     "id_str" : "1146899187176546304",
     "truncated" : false,
     "retweet_count" : "21",
@@ -34246,7 +34240,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "159" ],
-    "favorite_count" : "50",
+    "favorite_count" : "49",
     "id_str" : "1146276591913381889",
     "truncated" : false,
     "retweet_count" : "8",
@@ -34306,7 +34300,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "314" ],
-    "favorite_count" : "89",
+    "favorite_count" : "88",
     "id_str" : "1144477023038914561",
     "truncated" : false,
     "retweet_count" : "12",
@@ -34368,7 +34362,7 @@
     "favorite_count" : "133",
     "id_str" : "1144110860039852033",
     "truncated" : false,
-    "retweet_count" : "41",
+    "retweet_count" : "40",
     "id" : "1144110860039852033",
     "possibly_sensitive" : false,
     "created_at" : "Thu Jun 27 05:11:00 +0000 2019",
@@ -34445,7 +34439,7 @@
       } ]
     },
     "display_text_range" : [ "0", "238" ],
-    "favorite_count" : "86",
+    "favorite_count" : "85",
     "id_str" : "1143754763449749505",
     "truncated" : false,
     "retweet_count" : "13",
@@ -34525,7 +34519,7 @@
       } ]
     },
     "display_text_range" : [ "0", "176" ],
-    "favorite_count" : "39",
+    "favorite_count" : "38",
     "id_str" : "1143489172537262080",
     "truncated" : false,
     "retweet_count" : "3",
@@ -34741,7 +34735,7 @@
       } ]
     },
     "display_text_range" : [ "0", "163" ],
-    "favorite_count" : "93",
+    "favorite_count" : "92",
     "id_str" : "1143079911990681600",
     "truncated" : false,
     "retweet_count" : "23",
@@ -34875,7 +34869,7 @@
       } ]
     },
     "display_text_range" : [ "0", "124" ],
-    "favorite_count" : "68",
+    "favorite_count" : "67",
     "id_str" : "1142088088153403398",
     "truncated" : false,
     "retweet_count" : "14",
@@ -34983,7 +34977,7 @@
     "favorite_count" : "53",
     "id_str" : "1141801651440934912",
     "truncated" : false,
-    "retweet_count" : "13",
+    "retweet_count" : "12",
     "id" : "1141801651440934912",
     "possibly_sensitive" : false,
     "created_at" : "Thu Jun 20 20:15:02 +0000 2019",
@@ -35145,10 +35139,10 @@
       } ]
     },
     "display_text_range" : [ "0", "262" ],
-    "favorite_count" : "61",
+    "favorite_count" : "60",
     "id_str" : "1163692135910203392",
     "truncated" : false,
-    "retweet_count" : "10",
+    "retweet_count" : "9",
     "id" : "1163692135910203392",
     "possibly_sensitive" : false,
     "created_at" : "Tue Aug 20 06:00:00 +0000 2019",
@@ -35309,7 +35303,7 @@
       } ]
     },
     "display_text_range" : [ "0", "330" ],
-    "favorite_count" : "66",
+    "favorite_count" : "65",
     "id_str" : "1162047046427140097",
     "truncated" : false,
     "retweet_count" : "14",
@@ -35381,7 +35375,7 @@
     "favorite_count" : "115",
     "id_str" : "1161886780041437184",
     "truncated" : false,
-    "retweet_count" : "26",
+    "retweet_count" : "24",
     "id" : "1161886780041437184",
     "possibly_sensitive" : false,
     "created_at" : "Thu Aug 15 06:26:09 +0000 2019",
@@ -35491,7 +35485,7 @@
     "favorite_count" : "38",
     "id_str" : "1161241639693799425",
     "truncated" : false,
-    "retweet_count" : "5",
+    "retweet_count" : "4",
     "id" : "1161241639693799425",
     "possibly_sensitive" : false,
     "created_at" : "Tue Aug 13 11:42:36 +0000 2019",
@@ -35544,10 +35538,10 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "218" ],
-    "favorite_count" : "123",
+    "favorite_count" : "121",
     "id_str" : "1161015163589468160",
     "truncated" : false,
-    "retweet_count" : "31",
+    "retweet_count" : "30",
     "id" : "1161015163589468160",
     "possibly_sensitive" : false,
     "created_at" : "Mon Aug 12 20:42:40 +0000 2019",
@@ -35649,7 +35643,7 @@
     "favorite_count" : "86",
     "id_str" : "1159707631075958784",
     "truncated" : false,
-    "retweet_count" : "22",
+    "retweet_count" : "21",
     "id" : "1159707631075958784",
     "possibly_sensitive" : false,
     "created_at" : "Fri Aug 09 06:07:00 +0000 2019",
@@ -35798,7 +35792,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "281" ],
-    "favorite_count" : "138",
+    "favorite_count" : "136",
     "id_str" : "1159342978294374400",
     "truncated" : false,
     "retweet_count" : "38",
@@ -35872,7 +35866,7 @@
     "favorite_count" : "20",
     "id_str" : "1158989650272198656",
     "truncated" : false,
-    "retweet_count" : "4",
+    "retweet_count" : "3",
     "id" : "1158989650272198656",
     "possibly_sensitive" : false,
     "created_at" : "Wed Aug 07 06:34:00 +0000 2019",
@@ -35938,7 +35932,7 @@
     "favorite_count" : "59",
     "id_str" : "1158621725757624320",
     "truncated" : false,
-    "retweet_count" : "16",
+    "retweet_count" : "15",
     "id" : "1158621725757624320",
     "possibly_sensitive" : false,
     "created_at" : "Tue Aug 06 06:12:00 +0000 2019",
@@ -36008,7 +36002,7 @@
     "favorite_count" : "22",
     "id_str" : "1158256319478022145",
     "truncated" : false,
-    "retweet_count" : "6",
+    "retweet_count" : "5",
     "id" : "1158256319478022145",
     "possibly_sensitive" : false,
     "created_at" : "Mon Aug 05 06:00:00 +0000 2019",
@@ -36075,10 +36069,10 @@
       } ]
     },
     "display_text_range" : [ "0", "173" ],
-    "favorite_count" : "144",
+    "favorite_count" : "145",
     "id_str" : "1157272812412899328",
     "truncated" : false,
-    "retweet_count" : "25",
+    "retweet_count" : "24",
     "id" : "1157272812412899328",
     "possibly_sensitive" : false,
     "created_at" : "Fri Aug 02 12:51:54 +0000 2019",
@@ -36138,7 +36132,7 @@
     "favorite_count" : "92",
     "id_str" : "1156783020675915776",
     "truncated" : false,
-    "retweet_count" : "24",
+    "retweet_count" : "23",
     "id" : "1156783020675915776",
     "created_at" : "Thu Aug 01 04:25:38 +0000 2019",
     "favorited" : false,
@@ -36161,10 +36155,10 @@
       } ]
     },
     "display_text_range" : [ "0", "104" ],
-    "favorite_count" : "53",
+    "favorite_count" : "52",
     "id_str" : "1156323362668498945",
     "truncated" : false,
-    "retweet_count" : "17",
+    "retweet_count" : "16",
     "id" : "1156323362668498945",
     "possibly_sensitive" : false,
     "created_at" : "Tue Jul 30 21:59:07 +0000 2019",
@@ -36222,7 +36216,7 @@
       } ]
     },
     "display_text_range" : [ "0", "111" ],
-    "favorite_count" : "125",
+    "favorite_count" : "124",
     "id_str" : "1155949192243585024",
     "truncated" : false,
     "retweet_count" : "20",
@@ -36468,11 +36462,11 @@
       "hashtags" : [ ],
       "symbols" : [ ],
       "user_mentions" : [ {
-        "name" : "Mwandifrank",
+        "name" : "mtuimara_1",
         "screen_name" : "mwandifrank",
         "indices" : [ "0", "12" ],
-        "id_str" : "3366513155",
-        "id" : "3366513155"
+        "id_str" : "1170063803117133824",
+        "id" : "1170063803117133824"
       } ],
       "urls" : [ ]
     },
@@ -36490,7 +36484,7 @@
     "full_text" : "@MwandiFrank No. The problem is that statisticians never agreed on std. deviation definition. Sometimes it makes more sense to divide by (N-1) and sometime by N.",
     "lang" : "en",
     "contributors" : [ "2282338147" ],
-    "in_reply_to_screen_name" : "mwandifrank",
+    "in_reply_to_screen_name" : "Obelsenior",
     "in_reply_to_user_id_str" : "3366513155"
   }
 }, {
@@ -36546,7 +36540,7 @@
       } ]
     },
     "display_text_range" : [ "0", "330" ],
-    "favorite_count" : "77",
+    "favorite_count" : "76",
     "id_str" : "1153943018891857920",
     "truncated" : false,
     "retweet_count" : "27",
@@ -36640,7 +36634,7 @@
       } ]
     },
     "display_text_range" : [ "0", "320" ],
-    "favorite_count" : "123",
+    "favorite_count" : "121",
     "id_str" : "1153545275673153538",
     "truncated" : false,
     "retweet_count" : "37",
@@ -36952,10 +36946,10 @@
       } ]
     },
     "display_text_range" : [ "0", "176" ],
-    "favorite_count" : "71",
+    "favorite_count" : "70",
     "id_str" : "1173712263066243072",
     "truncated" : false,
-    "retweet_count" : "17",
+    "retweet_count" : "16",
     "id" : "1173712263066243072",
     "possibly_sensitive" : false,
     "created_at" : "Mon Sep 16 21:36:24 +0000 2019",
@@ -37087,7 +37081,7 @@
       } ]
     },
     "display_text_range" : [ "0", "348" ],
-    "favorite_count" : "74",
+    "favorite_count" : "73",
     "id_str" : "1173363459196706817",
     "truncated" : false,
     "retweet_count" : "31",
@@ -37124,7 +37118,7 @@
     "favorite_count" : "22",
     "id_str" : "1172548019696414720",
     "truncated" : false,
-    "retweet_count" : "3",
+    "retweet_count" : "2",
     "id" : "1172548019696414720",
     "possibly_sensitive" : false,
     "created_at" : "Fri Sep 13 16:30:07 +0000 2019",
@@ -37151,7 +37145,7 @@
       } ]
     },
     "display_text_range" : [ "0", "102" ],
-    "favorite_count" : "31",
+    "favorite_count" : "30",
     "id_str" : "1172251574795669513",
     "truncated" : false,
     "retweet_count" : "6",
@@ -37219,7 +37213,7 @@
       } ]
     },
     "display_text_range" : [ "0", "270" ],
-    "favorite_count" : "57",
+    "favorite_count" : "58",
     "id_str" : "1171911087568097280",
     "truncated" : false,
     "retweet_count" : "10",
@@ -37579,7 +37573,7 @@
     "favorite_count" : "48",
     "id_str" : "1169125688948842496",
     "truncated" : false,
-    "retweet_count" : "15",
+    "retweet_count" : "14",
     "id" : "1169125688948842496",
     "possibly_sensitive" : false,
     "created_at" : "Wed Sep 04 05:51:00 +0000 2019",
@@ -37666,10 +37660,10 @@
       } ]
     },
     "display_text_range" : [ "0", "106" ],
-    "favorite_count" : "139",
+    "favorite_count" : "140",
     "id_str" : "1168403179077173248",
     "truncated" : false,
-    "retweet_count" : "21",
+    "retweet_count" : "20",
     "id" : "1168403179077173248",
     "possibly_sensitive" : false,
     "created_at" : "Mon Sep 02 06:00:00 +0000 2019",
@@ -37767,7 +37761,7 @@
       } ]
     },
     "display_text_range" : [ "0", "242" ],
-    "favorite_count" : "41",
+    "favorite_count" : "40",
     "id_str" : "1167426141080182784",
     "truncated" : false,
     "retweet_count" : "9",
@@ -37856,7 +37850,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "301" ],
-    "favorite_count" : "139",
+    "favorite_count" : "138",
     "id_str" : "1166827139502616579",
     "truncated" : false,
     "retweet_count" : "31",
@@ -37881,7 +37875,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "311" ],
-    "favorite_count" : "94",
+    "favorite_count" : "95",
     "id_str" : "1166460268613967872",
     "truncated" : false,
     "retweet_count" : "26",
@@ -37914,7 +37908,7 @@
     "favorite_count" : "92",
     "id_str" : "1166079081424838658",
     "truncated" : false,
-    "retweet_count" : "21",
+    "retweet_count" : "20",
     "id" : "1166079081424838658",
     "possibly_sensitive" : false,
     "created_at" : "Mon Aug 26 20:04:52 +0000 2019",
@@ -38023,7 +38017,7 @@
     "favorite_count" : "31",
     "id_str" : "1164779299632631808",
     "truncated" : false,
-    "retweet_count" : "8",
+    "retweet_count" : "6",
     "id" : "1164779299632631808",
     "possibly_sensitive" : false,
     "created_at" : "Fri Aug 23 06:00:00 +0000 2019",
@@ -38148,10 +38142,10 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "271" ],
-    "favorite_count" : "114",
+    "favorite_count" : "113",
     "id_str" : "1164416913276993536",
     "truncated" : false,
-    "retweet_count" : "28",
+    "retweet_count" : "27",
     "id" : "1164416913276993536",
     "possibly_sensitive" : false,
     "created_at" : "Thu Aug 22 06:00:00 +0000 2019",
@@ -38264,10 +38258,10 @@
       } ]
     },
     "display_text_range" : [ "0", "260" ],
-    "favorite_count" : "87",
+    "favorite_count" : "88",
     "id_str" : "1184860661601275909",
     "truncated" : false,
-    "retweet_count" : "16",
+    "retweet_count" : "15",
     "id" : "1184860661601275909",
     "possibly_sensitive" : false,
     "created_at" : "Thu Oct 17 15:56:10 +0000 2019",
@@ -38607,7 +38601,7 @@
       } ]
     },
     "display_text_range" : [ "0", "159" ],
-    "favorite_count" : "23",
+    "favorite_count" : "24",
     "id_str" : "1183751130573987840",
     "truncated" : false,
     "retweet_count" : "5",
@@ -38650,7 +38644,7 @@
       } ]
     },
     "display_text_range" : [ "0", "106" ],
-    "favorite_count" : "56",
+    "favorite_count" : "55",
     "id_str" : "1182955278045794304",
     "truncated" : false,
     "retweet_count" : "11",
@@ -38680,10 +38674,10 @@
       } ]
     },
     "display_text_range" : [ "0", "103" ],
-    "favorite_count" : "68",
+    "favorite_count" : "67",
     "id_str" : "1182365356683345922",
     "truncated" : false,
-    "retweet_count" : "21",
+    "retweet_count" : "19",
     "id" : "1182365356683345922",
     "possibly_sensitive" : false,
     "created_at" : "Thu Oct 10 18:40:42 +0000 2019",
@@ -38732,7 +38726,7 @@
       } ]
     },
     "display_text_range" : [ "0", "246" ],
-    "favorite_count" : "131",
+    "favorite_count" : "133",
     "id_str" : "1181669340317388806",
     "truncated" : false,
     "retweet_count" : "27",
@@ -38832,7 +38826,7 @@
       } ]
     },
     "display_text_range" : [ "0", "202" ],
-    "favorite_count" : "134",
+    "favorite_count" : "135",
     "id_str" : "1180744616175394816",
     "truncated" : false,
     "retweet_count" : "31",
@@ -38931,7 +38925,7 @@
       } ]
     },
     "display_text_range" : [ "0", "217" ],
-    "favorite_count" : "60",
+    "favorite_count" : "59",
     "id_str" : "1179867216218595329",
     "truncated" : false,
     "retweet_count" : "7",
@@ -39119,7 +39113,7 @@
     "favorite_count" : "66",
     "id_str" : "1179210881865076737",
     "truncated" : false,
-    "retweet_count" : "23",
+    "retweet_count" : "22",
     "id" : "1179210881865076737",
     "possibly_sensitive" : false,
     "created_at" : "Wed Oct 02 01:45:57 +0000 2019",
@@ -39374,7 +39368,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "271" ],
-    "favorite_count" : "129",
+    "favorite_count" : "128",
     "id_str" : "1177335055628275724",
     "truncated" : false,
     "retweet_count" : "22",
@@ -39498,7 +39492,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "186" ],
-    "favorite_count" : "67",
+    "favorite_count" : "68",
     "id_str" : "1176571922387263489",
     "truncated" : false,
     "retweet_count" : "21",
@@ -39632,7 +39626,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "100" ],
-    "favorite_count" : "77",
+    "favorite_count" : "78",
     "id_str" : "1174949234937745408",
     "truncated" : false,
     "retweet_count" : "9",
@@ -39728,7 +39722,7 @@
     "favorite_count" : "117",
     "id_str" : "1197274885380288513",
     "truncated" : false,
-    "retweet_count" : "25",
+    "retweet_count" : "24",
     "id" : "1197274885380288513",
     "created_at" : "Wed Nov 20 22:05:51 +0000 2019",
     "favorited" : false,
@@ -39866,7 +39860,7 @@
       } ]
     },
     "display_text_range" : [ "0", "154" ],
-    "favorite_count" : "84",
+    "favorite_count" : "83",
     "id_str" : "1195126249368240128",
     "truncated" : false,
     "retweet_count" : "14",
@@ -39942,7 +39936,7 @@
       } ]
     },
     "display_text_range" : [ "0", "272" ],
-    "favorite_count" : "56",
+    "favorite_count" : "55",
     "id_str" : "1194876115157803009",
     "truncated" : false,
     "retweet_count" : "7",
@@ -40043,7 +40037,7 @@
       } ]
     },
     "display_text_range" : [ "0", "240" ],
-    "favorite_count" : "110",
+    "favorite_count" : "109",
     "id_str" : "1194542119270199296",
     "truncated" : false,
     "retweet_count" : "20",
@@ -40234,7 +40228,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "304" ],
-    "favorite_count" : "40",
+    "favorite_count" : "39",
     "id_str" : "1193886376497946625",
     "truncated" : false,
     "retweet_count" : "7",
@@ -40303,7 +40297,7 @@
       } ]
     },
     "display_text_range" : [ "0", "257" ],
-    "favorite_count" : "280",
+    "favorite_count" : "279",
     "id_str" : "1192938647588409349",
     "truncated" : false,
     "retweet_count" : "65",
@@ -40447,7 +40441,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "280" ],
-    "favorite_count" : "79",
+    "favorite_count" : "78",
     "id_str" : "1192214829257363458",
     "truncated" : false,
     "retweet_count" : "15",
@@ -40478,10 +40472,10 @@
       } ]
     },
     "display_text_range" : [ "0", "271" ],
-    "favorite_count" : "251",
+    "favorite_count" : "249",
     "id_str" : "1192055718075088897",
     "truncated" : false,
-    "retweet_count" : "66",
+    "retweet_count" : "65",
     "id" : "1192055718075088897",
     "possibly_sensitive" : false,
     "created_at" : "Wed Nov 06 12:26:45 +0000 2019",
@@ -40588,7 +40582,7 @@
       } ]
     },
     "display_text_range" : [ "0", "241" ],
-    "favorite_count" : "212",
+    "favorite_count" : "210",
     "id_str" : "1190407280111628288",
     "truncated" : false,
     "retweet_count" : "64",
@@ -40690,7 +40684,7 @@
       } ]
     },
     "display_text_range" : [ "0", "163" ],
-    "favorite_count" : "19",
+    "favorite_count" : "18",
     "id_str" : "1189948394841759744",
     "truncated" : false,
     "retweet_count" : "5",
@@ -40794,7 +40788,7 @@
     "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
     "entities" : {
       "user_mentions" : [ {
-        "name" : "Chip Huyen @GHC2020",
+        "name" : "Chip Huyen",
         "screen_name" : "chipro",
         "indices" : [ "12", "19" ],
         "id_str" : "15278016",
@@ -40843,10 +40837,10 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "105" ],
-    "favorite_count" : "157",
+    "favorite_count" : "155",
     "id_str" : "1189072624372125696",
     "truncated" : false,
-    "retweet_count" : "39",
+    "retweet_count" : "38",
     "id" : "1189072624372125696",
     "possibly_sensitive" : false,
     "created_at" : "Tue Oct 29 06:53:00 +0000 2019",
@@ -40960,10 +40954,10 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "158" ],
-    "favorite_count" : "254",
+    "favorite_count" : "253",
     "id_str" : "1187614763813167104",
     "truncated" : false,
-    "retweet_count" : "72",
+    "retweet_count" : "71",
     "id" : "1187614763813167104",
     "created_at" : "Fri Oct 25 06:19:59 +0000 2019",
     "favorited" : false,
@@ -41032,7 +41026,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "330" ],
-    "favorite_count" : "77",
+    "favorite_count" : "76",
     "id_str" : "1186389928520962048",
     "truncated" : false,
     "retweet_count" : "18",
@@ -41095,7 +41089,7 @@
       } ]
     },
     "display_text_range" : [ "0", "255" ],
-    "favorite_count" : "123",
+    "favorite_count" : "120",
     "id_str" : "1208006114597638144",
     "truncated" : false,
     "retweet_count" : "28",
@@ -41220,7 +41214,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "114" ],
-    "favorite_count" : "211",
+    "favorite_count" : "210",
     "id_str" : "1206963913084018689",
     "truncated" : false,
     "retweet_count" : "29",
@@ -41714,7 +41708,7 @@
       } ]
     },
     "display_text_range" : [ "0", "115" ],
-    "favorite_count" : "48",
+    "favorite_count" : "47",
     "id_str" : "1203932288599429121",
     "truncated" : false,
     "retweet_count" : "16",
@@ -42190,7 +42184,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "212" ],
-    "favorite_count" : "156",
+    "favorite_count" : "154",
     "id_str" : "1199438984381915137",
     "truncated" : false,
     "retweet_count" : "39",
@@ -42305,7 +42299,7 @@
       } ]
     },
     "display_text_range" : [ "0", "271" ],
-    "favorite_count" : "52",
+    "favorite_count" : "51",
     "id_str" : "1198011173293248512",
     "truncated" : false,
     "retweet_count" : "12",
@@ -42416,7 +42410,7 @@
       } ]
     },
     "display_text_range" : [ "0", "154" ],
-    "favorite_count" : "121",
+    "favorite_count" : "122",
     "id_str" : "1219407760477036544",
     "truncated" : false,
     "retweet_count" : "28",
@@ -42819,7 +42813,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "319" ],
-    "favorite_count" : "93",
+    "favorite_count" : "94",
     "id_str" : "1217697058842447872",
     "truncated" : false,
     "retweet_count" : "17",
@@ -42968,7 +42962,7 @@
       } ]
     },
     "display_text_range" : [ "0", "221" ],
-    "favorite_count" : "77",
+    "favorite_count" : "78",
     "id_str" : "1215578861011984386",
     "truncated" : false,
     "retweet_count" : "20",
@@ -43157,7 +43151,7 @@
       } ]
     },
     "display_text_range" : [ "0", "300" ],
-    "favorite_count" : "92",
+    "favorite_count" : "94",
     "id_str" : "1214803924370239488",
     "truncated" : false,
     "retweet_count" : "24",
@@ -43351,7 +43345,7 @@
       } ]
     },
     "display_text_range" : [ "0", "202" ],
-    "favorite_count" : "64",
+    "favorite_count" : "66",
     "id_str" : "1214079150312452099",
     "truncated" : false,
     "retweet_count" : "16",
@@ -43376,7 +43370,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "249" ],
-    "favorite_count" : "135",
+    "favorite_count" : "136",
     "id_str" : "1212855064223768577",
     "truncated" : false,
     "retweet_count" : "22",
@@ -43564,7 +43558,7 @@
       } ]
     },
     "display_text_range" : [ "0", "154" ],
-    "favorite_count" : "94",
+    "favorite_count" : "95",
     "id_str" : "1210336206329974785",
     "truncated" : false,
     "retweet_count" : "16",
@@ -44087,7 +44081,7 @@
     "favorite_count" : "125",
     "id_str" : "1224976238676205568",
     "truncated" : false,
-    "retweet_count" : "55",
+    "retweet_count" : "54",
     "id" : "1224976238676205568",
     "possibly_sensitive" : false,
     "created_at" : "Wed Feb 05 08:41:08 +0000 2020",
@@ -44727,10 +44721,10 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "123" ],
-    "favorite_count" : "82",
+    "favorite_count" : "81",
     "id_str" : "1221897262932078593",
     "truncated" : false,
-    "retweet_count" : "13",
+    "retweet_count" : "14",
     "id" : "1221897262932078593",
     "created_at" : "Mon Jan 27 20:46:23 +0000 2020",
     "favorited" : false,
@@ -44786,7 +44780,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "274" ],
-    "favorite_count" : "68",
+    "favorite_count" : "69",
     "id_str" : "1220602132287459328",
     "truncated" : false,
     "retweet_count" : "9",
@@ -45229,7 +45223,7 @@
       } ]
     },
     "display_text_range" : [ "0", "277" ],
-    "favorite_count" : "168",
+    "favorite_count" : "167",
     "id_str" : "1240016313881448449",
     "truncated" : false,
     "retweet_count" : "80",
@@ -45307,7 +45301,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "172" ],
-    "favorite_count" : "73",
+    "favorite_count" : "74",
     "id_str" : "1238465351895171075",
     "truncated" : false,
     "retweet_count" : "12",
@@ -45450,7 +45444,7 @@
       } ]
     },
     "display_text_range" : [ "0", "246" ],
-    "favorite_count" : "90",
+    "favorite_count" : "91",
     "id_str" : "1235551355038765056",
     "truncated" : false,
     "retweet_count" : "18",
@@ -45556,7 +45550,7 @@
       } ]
     },
     "display_text_range" : [ "0", "214" ],
-    "favorite_count" : "45",
+    "favorite_count" : "44",
     "id_str" : "1234963392621948928",
     "truncated" : false,
     "retweet_count" : "8",
@@ -45660,7 +45654,7 @@
       } ]
     },
     "display_text_range" : [ "0", "149" ],
-    "favorite_count" : "164",
+    "favorite_count" : "163",
     "id_str" : "1234224117160857604",
     "truncated" : false,
     "retweet_count" : "42",
@@ -45842,7 +45836,7 @@
       } ]
     },
     "display_text_range" : [ "0", "143" ],
-    "favorite_count" : "37",
+    "favorite_count" : "36",
     "id_str" : "1232775052267065345",
     "truncated" : false,
     "retweet_count" : "23",
@@ -45908,7 +45902,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "79" ],
-    "favorite_count" : "91",
+    "favorite_count" : "92",
     "id_str" : "1232062185586798593",
     "truncated" : false,
     "retweet_count" : "34",
@@ -45974,7 +45968,7 @@
     "favorite_count" : "223",
     "id_str" : "1231725159297536012",
     "truncated" : false,
-    "retweet_count" : "61",
+    "retweet_count" : "62",
     "id" : "1231725159297536012",
     "possibly_sensitive" : false,
     "created_at" : "Sun Feb 23 23:38:56 +0000 2020",
@@ -46368,7 +46362,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "151" ],
-    "favorite_count" : "105",
+    "favorite_count" : "107",
     "id_str" : "1228308951734915073",
     "truncated" : false,
     "retweet_count" : "23",
@@ -46514,7 +46508,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "127" ],
-    "favorite_count" : "39",
+    "favorite_count" : "40",
     "id_str" : "1227176404728586240",
     "truncated" : false,
     "retweet_count" : "10",
@@ -46544,10 +46538,10 @@
       } ]
     },
     "display_text_range" : [ "0", "289" ],
-    "favorite_count" : "31",
+    "favorite_count" : "30",
     "id_str" : "1225679586958172165",
     "truncated" : false,
-    "retweet_count" : "14",
+    "retweet_count" : "13",
     "id" : "1225679586958172165",
     "possibly_sensitive" : false,
     "created_at" : "Fri Feb 07 07:16:00 +0000 2020",
@@ -46967,7 +46961,7 @@
       } ]
     },
     "display_text_range" : [ "0", "260" ],
-    "favorite_count" : "60",
+    "favorite_count" : "58",
     "id_str" : "1247259752410865666",
     "truncated" : false,
     "retweet_count" : "14",
@@ -47306,7 +47300,7 @@
       } ]
     },
     "display_text_range" : [ "0", "279" ],
-    "favorite_count" : "34",
+    "favorite_count" : "33",
     "id_str" : "1244984244318896128",
     "truncated" : false,
     "retweet_count" : "8",
@@ -47735,7 +47729,7 @@
       } ]
     },
     "display_text_range" : [ "0", "319" ],
-    "favorite_count" : "106",
+    "favorite_count" : "107",
     "id_str" : "1240534469850914819",
     "truncated" : false,
     "retweet_count" : "18",
@@ -47907,7 +47901,7 @@
       } ]
     },
     "display_text_range" : [ "0", "132" ],
-    "favorite_count" : "26",
+    "favorite_count" : "25",
     "id_str" : "879610259664404480",
     "truncated" : false,
     "retweet_count" : "8",
@@ -47935,7 +47929,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "153" ],
-    "favorite_count" : "17",
+    "favorite_count" : "16",
     "id_str" : "879274115189919745",
     "truncated" : false,
     "retweet_count" : "8",
@@ -48190,7 +48184,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "125" ],
-    "favorite_count" : "44",
+    "favorite_count" : "43",
     "id_str" : "876706551788163072",
     "truncated" : false,
     "retweet_count" : "20",
@@ -48343,7 +48337,7 @@
     "favorite_count" : "28",
     "id_str" : "875242817857171456",
     "truncated" : false,
-    "retweet_count" : "16",
+    "retweet_count" : "15",
     "id" : "875242817857171456",
     "possibly_sensitive" : false,
     "created_at" : "Thu Jun 15 06:45:23 +0000 2017",
@@ -48544,7 +48538,7 @@
       } ]
     },
     "display_text_range" : [ "0", "157" ],
-    "favorite_count" : "39",
+    "favorite_count" : "40",
     "id_str" : "874159340323610627",
     "truncated" : false,
     "retweet_count" : "16",
@@ -48775,7 +48769,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "140" ],
-    "favorite_count" : "24",
+    "favorite_count" : "23",
     "id_str" : "870188166325600256",
     "truncated" : false,
     "retweet_count" : "6",
@@ -48978,7 +48972,7 @@
       } ]
     },
     "display_text_range" : [ "0", "304" ],
-    "favorite_count" : "132",
+    "favorite_count" : "134",
     "id_str" : "1261567058539511808",
     "truncated" : false,
     "retweet_count" : "32",
@@ -49171,7 +49165,7 @@
       } ]
     },
     "display_text_range" : [ "0", "210" ],
-    "favorite_count" : "35",
+    "favorite_count" : "36",
     "id_str" : "1260365737715253249",
     "truncated" : false,
     "retweet_count" : "2",
@@ -49275,7 +49269,7 @@
       } ]
     },
     "display_text_range" : [ "0", "271" ],
-    "favorite_count" : "116",
+    "favorite_count" : "114",
     "id_str" : "1259981022252408835",
     "truncated" : false,
     "retweet_count" : "36",
@@ -49341,7 +49335,7 @@
       } ]
     },
     "display_text_range" : [ "0", "180" ],
-    "favorite_count" : "110",
+    "favorite_count" : "109",
     "id_str" : "1258886266055266306",
     "truncated" : false,
     "retweet_count" : "33",
@@ -49422,7 +49416,7 @@
       } ]
     },
     "display_text_range" : [ "0", "298" ],
-    "favorite_count" : "67",
+    "favorite_count" : "66",
     "id_str" : "1257645833174028290",
     "truncated" : false,
     "retweet_count" : "12",
@@ -49652,7 +49646,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "106" ],
-    "favorite_count" : "69",
+    "favorite_count" : "68",
     "id_str" : "1255376267928571905",
     "truncated" : false,
     "retweet_count" : "13",
@@ -49761,10 +49755,10 @@
       } ]
     },
     "display_text_range" : [ "0", "275" ],
-    "favorite_count" : "112",
+    "favorite_count" : "111",
     "id_str" : "1254733346908901381",
     "truncated" : false,
-    "retweet_count" : "56",
+    "retweet_count" : "55",
     "id" : "1254733346908901381",
     "possibly_sensitive" : false,
     "created_at" : "Mon Apr 27 11:25:16 +0000 2020",
@@ -49899,7 +49893,7 @@
       } ]
     },
     "display_text_range" : [ "0", "209" ],
-    "favorite_count" : "33",
+    "favorite_count" : "31",
     "id_str" : "1252720331350999041",
     "truncated" : false,
     "retweet_count" : "11",
@@ -49930,7 +49924,7 @@
       } ]
     },
     "display_text_range" : [ "0", "132" ],
-    "favorite_count" : "48",
+    "favorite_count" : "47",
     "id_str" : "1252371754581803008",
     "truncated" : false,
     "retweet_count" : "27",
@@ -49966,7 +49960,7 @@
       } ]
     },
     "display_text_range" : [ "0", "208" ],
-    "favorite_count" : "86",
+    "favorite_count" : "84",
     "id_str" : "1251533428098555904",
     "truncated" : false,
     "retweet_count" : "17",
@@ -50125,7 +50119,7 @@
       } ]
     },
     "display_text_range" : [ "0", "271" ],
-    "favorite_count" : "32",
+    "favorite_count" : "31",
     "id_str" : "1250737136149692417",
     "truncated" : false,
     "retweet_count" : "8",
@@ -50153,7 +50147,7 @@
       } ]
     },
     "display_text_range" : [ "0", "73" ],
-    "favorite_count" : "25",
+    "favorite_count" : "26",
     "id_str" : "1250557581560623108",
     "truncated" : false,
     "retweet_count" : "6",
@@ -50184,7 +50178,7 @@
       } ]
     },
     "display_text_range" : [ "0", "162" ],
-    "favorite_count" : "93",
+    "favorite_count" : "94",
     "id_str" : "1275669988284784642",
     "truncated" : false,
     "retweet_count" : "32",
@@ -50479,7 +50473,7 @@
       } ]
     },
     "display_text_range" : [ "0", "195" ],
-    "favorite_count" : "10",
+    "favorite_count" : "9",
     "id_str" : "1273182387703296001",
     "truncated" : false,
     "retweet_count" : "4",
@@ -50633,7 +50627,7 @@
       } ]
     },
     "display_text_range" : [ "0", "257" ],
-    "favorite_count" : "62",
+    "favorite_count" : "61",
     "id_str" : "1271214668506431488",
     "truncated" : false,
     "retweet_count" : "14",
@@ -50661,7 +50655,7 @@
       } ]
     },
     "display_text_range" : [ "0", "86" ],
-    "favorite_count" : "47",
+    "favorite_count" : "48",
     "id_str" : "1270847614066601986",
     "truncated" : false,
     "retweet_count" : "16",
@@ -50704,7 +50698,7 @@
       } ]
     },
     "display_text_range" : [ "0", "193" ],
-    "favorite_count" : "20",
+    "favorite_count" : "19",
     "id_str" : "1270423845195911169",
     "truncated" : false,
     "retweet_count" : "4",
@@ -50768,7 +50762,7 @@
       } ]
     },
     "display_text_range" : [ "0", "213" ],
-    "favorite_count" : "55",
+    "favorite_count" : "52",
     "id_str" : "1270138613817151488",
     "truncated" : false,
     "retweet_count" : "9",
@@ -50837,7 +50831,7 @@
       } ]
     },
     "display_text_range" : [ "0", "101" ],
-    "favorite_count" : "43",
+    "favorite_count" : "42",
     "id_str" : "1269103468041682951",
     "truncated" : false,
     "retweet_count" : "7",
@@ -50868,7 +50862,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "251" ],
-    "favorite_count" : "76",
+    "favorite_count" : "77",
     "id_str" : "1268919215295209472",
     "truncated" : false,
     "retweet_count" : "18",
@@ -50912,10 +50906,10 @@
       } ]
     },
     "display_text_range" : [ "0", "153" ],
-    "favorite_count" : "105",
+    "favorite_count" : "103",
     "id_str" : "1268168638047100930",
     "truncated" : false,
-    "retweet_count" : "38",
+    "retweet_count" : "36",
     "id" : "1268168638047100930",
     "possibly_sensitive" : false,
     "created_at" : "Wed Jun 03 13:12:19 +0000 2020",
@@ -51143,7 +51137,7 @@
       } ]
     },
     "display_text_range" : [ "0", "269" ],
-    "favorite_count" : "86",
+    "favorite_count" : "84",
     "id_str" : "1265523126718222336",
     "truncated" : false,
     "retweet_count" : "26",
@@ -51239,10 +51233,10 @@
       } ]
     },
     "display_text_range" : [ "0", "155" ],
-    "favorite_count" : "120",
+    "favorite_count" : "119",
     "id_str" : "1264794827163447296",
     "truncated" : false,
-    "retweet_count" : "20",
+    "retweet_count" : "21",
     "id" : "1264794827163447296",
     "possibly_sensitive" : false,
     "created_at" : "Mon May 25 05:46:00 +0000 2020",
@@ -51354,7 +51348,7 @@
       } ]
     },
     "display_text_range" : [ "0", "114" ],
-    "favorite_count" : "148",
+    "favorite_count" : "147",
     "id_str" : "1262973579181817856",
     "truncated" : false,
     "retweet_count" : "28",
@@ -51466,7 +51460,7 @@
     "favorite_count" : "13",
     "id_str" : "1288073549928894465",
     "truncated" : false,
-    "retweet_count" : "10",
+    "retweet_count" : "11",
     "id" : "1288073549928894465",
     "possibly_sensitive" : false,
     "created_at" : "Tue Jul 28 11:27:20 +0000 2020",
@@ -51633,10 +51627,10 @@
       } ]
     },
     "display_text_range" : [ "0", "116" ],
-    "favorite_count" : "29",
+    "favorite_count" : "30",
     "id_str" : "1286577861239828480",
     "truncated" : false,
-    "retweet_count" : "9",
+    "retweet_count" : "10",
     "id" : "1286577861239828480",
     "possibly_sensitive" : false,
     "created_at" : "Fri Jul 24 08:24:00 +0000 2020",
@@ -51734,7 +51728,7 @@
     "favorite_count" : "62",
     "id_str" : "1286179738059280386",
     "truncated" : false,
-    "retweet_count" : "15",
+    "retweet_count" : "16",
     "id" : "1286179738059280386",
     "possibly_sensitive" : false,
     "created_at" : "Thu Jul 23 06:02:00 +0000 2020",
@@ -51788,10 +51782,10 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "298" ],
-    "favorite_count" : "86",
+    "favorite_count" : "87",
     "id_str" : "1285815840013615104",
     "truncated" : false,
-    "retweet_count" : "24",
+    "retweet_count" : "25",
     "id" : "1285815840013615104",
     "created_at" : "Wed Jul 22 05:56:00 +0000 2020",
     "favorited" : false,
@@ -51998,10 +51992,10 @@
       } ]
     },
     "display_text_range" : [ "0", "315" ],
-    "favorite_count" : "87",
+    "favorite_count" : "88",
     "id_str" : "1284114089975918594",
     "truncated" : false,
-    "retweet_count" : "27",
+    "retweet_count" : "26",
     "id" : "1284114089975918594",
     "possibly_sensitive" : false,
     "created_at" : "Fri Jul 17 13:13:51 +0000 2020",
@@ -52193,10 +52187,10 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "216" ],
-    "favorite_count" : "113",
+    "favorite_count" : "111",
     "id_str" : "1283323069013131269",
     "truncated" : false,
-    "retweet_count" : "21",
+    "retweet_count" : "19",
     "id" : "1283323069013131269",
     "created_at" : "Wed Jul 15 08:50:37 +0000 2020",
     "favorited" : false,
@@ -52220,7 +52214,7 @@
       } ]
     },
     "display_text_range" : [ "0", "275" ],
-    "favorite_count" : "101",
+    "favorite_count" : "102",
     "id_str" : "1282962835765694464",
     "truncated" : false,
     "retweet_count" : "31",
@@ -52277,7 +52271,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "115" ],
-    "favorite_count" : "89",
+    "favorite_count" : "90",
     "id_str" : "1281467437154807810",
     "truncated" : false,
     "retweet_count" : "11",
@@ -52587,7 +52581,7 @@
       } ]
     },
     "display_text_range" : [ "0", "62" ],
-    "favorite_count" : "21",
+    "favorite_count" : "22",
     "id_str" : "1279133055526019074",
     "truncated" : false,
     "retweet_count" : "5",
@@ -52612,7 +52606,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "261" ],
-    "favorite_count" : "97",
+    "favorite_count" : "96",
     "id_str" : "1278934937803141120",
     "truncated" : false,
     "retweet_count" : "15",
@@ -52667,7 +52661,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "96" ],
-    "favorite_count" : "262",
+    "favorite_count" : "259",
     "id_str" : "1278388902345224192",
     "truncated" : false,
     "retweet_count" : "43",
@@ -52727,7 +52721,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "270" ],
-    "favorite_count" : "203",
+    "favorite_count" : "202",
     "id_str" : "1278198251284508672",
     "truncated" : false,
     "retweet_count" : "38",
@@ -52752,7 +52746,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "285" ],
-    "favorite_count" : "91",
+    "favorite_count" : "89",
     "id_str" : "1277713248750575619",
     "truncated" : false,
     "retweet_count" : "25",
@@ -52815,7 +52809,7 @@
       } ]
     },
     "display_text_range" : [ "0", "91" ],
-    "favorite_count" : "23",
+    "favorite_count" : "24",
     "id_str" : "1276394258707210240",
     "truncated" : false,
     "retweet_count" : "4",
@@ -52905,7 +52899,7 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "199" ],
-    "favorite_count" : "250",
+    "favorite_count" : "252",
     "id_str" : "1276035394400706560",
     "truncated" : false,
     "retweet_count" : "44",
@@ -52973,7 +52967,7 @@
     "favorite_count" : "19",
     "id_str" : "1297992779335950336",
     "truncated" : false,
-    "retweet_count" : "8",
+    "retweet_count" : "9",
     "id" : "1297992779335950336",
     "possibly_sensitive" : false,
     "created_at" : "Mon Aug 24 20:22:48 +0000 2020",
@@ -53022,7 +53016,7 @@
     "favorite_count" : "38",
     "id_str" : "1297461499489853441",
     "truncated" : false,
-    "retweet_count" : "6",
+    "retweet_count" : "7",
     "id" : "1297461499489853441",
     "possibly_sensitive" : false,
     "created_at" : "Sun Aug 23 09:11:41 +0000 2020",
@@ -53098,7 +53092,7 @@
     "favorite_count" : "60",
     "id_str" : "1297056658581905408",
     "truncated" : false,
-    "retweet_count" : "9",
+    "retweet_count" : "10",
     "id" : "1297056658581905408",
     "possibly_sensitive" : false,
     "created_at" : "Sat Aug 22 06:23:00 +0000 2020",
@@ -53217,10 +53211,10 @@
       } ]
     },
     "display_text_range" : [ "0", "206" ],
-    "favorite_count" : "45",
+    "favorite_count" : "46",
     "id_str" : "1296328244099272706",
     "truncated" : false,
-    "retweet_count" : "7",
+    "retweet_count" : "8",
     "id" : "1296328244099272706",
     "possibly_sensitive" : false,
     "created_at" : "Thu Aug 20 06:08:32 +0000 2020",
@@ -53319,10 +53313,10 @@
       } ]
     },
     "display_text_range" : [ "0", "194" ],
-    "favorite_count" : "62",
+    "favorite_count" : "61",
     "id_str" : "1295723815952166912",
     "truncated" : false,
-    "retweet_count" : "15",
+    "retweet_count" : "16",
     "id" : "1295723815952166912",
     "possibly_sensitive" : false,
     "created_at" : "Tue Aug 18 14:06:45 +0000 2020",
@@ -53391,7 +53385,7 @@
     "id_str" : "1295352184213823489",
     "in_reply_to_user_id" : "827002120373207040",
     "truncated" : false,
-    "retweet_count" : "1",
+    "retweet_count" : "2",
     "id" : "1295352184213823489",
     "in_reply_to_status_id" : "1295350942712332288",
     "possibly_sensitive" : false,
@@ -53494,7 +53488,7 @@
     "favorite_count" : "38",
     "id_str" : "1295350942712332288",
     "truncated" : false,
-    "retweet_count" : "7",
+    "retweet_count" : "8",
     "id" : "1295350942712332288",
     "possibly_sensitive" : false,
     "created_at" : "Mon Aug 17 13:25:05 +0000 2020",
@@ -53590,10 +53584,10 @@
       } ]
     },
     "display_text_range" : [ "0", "213" ],
-    "favorite_count" : "57",
+    "favorite_count" : "58",
     "id_str" : "1294033102738722816",
     "truncated" : false,
-    "retweet_count" : "15",
+    "retweet_count" : "16",
     "id" : "1294033102738722816",
     "possibly_sensitive" : false,
     "created_at" : "Thu Aug 13 22:08:28 +0000 2020",
@@ -53621,7 +53615,7 @@
     "favorite_count" : "64",
     "id_str" : "1293667821562593281",
     "truncated" : false,
-    "retweet_count" : "14",
+    "retweet_count" : "15",
     "id" : "1293667821562593281",
     "possibly_sensitive" : false,
     "created_at" : "Wed Aug 12 21:56:58 +0000 2020",
@@ -53646,10 +53640,10 @@
       } ]
     },
     "display_text_range" : [ "0", "153" ],
-    "favorite_count" : "102",
+    "favorite_count" : "103",
     "id_str" : "1293314816480878592",
     "truncated" : false,
-    "retweet_count" : "23",
+    "retweet_count" : "24",
     "id" : "1293314816480878592",
     "possibly_sensitive" : false,
     "created_at" : "Tue Aug 11 22:34:15 +0000 2020",
@@ -53686,7 +53680,7 @@
     "favorite_count" : "35",
     "id_str" : "1292795622333067270",
     "truncated" : false,
-    "retweet_count" : "15",
+    "retweet_count" : "16",
     "id" : "1292795622333067270",
     "possibly_sensitive" : false,
     "created_at" : "Mon Aug 10 12:11:10 +0000 2020",
@@ -53788,7 +53782,7 @@
     "favorite_count" : "48",
     "id_str" : "1291618575757848576",
     "truncated" : false,
-    "retweet_count" : "16",
+    "retweet_count" : "17",
     "id" : "1291618575757848576",
     "possibly_sensitive" : false,
     "created_at" : "Fri Aug 07 06:14:00 +0000 2020",
@@ -53853,7 +53847,7 @@
     "favorite_count" : "17",
     "id_str" : "1291261975960395776",
     "truncated" : false,
-    "retweet_count" : "5",
+    "retweet_count" : "6",
     "id" : "1291261975960395776",
     "possibly_sensitive" : false,
     "created_at" : "Thu Aug 06 06:37:00 +0000 2020",
@@ -53880,7 +53874,7 @@
     "favorite_count" : "18",
     "id_str" : "1290901601368997888",
     "truncated" : false,
-    "retweet_count" : "2",
+    "retweet_count" : "3",
     "id" : "1290901601368997888",
     "possibly_sensitive" : false,
     "created_at" : "Wed Aug 05 06:45:00 +0000 2020",
@@ -53976,7 +53970,7 @@
     "favorite_count" : "196",
     "id_str" : "1290393929221918722",
     "truncated" : false,
-    "retweet_count" : "55",
+    "retweet_count" : "54",
     "id" : "1290393929221918722",
     "possibly_sensitive" : false,
     "created_at" : "Mon Aug 03 21:07:41 +0000 2020",
@@ -54038,7 +54032,7 @@
       } ]
     },
     "display_text_range" : [ "0", "254" ],
-    "favorite_count" : "32",
+    "favorite_count" : "31",
     "id_str" : "1288802911070359552",
     "truncated" : false,
     "retweet_count" : "17",
@@ -54064,10 +54058,10 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "136" ],
-    "favorite_count" : "55",
+    "favorite_count" : "56",
     "id_str" : "1288485781103935491",
     "truncated" : false,
-    "retweet_count" : "8",
+    "retweet_count" : "9",
     "id" : "1288485781103935491",
     "created_at" : "Wed Jul 29 14:45:23 +0000 2020",
     "favorited" : false,
@@ -54095,10 +54089,10 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "120" ],
-    "favorite_count" : "113",
+    "favorite_count" : "112",
     "id_str" : "1308676662494662656",
     "truncated" : false,
-    "retweet_count" : "21",
+    "retweet_count" : "22",
     "id" : "1308676662494662656",
     "created_at" : "Wed Sep 23 07:56:45 +0000 2020",
     "favorited" : false,
@@ -54134,7 +54128,7 @@
     "favorite_count" : "60",
     "id_str" : "1308124412210802690",
     "truncated" : false,
-    "retweet_count" : "21",
+    "retweet_count" : "18",
     "id" : "1308124412210802690",
     "possibly_sensitive" : false,
     "created_at" : "Mon Sep 21 19:22:18 +0000 2020",
@@ -54201,7 +54195,7 @@
     "favorite_count" : "51",
     "id_str" : "1307306189886312449",
     "truncated" : false,
-    "retweet_count" : "17",
+    "retweet_count" : "18",
     "id" : "1307306189886312449",
     "possibly_sensitive" : false,
     "created_at" : "Sat Sep 19 13:10:58 +0000 2020",
@@ -54297,7 +54291,7 @@
     "favorite_count" : "55",
     "id_str" : "1306733380105654277",
     "truncated" : false,
-    "retweet_count" : "12",
+    "retweet_count" : "13",
     "id" : "1306733380105654277",
     "possibly_sensitive" : false,
     "created_at" : "Thu Sep 17 23:14:50 +0000 2020",
@@ -54394,7 +54388,7 @@
       } ]
     },
     "display_text_range" : [ "0", "165" ],
-    "favorite_count" : "171",
+    "favorite_count" : "174",
     "id_str" : "1306228363766435840",
     "truncated" : false,
     "retweet_count" : "35",
@@ -54457,10 +54451,10 @@
       } ]
     },
     "display_text_range" : [ "0", "231" ],
-    "favorite_count" : "45",
+    "favorite_count" : "47",
     "id_str" : "1305950746962264066",
     "truncated" : false,
-    "retweet_count" : "18",
+    "retweet_count" : "19",
     "id" : "1305950746962264066",
     "possibly_sensitive" : false,
     "created_at" : "Tue Sep 15 19:24:56 +0000 2020",
@@ -54493,7 +54487,7 @@
     "favorite_count" : "35",
     "id_str" : "1305626873137950724",
     "truncated" : false,
-    "retweet_count" : "16",
+    "retweet_count" : "14",
     "id" : "1305626873137950724",
     "possibly_sensitive" : false,
     "created_at" : "Mon Sep 14 21:57:58 +0000 2020",
@@ -54646,10 +54640,10 @@
       } ]
     },
     "display_text_range" : [ "0", "178" ],
-    "favorite_count" : "76",
+    "favorite_count" : "78",
     "id_str" : "1303702449669111815",
     "truncated" : false,
-    "retweet_count" : "20",
+    "retweet_count" : "21",
     "id" : "1303702449669111815",
     "possibly_sensitive" : false,
     "created_at" : "Wed Sep 09 14:31:00 +0000 2020",
@@ -54712,7 +54706,7 @@
     "favorite_count" : "273",
     "id_str" : "1303329692913668101",
     "truncated" : false,
-    "retweet_count" : "66",
+    "retweet_count" : "67",
     "id" : "1303329692913668101",
     "possibly_sensitive" : false,
     "created_at" : "Tue Sep 08 13:49:48 +0000 2020",
@@ -54787,7 +54781,7 @@
     "favorite_count" : "68",
     "id_str" : "1302964972352417793",
     "truncated" : false,
-    "retweet_count" : "22",
+    "retweet_count" : "23",
     "id" : "1302964972352417793",
     "created_at" : "Mon Sep 07 13:40:31 +0000 2020",
     "favorited" : false,
@@ -54977,7 +54971,7 @@
       } ]
     },
     "display_text_range" : [ "0", "238" ],
-    "favorite_count" : "42",
+    "favorite_count" : "44",
     "id_str" : "1302361473046515714",
     "truncated" : false,
     "retweet_count" : "12",
@@ -55179,10 +55173,10 @@
       } ]
     },
     "display_text_range" : [ "0", "256" ],
-    "favorite_count" : "36",
+    "favorite_count" : "40",
     "id_str" : "1301768959075577857",
     "truncated" : false,
-    "retweet_count" : "11",
+    "retweet_count" : "12",
     "id" : "1301768959075577857",
     "possibly_sensitive" : false,
     "created_at" : "Fri Sep 04 06:28:00 +0000 2020",
@@ -55249,10 +55243,10 @@
       } ]
     },
     "display_text_range" : [ "0", "90" ],
-    "favorite_count" : "13",
+    "favorite_count" : "14",
     "id_str" : "1301404054732468225",
     "truncated" : false,
-    "retweet_count" : "8",
+    "retweet_count" : "9",
     "id" : "1301404054732468225",
     "possibly_sensitive" : false,
     "created_at" : "Thu Sep 03 06:18:00 +0000 2020",
@@ -55276,10 +55270,10 @@
       } ]
     },
     "display_text_range" : [ "0", "223" ],
-    "favorite_count" : "205",
+    "favorite_count" : "207",
     "id_str" : "1301039905347231749",
     "truncated" : false,
-    "retweet_count" : "70",
+    "retweet_count" : "68",
     "id" : "1301039905347231749",
     "possibly_sensitive" : false,
     "created_at" : "Wed Sep 02 06:11:00 +0000 2020",
@@ -55314,10 +55308,10 @@
       } ]
     },
     "display_text_range" : [ "0", "173" ],
-    "favorite_count" : "18",
+    "favorite_count" : "19",
     "id_str" : "1300921345824481280",
     "truncated" : false,
-    "retweet_count" : "7",
+    "retweet_count" : "8",
     "id" : "1300921345824481280",
     "possibly_sensitive" : false,
     "created_at" : "Tue Sep 01 22:19:53 +0000 2020",
@@ -55463,7 +55457,7 @@
     "favorite_count" : "61",
     "id_str" : "1299263830984478722",
     "truncated" : false,
-    "retweet_count" : "10",
+    "retweet_count" : "11",
     "id" : "1299263830984478722",
     "possibly_sensitive" : false,
     "created_at" : "Fri Aug 28 08:33:31 +0000 2020",
@@ -55519,10 +55513,10 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "238" ],
-    "favorite_count" : "173",
+    "favorite_count" : "174",
     "id_str" : "1298730513042157570",
     "truncated" : false,
-    "retweet_count" : "27",
+    "retweet_count" : "28",
     "id" : "1298730513042157570",
     "created_at" : "Wed Aug 26 21:14:18 +0000 2020",
     "favorited" : false,
@@ -55555,10 +55549,10 @@
       } ]
     },
     "display_text_range" : [ "0", "148" ],
-    "favorite_count" : "39",
+    "favorite_count" : "40",
     "id_str" : "1298373969729466368",
     "truncated" : false,
-    "retweet_count" : "11",
+    "retweet_count" : "12",
     "id" : "1298373969729466368",
     "possibly_sensitive" : false,
     "created_at" : "Tue Aug 25 21:37:31 +0000 2020",
@@ -55566,6 +55560,1089 @@
     "full_text" : "HTTPX is an asyncio HTTP client library, with an API almost identical to Requests.\n\nhttps://t.co/o1DC7Xkm2Z\nthanks @jdbowman for today's #python_tip",
     "lang" : "en",
     "contributors" : [ "12527912" ]
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "user_mentions" : [ ],
+      "urls" : [ {
+        "url" : "https://t.co/SBGJd5pmwj",
+        "expanded_url" : "https://www.kaggle.com/python10pm/pandas-100-tricks#Trick-34:-Explore-a-dataset-with-profiling",
+        "display_url" : "kaggle.com/python10pm/pan…",
+        "indices" : [ "139", "162" ]
+      } ],
+      "symbols" : [ ],
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1321766750682230785/photo/1",
+        "indices" : [ "163", "186" ],
+        "url" : "https://t.co/R4d6obwMeG",
+        "media_url" : "http://pbs.twimg.com/media/ElfbvgdXIAIDLzS.png",
+        "id_str" : "1321766624869949442",
+        "id" : "1321766624869949442",
+        "media_url_https" : "https://pbs.twimg.com/media/ElfbvgdXIAIDLzS.png",
+        "sizes" : {
+          "medium" : {
+            "w" : "812",
+            "h" : "822",
+            "resize" : "fit"
+          },
+          "large" : {
+            "w" : "812",
+            "h" : "822",
+            "resize" : "fit"
+          },
+          "small" : {
+            "w" : "672",
+            "h" : "680",
+            "resize" : "fit"
+          },
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/R4d6obwMeG"
+      } ],
+      "hashtags" : [ ]
+    },
+    "display_text_range" : [ "0", "186" ],
+    "favorite_count" : "35",
+    "id_str" : "1321766750682230785",
+    "truncated" : false,
+    "retweet_count" : "5",
+    "id" : "1321766750682230785",
+    "possibly_sensitive" : false,
+    "created_at" : "Thu Oct 29 10:52:05 +0000 2020",
+    "favorited" : false,
+    "full_text" : "Generate a summary of your dataset with `pandas_profiling` package\n\n&gt;&gt;&gt; import pandas_profiling\n&gt;&gt;&gt; df.profile_report()\n\nhttps://t.co/SBGJd5pmwj https://t.co/R4d6obwMeG",
+    "lang" : "en",
+    "contributors" : [ "2282338147" ],
+    "extended_entities" : {
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1321766750682230785/photo/1",
+        "indices" : [ "163", "186" ],
+        "url" : "https://t.co/R4d6obwMeG",
+        "media_url" : "http://pbs.twimg.com/media/ElfbvgdXIAIDLzS.png",
+        "id_str" : "1321766624869949442",
+        "id" : "1321766624869949442",
+        "media_url_https" : "https://pbs.twimg.com/media/ElfbvgdXIAIDLzS.png",
+        "sizes" : {
+          "medium" : {
+            "w" : "812",
+            "h" : "822",
+            "resize" : "fit"
+          },
+          "large" : {
+            "w" : "812",
+            "h" : "822",
+            "resize" : "fit"
+          },
+          "small" : {
+            "w" : "672",
+            "h" : "680",
+            "resize" : "fit"
+          },
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/R4d6obwMeG"
+      } ]
+    }
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "user_mentions" : [ {
+        "name" : "Ave Nurme",
+        "screen_name" : "NurmeAve",
+        "indices" : [ "14", "23" ],
+        "id_str" : "1264118875295186949",
+        "id" : "1264118875295186949"
+      } ],
+      "urls" : [ ],
+      "symbols" : [ ],
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1321246292916555778/photo/1",
+        "indices" : [ "66", "89" ],
+        "url" : "https://t.co/BoWLNoeRni",
+        "media_url" : "http://pbs.twimg.com/media/ElYCYpOXgAEJbLT.png",
+        "id_str" : "1321246163086049281",
+        "id" : "1321246163086049281",
+        "media_url_https" : "https://pbs.twimg.com/media/ElYCYpOXgAEJbLT.png",
+        "sizes" : {
+          "small" : {
+            "w" : "381",
+            "h" : "350",
+            "resize" : "fit"
+          },
+          "medium" : {
+            "w" : "381",
+            "h" : "350",
+            "resize" : "fit"
+          },
+          "large" : {
+            "w" : "381",
+            "h" : "350",
+            "resize" : "fit"
+          },
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/BoWLNoeRni"
+      } ],
+      "hashtags" : [ {
+        "text" : "pythontip",
+        "indices" : [ "0", "10" ]
+      } ]
+    },
+    "display_text_range" : [ "0", "89" ],
+    "favorite_count" : "60",
+    "id_str" : "1321246292916555778",
+    "truncated" : false,
+    "retweet_count" : "7",
+    "id" : "1321246292916555778",
+    "possibly_sensitive" : false,
+    "created_at" : "Wed Oct 28 00:23:58 +0000 2020",
+    "favorited" : false,
+    "full_text" : "#pythontip by @NurmeAve about cycling through the list of players https://t.co/BoWLNoeRni",
+    "lang" : "en",
+    "contributors" : [ "2282338147" ],
+    "extended_entities" : {
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1321246292916555778/photo/1",
+        "indices" : [ "66", "89" ],
+        "url" : "https://t.co/BoWLNoeRni",
+        "media_url" : "http://pbs.twimg.com/media/ElYCYpOXgAEJbLT.png",
+        "id_str" : "1321246163086049281",
+        "id" : "1321246163086049281",
+        "media_url_https" : "https://pbs.twimg.com/media/ElYCYpOXgAEJbLT.png",
+        "sizes" : {
+          "small" : {
+            "w" : "381",
+            "h" : "350",
+            "resize" : "fit"
+          },
+          "medium" : {
+            "w" : "381",
+            "h" : "350",
+            "resize" : "fit"
+          },
+          "large" : {
+            "w" : "381",
+            "h" : "350",
+            "resize" : "fit"
+          },
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/BoWLNoeRni"
+      } ]
+    }
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "hashtags" : [ ],
+      "symbols" : [ ],
+      "user_mentions" : [ ],
+      "urls" : [ {
+        "url" : "https://t.co/fdXjwhz5Z5",
+        "expanded_url" : "https://github.com/python-rope/rope/blob/master/docs/overview.rst",
+        "display_url" : "github.com/python-rope/ro…",
+        "indices" : [ "113", "136" ]
+      }, {
+        "url" : "https://t.co/J7AJehPTwe",
+        "expanded_url" : "https://code.visualstudio.com/docs/python/editing#_refactoring",
+        "display_url" : "code.visualstudio.com/docs/python/ed…",
+        "indices" : [ "173", "196" ]
+      } ]
+    },
+    "display_text_range" : [ "0", "196" ],
+    "favorite_count" : "30",
+    "id_str" : "1321007704891162624",
+    "truncated" : false,
+    "retweet_count" : "5",
+    "id" : "1321007704891162624",
+    "possibly_sensitive" : false,
+    "created_at" : "Tue Oct 27 08:35:54 +0000 2020",
+    "favorited" : false,
+    "full_text" : "Do you need to rename an attribute of a class, a method, a function's keyword...? `Rope` can help you with that\n\nhttps://t.co/fdXjwhz5Z5\n\nOr you can refactor with VS Code \n\nhttps://t.co/J7AJehPTwe",
+    "lang" : "en",
+    "contributors" : [ "2282338147" ]
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "hashtags" : [ ],
+      "symbols" : [ ],
+      "user_mentions" : [ ],
+      "urls" : [ {
+        "url" : "https://t.co/DAMy3fUkMd",
+        "expanded_url" : "http://date.today",
+        "display_url" : "date.today",
+        "indices" : [ "107", "130" ]
+      } ]
+    },
+    "display_text_range" : [ "0", "141" ],
+    "favorite_count" : "80",
+    "id_str" : "1319825437933981696",
+    "truncated" : false,
+    "retweet_count" : "12",
+    "id" : "1319825437933981696",
+    "possibly_sensitive" : false,
+    "created_at" : "Sat Oct 24 02:18:00 +0000 2020",
+    "favorited" : false,
+    "full_text" : "&gt;&gt;&gt; from datetime import date\n&gt;&gt;&gt; somedate = date(2020, 12, 25)\n&gt;&gt;&gt; (somedate - https://t.co/DAMy3fUkMd()).days\n63",
+    "lang" : "ro"
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "hashtags" : [ {
+        "text" : "python",
+        "indices" : [ "158", "165" ]
+      } ],
+      "symbols" : [ ],
+      "user_mentions" : [ ],
+      "urls" : [ ]
+    },
+    "display_text_range" : [ "0", "165" ],
+    "favorite_count" : "95",
+    "id_str" : "1319726408957046784",
+    "truncated" : false,
+    "retweet_count" : "17",
+    "id" : "1319726408957046784",
+    "created_at" : "Fri Oct 23 19:44:29 +0000 2020",
+    "favorited" : false,
+    "full_text" : "&gt;&gt;&gt; lst = ['alice', 'bob', 'charlie']\n&gt;&gt;&gt; print(', '.join(lst))\nalice, bob, charlie\n&gt;&gt;&gt; print(*lst, sep=', ')\nalice, bob, charlie\n\n#python",
+    "lang" : "en",
+    "contributors" : [ "12527912" ]
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "hashtags" : [ {
+        "text" : "pandas",
+        "indices" : [ "0", "7" ]
+      } ],
+      "symbols" : [ ],
+      "user_mentions" : [ ],
+      "urls" : [ {
+        "url" : "https://t.co/kKksLTtTy3",
+        "expanded_url" : "http://pd.NA",
+        "display_url" : "pd.NA",
+        "indices" : [ "83", "106" ]
+      }, {
+        "url" : "https://t.co/kKksLTtTy3",
+        "expanded_url" : "http://pd.NA",
+        "display_url" : "pd.NA",
+        "indices" : [ "247", "270" ]
+      }, {
+        "url" : "https://t.co/ZQ211K5Kpc",
+        "expanded_url" : "https://pandas.pydata.org/pandas-docs/stable/user_guide/integer_na.html",
+        "display_url" : "pandas.pydata.org/pandas-docs/st…",
+        "indices" : [ "292", "315" ]
+      } ]
+    },
+    "display_text_range" : [ "0", "315" ],
+    "favorite_count" : "20",
+    "id_str" : "1318758155166404608",
+    "truncated" : false,
+    "retweet_count" : "3",
+    "id" : "1318758155166404608",
+    "possibly_sensitive" : false,
+    "created_at" : "Wed Oct 21 03:37:00 +0000 2020",
+    "favorited" : false,
+    "full_text" : "#pandas\nInt64 - nullable integer type\n\n&gt;&gt;&gt; pd.Series([1, 2, np.nan, None, https://t.co/kKksLTtTy3], dtype=\"Int64\")\n0       1\n1       2\n2    &lt;NA&gt;\n3    &lt;NA&gt;\n4    &lt;NA&gt;\ndtype: Int64\n\n&gt;&gt;&gt; pd.Series([1, np.nan, None, https://t.co/kKksLTtTy3], dtype=\"int64\")\n☠️\n\nhttps://t.co/ZQ211K5Kpc",
+    "lang" : "tl"
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "hashtags" : [ ],
+      "symbols" : [ ],
+      "user_mentions" : [ {
+        "name" : "starenka",
+        "screen_name" : "starenka",
+        "indices" : [ "0", "9" ],
+        "id_str" : "14924827",
+        "id" : "14924827"
+      }, {
+        "name" : "Alquimista Azúl",
+        "screen_name" : "LSC_David_Isaac",
+        "indices" : [ "10", "26" ],
+        "id_str" : "436832041",
+        "id" : "436832041"
+      } ],
+      "urls" : [ ]
+    },
+    "display_text_range" : [ "0", "282" ],
+    "favorite_count" : "2",
+    "in_reply_to_status_id_str" : "1318658752866811911",
+    "id_str" : "1318662854606790674",
+    "in_reply_to_user_id" : "14924827",
+    "truncated" : false,
+    "retweet_count" : "0",
+    "id" : "1318662854606790674",
+    "in_reply_to_status_id" : "1318658752866811911",
+    "created_at" : "Tue Oct 20 21:18:18 +0000 2020",
+    "favorited" : false,
+    "full_text" : "@starenka @LSC_David_Isaac yep\n\n&gt;&gt;&gt; txt.strip('_a') # remove all _ and a's from the ends\n'python'\n&gt;&gt;&gt; txt.rstrip('_a')\n'aaa_python'\n&gt;&gt;&gt; txt.removesuffix('_a') # suffix not found\n'aaa_python_aaa_aaa'\n&gt;&gt;&gt; txt.removeprefix(\"_a\")\n'aaa_python_aaa_aaa'",
+    "lang" : "en",
+    "contributors" : [ "12527912" ],
+    "in_reply_to_screen_name" : "starenka",
+    "in_reply_to_user_id_str" : "14924827"
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "hashtags" : [ {
+        "text" : "python3",
+        "indices" : [ "7", "15" ]
+      } ],
+      "symbols" : [ ],
+      "user_mentions" : [ ],
+      "urls" : [ {
+        "url" : "https://t.co/KTfoRSIpEA",
+        "expanded_url" : "https://www.python.org/dev/peps/pep-0616/",
+        "display_url" : "python.org/dev/peps/pep-0…",
+        "indices" : [ "207", "230" ]
+      } ]
+    },
+    "display_text_range" : [ "0", "230" ],
+    "favorite_count" : "42",
+    "id_str" : "1318629978376896514",
+    "truncated" : false,
+    "retweet_count" : "11",
+    "id" : "1318629978376896514",
+    "possibly_sensitive" : false,
+    "created_at" : "Tue Oct 20 19:07:40 +0000 2020",
+    "favorited" : false,
+    "full_text" : "New in #python3.9\n\nstr.removeprefix()\nstr.removesuffix()\n\n&gt;&gt;&gt; txt = 'aaa_python_aaa_aaa'\n&gt;&gt;&gt; txt.removesuffix('_aaa')\n'aaa_python_aaa'\n\ncompare:\n&gt;&gt;&gt; txt.rstrip('_a')\n'aaa_python'\n\nhttps://t.co/KTfoRSIpEA",
+    "lang" : "en",
+    "contributors" : [ "12527912" ]
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "user_mentions" : [ ],
+      "urls" : [ ],
+      "symbols" : [ ],
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1317761337007632384/photo/1",
+        "indices" : [ "53", "76" ],
+        "url" : "https://t.co/7bdB2ONteQ",
+        "media_url" : "http://pbs.twimg.com/media/EkhS5W0W0AEz6Yt.jpg",
+        "id_str" : "1317394036337070081",
+        "id" : "1317394036337070081",
+        "media_url_https" : "https://pbs.twimg.com/media/EkhS5W0W0AEz6Yt.jpg",
+        "sizes" : {
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          },
+          "medium" : {
+            "w" : "1200",
+            "h" : "715",
+            "resize" : "fit"
+          },
+          "small" : {
+            "w" : "680",
+            "h" : "405",
+            "resize" : "fit"
+          },
+          "large" : {
+            "w" : "1228",
+            "h" : "732",
+            "resize" : "fit"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/7bdB2ONteQ"
+      } ],
+      "hashtags" : [ ]
+    },
+    "display_text_range" : [ "0", "76" ],
+    "favorite_count" : "125",
+    "id_str" : "1317761337007632384",
+    "truncated" : false,
+    "retweet_count" : "20",
+    "id" : "1317761337007632384",
+    "possibly_sensitive" : false,
+    "created_at" : "Sun Oct 18 09:36:00 +0000 2020",
+    "favorited" : false,
+    "full_text" : "Identify language of a document with pycld2 package: https://t.co/7bdB2ONteQ",
+    "lang" : "en",
+    "extended_entities" : {
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1317761337007632384/photo/1",
+        "indices" : [ "53", "76" ],
+        "url" : "https://t.co/7bdB2ONteQ",
+        "media_url" : "http://pbs.twimg.com/media/EkhS5W0W0AEz6Yt.jpg",
+        "id_str" : "1317394036337070081",
+        "id" : "1317394036337070081",
+        "media_url_https" : "https://pbs.twimg.com/media/EkhS5W0W0AEz6Yt.jpg",
+        "sizes" : {
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          },
+          "medium" : {
+            "w" : "1200",
+            "h" : "715",
+            "resize" : "fit"
+          },
+          "small" : {
+            "w" : "680",
+            "h" : "405",
+            "resize" : "fit"
+          },
+          "large" : {
+            "w" : "1228",
+            "h" : "732",
+            "resize" : "fit"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/7bdB2ONteQ"
+      } ]
+    }
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "user_mentions" : [ ],
+      "urls" : [ ],
+      "symbols" : [ ],
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1317385160350892032/photo/1",
+        "indices" : [ "115", "138" ],
+        "url" : "https://t.co/5Jfpfgahjf",
+        "media_url" : "http://pbs.twimg.com/media/EkhKuY6XUAACLsO.png",
+        "id_str" : "1317385051827556352",
+        "id" : "1317385051827556352",
+        "media_url_https" : "https://pbs.twimg.com/media/EkhKuY6XUAACLsO.png",
+        "sizes" : {
+          "small" : {
+            "w" : "551",
+            "h" : "275",
+            "resize" : "fit"
+          },
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          },
+          "large" : {
+            "w" : "551",
+            "h" : "275",
+            "resize" : "fit"
+          },
+          "medium" : {
+            "w" : "551",
+            "h" : "275",
+            "resize" : "fit"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/5Jfpfgahjf"
+      } ],
+      "hashtags" : [ {
+        "text" : "pandas",
+        "indices" : [ "5", "12" ]
+      } ]
+    },
+    "display_text_range" : [ "0", "138" ],
+    "favorite_count" : "119",
+    "id_str" : "1317385160350892032",
+    "truncated" : false,
+    "retweet_count" : "24",
+    "id" : "1317385160350892032",
+    "possibly_sensitive" : false,
+    "created_at" : "Sat Oct 17 08:41:12 +0000 2020",
+    "favorited" : false,
+    "full_text" : "With #pandas DataFrame.explode you can transform list-like element into a row, replicating index values.\n\nExample: https://t.co/5Jfpfgahjf",
+    "lang" : "en",
+    "contributors" : [ "2282338147" ],
+    "extended_entities" : {
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1317385160350892032/photo/1",
+        "indices" : [ "115", "138" ],
+        "url" : "https://t.co/5Jfpfgahjf",
+        "media_url" : "http://pbs.twimg.com/media/EkhKuY6XUAACLsO.png",
+        "id_str" : "1317385051827556352",
+        "id" : "1317385051827556352",
+        "media_url_https" : "https://pbs.twimg.com/media/EkhKuY6XUAACLsO.png",
+        "sizes" : {
+          "small" : {
+            "w" : "551",
+            "h" : "275",
+            "resize" : "fit"
+          },
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          },
+          "large" : {
+            "w" : "551",
+            "h" : "275",
+            "resize" : "fit"
+          },
+          "medium" : {
+            "w" : "551",
+            "h" : "275",
+            "resize" : "fit"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/5Jfpfgahjf"
+      } ]
+    }
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "user_mentions" : [ ],
+      "urls" : [ ],
+      "symbols" : [ ],
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1316837225867468800/photo/1",
+        "indices" : [ "256", "279" ],
+        "url" : "https://t.co/HlrVf8k0vn",
+        "media_url" : "http://pbs.twimg.com/media/EkZYQ8wWsAEjZhF.jpg",
+        "id_str" : "1316836989262540801",
+        "id" : "1316836989262540801",
+        "media_url_https" : "https://pbs.twimg.com/media/EkZYQ8wWsAEjZhF.jpg",
+        "sizes" : {
+          "large" : {
+            "w" : "1126",
+            "h" : "840",
+            "resize" : "fit"
+          },
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          },
+          "small" : {
+            "w" : "680",
+            "h" : "507",
+            "resize" : "fit"
+          },
+          "medium" : {
+            "w" : "1126",
+            "h" : "840",
+            "resize" : "fit"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/HlrVf8k0vn"
+      } ],
+      "hashtags" : [ ]
+    },
+    "display_text_range" : [ "0", "279" ],
+    "favorite_count" : "153",
+    "id_str" : "1316837225867468800",
+    "truncated" : false,
+    "retweet_count" : "21",
+    "id" : "1316837225867468800",
+    "possibly_sensitive" : false,
+    "created_at" : "Thu Oct 15 20:23:54 +0000 2020",
+    "favorited" : false,
+    "full_text" : "Merging Dictionaries - new in Python 3.9!\n\na | b will merge `b` dictionary into `a` dictionary, if there are conflicts,  the rightmost-value will be kept\n\na |= b will merge `b` into `a` and return the result in `a` (it is also called updating)\n\nExample: 👇 https://t.co/HlrVf8k0vn",
+    "lang" : "en",
+    "contributors" : [ "2282338147" ],
+    "extended_entities" : {
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1316837225867468800/photo/1",
+        "indices" : [ "256", "279" ],
+        "url" : "https://t.co/HlrVf8k0vn",
+        "media_url" : "http://pbs.twimg.com/media/EkZYQ8wWsAEjZhF.jpg",
+        "id_str" : "1316836989262540801",
+        "id" : "1316836989262540801",
+        "media_url_https" : "https://pbs.twimg.com/media/EkZYQ8wWsAEjZhF.jpg",
+        "sizes" : {
+          "large" : {
+            "w" : "1126",
+            "h" : "840",
+            "resize" : "fit"
+          },
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          },
+          "small" : {
+            "w" : "680",
+            "h" : "507",
+            "resize" : "fit"
+          },
+          "medium" : {
+            "w" : "1126",
+            "h" : "840",
+            "resize" : "fit"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/HlrVf8k0vn"
+      } ]
+    }
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "entities" : {
+      "hashtags" : [ ],
+      "symbols" : [ ],
+      "user_mentions" : [ ],
+      "urls" : [ {
+        "url" : "https://t.co/nlSTpaA9yH",
+        "expanded_url" : "https://towardsdatascience.com/streamlit-101-an-in-depth-introduction-fc8aad9492f2",
+        "display_url" : "towardsdatascience.com/streamlit-101-…",
+        "indices" : [ "185", "208" ]
+      }, {
+        "url" : "https://t.co/7poJOOVxqj",
+        "expanded_url" : "https://twitter.com/streamlit/status/1314325156622266368",
+        "display_url" : "twitter.com/streamlit/stat…",
+        "indices" : [ "209", "232" ]
+      } ]
+    },
+    "display_text_range" : [ "0", "232" ],
+    "favorite_count" : "74",
+    "id_str" : "1315796911430029318",
+    "truncated" : false,
+    "retweet_count" : "22",
+    "id" : "1315796911430029318",
+    "possibly_sensitive" : false,
+    "created_at" : "Mon Oct 12 23:30:04 +0000 2020",
+    "favorited" : false,
+    "full_text" : "Streamlit (beautiful data apps in hours, not weeks; all in pure Python) is now introducing more flexible layout.\n\nIf you are new to Streamlit, create your first app after reading this, https://t.co/nlSTpaA9yH https://t.co/7poJOOVxqj",
+    "lang" : "en"
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "hashtags" : [ {
+        "text" : "python",
+        "indices" : [ "115", "122" ]
+      } ],
+      "symbols" : [ ],
+      "user_mentions" : [ ],
+      "urls" : [ ]
+    },
+    "display_text_range" : [ "0", "122" ],
+    "favorite_count" : "46",
+    "id_str" : "1314561051581722625",
+    "truncated" : false,
+    "retweet_count" : "18",
+    "id" : "1314561051581722625",
+    "created_at" : "Fri Oct 09 13:39:12 +0000 2020",
+    "favorited" : false,
+    "full_text" : "Chaining of comparison operators:\n\n&gt;&gt;&gt; 0 &lt; 10 != 1 &lt; 5\nTrue\n\n # 0 &lt; 10 and 10 != 1 and 1 &lt; 5\n\n#python",
+    "lang" : "en",
+    "contributors" : [ "12527912" ]
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "hashtags" : [ ],
+      "symbols" : [ ],
+      "user_mentions" : [ ],
+      "urls" : [ {
+        "url" : "https://t.co/CWt7WIWjDG",
+        "expanded_url" : "http://sahandsaba.com/thirty-python-language-features-and-tricks-you-may-not-know.html#id1",
+        "display_url" : "sahandsaba.com/thirty-python-…",
+        "indices" : [ "133", "156" ]
+      } ]
+    },
+    "display_text_range" : [ "0", "156" ],
+    "favorite_count" : "29",
+    "id_str" : "1314129787112296451",
+    "truncated" : false,
+    "retweet_count" : "9",
+    "id" : "1314129787112296451",
+    "possibly_sensitive" : false,
+    "created_at" : "Thu Oct 08 09:05:31 +0000 2020",
+    "favorited" : false,
+    "full_text" : "Slices with negative indexing\n&gt;&gt;&gt; a = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n&gt;&gt;&gt; a[-4:-2]\n[7, 8]\n\nMore slicing tips at https://t.co/CWt7WIWjDG",
+    "lang" : "en",
+    "contributors" : [ "12527912" ]
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "hashtags" : [ {
+        "text" : "python",
+        "indices" : [ "0", "7" ]
+      } ],
+      "symbols" : [ ],
+      "user_mentions" : [ ],
+      "urls" : [ {
+        "url" : "https://t.co/lEP9z9g5TT",
+        "expanded_url" : "https://docs.python.org/3.9/whatsnew/3.9.html",
+        "display_url" : "docs.python.org/3.9/whatsnew/3…",
+        "indices" : [ "21", "44" ]
+      } ]
+    },
+    "display_text_range" : [ "0", "44" ],
+    "favorite_count" : "86",
+    "id_str" : "1313565408251740160",
+    "truncated" : false,
+    "retweet_count" : "28",
+    "id" : "1313565408251740160",
+    "possibly_sensitive" : false,
+    "created_at" : "Tue Oct 06 19:42:52 +0000 2020",
+    "favorited" : false,
+    "full_text" : "#python 3.9 is out!\n\nhttps://t.co/lEP9z9g5TT",
+    "lang" : "en",
+    "contributors" : [ "12527912" ]
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "hashtags" : [ ],
+      "symbols" : [ ],
+      "user_mentions" : [ {
+        "name" : "Python Software Foundation",
+        "screen_name" : "ThePSF",
+        "indices" : [ "3", "10" ],
+        "id_str" : "63873759",
+        "id" : "63873759"
+      } ],
+      "urls" : [ {
+        "url" : "https://t.co/devKyhusbN",
+        "expanded_url" : "https://surveys.jetbrains.com/s3/c12-python-developers-survey-2020",
+        "display_url" : "surveys.jetbrains.com/s3/c12-python-…",
+        "indices" : [ "115", "138" ]
+      } ]
+    },
+    "display_text_range" : [ "0", "138" ],
+    "favorite_count" : "0",
+    "id_str" : "1313226474607042560",
+    "truncated" : false,
+    "retweet_count" : "0",
+    "id" : "1313226474607042560",
+    "possibly_sensitive" : false,
+    "created_at" : "Mon Oct 05 21:16:04 +0000 2020",
+    "favorited" : false,
+    "full_text" : "RT @ThePSF: Help us map out an accurate landscape of the Python community – join the official Python Survey 2020.  https://t.co/devKyhusbN",
+    "lang" : "en",
+    "contributors" : [ "12527912" ]
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "user_mentions" : [ ],
+      "urls" : [ {
+        "url" : "https://t.co/46sgpUbaw2",
+        "expanded_url" : "https://rise.readthedocs.io/en/stable/",
+        "display_url" : "rise.readthedocs.io/en/stable/",
+        "indices" : [ "65", "88" ]
+      } ],
+      "symbols" : [ ],
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1313220455914971141/photo/1",
+        "indices" : [ "89", "112" ],
+        "url" : "https://t.co/n86PzZMN0f",
+        "media_url" : "http://pbs.twimg.com/tweet_video_thumb/Ejl-4mBWAAAaBXT.jpg",
+        "id_str" : "1313220277099167744",
+        "id" : "1313220277099167744",
+        "media_url_https" : "https://pbs.twimg.com/tweet_video_thumb/Ejl-4mBWAAAaBXT.jpg",
+        "sizes" : {
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          },
+          "large" : {
+            "w" : "640",
+            "h" : "312",
+            "resize" : "fit"
+          },
+          "small" : {
+            "w" : "640",
+            "h" : "312",
+            "resize" : "fit"
+          },
+          "medium" : {
+            "w" : "640",
+            "h" : "312",
+            "resize" : "fit"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/n86PzZMN0f"
+      } ],
+      "hashtags" : [ {
+        "text" : "jupyter",
+        "indices" : [ "10", "18" ]
+      } ]
+    },
+    "display_text_range" : [ "0", "112" ],
+    "favorite_count" : "54",
+    "id_str" : "1313220455914971141",
+    "truncated" : false,
+    "retweet_count" : "13",
+    "id" : "1313220455914971141",
+    "possibly_sensitive" : false,
+    "created_at" : "Mon Oct 05 20:52:09 +0000 2020",
+    "favorited" : false,
+    "full_text" : "Turn your #jupyter notebooks into slides with the RISE extension\nhttps://t.co/46sgpUbaw2 https://t.co/n86PzZMN0f",
+    "lang" : "en",
+    "contributors" : [ "12527912" ],
+    "extended_entities" : {
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1313220455914971141/photo/1",
+        "indices" : [ "89", "112" ],
+        "url" : "https://t.co/n86PzZMN0f",
+        "media_url" : "http://pbs.twimg.com/tweet_video_thumb/Ejl-4mBWAAAaBXT.jpg",
+        "id_str" : "1313220277099167744",
+        "video_info" : {
+          "aspect_ratio" : [ "80", "39" ],
+          "variants" : [ {
+            "bitrate" : "0",
+            "content_type" : "video/mp4",
+            "url" : "https://video.twimg.com/tweet_video/Ejl-4mBWAAAaBXT.mp4"
+          } ]
+        },
+        "id" : "1313220277099167744",
+        "media_url_https" : "https://pbs.twimg.com/tweet_video_thumb/Ejl-4mBWAAAaBXT.jpg",
+        "sizes" : {
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          },
+          "large" : {
+            "w" : "640",
+            "h" : "312",
+            "resize" : "fit"
+          },
+          "small" : {
+            "w" : "640",
+            "h" : "312",
+            "resize" : "fit"
+          },
+          "medium" : {
+            "w" : "640",
+            "h" : "312",
+            "resize" : "fit"
+          }
+        },
+        "type" : "animated_gif",
+        "display_url" : "pic.twitter.com/n86PzZMN0f"
+      } ]
+    }
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "user_mentions" : [ ],
+      "urls" : [ {
+        "url" : "https://t.co/38avVIvoBc",
+        "expanded_url" : "https://medium.com/better-programming/introducing-autoscraper-a-smart-fast-and-lightweight-web-scraper-for-python-20987f52c749",
+        "display_url" : "medium.com/better-program…",
+        "indices" : [ "136", "159" ]
+      } ],
+      "symbols" : [ ],
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1312523832297582594/photo/1",
+        "indices" : [ "194", "217" ],
+        "url" : "https://t.co/gFXQWvsiS6",
+        "media_url" : "http://pbs.twimg.com/media/EjcE70ZXsAESsVb.png",
+        "id_str" : "1312523242125635585",
+        "id" : "1312523242125635585",
+        "media_url_https" : "https://pbs.twimg.com/media/EjcE70ZXsAESsVb.png",
+        "sizes" : {
+          "medium" : {
+            "w" : "554",
+            "h" : "605",
+            "resize" : "fit"
+          },
+          "large" : {
+            "w" : "554",
+            "h" : "605",
+            "resize" : "fit"
+          },
+          "small" : {
+            "w" : "554",
+            "h" : "605",
+            "resize" : "fit"
+          },
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/gFXQWvsiS6"
+      } ],
+      "hashtags" : [ ]
+    },
+    "display_text_range" : [ "0", "217" ],
+    "favorite_count" : "194",
+    "id_str" : "1312523832297582594",
+    "truncated" : false,
+    "retweet_count" : "47",
+    "id" : "1312523832297582594",
+    "possibly_sensitive" : false,
+    "created_at" : "Sat Oct 03 22:44:01 +0000 2020",
+    "favorited" : false,
+    "full_text" : "AutoScraper: give it a URL and an example what would you like to scrape, and it learns the scraping rules and returns similar elements\n\nhttps://t.co/38avVIvoBc\n\nExample: web page, code, results https://t.co/gFXQWvsiS6",
+    "lang" : "en",
+    "contributors" : [ "2282338147" ],
+    "extended_entities" : {
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1312523832297582594/photo/1",
+        "indices" : [ "194", "217" ],
+        "url" : "https://t.co/gFXQWvsiS6",
+        "media_url" : "http://pbs.twimg.com/media/EjcE70ZXsAESsVb.png",
+        "id_str" : "1312523242125635585",
+        "id" : "1312523242125635585",
+        "media_url_https" : "https://pbs.twimg.com/media/EjcE70ZXsAESsVb.png",
+        "sizes" : {
+          "medium" : {
+            "w" : "554",
+            "h" : "605",
+            "resize" : "fit"
+          },
+          "large" : {
+            "w" : "554",
+            "h" : "605",
+            "resize" : "fit"
+          },
+          "small" : {
+            "w" : "554",
+            "h" : "605",
+            "resize" : "fit"
+          },
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/gFXQWvsiS6"
+      }, {
+        "expanded_url" : "https://twitter.com/python_tip/status/1312523832297582594/photo/1",
+        "indices" : [ "194", "217" ],
+        "url" : "https://t.co/gFXQWvsiS6",
+        "media_url" : "http://pbs.twimg.com/media/EjcE9GAXgAADwjH.png",
+        "id_str" : "1312523264032473088",
+        "id" : "1312523264032473088",
+        "media_url_https" : "https://pbs.twimg.com/media/EjcE9GAXgAADwjH.png",
+        "sizes" : {
+          "large" : {
+            "w" : "563",
+            "h" : "172",
+            "resize" : "fit"
+          },
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          },
+          "small" : {
+            "w" : "563",
+            "h" : "172",
+            "resize" : "fit"
+          },
+          "medium" : {
+            "w" : "563",
+            "h" : "172",
+            "resize" : "fit"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/gFXQWvsiS6"
+      }, {
+        "expanded_url" : "https://twitter.com/python_tip/status/1312523832297582594/photo/1",
+        "indices" : [ "194", "217" ],
+        "url" : "https://t.co/gFXQWvsiS6",
+        "media_url" : "http://pbs.twimg.com/media/EjcE-GmWsAABjEo.png",
+        "id_str" : "1312523281371672576",
+        "id" : "1312523281371672576",
+        "media_url_https" : "https://pbs.twimg.com/media/EjcE-GmWsAABjEo.png",
+        "sizes" : {
+          "small" : {
+            "w" : "647",
+            "h" : "243",
+            "resize" : "fit"
+          },
+          "medium" : {
+            "w" : "647",
+            "h" : "243",
+            "resize" : "fit"
+          },
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          },
+          "large" : {
+            "w" : "647",
+            "h" : "243",
+            "resize" : "fit"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/gFXQWvsiS6"
+      } ]
+    }
   }
 }, {
   "tweet" : {
@@ -55584,10 +56661,10 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "189" ],
-    "favorite_count" : "52",
+    "favorite_count" : "64",
     "id_str" : "1311683042067480578",
     "truncated" : false,
-    "retweet_count" : "18",
+    "retweet_count" : "22",
     "id" : "1311683042067480578",
     "created_at" : "Thu Oct 01 15:03:01 +0000 2020",
     "favorited" : false,
@@ -55644,10 +56721,10 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "166" ],
-    "favorite_count" : "136",
+    "favorite_count" : "143",
     "id_str" : "1311406200270053377",
     "truncated" : false,
-    "retweet_count" : "38",
+    "retweet_count" : "41",
     "id" : "1311406200270053377",
     "possibly_sensitive" : false,
     "created_at" : "Wed Sep 30 20:42:57 +0000 2020",
@@ -55783,10 +56860,10 @@
       } ]
     },
     "display_text_range" : [ "0", "110" ],
-    "favorite_count" : "92",
+    "favorite_count" : "95",
     "id_str" : "1311069231182753793",
     "truncated" : false,
-    "retweet_count" : "25",
+    "retweet_count" : "27",
     "id" : "1311069231182753793",
     "possibly_sensitive" : false,
     "created_at" : "Tue Sep 29 22:23:57 +0000 2020",
@@ -55879,10 +56956,10 @@
       "hashtags" : [ ]
     },
     "display_text_range" : [ "0", "227" ],
-    "favorite_count" : "26",
+    "favorite_count" : "27",
     "id_str" : "1310532251441037312",
     "truncated" : false,
-    "retweet_count" : "13",
+    "retweet_count" : "14",
     "id" : "1310532251441037312",
     "possibly_sensitive" : false,
     "created_at" : "Mon Sep 28 10:50:11 +0000 2020",
@@ -55948,7 +57025,7 @@
     "favorite_count" : "22",
     "id_str" : "1309412744949571585",
     "truncated" : false,
-    "retweet_count" : "10",
+    "retweet_count" : "11",
     "id" : "1309412744949571585",
     "possibly_sensitive" : false,
     "created_at" : "Fri Sep 25 08:41:40 +0000 2020",
@@ -56004,10 +57081,10 @@
       } ]
     },
     "display_text_range" : [ "0", "129" ],
-    "favorite_count" : "129",
+    "favorite_count" : "126",
     "id_str" : "1309070062393978881",
     "truncated" : false,
-    "retweet_count" : "34",
+    "retweet_count" : "31",
     "id" : "1309070062393978881",
     "possibly_sensitive" : false,
     "created_at" : "Thu Sep 24 09:59:58 +0000 2020",
@@ -56050,6 +57127,403 @@
         "display_url" : "pic.twitter.com/r5Tr75i3pJ"
       } ]
     }
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "user_mentions" : [ ],
+      "urls" : [ {
+        "url" : "https://t.co/wTAwQFAIOK",
+        "expanded_url" : "https://pypi.org/project/split-folders/",
+        "display_url" : "pypi.org/project/split-…",
+        "indices" : [ "245", "268" ]
+      } ],
+      "symbols" : [ ],
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1325839863309078529/photo/1",
+        "indices" : [ "269", "292" ],
+        "url" : "https://t.co/ALPBNnwfUJ",
+        "media_url" : "http://pbs.twimg.com/media/EmZUPyKW8AIIUbj.png",
+        "id_str" : "1325839770447179778",
+        "id" : "1325839770447179778",
+        "media_url_https" : "https://pbs.twimg.com/media/EmZUPyKW8AIIUbj.png",
+        "sizes" : {
+          "large" : {
+            "w" : "208",
+            "h" : "198",
+            "resize" : "fit"
+          },
+          "medium" : {
+            "w" : "208",
+            "h" : "198",
+            "resize" : "fit"
+          },
+          "small" : {
+            "w" : "208",
+            "h" : "198",
+            "resize" : "fit"
+          },
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/ALPBNnwfUJ"
+      } ],
+      "hashtags" : [ ]
+    },
+    "display_text_range" : [ "0", "292" ],
+    "favorite_count" : "41",
+    "id_str" : "1325839863309078529",
+    "truncated" : false,
+    "retweet_count" : "8",
+    "id" : "1325839863309078529",
+    "possibly_sensitive" : false,
+    "created_at" : "Mon Nov 09 16:37:10 +0000 2020",
+    "favorited" : false,
+    "full_text" : "`split-folders` package makes it easy to split images in the input folder into train, validation and test folders:\n\n&gt;&gt;&gt; import splitfolders\n&gt;&gt;&gt; splitfolders.ratio(\"input_folder\", output=\"output\", seed=1337, ratio=(.8, .1, .1)\n\nhttps://t.co/wTAwQFAIOK https://t.co/ALPBNnwfUJ",
+    "lang" : "en",
+    "contributors" : [ "2282338147" ],
+    "extended_entities" : {
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1325839863309078529/photo/1",
+        "indices" : [ "269", "292" ],
+        "url" : "https://t.co/ALPBNnwfUJ",
+        "media_url" : "http://pbs.twimg.com/media/EmZUPyKW8AIIUbj.png",
+        "id_str" : "1325839770447179778",
+        "id" : "1325839770447179778",
+        "media_url_https" : "https://pbs.twimg.com/media/EmZUPyKW8AIIUbj.png",
+        "sizes" : {
+          "large" : {
+            "w" : "208",
+            "h" : "198",
+            "resize" : "fit"
+          },
+          "medium" : {
+            "w" : "208",
+            "h" : "198",
+            "resize" : "fit"
+          },
+          "small" : {
+            "w" : "208",
+            "h" : "198",
+            "resize" : "fit"
+          },
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/ALPBNnwfUJ"
+      }, {
+        "expanded_url" : "https://twitter.com/python_tip/status/1325839863309078529/photo/1",
+        "indices" : [ "269", "292" ],
+        "url" : "https://t.co/ALPBNnwfUJ",
+        "media_url" : "http://pbs.twimg.com/media/EmZUQp_WMAELd4k.png",
+        "id_str" : "1325839785433378817",
+        "id" : "1325839785433378817",
+        "media_url_https" : "https://pbs.twimg.com/media/EmZUQp_WMAELd4k.png",
+        "sizes" : {
+          "large" : {
+            "w" : "197",
+            "h" : "454",
+            "resize" : "fit"
+          },
+          "small" : {
+            "w" : "197",
+            "h" : "454",
+            "resize" : "fit"
+          },
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          },
+          "medium" : {
+            "w" : "197",
+            "h" : "454",
+            "resize" : "fit"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/ALPBNnwfUJ"
+      } ]
+    }
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "hashtags" : [ {
+        "text" : "Pandas",
+        "indices" : [ "270", "277" ]
+      } ],
+      "symbols" : [ ],
+      "user_mentions" : [ {
+        "name" : "Petra Vidnerová",
+        "screen_name" : "PetraVidnerova",
+        "indices" : [ "254", "269" ],
+        "id_str" : "3233371409",
+        "id" : "3233371409"
+      } ],
+      "urls" : [ {
+        "url" : "https://t.co/KBWVZb2pZj",
+        "expanded_url" : "http://pd.read",
+        "display_url" : "pd.read",
+        "indices" : [ "120", "143" ]
+      } ]
+    },
+    "display_text_range" : [ "0", "277" ],
+    "favorite_count" : "81",
+    "id_str" : "1324436571920101376",
+    "truncated" : false,
+    "retweet_count" : "26",
+    "id" : "1324436571920101376",
+    "possibly_sensitive" : false,
+    "created_at" : "Thu Nov 05 19:41:00 +0000 2020",
+    "favorited" : false,
+    "full_text" : "Read multiple csv from a zip file: \n\nfrom zipfile import ZipFile\nimport pandas as pd\n\nzf = ZipFile(\"z_f.zip\")\ndf_lst = [https://t.co/KBWVZb2pZj_csv(https://t.co/8dJA0i8dng(fle.filename)) for fle in zf.infolist() if fle.filename.endswith(\".csv\")]\n\ntip by @PetraVidnerova #Pandas",
+    "lang" : "de"
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "user_mentions" : [ ],
+      "urls" : [ {
+        "url" : "https://t.co/lBalG6xeBl",
+        "expanded_url" : "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.explode.html",
+        "display_url" : "pandas.pydata.org/pandas-docs/st…",
+        "indices" : [ "198", "221" ]
+      } ],
+      "symbols" : [ ],
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1324205046154735621/photo/1",
+        "indices" : [ "222", "245" ],
+        "url" : "https://t.co/cmX791nW6I",
+        "media_url" : "http://pbs.twimg.com/media/EmAgzicXgAEe7J7.jpg",
+        "id_str" : "1324094360238129153",
+        "id" : "1324094360238129153",
+        "media_url_https" : "https://pbs.twimg.com/media/EmAgzicXgAEe7J7.jpg",
+        "sizes" : {
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          },
+          "medium" : {
+            "w" : "1200",
+            "h" : "1043",
+            "resize" : "fit"
+          },
+          "small" : {
+            "w" : "680",
+            "h" : "591",
+            "resize" : "fit"
+          },
+          "large" : {
+            "w" : "1430",
+            "h" : "1243",
+            "resize" : "fit"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/cmX791nW6I"
+      } ],
+      "hashtags" : [ {
+        "text" : "pandas",
+        "indices" : [ "0", "7" ]
+      } ]
+    },
+    "display_text_range" : [ "0", "245" ],
+    "favorite_count" : "94",
+    "id_str" : "1324205046154735621",
+    "truncated" : false,
+    "retweet_count" : "18",
+    "id" : "1324205046154735621",
+    "possibly_sensitive" : false,
+    "created_at" : "Thu Nov 05 04:21:00 +0000 2020",
+    "favorited" : false,
+    "full_text" : "#pandas DataFrame.explode() will transform each element of a list-like to a row\n\ndf = pd.DataFrame([{'var1': ['a', 'b', 'c', 'd'], 'var2': 1}, {'var1': ('x', 'y'), 'var2': 3}])\n\ndf.explode('var1')\n\nhttps://t.co/lBalG6xeBl https://t.co/cmX791nW6I",
+    "lang" : "en",
+    "extended_entities" : {
+      "media" : [ {
+        "expanded_url" : "https://twitter.com/python_tip/status/1324205046154735621/photo/1",
+        "indices" : [ "222", "245" ],
+        "url" : "https://t.co/cmX791nW6I",
+        "media_url" : "http://pbs.twimg.com/media/EmAgzicXgAEe7J7.jpg",
+        "id_str" : "1324094360238129153",
+        "id" : "1324094360238129153",
+        "media_url_https" : "https://pbs.twimg.com/media/EmAgzicXgAEe7J7.jpg",
+        "sizes" : {
+          "thumb" : {
+            "w" : "150",
+            "h" : "150",
+            "resize" : "crop"
+          },
+          "medium" : {
+            "w" : "1200",
+            "h" : "1043",
+            "resize" : "fit"
+          },
+          "small" : {
+            "w" : "680",
+            "h" : "591",
+            "resize" : "fit"
+          },
+          "large" : {
+            "w" : "1430",
+            "h" : "1243",
+            "resize" : "fit"
+          }
+        },
+        "type" : "photo",
+        "display_url" : "pic.twitter.com/cmX791nW6I"
+      } ]
+    }
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "hashtags" : [ {
+        "text" : "Python3",
+        "indices" : [ "3", "11" ]
+      } ],
+      "symbols" : [ ],
+      "user_mentions" : [ ],
+      "urls" : [ {
+        "url" : "https://t.co/Jm8LgioMJb",
+        "expanded_url" : "https://docs.python.org/3/library/functions.html#print",
+        "display_url" : "docs.python.org/3/library/func…",
+        "indices" : [ "255", "278" ]
+      } ]
+    },
+    "display_text_range" : [ "0", "278" ],
+    "favorite_count" : "73",
+    "id_str" : "1324090855741902849",
+    "truncated" : false,
+    "retweet_count" : "13",
+    "id" : "1324090855741902849",
+    "possibly_sensitive" : false,
+    "created_at" : "Wed Nov 04 20:47:15 +0000 2020",
+    "favorited" : false,
+    "full_text" : "In #Python3, the print function has options\n* 'sep' to separate the arguments\n* 'end' to be printed after the last argument\n\n&gt;&gt;&gt; lst = ['a', 'b', 'c'] \n&gt;&gt;&gt; print(*lst) \na b c \n&gt;&gt;&gt; print(*lst, sep=', ', end='!!!\\n') \na, b, c!!!\n\nhttps://t.co/Jm8LgioMJb",
+    "lang" : "en",
+    "contributors" : [ "12527912" ]
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "hashtags" : [ {
+        "text" : "Python",
+        "indices" : [ "175", "182" ]
+      }, {
+        "text" : "PyDataGlobal2020",
+        "indices" : [ "183", "200" ]
+      }, {
+        "text" : "pydata",
+        "indices" : [ "201", "208" ]
+      } ],
+      "symbols" : [ ],
+      "user_mentions" : [ ],
+      "urls" : [ {
+        "url" : "https://t.co/rw4XQKuRqq",
+        "expanded_url" : "https://global.pydata.org/",
+        "display_url" : "global.pydata.org",
+        "indices" : [ "150", "173" ]
+      } ]
+    },
+    "display_text_range" : [ "0", "208" ],
+    "favorite_count" : "12",
+    "id_str" : "1323402107010121728",
+    "truncated" : false,
+    "retweet_count" : "7",
+    "id" : "1323402107010121728",
+    "possibly_sensitive" : false,
+    "created_at" : "Mon Nov 02 23:10:24 +0000 2020",
+    "favorited" : false,
+    "full_text" : "PyData Global: fully virtual event \n\nNov 11th-15th  \n\ntalks, tutorials, posters and sprints\n\ntickets are sold under a pay-what-you-can pricing model\n\nhttps://t.co/rw4XQKuRqq\n\n#Python #PyDataGlobal2020 #pydata",
+    "lang" : "en",
+    "contributors" : [ "12527912" ]
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "hashtags" : [ {
+        "text" : "nbdev",
+        "indices" : [ "77", "83" ]
+      }, {
+        "text" : "fastdoc",
+        "indices" : [ "88", "96" ]
+      } ],
+      "symbols" : [ ],
+      "user_mentions" : [ {
+        "name" : "Jeremy Howard",
+        "screen_name" : "jeremyphoward",
+        "indices" : [ "18", "32" ],
+        "id_str" : "175282603",
+        "id" : "175282603"
+      } ],
+      "urls" : [ {
+        "url" : "https://t.co/srMIchVD7p",
+        "expanded_url" : "https://www.youtube.com/watch?v=9Q6sLbz37gk",
+        "display_url" : "youtube.com/watch?v=9Q6sLb…",
+        "indices" : [ "98", "121" ]
+      } ]
+    },
+    "display_text_range" : [ "0", "121" ],
+    "favorite_count" : "34",
+    "id_str" : "1322073500891275267",
+    "truncated" : false,
+    "retweet_count" : "9",
+    "id" : "1322073500891275267",
+    "possibly_sensitive" : false,
+    "created_at" : "Fri Oct 30 07:11:00 +0000 2020",
+    "favorited" : false,
+    "full_text" : "I Like Notebooks\n\n@jeremyphoward's recent talk about Jupyter notebooks, also #nbdev and #fastdoc\n\nhttps://t.co/srMIchVD7p",
+    "lang" : "en"
+  }
+}, {
+  "tweet" : {
+    "retweeted" : false,
+    "source" : "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "entities" : {
+      "hashtags" : [ ],
+      "symbols" : [ ],
+      "user_mentions" : [ ],
+      "urls" : [ {
+        "url" : "https://t.co/ZVjmm7IBln",
+        "expanded_url" : "https://twitter.com/SciPyTip/status/1321926042634850304",
+        "display_url" : "twitter.com/SciPyTip/statu…",
+        "indices" : [ "306", "329" ]
+      } ]
+    },
+    "display_text_range" : [ "0", "329" ],
+    "favorite_count" : "28",
+    "id_str" : "1321975163752206338",
+    "truncated" : false,
+    "retweet_count" : "6",
+    "id" : "1321975163752206338",
+    "possibly_sensitive" : false,
+    "created_at" : "Fri Oct 30 00:40:14 +0000 2020",
+    "favorited" : false,
+    "full_text" : "Python can handle complex numbers\n\n&gt;&gt;&gt; import cmath\n&gt;&gt;&gt; \n&gt;&gt;&gt; x,y = 5,1\n&gt;&gt;&gt; z = complex(x,y)\n&gt;&gt;&gt; \n&gt;&gt;&gt; z.real, z.imag\n(5.0, 1.0)\n&gt;&gt;&gt; z\n(5+1j)\n&gt;&gt;&gt; \n&gt;&gt;&gt; w = cmath.polar(z)\n&gt;&gt;&gt; w\n(5.0990195135927845, 0.19739555984988075) https://t.co/ZVjmm7IBln",
+    "lang" : "en",
+    "contributors" : [ "2282338147" ]
   }
 }, {
   "tweet" : {
@@ -56124,7 +57598,7 @@
       "hashtags" : [ ],
       "symbols" : [ ],
       "user_mentions" : [ {
-        "name" : "taylor edmiston 999 🔥",
+        "name" : "taylor edmiston 999 ⚡️",
         "screen_name" : "kicksopenminds",
         "indices" : [ "3", "18" ],
         "id_str" : "56261528",
@@ -56161,7 +57635,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "140" ],
-    "favorite_count" : "20",
+    "favorite_count" : "19",
     "id_str" : "890481887663210496",
     "truncated" : false,
     "retweet_count" : "5",
@@ -56701,7 +58175,7 @@
       } ]
     },
     "display_text_range" : [ "0", "158" ],
-    "favorite_count" : "19",
+    "favorite_count" : "18",
     "id_str" : "882509359657254912",
     "truncated" : false,
     "retweet_count" : "10",
@@ -56820,7 +58294,7 @@
       } ]
     },
     "display_text_range" : [ "0", "122" ],
-    "favorite_count" : "36",
+    "favorite_count" : "35",
     "id_str" : "880678711393177601",
     "truncated" : false,
     "retweet_count" : "16",
@@ -58049,7 +59523,7 @@
       } ]
     },
     "display_text_range" : [ "0", "116" ],
-    "favorite_count" : "20",
+    "favorite_count" : "19",
     "id_str" : "893448228376641536",
     "truncated" : false,
     "retweet_count" : "4",
@@ -58213,7 +59687,7 @@
       } ]
     },
     "display_text_range" : [ "0", "143" ],
-    "favorite_count" : "43",
+    "favorite_count" : "42",
     "id_str" : "892671812160684032",
     "truncated" : false,
     "retweet_count" : "23",
@@ -58852,7 +60326,7 @@
     "favorite_count" : "14",
     "id_str" : "908716438222815233",
     "truncated" : false,
-    "retweet_count" : "6",
+    "retweet_count" : "5",
     "id" : "908716438222815233",
     "possibly_sensitive" : false,
     "created_at" : "Fri Sep 15 15:37:36 +0000 2017",
@@ -59087,7 +60561,7 @@
       } ]
     },
     "display_text_range" : [ "0", "145" ],
-    "favorite_count" : "55",
+    "favorite_count" : "54",
     "id_str" : "905742157033689088",
     "truncated" : false,
     "retweet_count" : "23",
@@ -59614,7 +61088,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "128" ],
-    "favorite_count" : "16",
+    "favorite_count" : "15",
     "id_str" : "922719309301870593",
     "truncated" : false,
     "retweet_count" : "8",
@@ -59707,7 +61181,7 @@
       } ]
     },
     "display_text_range" : [ "0", "192" ],
-    "favorite_count" : "21",
+    "favorite_count" : "20",
     "id_str" : "920942575858733057",
     "truncated" : false,
     "retweet_count" : "14",
@@ -59766,7 +61240,7 @@
       } ]
     },
     "display_text_range" : [ "0", "84" ],
-    "favorite_count" : "36",
+    "favorite_count" : "35",
     "id_str" : "920210222098067457",
     "truncated" : false,
     "retweet_count" : "18",
@@ -59823,7 +61297,7 @@
         "id_str" : "4806735198",
         "id" : "4806735198"
       }, {
-        "name" : "Roger McMinn 🇪🇺 tory - The party for criminals",
+        "name" : "Roger McMinn 🇪🇺 You voted for brexit? Oh dear.",
         "screen_name" : "Roger120M",
         "indices" : [ "14", "24" ],
         "id_str" : "138008116",
@@ -59890,7 +61364,7 @@
     "source" : "<a href=\"https://tapbots.com/software/tweetbot/mac\" rel=\"nofollow\">Tweetbot for Mac</a>",
     "entities" : {
       "user_mentions" : [ {
-        "name" : "Roger McMinn 🇪🇺 Why are the torys so cruel?",
+        "name" : "Roger McMinn 🇪🇺 You voted for brexit? Oh dear.",
         "screen_name" : "Roger120M",
         "indices" : [ "0", "10" ],
         "id_str" : "138008116",
@@ -59998,7 +61472,7 @@
       "hashtags" : [ ],
       "symbols" : [ ],
       "user_mentions" : [ {
-        "name" : "Roger McMinn 🇪🇺 tory - The party for criminals",
+        "name" : "Roger McMinn 🇪🇺 You voted for brexit? Oh dear.",
         "screen_name" : "Roger120M",
         "indices" : [ "0", "10" ],
         "id_str" : "138008116",
@@ -60031,7 +61505,7 @@
       "hashtags" : [ ],
       "symbols" : [ ],
       "user_mentions" : [ {
-        "name" : "Roger McMinn 🇪🇺 tory - The party for criminals",
+        "name" : "Roger McMinn 🇪🇺 You voted for brexit? Oh dear.",
         "screen_name" : "Roger120M",
         "indices" : [ "3", "13" ],
         "id_str" : "138008116",
@@ -60573,7 +62047,7 @@
       } ]
     },
     "display_text_range" : [ "0", "194" ],
-    "favorite_count" : "20",
+    "favorite_count" : "19",
     "id_str" : "932512160185323521",
     "truncated" : false,
     "retweet_count" : "7",
@@ -60767,7 +62241,7 @@
       } ]
     },
     "display_text_range" : [ "0", "131" ],
-    "favorite_count" : "22",
+    "favorite_count" : "21",
     "id_str" : "930727795080220672",
     "truncated" : false,
     "retweet_count" : "2",
@@ -60958,7 +62432,7 @@
       } ]
     },
     "display_text_range" : [ "0", "93" ],
-    "favorite_count" : "31",
+    "favorite_count" : "30",
     "id_str" : "929984742421942272",
     "truncated" : false,
     "retweet_count" : "9",
@@ -61136,7 +62610,7 @@
       "urls" : [ ]
     },
     "display_text_range" : [ "0", "119" ],
-    "favorite_count" : "43",
+    "favorite_count" : "42",
     "id_str" : "928170229519278080",
     "truncated" : false,
     "retweet_count" : "19",
@@ -61363,7 +62837,7 @@
       } ]
     },
     "display_text_range" : [ "0", "111" ],
-    "favorite_count" : "109",
+    "favorite_count" : "108",
     "id_str" : "925689685468499969",
     "truncated" : false,
     "retweet_count" : "50",
@@ -61569,7 +63043,7 @@
       } ]
     },
     "display_text_range" : [ "0", "153" ],
-    "favorite_count" : "41",
+    "favorite_count" : "40",
     "id_str" : "924938430819090432",
     "truncated" : false,
     "retweet_count" : "12",
