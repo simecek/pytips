@@ -37,9 +37,9 @@ ui <- fluidPage(
   # Show a plot of the generated distribution
   uiOutput("tweet")),
   
-  conditionalPanel(condition = "input.n == 73",
+  conditionalPanel(condition = "input.n == 515",
       textInput("name", "To be saved under a name:", "")),
   
-  conditionalPanel(condition = "input.n == 73",
+  conditionalPanel(condition = "input.n == 515",
                    downloadButton("downloadResults", "Save"))
 )

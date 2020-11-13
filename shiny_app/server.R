@@ -2,7 +2,7 @@
 library(shiny)
 library(tidyverse)
 
-DATA_PATH = "../twitter_dump/df4.csv"
+DATA_PATH = "../twitter_dump/df3.csv"
 df <- read_csv(DATA_PATH) 
 
 server <- function(input, output, session) {
@@ -10,11 +10,11 @@ server <- function(input, output, session) {
   rv <- reactiveValues(n=1,
                        results=data.frame(id=numeric(), text=character(), topic=character(), 
                                           eval=numeric(), duplicated=logical(), stringsAsFactors = FALSE)) 
-  
+    
   observeEvent(input$goNext, {
     if (rv$n < nrow(df)) {
-      rv$n <- rv$n + 1;
       rv$results[nrow(rv$results) + 1,] = c(df$id[rv$n], df$full_text[rv$n], input$topic, input$eval, input$duplicated);
+      rv$n <- rv$n + 1;
       print(rv$results);
       updateSliderInput(session, "n", value = rv$n);
       updateCheckboxInput(session, "duplicated", value = FALSE)
