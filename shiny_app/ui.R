@@ -3,7 +3,7 @@ library(tidyverse)
 
 TOPICS_PATH = "data/topics.txt"
 topics <- readLines(TOPICS_PATH)
-DATA_PATH = "../twitter_dump/df4.csv"
+DATA_PATH = "../twitter_dump/df3.csv"
 df <- read_csv(DATA_PATH)
 
 ui <- fluidPage(
