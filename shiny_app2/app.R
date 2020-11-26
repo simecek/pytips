@@ -72,7 +72,7 @@ server <- function(input, output, session) {
       write_csv(content, filename)
       
       filename2 = paste0("responders/", input$name, "-", timestamp, ".txt")
-      duration = as.numeric(difftime(Sys.time(), starttime, units="secs"))
+      duration = round(as.numeric(difftime(Sys.time(), starttime, units="secs")))
       content2 = paste(input$name, timestamp, input$email, input$pylevel, campaign, duration, sep="\t")
       writeLines(content2, filename2)
       
@@ -106,7 +106,7 @@ ui <- fluidPage(
          
          radioButtons("eval", "Quality of the tweet (7=best, 1=worst):", selected = "4", inline = TRUE,
                       choices = c("1" = "1", "2" = "2", "3" = "3", "4" = "4", "5" = "5", "6" = "6", "7" = "7")),
-         checkboxInput("duplicated", "I do not understand this tweet."), 
+         checkboxInput("duplicated", "I do not understand this tweet"), 
          actionButton("goPrevious", "Previous"),
          actionButton("goNext", "Next"),
          
