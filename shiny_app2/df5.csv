@@ -1,0 +1,1951 @@
+id,created_at,favorite_count,retweet_count,full_text,is_reply,is_retweet,url,urls,media,score,days,days2,smoothed_score,smoothed_score_plus
+1324436571920101400,2020-11-05T19:41:00Z,81,26,"Read multiple csv from a zip file: 
+
+from zipfile import ZipFile
+import pandas as pd
+
+zf = ZipFile(""z_f.zip"")
+df_lst = [https://t.co/KBWVZb2pZj_csv(https://t.co/8dJA0i8dng(fle.filename)) for fle in zf.infolist() if fle.filename.endswith("".csv"")]
+
+tip by @PetraVidnerova #Pandas",FALSE,FALSE,https://twitter.com/python_tip/status/1324436571920101376,"[{'url': 'https://t.co/KBWVZb2pZj', 'expanded_url': 'http://pd.read', 'display_url': 'pd.read'}]",[],5.5,1370 days 22:43:39,1370,4.57975155474958,5.57975155474958
+1324205046154735600,2020-11-05T04:21:00Z,94,18,"#pandas DataFrame.explode() will transform each element of a list-like to a row
+
+df = pd.DataFrame([{'var1': ['a', 'b', 'c', 'd'], 'var2': 1}, {'var1': ('x', 'y'), 'var2': 3}])
+
+df.explode('var1')
+
+https://t.co/lBalG6xeBl https://t.co/cmX791nW6I",FALSE,FALSE,https://twitter.com/python_tip/status/1324205046154735621,"[{'url': 'https://t.co/lBalG6xeBl', 'expanded_url': 'https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.explode.html', 'display_url': 'pandas.pydata.org/pandas-docs/st…'}]","[{'url': 'https://t.co/cmX791nW6I', 'media_url': 'http://pbs.twimg.com/media/EmAgzicXgAEe7J7.jpg', 'display_url': 'pic.twitter.com/cmX791nW6I'}]",4.5,1370 days 07:23:39,1370,4.57975155474958,5.57975155474958
+1324090855741902800,2020-11-04T20:47:15Z,73,13,"In #Python3, the print function has options
+* 'sep' to separate the arguments
+* 'end' to be printed after the last argument
+
+>>> lst = ['a', 'b', 'c'] 
+>>> print(*lst) 
+a b c 
+>>> print(*lst, sep=', ', end='!!!\n') 
+a, b, c!!!
+
+https://t.co/Jm8LgioMJb",FALSE,FALSE,https://twitter.com/python_tip/status/1324090855741902849,"[{'url': 'https://t.co/Jm8LgioMJb', 'expanded_url': 'https://docs.python.org/3/library/functions.html#print', 'display_url': 'docs.python.org/3/library/func…'}]",[],5.5,1369 days 23:49:54,1369,4.579825458898075,5.579825458898075
+1319825437933981700,2020-10-24T02:18:00Z,80,12,">>> from datetime import date
+>>> somedate = date(2020, 12, 25)
+>>> (somedate - https://t.co/DAMy3fUkMd()).days
+63",FALSE,FALSE,https://twitter.com/python_tip/status/1319825437933981696,"[{'url': 'https://t.co/DAMy3fUkMd', 'expanded_url': 'http://date.today', 'display_url': 'date.today'}]",[],4,1358 days 05:20:39,1358,4.580649548893698,5.580649548893698
+1319726408957046800,2020-10-23T19:44:29Z,95,17,">>> lst = ['alice', 'bob', 'charlie']
+>>> print(', '.join(lst))
+alice, bob, charlie
+>>> print(*lst, sep=', ')
+alice, bob, charlie
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1319726408957046784,[],[],4.5,1357 days 22:47:08,1357,4.5807254959322385,5.5807254959322385
+1317761337007632400,2020-10-18T09:36:00Z,125,20,Identify language of a document with pycld2 package: https://t.co/7bdB2ONteQ,FALSE,FALSE,https://twitter.com/python_tip/status/1317761337007632384,[],"[{'url': 'https://t.co/7bdB2ONteQ', 'media_url': 'http://pbs.twimg.com/media/EkhS5W0W0AEz6Yt.jpg', 'display_url': 'pic.twitter.com/7bdB2ONteQ'}]",4,1352 days 12:38:39,1352,4.581107901461707,5.581107901461707
+1316837225867468800,2020-10-15T20:23:54Z,153,21,"Merging Dictionaries - new in Python 3.9!
+
+a | b will merge `b` dictionary into `a` dictionary, if there are conflicts,  the rightmost-value will be kept
+
+a |= b will merge `b` into `a` and return the result in `a` (it is also called updating)
+
+Example: 👇 https://t.co/HlrVf8k0vn",FALSE,FALSE,https://twitter.com/python_tip/status/1316837225867468800,[],"[{'url': 'https://t.co/HlrVf8k0vn', 'media_url': 'http://pbs.twimg.com/media/EkZYQ8wWsAEjZhF.jpg', 'display_url': 'pic.twitter.com/HlrVf8k0vn'}]",4,1349 days 23:26:33,1349,4.581339531612608,5.581339531612608
+1314561051581722600,2020-10-09T13:39:12Z,46,18,"Chaining of comparison operators:
+
+>>> 0 < 10 != 1 < 5
+True
+
+ # 0 < 10 and 10 != 1 and 1 < 5
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1314561051581722625,[],[],5,1343 days 16:41:51,1343,4.581807857366119,5.581807857366119
+1311683042067480600,2020-10-01T15:03:01Z,64,22,"To create a zip/tar archive of a folder, use shutil.make_archive:
+
+>>> import shutil
+>>> shutil.make_archive(output_filename, 'zip', dir_name)
+
+Thanks @pndrej for the tip.",FALSE,FALSE,https://twitter.com/python_tip/status/1311683042067480578,[],[],5,1335 days 18:05:40,1335,4.582443020277577,5.582443020277577
+1311069231182753800,2020-09-29T22:23:57Z,95,27,"You can save memory by fixing types in your #pandas DataFrame
+
+https://t.co/HjD4toofDM https://t.co/v1iu8IqWWr",FALSE,FALSE,https://twitter.com/python_tip/status/1311069231182753793,"[{'url': 'https://t.co/HjD4toofDM', 'expanded_url': 'https://www.kaggle.com/python10pm/pandas-100-tricks#Trick-94:-Save-memory-by-fixing-your-date', 'display_url': 'kaggle.com/python10pm/pan…'}]","[{'url': 'https://t.co/v1iu8IqWWr', 'media_url': 'http://pbs.twimg.com/media/EjHafqBXsAMpEZy.png', 'display_url': 'pic.twitter.com/v1iu8IqWWr'}]",4,1334 days 01:26:36,1334,4.582523290194326,5.582523290194326
+1309070062393979e3,2020-09-24T09:59:58Z,126,31,">>> a = 1
+>>> b = 5
+>>> a, b = b, a
+>>> a
+5
+>>> b
+1
+
+#Python https://t.co/r5Tr75i3pJ",FALSE,FALSE,https://twitter.com/python_tip/status/1309070062393978881,[],"[{'url': 'https://t.co/r5Tr75i3pJ', 'media_url': 'http://pbs.twimg.com/media/EirAMl9WkAA4Xzg.jpg', 'display_url': 'pic.twitter.com/r5Tr75i3pJ'}]",4.5,1328 days 13:02:37,1328,4.583008982513664,5.583008982513664
+1308124412210802700,2020-09-21T19:22:18Z,60,18,"#Python3 Tip from @rickjdon: To zip 2 lists of different lengths use ‘zip_longest()’.
+
+from itertools import zip_longest 
+x =[1, 2] ; y =[3] 
+list(zip_longest(x, y))
+[(1, 3), (2, None)]
+
+https://t.co/Ar5otciOxS",FALSE,FALSE,https://twitter.com/python_tip/status/1308124412210802690,"[{'url': 'https://t.co/Ar5otciOxS', 'expanded_url': 'https://docs.python.org/3/library/itertools.html', 'display_url': 'docs.python.org/3/library/iter…'}]",[],4,1325 days 22:24:57,1325,4.5832544236272135,5.5832544236272135
+1303702449669111800,2020-09-09T14:31:00Z,78,21,"Create a zip archive in #python:
+
+from zipfile import ZipFile 
+
+with ZipFile('https://t.co/6ASg62olYM', 'w') as zip_ref:
+   zip_ref.write('data.csv')
+   zip_ref.write('test.log')",FALSE,FALSE,https://twitter.com/python_tip/status/1303702449669111815,"[{'url': 'https://t.co/6ASg62olYM', 'expanded_url': 'http://my.zip', 'display_url': 'my.zip'}]",[],4,1313 days 17:33:39,1313,4.584252965730392,5.584252965730392
+1303329692913668e3,2020-09-08T13:49:48Z,273,67,"Use handcalcs as  #Jupyter cell magic to render python calculation code in LaTeX 
+
+https://t.co/aWIriXDfyw https://t.co/hNWPIA5ZxT",FALSE,FALSE,https://twitter.com/python_tip/status/1303329692913668101,"[{'url': 'https://t.co/aWIriXDfyw', 'expanded_url': 'https://github.com/connorferster/handcalcs', 'display_url': 'github.com/connorferster/…'}]","[{'url': 'https://t.co/hNWPIA5ZxT', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/EhZbRSrWkAEVKC5.jpg', 'display_url': 'pic.twitter.com/hNWPIA5ZxT'}]",4,1312 days 16:52:27,1312,4.584337349499606,5.584337349499606
+1298730513042157600,2020-08-26T21:14:18Z,174,28,"#python lists have the count() method that returns the number of occurrences of an element:
+
+>>> lst = [1, 1, 2, 3, 4, 5, 1, 3, 3, 3, 7, 9, 3]
+>>> lst.count(2)
+1
+
+Most common item:
+>>> max(lst, key=lst.count) 
+3",FALSE,FALSE,https://twitter.com/python_tip/status/1298730513042157570,[],[],4.5,1300 days 00:16:57,1300,4.585363034931394,5.585363034931394
+1296690999171772400,2020-08-21T06:10:00Z,166,40,"Tqdm is a well known tool for progress bars. But did you know you can have double progress bars and name them?
+
+Colab: 👇👇
+https://t.co/gIWJ2e9jAJ https://t.co/v2ltoUDK15",FALSE,FALSE,https://twitter.com/python_tip/status/1296690999171772416,"[{'url': 'https://t.co/gIWJ2e9jAJ', 'expanded_url': 'https://gist.github.com/simecek/0ee10e9d1fbc54c156b566386ca6806f', 'display_url': 'gist.github.com/simecek/0ee10e…'}]","[{'url': 'https://t.co/v2ltoUDK15', 'media_url': 'http://pbs.twimg.com/media/EftfFpDWkAgXYJM.png', 'display_url': 'pic.twitter.com/v2ltoUDK15'}]",5,1294 days 09:12:39,1294,4.5858841616789014,5.5858841616789014
+1295975534783090700,2020-08-19T06:47:00Z,78,20,"To get memory usage of DataFrame and its every column:
+
+https://t.co/8vD3tlajX5(memory_usage = ""deep"")
+df.memory_usage(deep = True)
+
+https://t.co/tkf1jzdSoC
+
+#pandas",FALSE,FALSE,https://twitter.com/python_tip/status/1295975534783090688,"[{'url': 'https://t.co/8vD3tlajX5', 'expanded_url': 'http://df.info', 'display_url': 'df.info'}, {'url': 'https://t.co/tkf1jzdSoC', 'expanded_url': 'https://www.kaggle.com/python10pm/pandas-100-tricks#Trick-19:-Show-memory-usage-of-a-df-and-every-column', 'display_url': 'kaggle.com/python10pm/pan…'}]",[],4.5,1292 days 09:49:39,1292,4.586058954809103,5.586058954809103
+1295723815952167e3,2020-08-18T14:06:45Z,61,16,"By default, Python objects are evaluated as true. Sometimes, it might bite you.
+
+def muFunc():
+    return False
+
+>>> if myFunc:
+               print(""OMG!"")
+OMG! https://t.co/kZDwNyC6Dh",FALSE,FALSE,https://twitter.com/python_tip/status/1295723815952166912,"[{'url': 'https://t.co/kZDwNyC6Dh', 'expanded_url': 'https://twitter.com/raymondh/status/1278477169237176320', 'display_url': 'twitter.com/raymondh/statu…'}]",[],4,1291 days 17:09:24,1291,4.58614654229365,5.58614654229365
+1294033102738722800,2020-08-13T22:08:28Z,58,16,"type() - what is this object?
+dir() - what can I do with it?
+help()
+
+>>> type(df)
+<class 'pandas.core.frame.DataFrame'>
+>>> dir(df)
+>>> help(https://t.co/yGT52QVczk_latex)
+
+#Python",FALSE,FALSE,https://twitter.com/python_tip/status/1294033102738722816,"[{'url': 'https://t.co/yGT52QVczk', 'expanded_url': 'http://df.to', 'display_url': 'df.to'}]",[],5,1287 days 01:11:07,1287,4.586498096711323,5.586498096711323
+1293667821562593300,2020-08-12T21:56:58Z,64,15,"When maxsplit is specified in str.split(), it will limit the number of splits:
+
+>>> s = 'a,,b, c, d,e'
+>>> s.split(',')
+['a', '', 'b', ' c', ' d', 'e']
+>>> s.split(',', maxsplit=2)
+['a', '', 'b, c, d,e']
+>>> s.split(maxsplit=2)
+['a,,b,', 'c,', 'd,e']
+
+https://t.co/o3YxgkOwUj",FALSE,FALSE,https://twitter.com/python_tip/status/1293667821562593281,"[{'url': 'https://t.co/o3YxgkOwUj', 'expanded_url': 'https://docs.python.org/3/library/stdtypes.html#str.split', 'display_url': 'docs.python.org/3/library/stdt…'}]",[],4,1286 days 00:59:37,1286,4.5865862719280575,5.5865862719280575
+1290536445401354200,2020-08-04T06:34:00Z,54,15,"#pythontip by @fgomezdelarosa_:
+
+df.columns = [x.replace(' ', '_').lower() for x in df.columns]
+
+replace spaces and transform in lowercase the variable names in df columns.
+
+(Do you know a good Python tip? Just tag us the tweet, or even better, fill it to https://t.co/mfUQ9teK5k)",FALSE,FALSE,https://twitter.com/python_tip/status/1290536445401354240,"[{'url': 'https://t.co/mfUQ9teK5k', 'expanded_url': 'http://bit.ly/pythontip', 'display_url': 'bit.ly/pythontip'}]",[],4,1277 days 09:36:39,1277,4.5873843710177065,5.5873843710177065
+1286179738059280400,2020-07-23T06:02:00Z,62,16,"Style #pandas DataFrame (using formatting dictionary):
+
+https://t.co/fDsq4B3JD0 https://t.co/j5NFi1FBml",FALSE,FALSE,https://twitter.com/python_tip/status/1286179738059280386,"[{'url': 'https://t.co/fDsq4B3JD0', 'expanded_url': 'https://www.kaggle.com/python10pm/pandas-100-tricks#Trick-26:-Formatting-different-columns-of-a-df-(using-dictionaries)', 'display_url': 'kaggle.com/python10pm/pan…'}]","[{'url': 'https://t.co/j5NFi1FBml', 'media_url': 'http://pbs.twimg.com/media/Edb_RuYXoAESM88.png', 'display_url': 'pic.twitter.com/j5NFi1FBml'}]",4,1265 days 09:04:39,1265,4.588458385916618,5.588458385916618
+1285815840013615e3,2020-07-22T05:56:00Z,87,25,"To find the index of minimum element in a list:
+> a = [2, 1, 3]
+> a.index(min(a))
+1
+> # another solution (single pass) 
+> min(enumerate(a), key=lambda x: x[1])[0]
+1
+
+To get all positions of minima:
+> a = [2, 1, 3, 1]
+> m = min(a)
+> [i for i, j in enumerate(a) if j == m]
+[1, 3]",FALSE,FALSE,https://twitter.com/python_tip/status/1285815840013615104,[],[],4,1264 days 08:58:39,1264,4.588548261128908,5.588548261128908
+1285484781850038300,2020-07-21T08:00:29Z,68,20,"To download (large) files from Google drive without mounting the drive: 
+
+from google_drive_downloader import GoogleDriveDownloader as gdd
+
+https://t.co/E7HjHdAma5_file_from_google_drive(file_id='**GDRIVE_FILE_ID**', dest_path='local.pkl')
+
+https://t.co/5VGUc18KVU",FALSE,FALSE,https://twitter.com/python_tip/status/1285484781850038272,"[{'url': 'https://t.co/E7HjHdAma5', 'expanded_url': 'http://gdd.download', 'display_url': 'gdd.download'}, {'url': 'https://t.co/5VGUc18KVU', 'expanded_url': 'https://stackoverflow.com/a/47761459', 'display_url': 'stackoverflow.com/a/47761459'}]",[],4.5,1263 days 11:03:08,1263,4.588638181430309,5.588638181430309
+1284114089975918600,2020-07-17T13:13:51Z,88,26,"Trying to print() a large nested structure? 
+pretty-print will look better.
+https://t.co/dzFJQLErQG
+
+#python
+
+>>> import requests
+>>> from pprint import pprint
+>>> url = 'https://t.co/3kfWu2Eq3H'
+>>> res = requests.get(url).json()
+>>> pprint(res) https://t.co/K2CZVOICvK",FALSE,FALSE,https://twitter.com/python_tip/status/1284114089975918594,"[{'url': 'https://t.co/dzFJQLErQG', 'expanded_url': 'https://docs.python.org/3/library/pprint.html', 'display_url': 'docs.python.org/3/library/ppri…'}, {'url': 'https://t.co/3kfWu2Eq3H', 'expanded_url': 'https://www.ebi.ac.uk/mi/impc/solr/statistical-result/select?q=marker_symbol:Car4', 'display_url': 'ebi.ac.uk/mi/impc/solr/s…'}]","[{'url': 'https://t.co/K2CZVOICvK', 'media_url': 'http://pbs.twimg.com/media/EdIWxUhX0AAdA1k.png', 'display_url': 'pic.twitter.com/K2CZVOICvK'}]",4,1259 days 16:16:30,1259,4.5889982590228495,5.5889982590228495
+1283759556284252200,2020-07-16T13:45:03Z,94,19,"Parse #pandas dataframe to #markdown:
+>>> df = pd.DataFrame({'a': [1, 2], 'b': ['x', 'y']})
+>>> https://t.co/yGT52QVczk_markdown()
+'|    |   a | b   |\n|---:|----:|:----|\n|  0 |   1 | x   |\n|  1 |   2 | y   |' https://t.co/GWoOzGGPAL",FALSE,FALSE,https://twitter.com/python_tip/status/1283759556284252162,"[{'url': 'https://t.co/yGT52QVczk', 'expanded_url': 'http://df.to', 'display_url': 'df.to'}]","[{'url': 'https://t.co/GWoOzGGPAL', 'media_url': 'http://pbs.twimg.com/media/EdDUd5-WkAE5lqM.png', 'display_url': 'pic.twitter.com/GWoOzGGPAL'}]",5,1258 days 16:47:42,1258,4.589088363814506,5.589088363814506
+1283323069013131300,2020-07-15T08:50:37Z,111,19,"frequency count:
+
+>>> from collections import Counter
+>>> a = 'dfjkdfjkaaabckdjfoe'
+>>> Counter(a)
+Counter({'d': 3, 'f': 3, 'j': 3, 'k': 3, 'a': 3, 'b': 1, 'c': 1, 'o': 1, 'e': 1})
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1283323069013131269,[],[],4.5,1257 days 11:53:16,1257,4.5891784970686675,5.5891784970686675
+1282962835765694500,2020-07-14T08:59:11Z,102,31,"for loops may have an else clause - it is executed after the loop completes normally, but not when the loop is terminated by a break statement.
+
+for item in items:
+    if something(item):
+        do_st(item)
+        break
+else:
+   print(""Not found."")
+
+https://t.co/sVf67lSdCL",FALSE,FALSE,https://twitter.com/python_tip/status/1282962835765694464,"[{'url': 'https://t.co/sVf67lSdCL', 'expanded_url': 'https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops', 'display_url': 'docs.python.org/3/tutorial/con…'}]",[],4.5,1256 days 12:01:50,1256,4.589268655681854,5.589268655681854
+1281467437154807800,2020-07-10T05:57:00Z,90,11,"Finding the index of an item in a list:
+
+>>> a = ['car', 'bike', 'scooter']
+>>> a.index('bike')
+1",FALSE,FALSE,https://twitter.com/python_tip/status/1281467437154807810,[],[],4.5,1252 days 08:59:39,1252,4.589629475505533,5.589629475505533
+1278934937803141e3,2020-07-03T06:13:45Z,96,15,"You can sort using a tuple as a key:
+scores = [{'score': 20, 'id':11}, {'score': 1, 'id': 10}, {'score': 20, 'id': 3}]
+print(sorted(scores, key=lambda k: (k['score'], k['id'])))
+
+[{'score': 1, 'id': 10}, {'score': 20, 'id': 3}, {'score': 20, 'id': 11}]
+
+#Python",FALSE,FALSE,https://twitter.com/python_tip/status/1278934937803141120,[],[],4,1245 days 09:16:24,1245,4.59026108863106,5.59026108863106
+1278388902345224200,2020-07-01T18:04:00Z,259,43,">>> import calendar
+>>> print(calendar.month(2020, 7)) https://t.co/XQTc4mNtgJ",FALSE,FALSE,https://twitter.com/python_tip/status/1278388902345224192,[],"[{'url': 'https://t.co/XQTc4mNtgJ', 'media_url': 'http://pbs.twimg.com/media/Eb0Wl0cWAAE-8F2.png', 'display_url': 'pic.twitter.com/XQTc4mNtgJ'}]",5,1243 days 21:06:39,1243,4.590441458001743,5.590441458001743
+1278198251284508700,2020-07-01T05:26:25Z,202,38,"zip magic
+
+>>> a = ['a', 'b', 'c']
+>>> b = [1, 2, 3]
+
+>>> c = list(zip(a,b))
+>>> c
+[('a', 1), ('b', 2), ('c', 3)]
+
+>>> list(zip(*c))
+[('a', 'b', 'c'), (1, 2, 3)]
+
+>>> dict(zip(a, b))
+{'a': 1, 'b': 2, 'c': 3}
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1278198251284508672,[],[],4.5,1243 days 08:29:04,1243,4.590441458001743,5.590441458001743
+1277713248750575600,2020-06-29T21:19:11Z,89,25,"slicing in #python:
+s[start:end] 
+s[start:end:step]
+
+>>> lst = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> lst[2:4]
+[2, 3]
+>>> lst[8:2:-1]
+[8, 7, 6, 5, 4, 3]
+>>> lst[1:8:2]
+[1, 3, 5, 7]
+>>> lst[:-2:3]
+[0, 3, 6]
+>>> lst[::-2]
+[9, 7, 5, 3, 1]",FALSE,FALSE,https://twitter.com/python_tip/status/1277713248750575619,[],[],4,1242 days 00:21:50,1242,4.590531610077322,5.590531610077322
+1276035394400706600,2020-06-25T06:12:00Z,252,44,"Zip is its own inverse!
+
+a = (1, 2, 3, 4)
+b = (5, 6, 7, 8)
+
+ab_zip = zip(a, b)
+# ab_zip = [(1, 5), (2, 6), (3, 7), (4, 8)]
+
+zip(*ab_zip)
+# returns [(1, 2, 3, 4), (5, 6, 7, 8)] https://t.co/tTGUM5d0eT",FALSE,FALSE,https://twitter.com/python_tip/status/1276035394400706560,[],"[{'url': 'https://t.co/tTGUM5d0eT', 'media_url': 'http://pbs.twimg.com/media/EbJCQV6WoAgaeKN.png', 'display_url': 'pic.twitter.com/tTGUM5d0eT'}]",4.5,1237 days 09:14:39,1237,4.590981876347455,5.590981876347455
+1275424368168800300,2020-06-23T13:44:00Z,87,22,"Importing functions from a local file is easy, just
+
+>>> import file
+
+But what if the file is not in the same folder/subfolder? This is the workaround:
+
+>>> import sys
+>>> sys.path.insert(1, '/path/to/the/file')
+>>> import file
+
+Details at
+https://t.co/P1j5Xyhne5 https://t.co/EhU4pBye4a",FALSE,FALSE,https://twitter.com/python_tip/status/1275424368168800256,"[{'url': 'https://t.co/P1j5Xyhne5', 'expanded_url': 'https://stackoverflow.com/questions/4383571/importing-files-from-different-folder', 'display_url': 'stackoverflow.com/questions/4383…'}]","[{'url': 'https://t.co/EhU4pBye4a', 'media_url': 'http://pbs.twimg.com/media/EbHpGWvU8AAKRDS.png', 'display_url': 'pic.twitter.com/EhU4pBye4a'}]",4.5,1235 days 16:46:39,1235,4.591161669700859,5.591161669700859
+1272625742417997800,2020-06-15T20:23:15Z,123,24,"str.startswith() accepts also a tuple of prefixes to look for:
+>>> ""somestring"".startswith((""aa"", ""xx"", ""z"", ""som""))
+True
+#python
+https://t.co/0bM41Fb5p3",FALSE,FALSE,https://twitter.com/python_tip/status/1272625742417997824,"[{'url': 'https://t.co/0bM41Fb5p3', 'expanded_url': 'https://docs.python.org/3/library/stdtypes.html#str.startswith', 'display_url': 'docs.python.org/3/library/stdt…'}]",[],4.5,1227 days 23:25:54,1227,4.591878100504126,5.591878100504126
+1271214668506431500,2020-06-11T22:56:09Z,61,14,"tqdm() gives you a progress bar for any iterable. But what about pd.Series.apply function? Use pd.Series.progress_apply instead.
+
+Example:
+df = pd.DataFrame(range(1000), columns=['numbers'])
+df.numbers.progress_apply(lambda x: x**2)
+
+https://t.co/4HYWggzcxh",FALSE,FALSE,https://twitter.com/python_tip/status/1271214668506431488,"[{'url': 'https://t.co/4HYWggzcxh', 'expanded_url': 'https://colab.research.google.com/gist/simecek/f3a30b2b4cd590c31e35f0e4e1fb3462/untitled1.ipynb', 'display_url': 'colab.research.google.com/gist/simecek/f…'}]",[],5.5,1224 days 01:58:48,1224,4.59214528964657,5.59214528964657
+1268919215295209500,2020-06-05T14:54:50Z,77,18,"#pythontip by @1adityajoshi
+
+Use f-strings for string formatting:
+
+lives = ""Black""
+print(f""{lives} lives matter"") 
+>> ""Black lives matter""
+
+As opposed to 
+lives = ""Black""
+print(f""{lives} lives matter"".format(lives))
+>> ""Black lives matter""",FALSE,FALSE,https://twitter.com/python_tip/status/1268919215295209472,[],[],5,1217 days 17:57:29,1217,4.59276466733317,5.59276466733317
+1265523126718222300,2020-05-27T06:00:00Z,84,26,"ipywidgets = interactive HTML widgets for Jupyter notebooks (JN)
+
+voilà = JNs turned into web applications
+
+binder = run JN in a reproducible way online
+
+ipywidgets + voilà + binder = turn your JN into a web app accessible for anybody 
+
+Example: https://t.co/INx50UE8Uv",FALSE,FALSE,https://twitter.com/python_tip/status/1265523126718222336,"[{'url': 'https://t.co/INx50UE8Uv', 'expanded_url': 'https://github.com/voila-gallery/gaussian-density', 'display_url': 'github.com/voila-gallery/…'}]",[],4,1208 days 09:02:39,1208,4.593550714310616,5.593550714310616
+1264794827163447300,2020-05-25T05:46:00Z,119,21,"#pandas Split a string column into multiple columns with Series.str.split(..., expand = True) 
+
+Example: 👇👇
+https://t.co/5ujM9kDFRd https://t.co/ldGtFby6Xs",FALSE,FALSE,https://twitter.com/python_tip/status/1264794827163447296,"[{'url': 'https://t.co/5ujM9kDFRd', 'expanded_url': 'https://www.kaggle.com/python10pm/pandas-100-tricks#Trick-21:-Split-a-string-column-into-multiple-columns', 'display_url': 'kaggle.com/python10pm/pan…'}]","[{'url': 'https://t.co/ldGtFby6Xs', 'media_url': 'http://pbs.twimg.com/media/EYz0DZaXQAAVc5L.jpg', 'display_url': 'pic.twitter.com/ldGtFby6Xs'}]",4.5,1206 days 08:48:39,1206,4.593723549717088,5.593723549717088
+1263788523590684700,2020-05-22T11:07:18Z,73,11,">>> s = ""Große""
+>>> s.upper()
+'GROSSE'
+>>> s.lower()
+'große'
+>>> s.casefold()
+'grosse'",FALSE,FALSE,https://twitter.com/python_tip/status/1263788523590684676,[],[],4.5,1203 days 14:09:57,1203,4.59398140706921,5.59398140706921
+1262973579181817900,2020-05-20T05:09:00Z,147,28,#Jupyter notebook magic %history gives you a list of all the commands run in the notebook. https://t.co/Uwy5s8d64V,FALSE,FALSE,https://twitter.com/python_tip/status/1262973579181817856,[],"[{'url': 'https://t.co/Uwy5s8d64V', 'media_url': 'http://pbs.twimg.com/media/EYb7m1zXQAImXPP.jpg', 'display_url': 'pic.twitter.com/Uwy5s8d64V'}]",4.5,1201 days 08:11:39,1201,4.594152332719048,5.594152332719048
+1262725016153661400,2020-05-19T12:41:18Z,62,15,"Normalize, normalize,... and normalize.
+
+>>> 'mañana' == 'mañana'
+False
+>>> from unicodedata import normalize
+>>> normalize('NFC', 'mañana') == normalize('NFC', 'mañana')
+True
+>>>",FALSE,FALSE,https://twitter.com/python_tip/status/1262725016153661440,[],[],4.5,1200 days 15:43:57,1200,4.594237488994739,5.594237488994739
+1261567058539511800,2020-05-16T08:00:00Z,134,32,"Simple animations with #celluloid. Just call camera.snap() after each plot
+
+fig = plt.figure()
+camera = https://t.co/O2fo1IwBR6(fig)
+
+t = np.linspace(0, 2*np.pi, 128, endpoint=False)
+for i in t:
+    plt.plot(t, np.sin(t+i), color='blue')
+    camera.snap()
+
+https://t.co/ZuB4oUiGFo https://t.co/CFHUctSw7a",FALSE,FALSE,https://twitter.com/python_tip/status/1261567058539511808,"[{'url': 'https://t.co/O2fo1IwBR6', 'expanded_url': 'http://celluloid.Camera', 'display_url': 'celluloid.Camera'}, {'url': 'https://t.co/ZuB4oUiGFo', 'expanded_url': 'https://github.com/jwkvam/celluloid/', 'display_url': 'github.com/jwkvam/cellulo…'}]","[{'url': 'https://t.co/CFHUctSw7a', 'media_url': 'http://pbs.twimg.com/ext_tw_video_thumb/1261379229729595394/pu/img/MFvI3fwjx9kvMv-b.jpg', 'display_url': 'pic.twitter.com/CFHUctSw7a'}]",4.5,1197 days 11:02:39,1197,4.594491677563093,5.594491677563093
+1259981022252408800,2020-05-11T22:57:39Z,114,36,"#Pandas https://t.co/ZTlyyXqxn1 enables you to
+a) hide index (hide_index)
+b) set caption (set_caption)
+c) formatting and highlighting of columns (format, highlight_min, highlight_max, background_gradient)
+
+For examples, see
+https://t.co/zLX99Kb8FP https://t.co/aU2r0nFxIN",FALSE,FALSE,https://twitter.com/python_tip/status/1259981022252408835,"[{'url': 'https://t.co/ZTlyyXqxn1', 'expanded_url': 'http://DataFrame.style', 'display_url': 'DataFrame.style'}, {'url': 'https://t.co/zLX99Kb8FP', 'expanded_url': 'https://towardsdatascience.com/style-pandas-dataframe-like-a-master-6b02bf6468b0', 'display_url': 'towardsdatascience.com/style-pandas-d…'}]","[{'url': 'https://t.co/aU2r0nFxIN', 'media_url': 'http://pbs.twimg.com/media/EXxZ2csWkAIZQuL.png', 'display_url': 'pic.twitter.com/aU2r0nFxIN'}]",4.5,1193 days 02:00:18,1193,4.594827436063855,5.594827436063855
+1258297158207451100,2020-05-07T07:26:35Z,81,19,"Do you need something like range() but with float numbers? Try numpy.arange()
+
+>>> range(0, 5, 0.5) #Error!
+
+>>> np.arange(0, 5, 0.5)
+array([0. , 0.5, 1. , 1.5, 2. , 2.5, 3. , 3.5, 4. , 4.5])
+
+#numpy",FALSE,FALSE,https://twitter.com/python_tip/status/1258297158207451136,[],[],4,1188 days 10:29:14,1188,4.595241664475251,5.595241664475251
+1257645833174028300,2020-05-05T12:18:27Z,66,12,"Apart of converting strings to lowercase or uppercase, you can use the swapcase() method. 
+
+>>> s = 'Python is aWeSome.'
+>>> s.upper()
+'PYTHON IS AWESOME.'
+>>> s.lower()
+'python is awesome.'
+>>> s.swapcase()
+'pYTHON IS AwEsOME.'
+
+https://t.co/wFce5kNyF9
+
+#Python",FALSE,FALSE,https://twitter.com/python_tip/status/1257645833174028290,"[{'url': 'https://t.co/wFce5kNyF9', 'expanded_url': 'https://docs.python.org/3/library/stdtypes.html#str.swapcase', 'display_url': 'docs.python.org/3/library/stdt…'}]",[],4,1186 days 15:21:06,1186,4.595405542284168,5.595405542284168
+1255376267928572e3,2020-04-29T06:00:00Z,68,13,"Interpolate missing values in your series with pd.Series.interpolate.
+
+Example: 👇👇 https://t.co/9Zp5efRa8k",FALSE,FALSE,https://twitter.com/python_tip/status/1255376267928571905,[],"[{'url': 'https://t.co/9Zp5efRa8k', 'media_url': 'http://pbs.twimg.com/media/EWkPms4WsAEOzCv.png', 'display_url': 'pic.twitter.com/9Zp5efRa8k'}]",4.5,1180 days 09:02:39,1180,4.595890478285724,5.595890478285724
+1251533428098556e3,2020-04-18T15:29:56Z,84,17,"Get 1% random sample of a huge CSV file (+ other 99 #pandas tricks):
+
+df = https://t.co/KBWVZaKP7L_csv(""YOUR_BIG_FILE.csv"", skiprows = lambda x: x>0 and np.random.rand() > 0.01)
+
+https://t.co/iiDCjk3oOX",FALSE,FALSE,https://twitter.com/python_tip/status/1251533428098555904,"[{'url': 'https://t.co/KBWVZaKP7L', 'expanded_url': 'http://pd.read', 'display_url': 'pd.read'}, {'url': 'https://t.co/iiDCjk3oOX', 'expanded_url': 'https://www.kaggle.com/python10pm/pandas-100-tricks#Trick-100:-Loading-sample-of-big-data', 'display_url': 'kaggle.com/python10pm/pan…'}]",[],5,1169 days 18:32:35,1169,4.59675065362065,5.59675065362065
+1250198338152128500,2020-04-14T23:04:46Z,107,20,"Use `parse` package as an alternative to string parsing with regular expressions. In short, parse() is the opposite of format().
+
+https://t.co/lUQObe6umZ
+
+Examples: 👇👇 https://t.co/Z7Sh4jQyoz",FALSE,FALSE,https://twitter.com/python_tip/status/1250198338152128514,"[{'url': 'https://t.co/lUQObe6umZ', 'expanded_url': 'https://pypi.org/project/parse/', 'display_url': 'pypi.org/project/parse/'}]","[{'url': 'https://t.co/Z7Sh4jQyoz', 'media_url': 'http://pbs.twimg.com/media/EVmYwAVXYAQr1NC.png', 'display_url': 'pic.twitter.com/Z7Sh4jQyoz'}]",4.5,1166 days 02:07:25,1166,4.596978095979551,5.596978095979551
+1240534469850914800,2020-03-19T07:04:00Z,107,18,"Plot diagrams with #graphviz
+
+Example: 👇
+(`gv` code copied from fastai utils)
+
+import graphviz
+def gv(s): return graphviz.Source('digraph G{ rankdir=""LR""' + s + '; }')
+
+gv('diagrams[shape=box3d width=1 height=0.7] my->diagrams->are->very; diagrams->very->complex; my->complex') https://t.co/QtrLayMWkl",FALSE,FALSE,https://twitter.com/python_tip/status/1240534469850914819,[],"[{'url': 'https://t.co/QtrLayMWkl', 'media_url': 'http://pbs.twimg.com/media/ETbe5xkXYAMfnby.png', 'display_url': 'pic.twitter.com/QtrLayMWkl'}]",4.5,1139 days 10:06:39,1139,4.598866544659965,5.598866544659965
+1238465351895171e3,2020-03-13T14:02:04Z,74,12,"Number of values that meet a condition:
+(df.rating > 90).sum()
+df.somecol.isnull().sum()
+
+Proportion of values that meet a condition:
+(df.rating > 90).mean()
+
+#Pandas",FALSE,FALSE,https://twitter.com/python_tip/status/1238465351895171075,[],[],4,1133 days 17:04:43,1133,4.599245602266237,5.599245602266237
+1237862587586338800,2020-03-11T22:06:53Z,97,25,"from pathlib import Path
+
+file_path = ""/path/to/myfile.png""
+
+file_name = Path(file_path).name  # myfile.png
+file_stem = Path(file_path).stem  # myfile
+file_ext = Path(file_path).suffix # .png",FALSE,FALSE,https://twitter.com/python_tip/status/1237862587586338816,[],[],4,1132 days 01:09:32,1132,4.5993073561288735,5.5993073561288735
+1237117902488305700,2020-03-09T20:47:47Z,121,21,">>> numbers = ['9', '44', '8', '222']
+>>> max(numbers)
+'9'
+>>> max(numbers, key=int)
+'222'
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1237117902488305664,[],[],4,1129 days 23:50:26,1129,4.599490207546516,5.599490207546516
+1235551355038765e3,2020-03-05T13:02:53Z,91,18,"Do you need to remove a column from `DataFrame` and store it separately? (for example to remove the target from training data) Use `pop` method!
+
+target = train_data.pop('target_col_name')
+
+https://t.co/cCs9eZv8lJ
+
+#pandas https://t.co/oa79VtJ2IE",FALSE,FALSE,https://twitter.com/python_tip/status/1235551355038765056,"[{'url': 'https://t.co/cCs9eZv8lJ', 'expanded_url': 'https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.pop.html', 'display_url': 'pandas.pydata.org/pandas-docs/st…'}]","[{'url': 'https://t.co/oa79VtJ2IE', 'media_url': 'http://pbs.twimg.com/media/ESWPKziWAAEIRBw.png', 'display_url': 'pic.twitter.com/oa79VtJ2IE'}]",5,1125 days 16:05:32,1125,4.599728440274942,5.599728440274942
+1231725159297536e3,2020-02-23T23:38:56Z,223,62,"Do you want to do yourself a favor? Learn how to use #PDB debugger.
+
+For Jupyter notebooks, it is easy. If you get an error...
+
+1) Type %debug into a new cell and run it
+
+2) To examine the code, this cheatsheet might help:
+https://t.co/SVIxoBI6ab https://t.co/VJSJpaOCLx",FALSE,FALSE,https://twitter.com/python_tip/status/1231725159297536012,"[{'url': 'https://t.co/SVIxoBI6ab', 'expanded_url': 'https://appletree.or.kr/quick_reference_cards/Python/Python%20Debugger%20Cheatsheet.pdf', 'display_url': 'appletree.or.kr/quick_referenc…'}]","[{'url': 'https://t.co/VJSJpaOCLx', 'media_url': 'http://pbs.twimg.com/media/ERf3Qy0WkAAEAuZ.jpg', 'display_url': 'pic.twitter.com/VJSJpaOCLx'}]",4,1115 days 02:41:35,1115,4.6002968508362745,5.6002968508362745
+1229869917538836500,2020-02-18T20:46:52Z,119,27,"#Pendulum = Python dates made easy
+
+https://t.co/ZyFwEmYu2u https://t.co/AXX2M385Ex",FALSE,FALSE,https://twitter.com/python_tip/status/1229869917538836482,"[{'url': 'https://t.co/ZyFwEmYu2u', 'expanded_url': 'https://pendulum.eustace.io/', 'display_url': 'pendulum.eustace.io'}]","[{'url': 'https://t.co/AXX2M385Ex', 'media_url': 'http://pbs.twimg.com/media/ERFgGRfXUAEJxTj.png', 'display_url': 'pic.twitter.com/AXX2M385Ex'}]",4.5,1109 days 23:49:31,1109,4.60061982302317,5.60061982302317
+1228308951734915e3,2020-02-14T13:24:09Z,107,23,"Get last n lines of a file:
+
+from collections import deque
+
+def tail(filename, n=10):
+    with open(filename) as f:
+        return deque(f, n)
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1228308951734915073,[],[],4,1105 days 16:26:48,1105,4.600827815014513,5.600827815014513
+1221897262932078600,2020-01-27T20:46:23Z,81,14,"Guess what will be the result of the following line:
+
+>>> {True: ""Hello"", 1: ""Good night"", 1.0: ""Bye""}
+
+#wtfpython",FALSE,FALSE,https://twitter.com/python_tip/status/1221897262932078593,[],[],4.5,1087 days 23:49:02,1087,4.601694767685966,5.601694767685966
+1219407760477036500,2020-01-20T23:54:00Z,122,28,"Old 🧓 but Gold 🏆: In #Jupyter notebook, type double question marks to view the source code where a particular function is defined. https://t.co/DEgJfBs9z6",FALSE,FALSE,https://twitter.com/python_tip/status/1219407760477036544,[],"[{'url': 'https://t.co/DEgJfBs9z6', 'media_url': 'http://pbs.twimg.com/media/EOhTRISX4AEeEh3.jpg', 'display_url': 'pic.twitter.com/DEgJfBs9z6'}]",4,1081 days 02:56:39,1081,4.601960571147032,5.601960571147032
+1218107811483267e3,2020-01-17T09:48:28Z,100,27,"#pythontip from @raymondh:
+Another interesting use of #python's walrus operator is to compute differences between successive values in a data stream. 
+
+>>> data = [10, 14, 34, 49, 70, 77]
+>>> prev = 0; [-prev + (prev := x) for x in data]
+[10, 4, 20, 15, 21, 7]",FALSE,FALSE,https://twitter.com/python_tip/status/1218107811483267072,[],[],4,1077 days 12:51:07,1077,4.602132075974285,5.602132075974285
+1.2176970588424479e+18,2020-01-16T06:36:17Z,94,17,"any(iterable) returns True if any item is True
+all(iterable) returns True if all items are True
+
+>>> lst = [3, 6, 9, 12]
+>>> any(n % 2 == 0 for n in lst)
+True
+>>> any(n % 5 == 0 for n in lst)
+False
+>>> all(n % 2 == 0 for n in lst)
+False
+>>> all(n % 3 == 0 for n in lst)
+True",FALSE,FALSE,https://twitter.com/python_tip/status/1217697058842447872,[],[],4,1076 days 09:38:56,1076,4.602174283121694,5.602174283121694
+1217218591231225900,2020-01-14T22:55:01Z,123,32,"You can pass a default value to the dict.get method to be returned if the key is not found:
+
+>>> mydict = {'a': 1, 'b': 33, 'c': 'x'}
+>>> mydict.get('a')
+1
+>>> mydict.get('d')
+>>> mydict.get('d', 0)
+0
+
+vs.
+
+>>> mydict['d'] # KeyError
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1217218591231225856,[],[],5.5,1075 days 01:57:40,1075,4.602216232626666,5.602216232626666
+1216839743184437200,2020-01-13T21:49:37Z,166,35,"Get every n-th item of the list: 
+
+>>> lst =  [1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> n = 3
+>>> lst[n - 1::n]
+[3, 6, 9]
+>>> n = 4
+>>> lst[n - 1::n]
+[4, 8]
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1216839743184437248,[],[],4,1074 days 00:52:16,1074,4.602257929963836,5.602257929963836
+1215578861011984400,2020-01-10T10:19:19Z,78,20,"To iterate through pairs of DataFrame columns,  you can use `combinations` function from `itertools` module.
+
+Example: 👇👇👇
+
+Full code (runnable in Colab):
+https://t.co/3NMtk16ORN
+#itertools #pandas https://t.co/gwxFix1kLY",FALSE,FALSE,https://twitter.com/python_tip/status/1215578861011984386,"[{'url': 'https://t.co/3NMtk16ORN', 'expanded_url': 'https://gist.github.com/simecek/65e80cf9693099c7ec062bd7e52c9d0d', 'display_url': 'gist.github.com/simecek/65e80c…'}]","[{'url': 'https://t.co/gwxFix1kLY', 'media_url': 'http://pbs.twimg.com/media/EN6ZuuBWAAIrZ_u.png', 'display_url': 'pic.twitter.com/gwxFix1kLY'}]",4.5,1070 days 13:21:58,1070,4.602422304928452,5.602422304928452
+1214803924370239500,2020-01-08T07:00:00Z,94,24,"For DataFrame df, `df.corr` computes pairwise correlation of columns.
+
+Extra tips:
+* If your data contains outliers, use rank based Spearman correlation. `df.corr(method=‘spearman’)`
+* For better readability, do not print all digits but `df.corr().round(decimals=3)`.
+
+#pandas https://t.co/qQ3RQrdO9n",FALSE,FALSE,https://twitter.com/python_tip/status/1214803924370239488,[],"[{'url': 'https://t.co/qQ3RQrdO9n', 'media_url': 'http://pbs.twimg.com/media/ENd4QO6U4AAaMZ1.png', 'display_url': 'pic.twitter.com/qQ3RQrdO9n'}]",4,1068 days 10:02:39,1068,4.6025031191978005,5.6025031191978005
+1214441538035617800,2020-01-07T07:00:00Z,137,22,"#numpy position functions; for an array `a`
+* np.argmax(a) = index of maximum
+* np.argmin(a) = index of minimum
+* np.argwhere(condition(a)) =  indices that satisfies the condition
+* np.argsort(a) = indices that would sort an array `a` https://t.co/WGpQk3f6ci",FALSE,FALSE,https://twitter.com/python_tip/status/1214441538035617794,[],"[{'url': 'https://t.co/WGpQk3f6ci', 'media_url': 'http://pbs.twimg.com/media/ENdussjXsAAfuXZ.png', 'display_url': 'pic.twitter.com/WGpQk3f6ci'}]",4.5,1067 days 10:02:39,1067,4.602543202492886,5.602543202492886
+1212855064223768600,2020-01-02T21:55:55Z,136,22,"Working with currency? Issues with floating point arithmetics? Use decimal.
+
+>>> x = 0.1*3
+>>> x == 0.3
+False
+>>> from decimal import Decimal
+>>> y = Decimal('0.1')*3
+>>> y == Decimal('0.3')
+True
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1212855064223768577,[],[],4,1063 days 00:58:34,1063,4.602701508503064,5.602701508503064
+1210336206329974800,2019-12-26T23:06:53Z,95,16,"Another tool useful for Jupyter Notebooks: Recycle useful parts of your notebook with #importnb package. 
+
+https://t.co/yHrhTBzLXQ https://t.co/nNmgrzJ9zk",FALSE,FALSE,https://twitter.com/python_tip/status/1210336206329974785,"[{'url': 'https://t.co/yHrhTBzLXQ', 'expanded_url': 'https://pypi.org/project/importnb', 'display_url': 'pypi.org/project/import…'}]","[{'url': 'https://t.co/nNmgrzJ9zk', 'media_url': 'http://pbs.twimg.com/media/EMv6DQMXkAAk-77.png', 'display_url': 'pic.twitter.com/nNmgrzJ9zk'}]",4,1056 days 02:09:32,1056,4.602971619888888,5.602971619888888
+1208860479986315300,2019-12-22T21:22:52Z,76,12,"Working with #fractions? Explore the fractions module:
+
+>>> from fractions import Fraction as frac
+>>> print(frac(3, 10))
+3/10
+>>> print(frac(0.33).limit_denominator(100))
+33/100
+>>> print(frac('1/4') + frac(1, 5))
+9/20
+
+https://t.co/PLaAGRK8LG",FALSE,FALSE,https://twitter.com/python_tip/status/1208860479986315264,"[{'url': 'https://t.co/PLaAGRK8LG', 'expanded_url': 'https://docs.python.org/3/library/fractions.html', 'display_url': 'docs.python.org/3/library/frac…'}]",[],4,1052 days 00:25:31,1052,4.60312266390515,5.60312266390515
+1208006114597638100,2019-12-20T12:47:56Z,120,28,"Get information about the underlying system with the platform module:
+
+>>> import platform
+>>> platform.architecture()
+('64bit', '')
+>>> platform.machine()
+'x86_64'
+>>> platform.system()
+'Linux'
+
+https://t.co/KJY7BEsrtd",FALSE,FALSE,https://twitter.com/python_tip/status/1208006114597638144,"[{'url': 'https://t.co/KJY7BEsrtd', 'expanded_url': 'https://docs.python.org/3/library/platform.html', 'display_url': 'docs.python.org/3/library/plat…'}]",[],4.5,1049 days 15:50:35,1049,4.60323467402456,5.60323467402456
+1207578845890699300,2019-12-19T08:30:07Z,64,14,"#pathlib Path.stat().st_size prints size of the file in bytes
+
+https://t.co/PjvTXRNciN https://t.co/OIgpXxS0I9",FALSE,FALSE,https://twitter.com/python_tip/status/1207578845890699264,"[{'url': 'https://t.co/PjvTXRNciN', 'expanded_url': 'https://docs.python.org/3/library/pathlib.html#pathlib.Path.stat', 'display_url': 'docs.python.org/3/library/path…'}]","[{'url': 'https://t.co/OIgpXxS0I9', 'media_url': 'http://pbs.twimg.com/media/EMIuiUGWsAAU5MY.png', 'display_url': 'pic.twitter.com/OIgpXxS0I9'}]",4,1048 days 11:32:46,1048,4.603271802783931,5.603271802783931
+1206963913084018700,2019-12-17T15:46:35Z,210,29,">>> ""a""*10
+'aaaaaaaaaa'
+>>> [""a""]*10
+['a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1206963913084018689,[],[],5,1046 days 18:49:14,1046,4.6033457879457105,5.6033457879457105
+1204655327167299600,2019-12-11T06:53:06Z,113,29,"x += a is not always the same as x = x + a
+
+>>> x = y = [1] 
+>>> x += [2]
+>>> x, y   # return ([1, 2], [1, 2])
+>>> x = x + [3]
+>>> x,y   # return ([1, 2, 3], [1, 2])
+
+That is because `+=` calls __iadd__ method while `+` calls __add__.
+
+https://t.co/8a3qV6SQiX
+
+Another example 👇 https://t.co/9sz2y5xqYz",FALSE,FALSE,https://twitter.com/python_tip/status/1204655327167299584,"[{'url': 'https://t.co/8a3qV6SQiX', 'expanded_url': 'https://stackoverflow.com/questions/9766387/different-behaviour-for-list-iadd-and-list-add', 'display_url': 'stackoverflow.com/questions/9766…'}, {'url': 'https://t.co/9sz2y5xqYz', 'expanded_url': 'https://twitter.com/zzzeek/status/1203439552507076609', 'display_url': 'twitter.com/zzzeek/status/…'}]",[],4,1040 days 09:55:45,1040,4.603566031087559,5.603566031087559
+1202260895260446700,2019-12-04T16:18:29Z,56,19,"Use np.isnan(), pd.isna() or math.isnan() to check for nan values:
+
+>>> np.nan == np.nan
+False
+>>> np.nan is math.nan
+False
+>>> math.isnan(np.nan)
+True
+>>> pd.isna(float('nan'))
+True
+>>> np.isnan(math.nan)
+True
+
+https://t.co/8pQEvegGtK
+
+#python #pandas #numpy",FALSE,FALSE,https://twitter.com/python_tip/status/1202260895260446720,"[{'url': 'https://t.co/8pQEvegGtK', 'expanded_url': 'https://towardsdatascience.com/navigating-the-hell-of-nans-in-python-71b12558895b', 'display_url': 'towardsdatascience.com/navigating-the…'}]",[],4,1033 days 19:21:08,1033,4.603821280551016,5.603821280551016
+1201126011942965200,2019-12-01T13:08:51Z,399,97,"Do you run long, time-demanding calculations in Jupyter Notebook?
+
+With `jupyter-notify` extension, you will get a browser notification when your calculation is done (=when the cell is completed)
+
+https://t.co/2xjocGl2S4
+
+Example: 👇 https://t.co/uugYC26qCk",FALSE,FALSE,https://twitter.com/python_tip/status/1201126011942965248,"[{'url': 'https://t.co/2xjocGl2S4', 'expanded_url': 'https://github.com/ShopRunner/jupyter-notify', 'display_url': 'github.com/ShopRunner/jup…'}]","[{'url': 'https://t.co/uugYC26qCk', 'media_url': 'http://pbs.twimg.com/media/EKtBnMOXUAw0HEW.png', 'display_url': 'pic.twitter.com/uugYC26qCk'}]",4.5,1030 days 16:11:30,1030,4.603930775517958,5.603930775517958
+1198747702953234400,2019-11-24T23:38:18Z,123,29,"If you want to get multiple items from a dictionary, you might either use a list comprehension
+
+>>> [mydict[x] for x in mykeys]
+
+or you can use `operator.itemgetter` as follows
+
+>>> from operator import itemgetter
+>>> itemgetter(*mykeys)(mydict)  
+
+#pythontip from @IDryer 👇 https://t.co/B34eaYdeqF",FALSE,FALSE,https://twitter.com/python_tip/status/1198747702953234433,"[{'url': 'https://t.co/B34eaYdeqF', 'expanded_url': 'https://twitter.com/IDryer/status/1196526211796783110', 'display_url': 'twitter.com/IDryer/status/…'}]",[],4.5,1024 days 02:40:57,1024,4.6041513016173115,5.6041513016173115
+1197551348457320400,2019-11-21T16:24:25Z,172,25,">>> x, *y, z = 0, 1, 2, 3, 4, 5
+>>> x
+0
+>>> y
+[1, 2, 3, 4]
+>>> z
+5
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1197551348457320448,[],[],5,1020 days 19:27:04,1020,4.604300330634374,5.604300330634374
+1196529487934115800,2019-11-18T20:43:55Z,89,20,"Recursive folder globbing is easy in #python3
+
+imgs = glob.glob('/path/**/*.png')
+or 
+imgs = pathlib.Path('/path').glob('**/*.png')
+
+https://t.co/HjmOW04Tal
+https://t.co/jyNqpHaJXi
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1196529487934115841,"[{'url': 'https://t.co/HjmOW04Tal', 'expanded_url': 'https://docs.python.org/3/library/glob.html', 'display_url': 'docs.python.org/3/library/glob…'}, {'url': 'https://t.co/jyNqpHaJXi', 'expanded_url': 'https://docs.python.org/3/library/pathlib.html#basic-use', 'display_url': 'docs.python.org/3/library/path…'}]",[],4.5,1017 days 23:46:34,1017,4.6044136467369094,5.6044136467369094
+1194150584384815e3,2019-11-12T07:11:00Z,133,19,"Easy way to get stock market prices (and others economic data):
+
+>>> from pandas_datareader import data as wb
+>>>  ticker_name = '^GSPC'
+>>> ticker = wb.DataReader(ticker_name, start='2010-1-1', data_source='yahoo')
+
+More info:
+https://t.co/3Sx13D5VVg https://t.co/IZUKnSQyrC",FALSE,FALSE,https://twitter.com/python_tip/status/1194150584384815106,"[{'url': 'https://t.co/3Sx13D5VVg', 'expanded_url': 'https://pandas-datareader.readthedocs.io/en/latest/remote_data.html', 'display_url': 'pandas-datareader.readthedocs.io/en/latest/remo…'}]","[{'url': 'https://t.co/IZUKnSQyrC', 'media_url': 'http://pbs.twimg.com/media/EJIiNrBXsAA6JRM.jpg', 'display_url': 'pic.twitter.com/IZUKnSQyrC'}]",4,1011 days 10:13:39,1011,4.604645576707348,5.604645576707348
+1192938647588409300,2019-11-08T22:55:11Z,279,65,"With the walrus operator
+
+while True:
+    line = fp.readline()
+    if not line:
+        break
+    do_something(line)
+
+can be written as:
+
+while line := fp.readline():
+    do_something(line)
+
+More examples: https://t.co/4WCBSdizFF
+
+#python3_8 #walrusoperator",FALSE,FALSE,https://twitter.com/python_tip/status/1192938647588409349,"[{'url': 'https://t.co/4WCBSdizFF', 'expanded_url': 'https://www.python.org/dev/peps/pep-0572/#examples', 'display_url': 'python.org/dev/peps/pep-0…'}]",[],4,1008 days 01:57:50,1008,4.604764846225128,5.604764846225128
+1192214829257363500,2019-11-06T22:59:00Z,78,15,"Use beautiful_date when need to create date/datetime objects in a simple way.
+
+pip install beautiful-date
+
+from beautiful_date import *
+
+>>> d = 5/Mar/2019
+BeautifulDate(2019, 3, 5)
+
+>>> d[4:13]
+datetime.datetime(2019, 3, 5, 4, 13)
+
+#pythontip from @KuzmovychBox",FALSE,FALSE,https://twitter.com/python_tip/status/1192214829257363458,[],[],4,1006 days 02:01:39,1006,4.604845819608969,5.604845819608969
+1187614763813167e3,2019-10-25T06:19:59Z,253,71,"convert two lists into dictionary:
+
+>>> a = ['a', 'b', 'c']
+>>> b = [1, 2, 3]
+>>> dict(zip(a, b))
+{'a': 1, 'b': 2, 'c': 3}
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1187614763813167104,[],[],4.5,993 days 09:22:38,993,4.605408791454969,5.605408791454969
+1186857483572306e3,2019-10-23T04:10:49Z,102,15,">>> mylst = [1, 2, 3]
+>>> a, b, c =  mylst
+>>> a
+1
+>>> b
+2
+>>> c
+3
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1186857483572305920,[],[],4,991 days 07:13:28,991,4.605502338576683,5.605502338576683
+1181958913283018800,2019-10-09T15:45:39Z,167,32,"List comprehensions can contain more then one for and if clauses:
+
+[
+(x, y) 
+for x in range(4) 
+for y in range (x + 2) 
+if x != 0 
+if y != x
+]",FALSE,FALSE,https://twitter.com/python_tip/status/1181958913283018753,[],[],4,977 days 18:48:18,977,4.6062284614131705,5.6062284614131705
+1181669340317388800,2019-10-08T20:34:59Z,133,27,"enumerate() takes a second parameter to change the starting count:
+
+>>> names = [""Alice"", ""Bob"", ""Charlie""]
+>>> list(enumerate(names, start=101))
+[(101, 'Alice'), (102, 'Bob'), (103, 'Charlie')]
+
+https://t.co/SECAO6sci5
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1181669340317388806,"[{'url': 'https://t.co/SECAO6sci5', 'expanded_url': 'https://docs.python.org/3/library/functions.html#enumerate', 'display_url': 'docs.python.org/3/library/func…'}]",[],5.5,976 days 23:37:38,976,4.606286039916918,5.606286039916918
+1180744616175394800,2019-10-06T07:20:28Z,135,31,"Saving objects from Jupyter notebook session into a single compressed file (i.e. Python version of #rstats function `save`):
+
+https://t.co/GtHcfgts9j #selfpromo #pickle
+
+Example: https://t.co/NIApyh9wAR",FALSE,FALSE,https://twitter.com/python_tip/status/1180744616175394816,"[{'url': 'https://t.co/GtHcfgts9j', 'expanded_url': 'https://gist.github.com/simecek/19588c61c3430834bec01c67effa9c4a', 'display_url': 'gist.github.com/simecek/19588c…'}]","[{'url': 'https://t.co/NIApyh9wAR', 'media_url': 'http://pbs.twimg.com/media/EGLYzsFXkAA5_Ca.png', 'display_url': 'pic.twitter.com/NIApyh9wAR'}]",4,974 days 10:23:07,974,4.606403916797208,5.606403916797208
+1177335055628275700,2019-09-26T21:32:05Z,128,22,"With the #python sting replace() method, you can specify the number of occurrences to replace:
+string.replace(searchString, replaceString, count)
+
+>>> s1 = 'aaaaaaaaa'
+>>> s1.replace('a', 'b')
+'bbbbbbbbb'
+>>> s1.replace('a', 'b', 3)
+'bbbaaaaaa'",FALSE,FALSE,https://twitter.com/python_tip/status/1177335055628275724,[],[],5,965 days 00:34:44,965,4.606985225841682,5.606985225841682
+1176571922387263500,2019-09-24T18:59:40Z,68,21,"In #python, you can use chained assignment:
+>>> x = y = 42
+>>> x, y
+(42, 42)
+
+However, be careful:
+>>> a = b = []
+>>> a.append(33)
+>>> b
+[33]",FALSE,FALSE,https://twitter.com/python_tip/status/1176571922387263489,[],[],5,962 days 22:02:19,962,4.607200361564832,5.607200361564832
+1174129423148355600,2019-09-18T01:14:03Z,59,16,"Do you need to warn the user? 
+
+warnings.warn('I smell something fishy! 🐟')
+
+Do you want to suppress all 'fishy' warnings?
+
+from warnings import catch_warnings, filterwarnings
+
+with catch_warnings():
+   filterwarnings('ignore', message='.*fishy.*')
+   …
+
+https://t.co/tJdqyhfNfV https://t.co/jBEXgGzdYa",FALSE,FALSE,https://twitter.com/python_tip/status/1174129423148355584,"[{'url': 'https://t.co/tJdqyhfNfV', 'expanded_url': 'https://docs.python.org/3/library/warnings.html', 'display_url': 'docs.python.org/3/library/warn…'}]","[{'url': 'https://t.co/jBEXgGzdYa', 'media_url': 'http://pbs.twimg.com/media/EEtYAseX4AEhzhD.png', 'display_url': 'pic.twitter.com/jBEXgGzdYa'}]",4.5,956 days 04:16:42,956,4.607669196700823,5.607669196700823
+1173712263066243e3,2019-09-16T21:36:24Z,70,16,"#pythontip by @mgalalen:
+
+You can use parentheses around the multi-line data pipeline and avoid the need to add '\'s
+
+https://t.co/DxYnmhY6KS
+
+Examples: https://t.co/JI73cBRAWj",FALSE,FALSE,https://twitter.com/python_tip/status/1173712263066243072,"[{'url': 'https://t.co/DxYnmhY6KS', 'expanded_url': 'https://stackoverflow.com/a/33944618', 'display_url': 'stackoverflow.com/a/33944618'}]","[{'url': 'https://t.co/JI73cBRAWj', 'media_url': 'http://pbs.twimg.com/media/EEncpjmXYAEUvMB.png', 'display_url': 'pic.twitter.com/JI73cBRAWj'}]",4.5,955 days 00:39:03,955,4.6077528760907525,5.6077528760907525
+1173363459196706800,2019-09-15T22:30:23Z,73,31,"#Numpy broadcasting can be tricky
+
+>>> import numpy as np
+>>>
+>>> (np.ones((32,)) + np.ones((32,1))).shape
+(32, 32)
+>>> (np.ones((32,)) + np.ones((1,32))).shape
+(1, 32)
+>>> (np.ones((4,1,3)) + np.ones((7,1))).shape
+(4, 7, 3)
+
+Why? Read two simple rules at https://t.co/iAnh62xI1h https://t.co/iL7s9DyJHI",FALSE,FALSE,https://twitter.com/python_tip/status/1173363459196706817,"[{'url': 'https://t.co/iAnh62xI1h', 'expanded_url': 'https://docs.scipy.org/doc/numpy/user/basics.broadcasting.html#general-broadcasting-rules', 'display_url': 'docs.scipy.org/doc/numpy/user…'}, {'url': 'https://t.co/iL7s9DyJHI', 'expanded_url': 'https://twitter.com/fchollet/status/1173306347175075841', 'display_url': 'twitter.com/fchollet/statu…'}]",[],4,954 days 01:33:02,954,4.607838273069823,5.607838273069823
+1171187002890489900,2019-09-09T22:21:55Z,109,22,"#Python3 pathlib is awesome. You can join paths by '/' operator:
+
+data_folder = Path(""my_project/data/"")
+file_to_open = data_folder/""raw_data.txt""
+
+Moreover, you can directly get content of the file:
+
+print(file_to_open.read_text())
+
+https://t.co/MnvcCCtbHz",FALSE,FALSE,https://twitter.com/python_tip/status/1171187002890489857,"[{'url': 'https://t.co/MnvcCCtbHz', 'expanded_url': 'https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux-11a072b58d5f', 'display_url': 'medium.com/@ageitgey/pyth…'}]",[],4.5,948 days 01:24:34,948,4.6083898650275525,5.6083898650275525
+1169852731449847800,2019-09-06T06:00:00Z,111,21,"What day is today?
+> from datetime import date
+> today = https://t.co/DAMy3gbWaN()
+
+Which day of the week/month/year is it?
+> today.weekday(), https://t.co/PkzxaCSmg7, today.strftime('%j')
+
+Finally, how many days is it till Xmas
+> xmas = date(2019, 12, 25)
+> (xmas - today).days",FALSE,FALSE,https://twitter.com/python_tip/status/1169852731449847808,"[{'url': 'https://t.co/DAMy3gbWaN', 'expanded_url': 'http://date.today', 'display_url': 'date.today'}, {'url': 'https://t.co/PkzxaCSmg7', 'expanded_url': 'http://today.day', 'display_url': 'today.day'}]",[],4,944 days 09:02:39,944,4.608799493768218,5.608799493768218
+1166827139502616600,2019-08-28T21:37:23Z,138,31,"Compare lists without taking their order into account:
+
+>>> from collections import Counter
+>>> a = [1, 2, 3]
+>>> b = [2, 1, 3]
+>>> Counter(a) == Counter(b) 
+True
+>>> c = [1, 1, 2, 3]
+>>> Counter(a) == Counter(c) # duplicates matter
+False
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1166827139502616579,[],[],4.5,936 days 00:40:02,936,4.609740091371969,5.609740091371969
+1.1664602686139679e+18,2019-08-27T21:19:34Z,95,26,"Implicit string concatenation in #python is nice when you have long strings...
+
+>>> s = ('some very very very '
+... 'long long long string')
+>>> s
+'some very very very long long long string'
+
+...but it can surprise you:
+
+>>> lst = [""a"", ""b"" ""c"", ""d""]
+>>> lst
+['a', 'bc', 'd']",FALSE,FALSE,https://twitter.com/python_tip/status/1166460268613967872,[],[],4.5,935 days 00:22:13,935,4.609870636061414,5.609870636061414
+1166079081424838700,2019-08-26T20:04:52Z,92,20,"Read all sheets in an Excel file with #pandas at once:
+
+all_dfs = https://t.co/KBWVZaKP7L_excel('myexcel.xlsx', sheet_name= None)
+
+# returns a collection.OrderedDict object",FALSE,FALSE,https://twitter.com/python_tip/status/1166079081424838658,"[{'url': 'https://t.co/KBWVZaKP7L', 'expanded_url': 'http://pd.read', 'display_url': 'pd.read'}]",[],4,933 days 23:07:31,933,4.610141355871142,5.610141355871142
+116204704642714e4,2019-08-15T17:03:00Z,65,14,">>> a = ""dog""
+>>> b = ""dog""
+>>> a is b
+True
+>>> c = ""d"" + ""og""
+>>> a is c
+True
+>>> d = """".join([""d"", ""og""])
+>>> a is d
+False
+>>> a = ""d@g""
+>>> b = ""d@g""
+>>> a is b
+False
+
+Read more about string interning in #python: 
+https://t.co/YMVUUs6rXb",FALSE,FALSE,https://twitter.com/python_tip/status/1162047046427140097,"[{'url': 'https://t.co/YMVUUs6rXb', 'expanded_url': 'https://medium.com/@bdov_/https-medium-com-bdov-python-objects-part-iii-string-interning-625d3c7319de', 'display_url': 'medium.com/@bdov_/https-m…'}]",[],4.5,922 days 20:05:39,922,4.611893009929791,5.611893009929791
+1161886780041437200,2019-08-15T06:26:09Z,115,24,"Worth a try:
+Python Handout by  @daniarh lets you create docs with inline figures, images, videos directly from #Python scripts. No hidden state, supports any text editor. 
+
+https://t.co/miwoWlhbqK https://t.co/guSjuA19fk",FALSE,FALSE,https://twitter.com/python_tip/status/1161886780041437184,"[{'url': 'https://t.co/miwoWlhbqK', 'expanded_url': 'https://github.com/danijar/handout', 'display_url': 'github.com/danijar/handout'}]","[{'url': 'https://t.co/guSjuA19fk', 'media_url': 'http://pbs.twimg.com/media/EB_ZzkbW4AEdHyV.jpg', 'display_url': 'pic.twitter.com/guSjuA19fk'}]",4.5,922 days 09:28:48,922,4.611893009929791,5.611893009929791
+1161015163589468200,2019-08-12T20:42:40Z,121,30,"Skip the beginning of an iterable with itertools.dropwhile():
+
+with open(""story.txt"") as txt:
+    for L in itertools.dropwhile(lambda L: L.startswith(""#""), txt.readlines()):
+        do something https://t.co/BXqcdVYdEp",FALSE,FALSE,https://twitter.com/python_tip/status/1161015163589468160,[],"[{'url': 'https://t.co/BXqcdVYdEp', 'media_url': 'http://pbs.twimg.com/media/EBzBGMgXsAITLnM.jpg', 'display_url': 'pic.twitter.com/BXqcdVYdEp'}]",4.5,919 days 23:45:19,919,4.612459730515712,5.612459730515712
+1159342978294374400,2019-08-08T05:58:00Z,136,38,"By default, Python enables us to add new attributes during runtime. However, if you fix the set of attributes with __slots__ magic, you can potentially save a lot of memory.
+
+See https://t.co/2CjGqwhb6m or watch @LivePython video at  https://t.co/O4aMocIwLr https://t.co/Y26tDUXS2p",FALSE,FALSE,https://twitter.com/python_tip/status/1159342978294374400,"[{'url': 'https://t.co/2CjGqwhb6m', 'expanded_url': 'http://book.pythontips.com/en/latest/__slots__magic.html', 'display_url': 'book.pythontips.com/en/latest/__sl…'}, {'url': 'https://t.co/O4aMocIwLr', 'expanded_url': 'https://www.youtube.com/watch?v=8Jz8VH6Gwlg', 'display_url': 'youtube.com/watch?v=8Jz8VH…'}]","[{'url': 'https://t.co/Y26tDUXS2p', 'media_url': 'http://pbs.twimg.com/media/EA_7HRaXUAAwHUa.png', 'display_url': 'pic.twitter.com/Y26tDUXS2p'}]",4.5,915 days 09:00:39,915,4.6132838505270435,5.6132838505270435
+1158621725757624300,2019-08-06T06:12:00Z,59,15,"A nice shortcut for unpacking a tuple in Python by @IDryer:
+
+https://t.co/TBT3qxYbvy https://t.co/IophHTz91V",FALSE,FALSE,https://twitter.com/python_tip/status/1158621725757624320,"[{'url': 'https://t.co/TBT3qxYbvy', 'expanded_url': 'https://twitter.com/IDryer/status/1154387819009363970', 'display_url': 'twitter.com/IDryer/status/…'}]","[{'url': 'https://t.co/IophHTz91V', 'media_url': 'http://pbs.twimg.com/media/EA_xH7cXUAEDaxh.png', 'display_url': 'pic.twitter.com/IophHTz91V'}]",4,913 days 09:14:39,913,4.613727191515488,5.613727191515488
+1157272812412899300,2019-08-02T12:51:54Z,145,24,#Python tip by @RaphaelVallat: one of my favorite thing about #Pandas is combining groupby/aggregate to create a ready-to-publish table:  #Statistics https://t.co/miQA5qhCm0,FALSE,FALSE,https://twitter.com/python_tip/status/1157272812412899328,[],"[{'url': 'https://t.co/miQA5qhCm0', 'media_url': 'http://pbs.twimg.com/media/EA91fJ1XkAQJZCT.png', 'display_url': 'pic.twitter.com/miQA5qhCm0'}]",4,909 days 15:54:33,909,4.614680478432781,5.614680478432781
+1156783020675915800,2019-08-01T04:25:38Z,92,23,"List Slicing with None as argument:  
+
+>>> a = [0, 1, 2, 3, 4, 5] 
+>>> LASTTHREE = slice(-3, None) 
+>>> a[LASTTHREE] 
+[3, 4, 5]  
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1156783020675915776,[],[],4.5,908 days 07:28:17,908,4.6148877397145975,5.6148877397145975
+1153943018891858e3,2019-07-24T08:20:29Z,76,27,"#pythontip from @GullumLuvl
+
+There is a difference between numpy and pandas in std. dev. calculation: default ddof value is 0 in np.std, but 1 in pd.Series.std.
+
+>>> pd.Series([1,2,3]).std()
+1.0
+>>> np.std([1,2,3])
+0.816…
+>>> np.std([1,2,3], ddof=1)
+1.0
+
+Careful with your stats! https://t.co/kqLfmDBlpY",FALSE,FALSE,https://twitter.com/python_tip/status/1153943018891857920,[],"[{'url': 'https://t.co/kqLfmDBlpY', 'media_url': 'http://pbs.twimg.com/media/EAOg5_FX4AEe0YJ.png', 'display_url': 'pic.twitter.com/kqLfmDBlpY'}]",4.5,900 days 11:23:08,900,4.616579218306958,5.616579218306958
+1153545275673153500,2019-07-23T06:00:00Z,121,37,"You might know that ! in #JupyterNotebook, calls a shell command.
+
+But do you know you can insert the value of Python variable in curly braces into this command?
+
+>>> !head -n3 {path}/{myfile}
+
+Or collect the output from shell?
+
+>>> first_four_lines = !head -n4 myfile
+
+Example: https://t.co/KTOKeRPKFJ",FALSE,FALSE,https://twitter.com/python_tip/status/1153545275673153538,[],"[{'url': 'https://t.co/KTOKeRPKFJ', 'media_url': 'http://pbs.twimg.com/media/D_6mKZVXsAAuEa9.png', 'display_url': 'pic.twitter.com/KTOKeRPKFJ'}]",4.5,899 days 09:02:39,899,4.616794043564569,5.616794043564569
+1151963082593329200,2019-07-18T21:12:55Z,98,23,"Use sets for intersection of lists:
+>>> a = [1,2,3,4,5,9,10,11]
+>>> b = [4,5,6,7]
+>>> set(a).intersection(b)
+{4, 5}
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1151963082593329161,[],[],4,895 days 00:15:34,895,4.617658116395696,5.617658116395696
+1149565847054233600,2019-07-12T06:27:10Z,96,18,"Do you need to use passwords or other secrets in your code? 
+
+With the `keyring` module, you can save them to your OS password store (OS X Keychain,  Windows Credential Vault, ...)
+
+https://t.co/IQbNBXT9lO
+
+Example: https://t.co/DtAe0olZ9a",FALSE,FALSE,https://twitter.com/python_tip/status/1149565847054233600,"[{'url': 'https://t.co/IQbNBXT9lO', 'expanded_url': 'https://alexwlchan.net/2016/11/you-should-use-keyring/', 'display_url': 'alexwlchan.net/2016/11/you-sh…'}]","[{'url': 'https://t.co/DtAe0olZ9a', 'media_url': 'http://pbs.twimg.com/media/D_JzF7GXsAEyzhM.png', 'display_url': 'pic.twitter.com/DtAe0olZ9a'}]",4,888 days 09:29:49,888,4.619266057679764,5.619266057679764
+1148819134500577300,2019-07-10T05:00:00Z,152,31,"Is the CSV file too large to fit into memory? #pandas
+
+1) Read only first few rows:
+url = ""https://t.co/8klXo11L20""
+https://t.co/KBWVZb2pZj_csv(url, nrows=10)
+
+2) Read only selected columns
+https://t.co/KBWVZb2pZj_csv(url, usecols=['name', 'sex'])
+
+3) Process the file by chunks https://t.co/3r3TDnDMco",FALSE,FALSE,https://twitter.com/python_tip/status/1148819134500577284,"[{'url': 'https://t.co/8klXo11L20', 'expanded_url': 'http://bit.ly/2XCFEys', 'display_url': 'bit.ly/2XCFEys'}, {'url': 'https://t.co/KBWVZb2pZj', 'expanded_url': 'http://pd.read', 'display_url': 'pd.read'}, {'url': 'https://t.co/KBWVZb2pZj', 'expanded_url': 'http://pd.read', 'display_url': 'pd.read'}]","[{'url': 'https://t.co/3r3TDnDMco', 'media_url': 'http://pbs.twimg.com/media/D_D2q44XUAEYkDp.png', 'display_url': 'pic.twitter.com/3r3TDnDMco'}]",4.5,886 days 08:02:39,886,4.61970308025363,5.61970308025363
+1146899187176546300,2019-07-04T21:50:49Z,83,21,"ast.literal_eval() allows you to evaluate a string containing a #Python literal or container:
+
+>>> import ast
+>>> x = ""[1, 2, 3]""
+>>> type(x)
+<class 'str'>
+>>> ast.literal_eval(x)
+[1, 2, 3]
+>>> type(ast.literal_eval(x))
+<class 'list'>",FALSE,FALSE,https://twitter.com/python_tip/status/1146899187176546304,[],[],4,881 days 00:53:28,881,4.620998255294025,5.620998255294025
+1144477023038914600,2019-06-28T05:26:00Z,88,12,"The itertools.cycle creates an iterator that will cycle through a series of values infinitely:
+
+>>> from itertools import cycle
+>>> alternating_ones = cycle([1, -1])
+>>> next(alternating_ones)
+1
+>>> next(alternating_ones)
+-1
+>>> next(alternating_ones)
+1
+...
+
+#itertools",FALSE,FALSE,https://twitter.com/python_tip/status/1144477023038914561,[],[],4,874 days 08:28:39,874,4.6223852744487335,5.6223852744487335
+1144110860039852e3,2019-06-27T05:11:00Z,133,40,"Recognize and manipulate faces from Python with ""the world's simplest face recognition library"" face_recognition
+
+https://t.co/zE0Bg7KMR4 https://t.co/FrhKM0xkHR",FALSE,FALSE,https://twitter.com/python_tip/status/1144110860039852033,"[{'url': 'https://t.co/zE0Bg7KMR4', 'expanded_url': 'https://github.com/ageitgey/face_recognition', 'display_url': 'github.com/ageitgey/face_…'}]","[{'url': 'https://t.co/FrhKM0xkHR', 'media_url': 'http://pbs.twimg.com/media/D96_4irX4AA4xmo.png', 'display_url': 'pic.twitter.com/FrhKM0xkHR'}]",4,873 days 08:13:39,873,4.622469052367688,5.622469052367688
+1139412149011435500,2019-06-14T06:00:00Z,66,17,Use `pip search <your_keyword>` to search PyPI for all packages with <your_keyword> in the short description.,FALSE,FALSE,https://twitter.com/python_tip/status/1139412149011435521,[],[],4,860 days 09:02:39,860,4.6252855607011085,5.6252855607011085
+1137962597423013900,2019-06-10T06:00:00Z,320,93,"Adding __call__ method makes an object callable.
+
+class add_n:
+    def __init__(self, n):
+        self.n = n
+    
+    def __call__(self, x):
+        return x + self.n
+
+>>> add3 = add_n(n=3)
+>>> add3(9)
+12
+
+This can be really useful for decorators:
+https://t.co/dsfsdN6um2 https://t.co/rxpezDXkFV",FALSE,FALSE,https://twitter.com/python_tip/status/1137962597423013888,"[{'url': 'https://t.co/dsfsdN6um2', 'expanded_url': 'https://gist.github.com/simecek/8a3f579037dc31d9e91c5043f91e4509', 'display_url': 'gist.github.com/simecek/8a3f57…'}]","[{'url': 'https://t.co/rxpezDXkFV', 'media_url': 'http://pbs.twimg.com/media/D8mb9TfW4AUyATM.jpg', 'display_url': 'pic.twitter.com/rxpezDXkFV'}]",4.5,856 days 09:02:39,856,4.6259976551072874,5.6259976551072874
+1137260736093282300,2019-06-08T07:31:03Z,97,33,"The %pastebin #Jupyter notebook magic uploads code to dpaste’s paste bin and returns the url
+
+%pastebin 1-7
+%pastebin -d ""my file"" https://t.co/6bNG4wpw2r https://t.co/DyrsdB6GGl",FALSE,FALSE,https://twitter.com/python_tip/status/1137260736093282304,"[{'url': 'https://t.co/6bNG4wpw2r', 'expanded_url': 'http://file.py', 'display_url': 'file.py'}]","[{'url': 'https://t.co/DyrsdB6GGl', 'media_url': 'http://pbs.twimg.com/media/D8hcmYgXoAAWqDz.png', 'display_url': 'pic.twitter.com/DyrsdB6GGl'}]",5,854 days 10:33:42,854,4.626337190527021,5.626337190527021
+1133613943178420200,2019-05-29T06:00:00Z,121,37,"*args and **kwargs in Python:
+
+>>> def f(*args, **kwargs):
+    print(f""args: {args}, kwargs: {kwargs}"")
+
+>>> f(1)
+args: (1,), kwargs: {}
+>>> f(1, 2, a=3, d=4)
+args: (1, 2), kwargs: {'a': 3, 'd': 4}
+
+https://t.co/B4zNB1re7W",FALSE,FALSE,https://twitter.com/python_tip/status/1133613943178420224,"[{'url': 'https://t.co/B4zNB1re7W', 'expanded_url': 'https://pythontips.com/2013/08/04/args-and-kwargs-in-python-explained/', 'display_url': 'pythontips.com/2013/08/04/arg…'}]",[],5,844 days 09:02:39,844,4.627662098245665,5.627662098245665
+1132889167304597500,2019-05-27T06:00:00Z,87,20,"In #numpy index,  ""..."" stands for  ""as many : as needed"".
+
+Example:
+>>> a = np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]]])
+>>> a.shape
+(2,2,3)
+
+* a[..., 1] is equivalent to a[:, :, 1]
+* a[1, ...] is equivalent to a[1, :, :], or a[1]
+* a[0, ..., 0] is equivalent to a[0, :, 0] https://t.co/FEgrlYXtLH",FALSE,FALSE,https://twitter.com/python_tip/status/1132889167304597504,[],"[{'url': 'https://t.co/FEgrlYXtLH', 'media_url': 'http://pbs.twimg.com/media/D7hLKXKXYAEl07p.png', 'display_url': 'pic.twitter.com/FEgrlYXtLH'}]",4.5,842 days 09:02:39,842,4.62810901695518,5.62810901695518
+1126967452859019300,2019-05-10T21:49:13Z,127,27,"Slice assignment:
+>>> a = list(range(5))
+>>> a
+[0, 1, 2, 3, 4]
+>>> a[1:-1] = []
+>>> a
+[0, 4]
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1126967452859019264,[],[],4.5,826 days 00:51:52,826,4.629629238505219,5.629629238505219
+1126235819109429200,2019-05-08T21:21:58Z,110,21,"Sort list of strings ignoring the case:
+>>> lst = ['bob', 'Mark', 'david', 'Peter']
+>>> sorted(lst, key=str.lower)
+['bob', 'david', 'Mark', 'Peter']
+
+Compare:
+>>> sorted(lst)
+['Mark', 'Peter', 'bob', 'david']
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1126235819109429248,[],[],4.5,824 days 00:24:37,824,4.629740937981928,5.629740937981928
+1123464314579329e3,2019-05-01T05:49:00Z,157,40,"When developing your script, try
+
+python -i your_script.py
+
+Python will run your script but then stays in the interpreter, getting you a chance to inspect if anything goes wrong.
+
+https://t.co/uCgC4yg5K8",FALSE,FALSE,https://twitter.com/python_tip/status/1123464314579329024,"[{'url': 'https://t.co/uCgC4yg5K8', 'expanded_url': 'http://www.bnikolic.co.uk/blog/python-running-cline.html', 'display_url': 'bnikolic.co.uk/blog/python-ru…'}]",[],4,816 days 08:51:39,816,4.630458472497411,5.630458472497411
+1121722631231815700,2019-04-26T10:28:10Z,251,40,">>> df.isnull().mean()*100
+
+Find percentage of missing values in each column of a #pandas dataframe. https://t.co/08RTREuusi",FALSE,FALSE,https://twitter.com/python_tip/status/1121722631231815683,[],"[{'url': 'https://t.co/08RTREuusi', 'media_url': 'http://pbs.twimg.com/media/D5EouFWWAAAES6G.png', 'display_url': 'pic.twitter.com/08RTREuusi'}]",4.5,811 days 13:30:49,811,4.630220993949764,5.630220993949764
+1121020021357076500,2019-04-24T11:56:15Z,93,24,"Compare two dictionaries:
+
+>>> a = {'x' : 0, 'y': 1, 'z' : 3}
+>>> b = {'x' : 0, 'y': 1, 'z' : 2, 'q' : 4}
+>>> a.items() & b.items()
+{('y', 1), ('x', 0)}
+>>> a.items() ^ b.items()
+{('z', 3), ('q', 4), ('z', 2)}
+>>> a.items() - b.items()
+{('z', 3)}
+
+https://t.co/ZlqurKbIxr
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1121020021357076482,"[{'url': 'https://t.co/ZlqurKbIxr', 'expanded_url': 'https://chrisalbon.com/python/basics/compare_two_dictionaries/', 'display_url': 'chrisalbon.com/python/basics/…'}]",[],5,809 days 14:58:54,809,4.630423495789217,5.630423495789217
+1118636503238754300,2019-04-17T22:05:00Z,63,18,"How to get a column index from a column name? 
+
+Thanks @Smit65176116 for this tip. #pandas #DataFrame https://t.co/2u7TwdKidk",FALSE,FALSE,https://twitter.com/python_tip/status/1118636503238754304,[],"[{'url': 'https://t.co/2u7TwdKidk', 'media_url': 'http://pbs.twimg.com/media/D4EN5YoW0AAKap8.png', 'display_url': 'pic.twitter.com/2u7TwdKidk'}]",4.5,803 days 01:07:39,803,4.630170134506432,5.630170134506432
+1115630193702395900,2019-04-09T14:59:00Z,90,17,"Generator expressions can be chained together into pipelines:
+>>> a  = range(9)
+>>> b = (i + i for i in a)
+>>> c = (i * i for i in b)
+>>> d = (i - 5 for i in c)
+>>> list(d)
+[-5, -1, 11, 31, 59, 95, 139, 191, 251]
+
+For more examples see @dabeaz's  tutorial:
+https://t.co/4iS9JdwQUu",FALSE,FALSE,https://twitter.com/python_tip/status/1115630193702395904,"[{'url': 'https://t.co/4iS9JdwQUu', 'expanded_url': 'https://github.com/dabeaz/generators', 'display_url': 'github.com/dabeaz/generat…'}]",[],4,794 days 18:01:39,794,4.629634628538863,5.629634628538863
+1111349676106833900,2019-03-28T19:29:45Z,128,40,"Use pandas.ExcelFile() to read complex #Excel files.
+
+xlfile = pd.ExcelFile(filename)
+df = xlfile.parse(xlfile.sheet_names[1])
+
+#pandas #python https://t.co/8hg718ULmW",FALSE,FALSE,https://twitter.com/python_tip/status/1111349676106833920,[],"[{'url': 'https://t.co/8hg718ULmW', 'media_url': 'http://pbs.twimg.com/media/D2xOo1pXQAgwLoB.png', 'display_url': 'pic.twitter.com/8hg718ULmW'}]",4,782 days 22:32:24,782,4.627766856715528,5.627766856715528
+1108141347951665200,2019-03-19T23:01:00Z,116,27,"Sometimes, you need to save your data to a temporary file because a library or service requires a path as an input. You can use
+
+tempfile.NamedTemporaryFile()
+
+Examples:
+https://t.co/vghW8b84u5
+#pythontip #tempfile https://t.co/zvIBhNLEd3",FALSE,FALSE,https://twitter.com/python_tip/status/1108141347951665152,"[{'url': 'https://t.co/vghW8b84u5', 'expanded_url': 'https://stackabuse.com/the-python-tempfile-module/', 'display_url': 'stackabuse.com/the-python-tem…'}]","[{'url': 'https://t.co/zvIBhNLEd3', 'media_url': 'http://pbs.twimg.com/media/D13IqKyXgAAq6oc.png', 'display_url': 'pic.twitter.com/zvIBhNLEd3'}]",4.5,774 days 02:03:39,774,4.625717658841576,5.625717658841576
+1106228439131009e3,2019-03-14T16:19:47Z,65,13,"Select a subset of #pandas #dataframe with numerical columns:
+
+https://t.co/aUIGkWKOMU_dtypes(include=['float', 'int'])
+
+https://t.co/Eobmsd6STZ https://t.co/1EsBDkMs3u",FALSE,FALSE,https://twitter.com/python_tip/status/1106228439131009024,"[{'url': 'https://t.co/aUIGkWKOMU', 'expanded_url': 'http://df.select', 'display_url': 'df.select'}, {'url': 'https://t.co/Eobmsd6STZ', 'expanded_url': 'https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.select_dtypes.html', 'display_url': 'pandas.pydata.org/pandas-docs/st…'}]","[{'url': 'https://t.co/1EsBDkMs3u', 'media_url': 'http://pbs.twimg.com/media/D1oc2NZX0AAy3CX.png', 'display_url': 'pic.twitter.com/1EsBDkMs3u'}]",4,768 days 19:22:26,768,4.6243633400751785,5.6243633400751785
+1103242802861871100,2019-03-06T10:35:56Z,70,27,"> import pandas as pd
+> False in pd.Series([True, True])
+True
+> 123 in pd.Series([123, 456])
+False
+
+Be aware that `in` operator looks through index, not values!
+
+> False in pd.Series([True, True]).values
+False
+> 123 in pd.Series([123, 456]).values
+True
+
+https://t.co/OrCwVQ3qIl",FALSE,FALSE,https://twitter.com/python_tip/status/1103242802861871104,"[{'url': 'https://t.co/OrCwVQ3qIl', 'expanded_url': 'https://stackoverflow.com/questions/42684161/why-does-false-in-pandas-seriestrue-true-return-true/', 'display_url': 'stackoverflow.com/questions/4268…'}]",[],5,760 days 13:38:35,760,4.621830240453276,5.621830240453276
+1102343142781653e3,2019-03-03T23:01:00Z,99,25,"Adjust a string to a fixed length with ljust, rjust and center:
+
+text = ""I love Mondays!""
+text.ljust(30)
+text.rjust(30, ""*"")
+https://t.co/aaMFlN8Alq(30, ""~"")
+
+Thanks @PyPrinciples for the tip.
+https://t.co/RWDBkB05pc https://t.co/vKvVS6KMNI",FALSE,FALSE,https://twitter.com/python_tip/status/1102343142781652993,"[{'url': 'https://t.co/aaMFlN8Alq', 'expanded_url': 'http://text.center', 'display_url': 'text.center'}, {'url': 'https://t.co/RWDBkB05pc', 'expanded_url': 'https://twitter.com/PyPrinciples/status/1089989887821000704', 'display_url': 'twitter.com/PyPrinciples/s…'}]","[{'url': 'https://t.co/vKvVS6KMNI', 'media_url': 'http://pbs.twimg.com/media/D0w_bu9WsAAYDTl.png', 'display_url': 'pic.twitter.com/vKvVS6KMNI'}]",5,758 days 02:03:39,758,4.621130886928151,5.621130886928151
+1101218800635129900,2019-02-28T20:33:16Z,98,29,"With the functools.lru_cache decorator, repeated function calls become O(1) table lookups. 
+You can it when you want to reuse previously computed values. 
+
+https://t.co/rthK3jMD2l
+
+#functools #python https://t.co/1KmOPfiiRP",FALSE,FALSE,https://twitter.com/python_tip/status/1101218800635129864,"[{'url': 'https://t.co/rthK3jMD2l', 'expanded_url': 'https://docs.python.org/3/library/functools.html#functools.lru_cache', 'display_url': 'docs.python.org/3/library/func…'}]","[{'url': 'https://t.co/1KmOPfiiRP', 'media_url': 'http://pbs.twimg.com/media/D0hQqPCWwAE9h1Q.png', 'display_url': 'pic.twitter.com/1KmOPfiiRP'}]",4.5,754 days 23:35:55,754,4.619653676231132,5.619653676231132
+1100786859817414700,2019-02-27T15:56:53Z,81,28,"animatplot - #python package for making interactive animated plots. Built on top of #matplotlib. 
+
+https://t.co/vN4ffgXZvd
+
+https://t.co/ulivQ1dARi
+
+#dataviz https://t.co/agCGIMGea7",FALSE,FALSE,https://twitter.com/python_tip/status/1100786859817414656,"[{'url': 'https://t.co/vN4ffgXZvd', 'expanded_url': 'https://github.com/t-makaro/animatplot', 'display_url': 'github.com/t-makaro/anima…'}, {'url': 'https://t.co/ulivQ1dARi', 'expanded_url': 'https://animatplot.readthedocs.io/en/stable/gallery/scatter.html', 'display_url': 'animatplot.readthedocs.io/en/stable/gall…'}]","[{'url': 'https://t.co/agCGIMGea7', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/D0bHwL_WsAAFQTR.jpg', 'display_url': 'pic.twitter.com/agCGIMGea7'}]",4,753 days 18:59:32,753,4.6192681140445275,5.6192681140445275
+1100034429529993200,2019-02-25T14:07:00Z,59,17,"str() takes an optional encoding argument for decoding bytes:
+
+>>> str(b'x\xc2\xb2 \xF0\x9F\x98\xB1', 'utf-8')
+'x² 😱'
+
+https://t.co/YE6E06N0xe
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1100034429529993216,"[{'url': 'https://t.co/YE6E06N0xe', 'expanded_url': 'https://docs.python.org/3/library/stdtypes.html#bytes.decode', 'display_url': 'docs.python.org/3/library/stdt…'}]",[],4.5,751 days 17:09:39,751,4.618477596584409,5.618477596584409
+1098719263785971700,2019-02-21T23:01:00Z,99,21,"Are you feeling stressed?
+Let's get rid of it
+
+>>> you = ""stressed""
+>>> you[::-1]
+""desserts""
+
+Thanks @Saandipt for pointing us to  https://t.co/bfmnGmf1dK
+
+Do you have any #pythontip you want to share? Just mention @python_tip in your tweet or send it to https://t.co/mfUQ9teK5k https://t.co/b1sL68RtUM",FALSE,FALSE,https://twitter.com/python_tip/status/1098719263785971713,"[{'url': 'https://t.co/bfmnGmf1dK', 'expanded_url': 'https://www.quora.com/What-is-the-best-trick-in-python-you-know-which-most-of-us-dont', 'display_url': 'quora.com/What-is-the-be…'}, {'url': 'https://t.co/mfUQ9teK5k', 'expanded_url': 'http://bit.ly/pythontip', 'display_url': 'bit.ly/pythontip'}]","[{'url': 'https://t.co/b1sL68RtUM', 'media_url': 'http://pbs.twimg.com/media/DziCxXqW0AAUmsK.png', 'display_url': 'pic.twitter.com/b1sL68RtUM'}]",4,748 days 02:03:39,748,4.617243604133042,5.617243604133042
+1097995746312212500,2019-02-19T23:06:00Z,92,26,"itertools.product gives you a cartesian product of input iterables (lists, tuples...)
+
+Example:
+
+from itertools import product
+a = [1, 2, 3]
+b = [3, 4]
+for x, y in product(a, b):
+  print(x, y)
+
+Output:
+1 3
+1 4
+2 3
+2 4
+3 3
+3 4
+
+https://t.co/GchfgzdPH5",FALSE,FALSE,https://twitter.com/python_tip/status/1097995746312212480,"[{'url': 'https://t.co/GchfgzdPH5', 'expanded_url': 'https://docs.python.org/3/library/itertools.html#itertools.product', 'display_url': 'docs.python.org/3/library/iter…'}]",[],4.5,746 days 02:08:39,746,4.616641464946329,5.616641464946329
+1091069962570088400,2019-01-31T20:25:24Z,140,44,"Add leading zeros to your strings using zfill()
+
+>>> for i in [1, 11, 222, ""aaa"", 1234]:
+...     str(i).zfill(4)
+... 
+'0001'
+'0011'
+'0222'
+'0aaa'
+'1234'
+
+https://t.co/IdSTEzqRYi
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1091069962570088448,"[{'url': 'https://t.co/IdSTEzqRYi', 'expanded_url': 'https://docs.python.org/3.7/library/stdtypes.html#str.zfill', 'display_url': 'docs.python.org/3.7/library/st…'}]",[],5.5,726 days 23:28:03,726,4.6069648179863085,5.6069648179863085
+109063071654579e4,2019-01-30T15:20:00Z,49,20,"0123456789 are not the only characters treated as digits in #Python3:
+
+>>> s = ""௩௩௩""
+>>> int(s)
+333
+>>> s.isdecimal()
+True
+>>> re.match('\d', s)
+<_sre.SRE_Match object; span=(0, 1), match='௩'>
+
+#unicode
+https://t.co/wlE0gl8Nxz",FALSE,FALSE,https://twitter.com/python_tip/status/1090630716545789958,"[{'url': 'https://t.co/wlE0gl8Nxz', 'expanded_url': 'http://www.fileformat.info/info/unicode/category/Nd/list.htm', 'display_url': 'fileformat.info/info/unicode/c…'}]",[],4.5,725 days 18:22:39,725,4.606407124890404,5.606407124890404
+1089985890032734200,2019-01-28T20:37:41Z,91,28,"#pandas DataFrame.merge() has an indicator argument that allows you to see the source of each row.
+
+>>> df = df1.merge(df2, on=[‘X’], how='outer', indicator='src')
+
+https://t.co/LkBTtBnHzc
+
+#python https://t.co/5nCnreaIen",FALSE,FALSE,https://twitter.com/python_tip/status/1089985890032734208,"[{'url': 'https://t.co/LkBTtBnHzc', 'expanded_url': 'https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html', 'display_url': 'pandas.pydata.org/pandas-docs/st…'}]","[{'url': 'https://t.co/5nCnreaIen', 'media_url': 'http://pbs.twimg.com/media/DyBoYxkXQAotxpI.jpg', 'display_url': 'pic.twitter.com/5nCnreaIen'}]",4,723 days 23:40:20,723,4.605042974786219,5.605042974786219
+1087484736430395400,2019-01-21T22:59:00Z,73,18,"#pythontip from @singhjayp
+
+getpass.getpass() prompts a user for a password without echoing it.
+
+Example:
+
+import getpass                                                                       
+p = getpass.getpass(""Answer to a very secret question:"") https://t.co/JctxdkaGh5",FALSE,FALSE,https://twitter.com/python_tip/status/1087484736430395392,"[{'url': 'https://t.co/JctxdkaGh5', 'expanded_url': 'https://twitter.com/singhjayp/status/1086345930352353281', 'display_url': 'twitter.com/singhjayp/stat…'}]",[],4,717 days 02:01:39,717,4.6017528288265686,5.6017528288265686
+1086388587812319200,2019-01-18T22:23:18Z,104,30,"The step parameter in sequence slicing can be negative:
+
+>>> a = [1, 2, 3, 4, 5, 6, 7, 8]
+>>> a[::-1] #reverse
+[8, 7, 6, 5, 4, 3, 2, 1]
+>>> a[::-2]
+[8, 6, 4, 2]
+
+#python #pythontip",FALSE,FALSE,https://twitter.com/python_tip/status/1086388587812319233,[],[],4,714 days 01:25:57,714,4.600150989479732,5.600150989479732
+1083136585829359600,2019-01-09T23:01:00Z,75,31,"#pythontip from @singhjayp:
+
+Use shlex.split() to get shell-like splitting:
+
+>>> import re
+>>> re.split('\s', ""this is 'my string'"")
+['this', 'is', ""'my"", ""string'""]
+
+>>> import shlex
+>>> shlex.split(""this is 'my string'"")
+['this', 'is', 'my string']
+
+https://t.co/KlueBBcpEX",FALSE,FALSE,https://twitter.com/python_tip/status/1083136585829359618,"[{'url': 'https://t.co/KlueBBcpEX', 'expanded_url': 'https://twitter.com/singhjayp/status/1080901990601949184', 'display_url': 'twitter.com/singhjayp/stat…'}]",[],4,705 days 02:03:39,705,4.593960836733133,5.593960836733133
+1081297369893871600,2019-01-04T21:12:37Z,84,18,"You can write #pandas objects directly to compressed format (gzip, bz2, zip, xz).
+
+>>> https://t.co/yGT52QVczk_csv(""data.csv.gz"", compression='gzip’)
+
+#Python",FALSE,FALSE,https://twitter.com/python_tip/status/1081297369893871616,"[{'url': 'https://t.co/yGT52QVczk', 'expanded_url': 'http://df.to', 'display_url': 'df.to'}]",[],4,700 days 00:15:16,700,4.590854308071401,5.590854308071401
+1080200666369441800,2019-01-01T20:34:42Z,143,44,"Use #holidays library to check whether a date is holiday or not.
+
+>>> from datetime import date
+>>> import holidays
+>>> today = https://t.co/DAMy3gbWaN()
+>>> today in holidays.Czech()
+True
+
+Happy New Year! #Python 
+https://t.co/UsuKl4eGLI",FALSE,FALSE,https://twitter.com/python_tip/status/1080200666369441792,"[{'url': 'https://t.co/DAMy3gbWaN', 'expanded_url': 'http://date.today', 'display_url': 'date.today'}, {'url': 'https://t.co/UsuKl4eGLI', 'expanded_url': 'https://www.geeksforgeeks.org/python-holidays-library/', 'display_url': 'geeksforgeeks.org/python-holiday…'}]",[],4.5,696 days 23:37:21,696,4.587882471248805,5.587882471248805
+1076013147142611e3,2018-12-21T07:15:00Z,78,25,"#pythontip from @singhjayp:
+
+Use difflib.SequenceMatcher to compare strings.
+
+https://t.co/JNcXHBFpBq
+
+Example: https://t.co/ECiN4IwuZz",FALSE,FALSE,https://twitter.com/python_tip/status/1076013147142610944,"[{'url': 'https://t.co/JNcXHBFpBq', 'expanded_url': 'https://docs.python.org/3/library/difflib.html#sequencematcher-examples', 'display_url': 'docs.python.org/3/library/diff…'}]","[{'url': 'https://t.co/ECiN4IwuZz', 'media_url': 'http://pbs.twimg.com/media/Du0V52TWkAAuJNC.jpg', 'display_url': 'pic.twitter.com/ECiN4IwuZz'}]",4,685 days 10:17:39,685,4.57978522965367,5.57978522965367
+1075334585972609e3,2018-12-19T10:18:38Z,51,16,">>> 0.1 + 0.1 + 0.1 == 0.3
+False
+>>> 0.1 + 0.1 + 0.1
+0.30000000000000004
+
+https://t.co/YrnNf7uk4d 
+(via Facebook)",FALSE,FALSE,https://twitter.com/python_tip/status/1075334585972609024,"[{'url': 'https://t.co/YrnNf7uk4d', 'expanded_url': 'https://www.exploringbinary.com/why-0-point-1-does-not-exist-in-floating-point/', 'display_url': 'exploringbinary.com/why-0-point-1-…'}]",[],4,683 days 13:21:17,683,4.578306124756449,5.578306124756449
+1072509266882412500,2018-12-11T15:11:50Z,69,24,"Use chardet library to guess encoding of your text files.
+
+https://t.co/jf4YZYjnZl
+
+#python https://t.co/C2DVvAQ5Q0",FALSE,FALSE,https://twitter.com/python_tip/status/1072509266882412545,"[{'url': 'https://t.co/jf4YZYjnZl', 'expanded_url': 'https://chardet.readthedocs.io/en/latest/usage.html', 'display_url': 'chardet.readthedocs.io/en/latest/usag…'}]","[{'url': 'https://t.co/C2DVvAQ5Q0', 'media_url': 'http://pbs.twimg.com/media/DuJRdbWWoAITs5O.jpg', 'display_url': 'pic.twitter.com/C2DVvAQ5Q0'}]",4,675 days 18:14:29,675,4.572746247734207,5.572746247734207
+1069728260077031400,2018-12-03T23:01:06Z,69,27,"Do you need to deprecate a function or a method? Just use this simple #decorator:
+
+https://t.co/s4SSK006ji
+
+(get more decorator ideas at Python Decorator Library:
+https://t.co/BMLNVVh3MI) https://t.co/epFcNSeSYh",FALSE,FALSE,https://twitter.com/python_tip/status/1069728260077031424,"[{'url': 'https://t.co/s4SSK006ji', 'expanded_url': 'https://wiki.python.org/moin/PythonDecoratorLibrary#Generating_Deprecation_Warnings', 'display_url': 'wiki.python.org/moin/PythonDec…'}, {'url': 'https://t.co/BMLNVVh3MI', 'expanded_url': 'https://wiki.python.org/moin/PythonDecoratorLibrary', 'display_url': 'wiki.python.org/moin/PythonDec…'}]","[{'url': 'https://t.co/epFcNSeSYh', 'media_url': 'http://pbs.twimg.com/media/Dthvy-mW4AUU4Ye.jpg', 'display_url': 'pic.twitter.com/epFcNSeSYh'}]",4.5,668 days 02:03:45,668,4.5672518690477135,5.5672518690477135
+1063446102572179500,2018-11-16T14:58:03Z,70,17,"Convert a list containing numbers into string:
+
+lst = [1, 2, 3, 4, 'hello', 'world']
+""_"".join([str(item) for item in lst])
+
+or
+
+""_"".join(map(str, lst))
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1063446102572179456,[],[],4,650 days 18:00:42,650,4.552270621380496,5.552270621380496
+1060804433548845e3,2018-11-09T08:01:00Z,66,19,"#pythontip from @singhjayp:
+
+Sometimes string representations from __repr__ can be too long. Using reprlib module you can help to avoid unwanted items in the log.
+
+Example:
+https://t.co/MevyvlgYBB
+
+Send us your Python tips to https://t.co/mfUQ9teK5k
+#reprlib https://t.co/PFCKK0Pusv",FALSE,FALSE,https://twitter.com/python_tip/status/1060804433548845056,"[{'url': 'https://t.co/MevyvlgYBB', 'expanded_url': 'https://gist.github.com/simecek/7b49fcddacf89a20f20dc9a537d5b74a', 'display_url': 'gist.github.com/simecek/7b49fc…'}, {'url': 'https://t.co/mfUQ9teK5k', 'expanded_url': 'http://bit.ly/pythontip', 'display_url': 'bit.ly/pythontip'}]","[{'url': 'https://t.co/PFCKK0Pusv', 'media_url': 'http://pbs.twimg.com/media/DrYjVvMU8AEem0b.jpg', 'display_url': 'pic.twitter.com/PFCKK0Pusv'}]",4,643 days 11:03:39,643,4.546432007430131,5.546432007430131
+1058474244873601e3,2018-11-02T21:41:40Z,66,16,"Use expand=True in the str.split() method if you want to split string into several columns in a #pandas dataframe.
+
+s  = pd.Series(['aa-123', 'ff-ds-ds', 'zzz-42', 'xx’])
+s.str.split(""-"", 1, expand=True) https://t.co/2s0Epdz5tB",FALSE,FALSE,https://twitter.com/python_tip/status/1058474244873601026,[],"[{'url': 'https://t.co/2s0Epdz5tB', 'media_url': 'http://pbs.twimg.com/media/DrB0q2NXgAUUq9w.jpg', 'display_url': 'pic.twitter.com/2s0Epdz5tB'}]",4,637 days 00:44:19,637,4.541054438652733,5.541054438652733
+1054607253251088400,2018-10-23T05:35:37Z,433,160,"Finally sorted out! Which came first, the chicken or the egg?
+
+>>> x = ['\U0001F95A',  '\U0001F414']
+>>> sorted(x)
+['🐔', '🥚'] 
+#emoji #python3",FALSE,FALSE,https://twitter.com/python_tip/status/1054607253251088384,[],[],5,626 days 08:38:16,626,4.530578378257244,5.530578378257244
+1053352156487671800,2018-10-19T18:28:19Z,73,20,"Try this:
+
+>>> for i in range(20):
+...     print(f'Number {i}', end='\r')
+
+(Using carriage return in print makes the line replaceable)
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1053352156487671808,[],[],4,622 days 21:30:58,622,4.526786865922499,5.526786865922499
+1051920951997333500,2018-10-15T19:41:13Z,57,19,"Select a random sample from #pandas dataframe:
+
+>>> import pandas as pd
+>>> df = https://t.co/KBWVZaKP7L_csv(""data.csv"")
+>>> df.sample(n=5)
+
+https://t.co/0RZGHoVUHw https://t.co/7fqhb4DUxV",FALSE,FALSE,https://twitter.com/python_tip/status/1051920951997333504,"[{'url': 'https://t.co/KBWVZaKP7L', 'expanded_url': 'http://pd.read', 'display_url': 'pd.read'}, {'url': 'https://t.co/0RZGHoVUHw', 'expanded_url': 'https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.sample.html', 'display_url': 'pandas.pydata.org/pandas-docs/st…'}]","[{'url': 'https://t.co/7fqhb4DUxV', 'media_url': 'http://pbs.twimg.com/media/DpksOhpWwAggjH4.jpg', 'display_url': 'pic.twitter.com/7fqhb4DUxV'}]",4,618 days 22:43:52,618,4.522944369517527,5.522944369517527
+1049192922225283100,2018-10-08T07:01:00Z,111,28,"How to read two text files, line by line, simultaneously
+
+with open(file1) as f1, open(file2) as f2:
+  for x, y in zip(f1, f2):
+     print(f""{x.strip()}\t{y.strip()}"")
+
+https://t.co/jIOjiiJgDh",FALSE,FALSE,https://twitter.com/python_tip/status/1049192922225283072,"[{'url': 'https://t.co/jIOjiiJgDh', 'expanded_url': 'https://stackoverflow.com/a/11295227/7651153', 'display_url': 'stackoverflow.com/a/11295227/765…'}]",[],4,611 days 10:03:39,611,4.516093317945898,5.516093317945898
+1047839410321084400,2018-10-04T13:22:37Z,131,34,"Pretty-print dictionaries with json.dumps
+
+>>> import json
+>>> d = {'a':'hello', 'd':1, 'b':5}
+>>> print(json.dumps(d, indent=4, sort_keys=True)) https://t.co/9plSBWrkOc",FALSE,FALSE,https://twitter.com/python_tip/status/1047839410321084416,[],"[{'url': 'https://t.co/9plSBWrkOc', 'media_url': 'http://pbs.twimg.com/media/DoqsTn8XUAAlolZ.jpg', 'display_url': 'pic.twitter.com/9plSBWrkOc'}]",4,607 days 16:25:16,607,4.512103728085568,5.512103728085568
+1047526246656225300,2018-10-03T16:38:13Z,165,39,"Use itertools.chain to iterate over items in separate lists:
+
+>>> from itertools import chain
+>>> x = [1, 2, 3]
+>>> y = [5, 6, 7]
+>>> z = ['a', 'b']
+>>> for item in chain(x, y, z):
+...     print(item)
+... 
+1
+2
+3
+5
+6
+7
+a
+b
+
+#python #itertools",FALSE,FALSE,https://twitter.com/python_tip/status/1047526246656225280,[],[],4,606 days 19:40:52,606,4.511452722275173,5.511452722275173
+1046838233429135400,2018-10-01T19:04:18Z,63,17,"If you want a lambda to capture a value ad the definition point and keep it, include it as a default value. 
+Compare:
+>>> pow1 = [lambda x: x**n for n in range(5)]
+and 
+pow2 = [lambda x, n=n: x**n for n in range(5)]
+#python https://t.co/QOEbNCIEEO",FALSE,FALSE,https://twitter.com/python_tip/status/1046838233429135362,[],"[{'url': 'https://t.co/QOEbNCIEEO', 'media_url': 'http://pbs.twimg.com/media/DocdrXvXkAAej42.jpg', 'display_url': 'pic.twitter.com/QOEbNCIEEO'}]",4,604 days 22:06:57,604,4.509791112269655,5.509791112269655
+1044483137890279400,2018-09-25T07:06:00Z,217,73,"When web-scraping with Python, you can use cookies from your Firefox/Chrome browser:
+
+https://t.co/IbouMJVl4u https://t.co/jNS0F45eLa",FALSE,FALSE,https://twitter.com/python_tip/status/1044483137890279424,"[{'url': 'https://t.co/IbouMJVl4u', 'expanded_url': 'https://bitbucket.org/richardpenman/browsercookie', 'display_url': 'bitbucket.org/richardpenman/…'}]","[{'url': 'https://t.co/jNS0F45eLa', 'media_url': 'http://pbs.twimg.com/media/DnvH_UUUUAAJdoJ.jpg', 'display_url': 'pic.twitter.com/jNS0F45eLa'}]",4,598 days 10:08:39,598,4.5040211085117985,5.5040211085117985
+1042396175968677900,2018-09-19T12:53:09Z,195,65,"Use ""\N"" escape sequence to print #unicode symbols by name.
+
+>>> print('\N{smiling face with sunglasses}’)
+😎
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/1042396175968677888,[],[],4.5,592 days 15:55:48,592,4.498137198906171,5.498137198906171
+1041606233894133800,2018-09-17T08:34:12Z,104,30,"When using expand=True in pandas.Series.str.split(), the elements will expand out into separate columns. #python #pandas #python https://t.co/jJVLH2kX4P",FALSE,FALSE,https://twitter.com/python_tip/status/1041606233894133760,[],"[{'url': 'https://t.co/jJVLH2kX4P', 'media_url': 'http://pbs.twimg.com/media/DnSHVlHWsAAMy8f.jpg', 'display_url': 'pic.twitter.com/jJVLH2kX4P'}]",4,590 days 11:36:51,590,4.495645532906093,5.495645532906093
+1039030713381605400,2018-09-10T06:00:00Z,85,29,"Do not use mutable default arguments (lists, sets, dicts...)
+
+Why? Consider a function:
+
+def append_to(element, to=[]):
+    to.append(element)
+    return to
+
+>>> append_to(12)
+[12]
+# looks ok, but...
+>>> append_to(42)
+[12, 42]
+# what? not ok
+
+Explanation: https://t.co/4V26oZgmw1 https://t.co/TNiTcZox71",FALSE,FALSE,https://twitter.com/python_tip/status/1039030713381605376,"[{'url': 'https://t.co/4V26oZgmw1', 'expanded_url': 'https://docs.python-guide.org/writing/gotchas/', 'display_url': 'docs.python-guide.org/writing/gotcha…'}]","[{'url': 'https://t.co/TNiTcZox71', 'media_url': 'http://pbs.twimg.com/media/DmtWbHEU0AAsrnl.jpg', 'display_url': 'pic.twitter.com/TNiTcZox71'}]",4.5,583 days 09:02:39,583,4.487736457410155,5.487736457410155
+1035407587284602900,2018-08-31T06:03:00Z,133,52,"Every time you
+
+>>> import your_module
+
+Python creates .pyc file with compiled bytecode. If you want to avoid .pyc files (for example, you do not want to commit them with git), set env. variable PYTHONDONTWRITEBYTECODE or use
+
+import sys
+sys.dont_write_bytecode = True",FALSE,FALSE,https://twitter.com/python_tip/status/1035407587284602880,[],[],4.5,573 days 09:05:39,573,4.477054150835407,5.477054150835407
+1034688347409510400,2018-08-29T06:25:00Z,50,19,"Execute Jupyter notebooks for different parameters with papermill:
+
+https://t.co/xZkQwT4Nzv
+
+Learn about scheduling and executing notebooks at Netflix:
+https://t.co/WJfmomoZ4Z
+https://t.co/J1GPZVAaKO https://t.co/q31aA71qaP",FALSE,FALSE,https://twitter.com/python_tip/status/1034688347409510400,"[{'url': 'https://t.co/xZkQwT4Nzv', 'expanded_url': 'https://github.com/nteract/papermill', 'display_url': 'github.com/nteract/paperm…'}, {'url': 'https://t.co/WJfmomoZ4Z', 'expanded_url': 'https://medium.com/netflix-techblog/scheduling-notebooks-348e6c14cfd6', 'display_url': 'medium.com/netflix-techbl…'}, {'url': 'https://t.co/J1GPZVAaKO', 'expanded_url': 'https://medium.com/netflix-techblog/notebook-innovation-591ee3221233', 'display_url': 'medium.com/netflix-techbl…'}]","[{'url': 'https://t.co/q31aA71qaP', 'media_url': 'http://pbs.twimg.com/media/DloqL2EUYAAW2di.jpg', 'display_url': 'pic.twitter.com/q31aA71qaP'}]",5,571 days 09:27:39,571,4.474792133793566,5.474792133793566
+1030326397665914900,2018-08-17T05:32:10Z,54,17,"Redirecting of stdout in #Python3:
+
+>>> contextlib.redirect_stdout(f)
+
+See an example from @raymondh:
+https://t.co/ZtYLZcWAli
+
+And four other ways to redirect stdout from https://t.co/tJs6sfe5GX https://t.co/chfn252bvg",FALSE,FALSE,https://twitter.com/python_tip/status/1030326397665914880,"[{'url': 'https://t.co/ZtYLZcWAli', 'expanded_url': 'https://twitter.com/raymondh/status/1030160198600548352', 'display_url': 'twitter.com/raymondh/statu…'}, {'url': 'https://t.co/tJs6sfe5GX', 'expanded_url': 'https://www.blog.pythonlibrary.org/2016/06/16/python-101-redirecting-stdout/', 'display_url': 'blog.pythonlibrary.org/2016/06/16/pyt…'}]","[{'url': 'https://t.co/chfn252bvg', 'media_url': 'http://pbs.twimg.com/media/Dkx0VldU4AAdxGV.jpg', 'display_url': 'pic.twitter.com/chfn252bvg'}]",4,559 days 08:34:49,559,4.460865150243318,5.460865150243318
+1.0299737821469041e+18,2018-08-16T06:11:00Z,87,28,"By default, Python compare objects using their ids. Consider the following class:
+
+class Number:
+    def __init__(self, x):
+        self.x = x
+
+n1 = Number(1)
+n2 = Number(1)
+n1 == n2 # False 😲😲
+
+The elegant solution to this problem is to use #dataclasses https://t.co/wxBtxfyLPR",FALSE,FALSE,https://twitter.com/python_tip/status/1029973782146904064,"[{'url': 'https://t.co/wxBtxfyLPR', 'expanded_url': 'http://bit.ly/2MhhMQu', 'display_url': 'bit.ly/2MhhMQu'}]",[],4,558 days 09:13:39,558,4.459676028608918,5.459676028608918
+1029249762942378e3,2018-08-14T06:14:00Z,53,22,">>> from contextlib import suppress
+>>> with suppress(SpecificError): doing_something()
+
+will not propagate SpecificError if it is raised while doing_something()
+
+#pythontip #exceptions https://t.co/zMPF7gagV5",FALSE,FALSE,https://twitter.com/python_tip/status/1029249762942377984,[],"[{'url': 'https://t.co/zMPF7gagV5', 'media_url': 'http://pbs.twimg.com/media/DkZa60ZU4AE9oVr.jpg', 'display_url': 'pic.twitter.com/zMPF7gagV5'}]",4,556 days 09:16:39,556,4.456866190710693,5.456866190710693
+1026725629390020600,2018-08-07T07:04:00Z,54,15,"Use https://t.co/KBWVZb2pZj_clipboard() to copy and paste a table into dataframe.
+https://t.co/xAeOLeM4IE
+#pandas",FALSE,FALSE,https://twitter.com/python_tip/status/1026725629390020608,"[{'url': 'https://t.co/KBWVZb2pZj', 'expanded_url': 'http://pd.read', 'display_url': 'pd.read'}, {'url': 'https://t.co/xAeOLeM4IE', 'expanded_url': 'https://stackoverflow.com/questions/31610889/how-to-copy-paste-dataframe-from-stackoverflow-into-python', 'display_url': 'stackoverflow.com/questions/3161…'}]",[],4,549 days 10:06:39,549,4.448339984259346,5.448339984259346
+1026354685891014700,2018-08-06T06:30:00Z,742,382,"Be careful when reversing #unicode strings. You may be surprised…
+
+>>> s = ""Welcome in 🇬🇧”
+>>> s[::-1]
+'🇧🇬 ni emocleW'
+
+(thanks @piskvor for the inspiration!) https://t.co/JKNb0MotzQ",FALSE,FALSE,https://twitter.com/python_tip/status/1026354685891014656,[],"[{'url': 'https://t.co/JKNb0MotzQ', 'media_url': 'http://pbs.twimg.com/media/Dj2ITdWXoAIhuml.jpg', 'display_url': 'pic.twitter.com/JKNb0MotzQ'}]",5.5,548 days 09:32:39,548,4.447528204548034,5.447528204548034
+1024912431695454200,2018-08-02T06:59:00Z,65,24,"In #Python3, print is a function and you can override it (NOT a recommended approach, but a hack that can be useful).
+
+Example: https://t.co/E64uSjWpnR https://t.co/QVHmcX0M93",FALSE,FALSE,https://twitter.com/python_tip/status/1024912431695454208,"[{'url': 'https://t.co/E64uSjWpnR', 'expanded_url': 'http://bit.ly/2Kijpri', 'display_url': 'bit.ly/2Kijpri'}]","[{'url': 'https://t.co/QVHmcX0M93', 'media_url': 'http://pbs.twimg.com/media/DjauSVRV4AE3MWC.jpg', 'display_url': 'pic.twitter.com/QVHmcX0M93'}]",4,544 days 10:01:39,544,4.44253317673671,5.44253317673671
+1024178421696323600,2018-07-31T06:22:18Z,78,23,"#pythontip from @ori75660:
+
+Check the temperature of your CPU using Python (and other cool tricks)
+https://t.co/rnwhMjqGjH
+
+>>> import psutil
+>>> psutil.sensors_battery()
+>>> psutil.sensors_temperatures()
+
+Send us your own #pythontip to https://t.co/mfUQ9twkWS",FALSE,FALSE,https://twitter.com/python_tip/status/1024178421696323585,"[{'url': 'https://t.co/rnwhMjqGjH', 'expanded_url': 'https://dapythonista.com/2018/05/18/check-the-temperature-of-your-cpu-using-python-and-other-cool-tricks/', 'display_url': 'dapythonista.com/2018/05/18/che…'}, {'url': 'https://t.co/mfUQ9twkWS', 'expanded_url': 'http://bit.ly/pythontip', 'display_url': 'bit.ly/pythontip'}]",[],5,542 days 09:24:57,542,4.4395734138192555,5.4395734138192555
+1023842213116035100,2018-07-30T08:06:20Z,185,54,"Create an animated GIF with 'imageio', Python library for reading and writing image data.
+
+>>> from imageio import imread, mimsave
+>>> images = []
+>>> for f in filenames:
+    images.append(imread(f))
+>>> mimsave('movie.gif', images)
+
+Source code: https://t.co/hKLOQkYrmJ https://t.co/xUoFCs77GN",FALSE,FALSE,https://twitter.com/python_tip/status/1023842213116035073,"[{'url': 'https://t.co/hKLOQkYrmJ', 'expanded_url': 'http://bit.ly/2vipC0z', 'display_url': 'bit.ly/2vipC0z'}]","[{'url': 'https://t.co/xUoFCs77GN', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/DjVpAegU8AEaZGi.jpg', 'display_url': 'pic.twitter.com/xUoFCs77GN'}]",4.5,541 days 11:08:59,541,4.438300452901993,5.438300452901993
+1022431882183667700,2018-07-26T10:42:11Z,75,26,"Get the directory path of a #python script from within itself:
+
+import os
+print(os.path.dirname(os.path.realpath(__file__)))
+
+or
+
+from pathlib import Path
+print(str(Path(__file__).resolve().parent))",FALSE,FALSE,https://twitter.com/python_tip/status/1022431882183667712,[],[],4.5,537 days 13:44:50,537,4.433592468384696,5.433592468384696
+1019459417513738200,2018-07-18T05:50:40Z,63,28,"You most likely know about 'global' and 'local' variables but do you know 'nonlocal'?
+
+https://t.co/rmQjUgUKfZ
+https://t.co/XgaF26MKHX
+
+#python3 #pythontip #nonlocal https://t.co/RgU1rqWy59",FALSE,FALSE,https://twitter.com/python_tip/status/1019459417513738240,"[{'url': 'https://t.co/rmQjUgUKfZ', 'expanded_url': 'https://stackoverflow.com/questions/1261875/python-nonlocal-statement', 'display_url': 'stackoverflow.com/questions/1261…'}, {'url': 'https://t.co/XgaF26MKHX', 'expanded_url': 'https://docs.python.org/3/tutorial/classes.html#scopes-and-namespaces-example', 'display_url': 'docs.python.org/3/tutorial/cla…'}]","[{'url': 'https://t.co/RgU1rqWy59', 'media_url': 'http://pbs.twimg.com/media/DiXYD4jVMAUVCYQ.jpg', 'display_url': 'pic.twitter.com/RgU1rqWy59'}]",4,529 days 08:53:19,529,4.42304485638766,5.42304485638766
+1017312426268639200,2018-07-12T07:39:17Z,49,17,"• del does not delete the object
+• del just decrease the reference counter
+• __del__ is an object destroyer, avoid using it
+
+For more see @DasIstHerrKuska's #pyconcz talk: https://t.co/unjLh0j185",FALSE,FALSE,https://twitter.com/python_tip/status/1017312426268639232,"[{'url': 'https://t.co/unjLh0j185', 'expanded_url': 'https://youtu.be/ALDUKcg6W9o?t=23m47s', 'display_url': 'youtu.be/ALDUKcg6W9o?t=…'}]",[],4,523 days 10:41:56,523,4.414888803005787,5.414888803005787
+1009632246892937200,2018-06-21T03:01:00Z,43,14,"Getting the class name of an instance X:
+
+X.__class__.__name__
+
+or 
+
+type(X).__name__
+
+https://t.co/s23ZKOaorY https://t.co/pwZmtKfJbS",FALSE,FALSE,https://twitter.com/python_tip/status/1009632246892937217,"[{'url': 'https://t.co/s23ZKOaorY', 'expanded_url': 'https://stackoverflow.com/questions/510972/getting-the-class-name-of-an-instance-in-python', 'display_url': 'stackoverflow.com/questions/5109…'}]","[{'url': 'https://t.co/pwZmtKfJbS', 'media_url': 'http://pbs.twimg.com/media/DgLqtCbU8AANkbs.jpg', 'display_url': 'pic.twitter.com/pwZmtKfJbS'}]",4.5,502 days 06:03:39,502,4.385033066234833,5.385033066234833
+1009323700116545500,2018-06-20T06:34:57Z,62,25,"#pythontip from @singhjayp:
+
+Search multiple dicts using ChainMap
+
+from collections import ChainMap
+
+countryCapital = {'US':'Washinton', 'IN':'Delhi'}
+stateCapital = {'MA':'Boston', 'KA': 'Bangalore'}
+x = ChainMap(countryCapital, stateCapital)
+print(x['IN'], x['MA']) https://t.co/1eTBLtzVsY",FALSE,FALSE,https://twitter.com/python_tip/status/1009323700116545537,[],"[{'url': 'https://t.co/1eTBLtzVsY', 'media_url': 'http://pbs.twimg.com/media/DgHV2W6U0AAEYtr.jpg', 'display_url': 'pic.twitter.com/1eTBLtzVsY'}]",4,501 days 09:37:36,501,4.383515281923832,5.383515281923832
+1003548320890048500,2018-06-04T08:05:39Z,86,23,"#pythontip from @singhjayp:
+
+How to insert an element into a sorted list and ensure the list remains sorted?
+
+>>> import  bisect
+>>> a = [1, 2, 4, 5] 
+>>> bisect.insort(a, 3)
+>>> print(a)
+[1, 2, 3, 4, 5]",FALSE,FALSE,https://twitter.com/python_tip/status/1003548320890048512,[],[],4,485 days 11:08:18,485,4.357681602299717,5.357681602299717
+997165361287061500,2018-05-17T17:22:03Z,63,16,"Join the content of two string columns into one column with https://t.co/gJy7eDJM81() method:
+
+df['c'] = df['a'].str.cat(df['b'], sep=',')
+
+#pandas #python 
+https://t.co/uxv9lN5CCg https://t.co/mEf0wjOx92",FALSE,FALSE,https://twitter.com/python_tip/status/997165361287061504,"[{'url': 'https://t.co/gJy7eDJM81', 'expanded_url': 'http://str.cat', 'display_url': 'str.cat'}, {'url': 'https://t.co/uxv9lN5CCg', 'expanded_url': 'https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.str.cat.html', 'display_url': 'pandas.pydata.org/pandas-docs/st…'}]","[{'url': 'https://t.co/mEf0wjOx92', 'media_url': 'http://pbs.twimg.com/media/DdakmxrVMAAsQjZ.jpg', 'display_url': 'pic.twitter.com/mEf0wjOx92'}]",4,467 days 20:24:42,467,4.327142570485766,5.327142570485766
+996333363391860700,2018-05-15T10:15:59Z,116,34,"Difference between list.append() and list.extend(): 
+
+>>> x = [1, 2, 3]
+>>> x.append([4, 5])
+>>> print(x)
+[1, 2, 3, [4, 5]]
+
+>>> x = [1, 2, 3]
+>>> x.extend([4, 5])
+>>> print(x)
+[1, 2, 3, 4, 5]
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/996333363391860737,[],[],4.5,465 days 13:18:38,465,4.323506623120151,5.323506623120151
+994449201739239400,2018-05-10T05:29:00Z,56,15,"How to ignore warnings:
+
+> import warnings
+> warnings.filterwarnings('ignore')
+
+You can ignore only a specific type of warnings, for example DeprecationWarning.
+
+warnings.filterwarnings('ignore', 'DeprecationWarning')
+
+For more info,  https://t.co/ihUzsTnWyy
+
+#pythontip #warnings https://t.co/zzq9zozGob",FALSE,FALSE,https://twitter.com/python_tip/status/994449201739239424,"[{'url': 'https://t.co/ihUzsTnWyy', 'expanded_url': 'https://www.lesinskis.com/python_deprecation_tutorial.html', 'display_url': 'lesinskis.com/python_depreca…'}]","[{'url': 'https://t.co/zzq9zozGob', 'media_url': 'http://pbs.twimg.com/media/DcyMBRLVQAEfWXi.jpg', 'display_url': 'pic.twitter.com/zzq9zozGob'}]",4,460 days 08:31:39,460,4.314243280315188,5.314243280315188
+992062625679921200,2018-05-03T15:25:36Z,52,9,"zip() is great for transposing 2D data:
+>>> lst = [(1, 2, 3, 4), (5, 6, 7, 8)]
+>>> list(zip(*lst))
+[(1, 5), (2, 6), (3, 7), (4, 8)]
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/992062625679921153,[],[],4,453 days 18:28:15,453,4.301414546728088,5.301414546728088
+990951411302256600,2018-04-30T13:50:02Z,123,37,"Print calendar of a given month and year:
+>>> import calendar
+>>> print(calendar.month(2018, 5))
+#python https://t.co/ivX91vqT59",FALSE,FALSE,https://twitter.com/python_tip/status/990951411302256642,[],"[{'url': 'https://t.co/ivX91vqT59', 'media_url': 'http://pbs.twimg.com/media/DcCRDaOX0AEq7l4.jpg', 'display_url': 'pic.twitter.com/ivX91vqT59'}]",4,450 days 16:52:41,450,4.294935253759698,5.294935253759698
+989036287440146400,2018-04-25T07:00:00Z,66,19,"Learn the difference between 'apply', 'applymap' and 'map'
+
+https://t.co/9WhKbfW9L9
+#pandas https://t.co/vjRdjr3Qnu",FALSE,FALSE,https://twitter.com/python_tip/status/989036287440146432,"[{'url': 'https://t.co/9WhKbfW9L9', 'expanded_url': 'https://stackoverflow.com/a/19798528/7651153', 'display_url': 'stackoverflow.com/a/19798528/765…'}]","[{'url': 'https://t.co/vjRdjr3Qnu', 'media_url': 'http://pbs.twimg.com/media/DblCe7eV4AAGdvL.jpg', 'display_url': 'pic.twitter.com/vjRdjr3Qnu'}]",5,445 days 10:02:39,445,4.283072217043551,5.283072217043551
+985896744922820600,2018-04-16T15:04:35Z,51,26,"round() can accept a negative argument for number of places:
+>>> x = 12345.6789
+>>> round(x)
+12346.0
+>>> round(x,2)
+12345.68
+>>> round(x, -2)
+12300.0
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/985896744922820609,[],[],4,436 days 18:07:14,436,4.25836582229023,5.25836582229023
+984325249243086800,2018-04-12T07:00:01Z,45,18,"How does Python find modules/packages?
+
+When you try
+
+>>> import spam
+
+Interpreter looks for `spam` in sys.path folders
+
+>>> import sys
+>>> print(sys.path)
+
+You can manipulate sys.path:
+
+>>>  sys.path.append('../path/to/your/modules/')
+>>> print(sys.path)
+
+https://t.co/Vko9R9gEMT https://t.co/2k9tdPle9T",FALSE,FALSE,https://twitter.com/python_tip/status/984325249243086848,"[{'url': 'https://t.co/Vko9R9gEMT', 'expanded_url': 'https://docs.python.org/3/tutorial/modules.html#the-module-search-path', 'display_url': 'docs.python.org/3/tutorial/mod…'}]","[{'url': 'https://t.co/2k9tdPle9T', 'media_url': 'http://pbs.twimg.com/media/DaSo7hTU8AUymIV.jpg', 'display_url': 'pic.twitter.com/2k9tdPle9T'}]",4,432 days 10:02:40,432,4.246865568151613,5.246865568151613
+973076122307936300,2018-03-12T06:00:01Z,83,23,"#humanize = module for human friendly representations
+
+import datetime as dt
+import time
+import humanize
+
+t = https://t.co/mj5384TM25()
+time.sleep(10)
+humanize.naturaltime(t)
+
+y = https://t.co/Gt94Oj5rqW()-dt.timedelta(1)
+humanize.naturaldate(y)
+
+(from A.Samuel #PyDataNYC slides) https://t.co/gmfFwXKzOw",FALSE,FALSE,https://twitter.com/python_tip/status/973076122307936257,"[{'url': 'https://t.co/mj5384TM25', 'expanded_url': 'http://dt.datetime.now', 'display_url': 'dt.datetime.now'}, {'url': 'https://t.co/Gt94Oj5rqW', 'expanded_url': 'http://dt.date.today', 'display_url': 'dt.date.today'}]","[{'url': 'https://t.co/gmfFwXKzOw', 'media_url': 'http://pbs.twimg.com/media/DXV1kVGU0AAlLAE.jpg', 'display_url': 'pic.twitter.com/gmfFwXKzOw'}]",4.5,401 days 09:02:40,401,4.149542139893231,5.149542139893231
+972173623036399600,2018-03-09T18:13:48Z,52,20,"Select rows of #pandas dataframe where a column of strings contains   a substring with str.contains()
+
+>>> df[df[“col""].str.contains(""abc”)]
+
+#python https://t.co/AW4MwgvFcI",FALSE,FALSE,https://twitter.com/python_tip/status/972173623036399616,[],"[{'url': 'https://t.co/AW4MwgvFcI', 'media_url': 'http://pbs.twimg.com/media/DX3arquW0AIW-ju.jpg', 'display_url': 'pic.twitter.com/AW4MwgvFcI'}]",4.5,398 days 21:16:27,398,4.139579090206618,5.139579090206618
+971762660097364e3,2018-03-08T15:00:47Z,56,17,"Use textwrap.fill() to print long strings so that they fill a specified number of columns.
+
+>>> print(textwrap.fill(long_str, 60))
+
+#python https://t.co/unhErzp5C4",FALSE,FALSE,https://twitter.com/python_tip/status/971762660097363974,[],"[{'url': 'https://t.co/unhErzp5C4', 'media_url': 'http://pbs.twimg.com/media/DXxk5knWAAABJte.jpg', 'display_url': 'pic.twitter.com/unhErzp5C4'}]",4,397 days 18:03:26,397,4.136243364001257,5.136243364001257
+969120059892359200,2018-03-01T08:00:02Z,40,8,"Python dictionary's method get() can be used with a default value:
+
+>>> dict = {'Name': 'Zabra', 'Age': 7}
+>>> print ""Value : %s"" %  dict.get('Age')
+Value : 7
+>>> print ""Value : %s"" %  dict.get('Education', ""NA"")
+Value : NA",FALSE,FALSE,https://twitter.com/python_tip/status/969120059892359169,[],[],4,390 days 11:02:41,390,4.112708113334933,5.112708113334933
+968395277437567e3,2018-02-27T08:00:00Z,34,10,"Get the list of module attributes (= all the things that are in the module):
+
+>>> import math
+>>> dir(math)
+['__doc__', '__name__', ... , 'tanh', 'trunc']
+
+#pythontip",FALSE,FALSE,https://twitter.com/python_tip/status/968395277437566976,[],[],4.5,388 days 11:02:39,388,4.1059296485010135,5.1059296485010135
+9.6404662912802406e+17,2018-02-15T08:00:02Z,54,16,"#Jupyter notebook autocomplete and docs:
+
+Tab = autocomplete
+Shift-tab = arguments of the function/method
+2 x shift-tab, 3 x shift-tab, ?function = more docs
+??function = source code",FALSE,FALSE,https://twitter.com/python_tip/status/964046629128024065,[],[],4,376 days 11:02:41,376,4.064841204905349,5.064841204905349
+957886029209456600,2018-01-29T08:00:00Z,27,9,"The tilde ~ is the unary negation operator:
+
+>>> import numpy as np
+>>> ~ np.array([True,False])
+array([False,  True], dtype=bool)
+
+Be aware that using ~ to scalars can lead to unexpected results:
+
+ >>> ~ True
+-2
+>>> ~ False
+-1
+>>> ~ np.isfinite(np.inf)
+True
+
+#pythontip",FALSE,FALSE,https://twitter.com/python_tip/status/957886029209456640,[],[],4,359 days 11:02:39,359,4.005680130879663,5.005680130879663
+955429320591364100,2018-01-22T13:17:55Z,51,26,"Use #pathlib for recursive globbing:
+>>> import pathlib
+>>> images = pathlib.Path('/mypath/').glob('**/*.png')
+>>> list(images)
+
+https://t.co/jyNqpHaJXi
+
+#python3",FALSE,FALSE,https://twitter.com/python_tip/status/955429320591364096,"[{'url': 'https://t.co/jyNqpHaJXi', 'expanded_url': 'https://docs.python.org/3/library/pathlib.html#basic-use', 'display_url': 'docs.python.org/3/library/path…'}]",[],4,352 days 16:20:34,352,3.98107411752353,4.98107411752353
+953902899309903900,2018-01-18T08:12:28Z,26,9,"Reshaping data from the wide format to the long format (melt) and back again (pivot):
+
+https://t.co/mqOgAdSZwt
+
+#pandas #pythontip #tidydata https://t.co/sF3p22389c",FALSE,FALSE,https://twitter.com/python_tip/status/953902899309903872,"[{'url': 'https://t.co/mqOgAdSZwt', 'expanded_url': 'http://www.datasciencemadesimple.com/reshape-wide-long-pandas-python-melt-function/', 'display_url': 'datasciencemadesimple.com/reshape-wide-l…'}]","[{'url': 'https://t.co/sF3p22389c', 'media_url': 'http://pbs.twimg.com/media/DTzvsETVwAAlN8D.jpg', 'display_url': 'pic.twitter.com/sF3p22389c'}]",4,348 days 11:15:07,348,3.966960703307624,4.966960703307624
+9.5317498734677606e+17,2018-01-16T08:00:00Z,33,13,"Do you need to save a large object?
+
+import numpy as np
+x = np.zeros((1000,1000))
+
+Compress your pickle file
+
+import gzip, cPickle
+with https://t.co/wFbykHTCKH('tmp.gz','wb') as f:
+  cPickle.dump(x, f, 2)
+
+Or take advantage of savez_compressed:
+
+np.savez_compressed('tmp.npz', x)",FALSE,FALSE,https://twitter.com/python_tip/status/953174987346776065,"[{'url': 'https://t.co/wFbykHTCKH', 'expanded_url': 'http://gzip.open', 'display_url': 'gzip.open'}]",[],4.5,346 days 11:02:39,346,3.959890709407466,4.959890709407466
+952812602819739600,2018-01-15T08:00:01Z,40,8,"f(x) = log(1+x) is a common transformation for non-negative data. With #numpy, use log1p(x), not log(x)+1, to get a better precision for small numbers:
+
+>>> import numpy as np
+>>> np.log1p(1e-99)
+1e-99
+>>> np.log(1 + 1e-99)
+0.0
+
+The inverse function is 'expm1'.
+
+#pythontip #numpy",FALSE,FALSE,https://twitter.com/python_tip/status/952812602819739654,[],[],4,345 days 11:02:40,345,3.956352524972288,4.956352524972289
+951006935670820900,2018-01-10T08:24:56Z,33,12,"You can also use csv.Sniffer() to guess the delimiter for you.
+https://t.co/YMJ1LDOuOJ
+
+#python https://t.co/e05SXlG3sL",FALSE,FALSE,https://twitter.com/python_tip/status/951006935670820864,"[{'url': 'https://t.co/YMJ1LDOuOJ', 'expanded_url': 'https://docs.python.org/2/library/csv.html#csv.Sniffer', 'display_url': 'docs.python.org/2/library/csv.…'}, {'url': 'https://t.co/e05SXlG3sL', 'expanded_url': 'https://twitter.com/raymondh/status/950809128376582144', 'display_url': 'twitter.com/raymondh/statu…'}]",[],4,340 days 11:27:35,340,3.938631130728647,4.938631130728647
+949159440137228300,2018-01-05T06:03:39Z,56,14,"Get absolute path with pathlib.Path.resolve():
+>>> from pathlib import Path
+>>> p = Path('.’)
+>>> p.resolve()
+PosixPath(‘/home/sweet/home’)
+#python 3",FALSE,FALSE,https://twitter.com/python_tip/status/949159440137228289,[],[],4,335 days 09:06:18,335,3.920861890998119,4.920861890998119
+946764011080732700,2017-12-29T15:25:04Z,72,17,"Create new directories with #pathlib.Path.mkdir() method
+
+import pathlib
+pathlib.Path('/my/new/directory').mkdir(parents=True, exist_ok=True) 
+
+This creates all missing parents
+and doesn't raise an exception if the directory already exists.
+
+#python 3",FALSE,FALSE,https://twitter.com/python_tip/status/946764011080732672,[],[],4,328 days 18:27:43,328,3.895911293373145,4.895911293373144
+946381556591054800,2017-12-28T14:05:20Z,56,24,"In #jupyter notebook, you can use _N to get the output of N-th cell:
+
+In  [20]: _2
+Out [20]: 200 https://t.co/TCenrGXd8j",FALSE,FALSE,https://twitter.com/python_tip/status/946381556591054849,[],"[{'url': 'https://t.co/TCenrGXd8j', 'media_url': 'http://pbs.twimg.com/media/DSI4tJlWsAAqg3e.jpg', 'display_url': 'pic.twitter.com/TCenrGXd8j'}]",4.5,327 days 17:07:59,327,3.8923403369231404,4.892340336923141
+946025257932066800,2017-12-27T14:29:32Z,32,14,"Use %debug magic in #jupyter notebook to see details of an exception. 
+
+(see the whole thread) https://t.co/lDhNe03UZA",FALSE,FALSE,https://twitter.com/python_tip/status/946025257932066816,"[{'url': 'https://t.co/lDhNe03UZA', 'expanded_url': 'https://twitter.com/radekosmulski/status/945739571735748609', 'display_url': 'twitter.com/radekosmulski/…'}]",[],4.5,326 days 17:32:11,326,3.8887678012878637,4.888767801287864
+943024844995571700,2017-12-19T07:46:58Z,32,14,"2018 is coming! Find all US holidays in the new year:
+
+from https://t.co/qnfMyvMjvg import USFederalHolidayCalendar as cal
+cal().holidays(start='2018-01-01', end='2018-12-31').to_pydatetime()
+
+What about Easter?
+
+from dateutil.easter import easter
+easter(2018)
+
+#pythontip",FALSE,FALSE,https://twitter.com/python_tip/status/943024844995571713,"[{'url': 'https://t.co/qnfMyvMjvg', 'expanded_url': 'http://pandas.tseries.holiday', 'display_url': 'pandas.tseries.holiday'}]",[],4,318 days 10:49:37,318,3.860132993865468,4.860132993865468
+941243060108906500,2017-12-14T09:46:47Z,38,9,"iter() can take two arguments, first one being a function that takes no arguments, second one marks the stop:
+with open('mydata.txt') as fp:
+    for line in iter(fp.readline, '""""):
+        do_something
+
+https://t.co/dQe7JWUGNQ
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/941243060108906496,"[{'url': 'https://t.co/dQe7JWUGNQ', 'expanded_url': 'https://docs.python.org/3/library/functions.html#iter', 'display_url': 'docs.python.org/3/library/func…'}]",[],4,313 days 12:49:26,313,3.842189702313219,4.8421897023132185
+940506518042169300,2017-12-12T09:00:02Z,69,21,Compare two floats with math.isclose() to see if they are nearly equal #python https://t.co/y9QiKtpbNP,FALSE,FALSE,https://twitter.com/python_tip/status/940506518042169350,[],"[{'url': 'https://t.co/y9QiKtpbNP', 'media_url': 'http://pbs.twimg.com/media/DQwgxCOUEAEwFqD.jpg', 'display_url': 'pic.twitter.com/y9QiKtpbNP'}]",4.5,311 days 12:02:41,311,3.835002925961315,4.835002925961315
+9.3868621449591194e+17,2017-12-07T08:26:48Z,24,7,"#Jupyter If you are using the IPython kernel, you can save the actual execution history to a notebook with %notebook magic: 
+
+%notebook -e history.ipynb",FALSE,FALSE,https://twitter.com/python_tip/status/938686214495911936,[],[],4,306 days 11:29:27,306,3.817013316645734,4.817013316645734
+9.3371059453610394e+17,2017-11-23T14:55:27Z,49,16,">>> a = [2, 1, 3]
+>>> sorted(a) == sorted(a)
+True
+>>> reversed(a) == reversed(a)
+False
+
+Explanation: reversed(a) is an iterator, not a list
+
+>>> type(sorted(a))
+<type 'list'>
+>>> type(reversed(a))
+<type 'listreverseiterator'>
+>>> id(reversed(a))
+139938992007504",FALSE,FALSE,https://twitter.com/python_tip/status/933710594536103936,[],[],4,292 days 17:58:06,292,3.766480872602008,4.766480872602008
+933258231421345800,2017-11-22T08:57:56Z,38,18,"Comparison operator chaining, the reason why 
+
+>>> False == False in [False]
+
+is actually True. Because both '==' and 'in' happens at the same time, the line is equivalent to 
+
+(False == False) and (False in [False])",FALSE,FALSE,https://twitter.com/python_tip/status/933258231421345793,[],[],4,291 days 12:00:35,291,3.762862791929759,4.762862791929759
+928532619314151400,2017-11-09T08:00:02Z,34,20,"Import * can be dangerous:
+
+>>> print(sum(range(5),-1))
+9
+>>> from numpy import *
+>>> print(sum(range(5),-1))
+10
+
+https://t.co/MgvngboWzF",FALSE,FALSE,https://twitter.com/python_tip/status/928532619314151425,"[{'url': 'https://t.co/MgvngboWzF', 'expanded_url': 'https://stackoverflow.com/questions/42955201/python-numpy-range-and-sum-1', 'display_url': 'stackoverflow.com/questions/4295…'}]",[],4.5,278 days 11:02:41,278,3.715729602323735,4.715729602323735
+926432146243424300,2017-11-03T12:53:30Z,38,16,"Get alphabet in #python:
+
+>>> import string
+>>> print(string.ascii_uppercase)
+ABCDEFGHIJKLMNOPQRSTUVWXYZ",FALSE,FALSE,https://twitter.com/python_tip/status/926432146243424257,[],[],4.5,272 days 15:56:09,272,3.6939166599476985,4.693916659947698
+925337967094304800,2017-10-31T12:25:37Z,53,27,"Want colorful terminal spinners? Try halo. 
+https://t.co/CElzEp75vZ
+#python https://t.co/roJhvlCtrb",FALSE,FALSE,https://twitter.com/python_tip/status/925337967094304768,"[{'url': 'https://t.co/CElzEp75vZ', 'expanded_url': 'https://github.com/ManrajGrover/halo', 'display_url': 'github.com/ManrajGrover/h…'}]","[{'url': 'https://t.co/roJhvlCtrb', 'media_url': 'http://pbs.twimg.com/tweet_video_thumb/DNd19MjWAAAzFyW.jpg', 'display_url': 'pic.twitter.com/roJhvlCtrb'}]",4,269 days 15:28:16,269,3.682996690650729,4.682996690650729
+923806478422757400,2017-10-27T07:00:02Z,33,15,"'is not' is a binary operator, different from using is and not separately:
+
+> 'something' is not None
+True
+> 'something' is (not None)
+False",FALSE,FALSE,https://twitter.com/python_tip/status/923806478422757376,[],[],4.5,265 days 10:02:41,265,3.6684229659961782,4.668422965996179
+922719309301870600,2017-10-24T07:00:01Z,15,8,"Get a random number from a range with 'randrange':
+
+>>> import random
+>>> random.randrange(0,9,2) + 1
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/922719309301870593,[],[],4,262 days 10:02:40,262,3.6574824330917926,4.6574824330917926
+920942575858733e3,2017-10-19T09:19:55Z,20,14,"Try this:
+>>> a = 256
+>>> b = 256
+>>> a is b
+
+>>> a = 257
+>>> b = 257
+>>> a is b
+
+#python 
+https://t.co/GygqCOpDwn
+https://t.co/EFM5AdZh7N",FALSE,FALSE,https://twitter.com/python_tip/status/920942575858733057,"[{'url': 'https://t.co/GygqCOpDwn', 'expanded_url': 'https://docs.python.org/3/c-api/long.html', 'display_url': 'docs.python.org/3/c-api/long.h…'}, {'url': 'https://t.co/EFM5AdZh7N', 'expanded_url': 'https://stackoverflow.com/questions/306313/is-operator-behaves-unexpectedly-with-integers', 'display_url': 'stackoverflow.com/questions/3063…'}]",[],4,257 days 12:22:34,257,3.639228853022163,4.639228853022162
+916224763021885400,2017-10-06T08:53:00Z,35,14,"Number of times substring occurs in a string:
+>>> s = 'pythonpythonpython #python'
+>>> print(s.count('python'))
+4
+https://t.co/I0v7mA2I0r",FALSE,FALSE,https://twitter.com/python_tip/status/916224763021885440,"[{'url': 'https://t.co/I0v7mA2I0r', 'expanded_url': 'https://docs.python.org/3/library/stdtypes.html#str.count', 'display_url': 'docs.python.org/3/library/stdt…'}]",[],4,244 days 11:55:39,244,3.5916575545140303,4.591657554514031
+912940118230683600,2017-09-27T07:21:00Z,29,10,"You can fork your process with os.fork:
+
+import os
+res = os.fork()
+
+if res==0:
+    print(""I'm child"")
+else:
+    print(""I'm parent"")
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/912940118230683648,[],[],4,235 days 10:23:39,235,3.5586297012430776,4.558629701243078
+912577229036638200,2017-09-26T07:19:00Z,20,7,"Guess, then try:
+
+>>> True + True - False
+
+In #python, boolean values are integers.
+
+>>> isinstance(False,int)
+True
+
+(insp. by @PythonInsta)",FALSE,FALSE,https://twitter.com/python_tip/status/912577229036638208,[],[],4,234 days 10:21:39,234,3.5549552206395996,4.5549552206396
+912207345312194600,2017-09-25T06:49:13Z,71,23,"Make your numbers, dates, etc. human readable:
+
+>>> humanize.intword(123455913)
+'123.5 million'
+
+https://t.co/KsDi4zn50I
+
+#python #i18n",FALSE,FALSE,https://twitter.com/python_tip/status/912207345312194566,"[{'url': 'https://t.co/KsDi4zn50I', 'expanded_url': 'https://pypi.python.org/pypi/humanize', 'display_url': 'pypi.python.org/pypi/humanize'}]",[],4,233 days 09:51:52,233,3.551279796952928,4.551279796952928
+9.1086535897378406e+17,2017-09-21T13:56:39Z,18,10,"%store magic allows you to pass data between #Jupyter notebooks.
+https://t.co/VDWinlyKuh
+https://t.co/mNmvKudEFq",FALSE,FALSE,https://twitter.com/python_tip/status/910865358973784064,"[{'url': 'https://t.co/VDWinlyKuh', 'expanded_url': 'http://arogozhnikov.github.io/2016/09/10/jupyter-features.html#%store:-lazy-passing-data-between-notebooks', 'display_url': 'arogozhnikov.github.io/2016/09/10/jup…'}, {'url': 'https://t.co/mNmvKudEFq', 'expanded_url': 'http://ipython.readthedocs.io/en/stable/config/extensions/storemagic.html', 'display_url': 'ipython.readthedocs.io/en/stable/conf…'}]",[],4,229 days 16:59:18,229,3.5365686622202217,4.536568662220222
+908057688311033900,2017-09-13T19:59:58Z,21,8,"Use parse_dates=True option in https://t.co/9kF9eFMeYn_csv to automatically recognize dates.
+https://t.co/AJNMYae1aH
+#python #pandas",FALSE,FALSE,https://twitter.com/python_tip/status/908057688311033857,"[{'url': 'https://t.co/9kF9eFMeYn', 'expanded_url': 'http://pandas.read', 'display_url': 'pandas.read'}, {'url': 'https://t.co/AJNMYae1aH', 'expanded_url': 'https://stackoverflow.com/questions/17465045/can-pandas-automatically-recognize-dates', 'display_url': 'stackoverflow.com/questions/1746…'}]",[],4,221 days 23:02:37,221,3.5071009377091715,4.507100937709172
+907540520154538e3,2017-09-12T09:44:55Z,20,5,"Need a set of sets? Use frozenset:
+
+set([set(['a']), set(['b'])])
+#Error
+
+set([frozenset(['a']), frozenset(['b'])])
+
+https://t.co/Ba0PalbxnT",FALSE,FALSE,https://twitter.com/python_tip/status/907540520154537984,"[{'url': 'https://t.co/Ba0PalbxnT', 'expanded_url': 'https://stackoverflow.com/questions/5931291/how-can-i-create-a-set-of-sets-in-python', 'display_url': 'stackoverflow.com/questions/5931…'}]",[],4,220 days 12:47:34,220,3.503413194331223,4.503413194331223
+903548376775569400,2017-09-01T09:21:34Z,47,15,"You can put a breakpoint into your #python program that drops to interactive terminal:
+
+import pdb
+pdb.set_trace()
+
+https://t.co/oomAGtAh8k",FALSE,FALSE,https://twitter.com/python_tip/status/903548376775569408,"[{'url': 'https://t.co/oomAGtAh8k', 'expanded_url': 'http://docs.python.org/library/pdb.html', 'display_url': 'docs.python.org/library/pdb.ht…'}]",[],4,209 days 12:24:13,209,3.4627845649165194,4.46278456491652
+900993650347302900,2017-08-25T08:10:00Z,18,7,"Create a download link in your #Jupyter notebook:
+
+from IPython.display import FileLink
+FileLink('data/input.csv')
+
+https://t.co/WAuX2rQ6bL",FALSE,FALSE,https://twitter.com/python_tip/status/900993650347302913,"[{'url': 'https://t.co/WAuX2rQ6bL', 'expanded_url': 'https://stackoverflow.com/questions/24437661/retrieving-files-from-remote-ipython-notebook-server', 'display_url': 'stackoverflow.com/questions/2443…'}]",[],4,202 days 11:12:39,202,3.436868273163662,4.436868273163662
+899919008119566300,2017-08-22T08:59:45Z,18,11,"Profile #python code in #Jupyter notebooks with line_profiler:
+%lprun -f myfunc myfunc()
+https://t.co/U3iBevj6Bw",FALSE,FALSE,https://twitter.com/python_tip/status/899919008119566336,"[{'url': 'https://t.co/U3iBevj6Bw', 'expanded_url': 'http://mortada.net/easily-profile-python-code-in-jupyter.html', 'display_url': 'mortada.net/easily-profile…'}]",[],4,199 days 12:02:24,199,3.425746192562843,4.425746192562843
+897728384976928800,2017-08-16T07:55:00Z,47,17,"In Jupyter Notebook, use Shift+Tab to show a tooltip with arguments of function/class and docstring. https://t.co/taZQXHWOxE",FALSE,FALSE,https://twitter.com/python_tip/status/897728384976928768,[],"[{'url': 'https://t.co/taZQXHWOxE', 'media_url': 'http://pbs.twimg.com/media/DHTScurXoAAUfBZ.jpg', 'display_url': 'pic.twitter.com/taZQXHWOxE'}]",4,193 days 10:57:39,193,3.4034741366001153,4.403474136600115
+892671812160684e3,2017-08-02T09:01:59Z,42,23,"%%HTML magic renders #jupyter notebook cell as HTML, so you can embed an image or other media:
+
+https://t.co/KfmfPz27j5 https://t.co/RiToK88XJ1",FALSE,FALSE,https://twitter.com/python_tip/status/892671812160684032,"[{'url': 'https://t.co/KfmfPz27j5', 'expanded_url': 'https://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks/', 'display_url': 'blog.dominodatalab.com/lesser-known-w…'}]","[{'url': 'https://t.co/RiToK88XJ1', 'media_url': 'http://pbs.twimg.com/media/DGNoBBsXgAEH3uK.jpg', 'display_url': 'pic.twitter.com/RiToK88XJ1'}]",4.5,179 days 12:04:38,179,3.3513549100114246,4.351354910011425
+892321459196108800,2017-08-01T09:49:49Z,41,14,"Working with NumPy arrays instead of Python lists gives you a significant speedup
+
+https://t.co/X7jtdH4mHX
+
+#numpy #python #needforspeed https://t.co/DacXBclXS2",FALSE,FALSE,https://twitter.com/python_tip/status/892321459196108800,"[{'url': 'https://t.co/X7jtdH4mHX', 'expanded_url': 'https://stackoverflow.com/a/994545', 'display_url': 'stackoverflow.com/a/994545'}]","[{'url': 'https://t.co/DacXBclXS2', 'media_url': 'http://pbs.twimg.com/media/DGIpVMiXgAArMxU.jpg', 'display_url': 'pic.twitter.com/DacXBclXS2'}]",4,178 days 12:52:28,178,3.347623691030047,4.347623691030047
+890844283514867700,2017-07-28T08:00:02Z,19,3,"Try this:
+>>> from datetime import date
+>>> 'Today is {0:%A}'.format(https://t.co/DAMy3gbWaN())
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/890844283514867712,"[{'url': 'https://t.co/DAMy3gbWaN', 'expanded_url': 'http://date.today', 'display_url': 'date.today'}]",[],4,174 days 11:02:41,174,3.332687206577277,4.332687206577277
+890481887663210500,2017-07-27T08:00:01Z,19,5,"Write data into csv file:
+import csv
+with open(""test.csv"", ""w"") as f:
+    wr = csv.writer(f)
+    for line in data:
+        wr.writerow(line)",FALSE,FALSE,https://twitter.com/python_tip/status/890481887663210496,[],[],4,173 days 11:02:40,173,3.328950150871859,4.328950150871859
+890119498380058600,2017-07-26T08:00:00Z,18,11,"You can use atexit.register as a decorator:
+@atexit.register
+def goodbye():
+    print("" #python is closing down"")
+
+https://t.co/BHm69FeRem",FALSE,FALSE,https://twitter.com/python_tip/status/890119498380058625,"[{'url': 'https://t.co/BHm69FeRem', 'expanded_url': 'https://docs.python.org/3/library/atexit.html', 'display_url': 'docs.python.org/3/library/atex…'}]",[],4.5,172 days 11:02:39,172,3.325211908378956,4.3252119083789555
+889757112884187100,2017-07-25T08:00:01Z,21,11,"List all packages (&version info):
+
+pip freeze > requirements.txt
+
+Install all packages in requirements.txt
+
+pip install -r requirements.txt",FALSE,FALSE,https://twitter.com/python_tip/status/889757112884187136,[],[],5,171 days 11:02:40,171,3.3214724725370086,4.321472472537009
+887625256453722100,2017-07-19T10:48:47Z,21,13,"How to introspect an object in #python:
+
+l = [1, 2, 3]
+dir(l)
+type(l)
+id(l)
+
+# see also inspect module
+import inspect
+inspect.getmembers(l)",FALSE,FALSE,https://twitter.com/python_tip/status/887625256453722114,[],[],5,165 days 13:51:26,165,3.299010413591465,4.299010413591465
+887242145261899800,2017-07-18T09:26:26Z,36,13,"a = ""roses""
+b = ""red""
+'{a} are {b}'.format(%%locals())
+
+#python3.6
+f'{a} are {b}'
+'roses are red'
+
+For more, see https://t.co/sLvaHdXTQL",FALSE,FALSE,https://twitter.com/python_tip/status/887242145261899777,"[{'url': 'https://t.co/sLvaHdXTQL', 'expanded_url': 'https://pyformat.info/', 'display_url': 'pyformat.info'}]",[],4,164 days 12:29:05,164,3.2952624329624816,4.295262432962481
+886854735260602400,2017-07-17T07:47:00Z,30,12,"The symmetric_difference method finds elements that are in exactly one of the two sets:
+>>> {2,4,6} ^ {1,2,3,4}
+{1, 3, 6}
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/886854735260602368,[],[],4,163 days 10:49:39,163,3.2915132051403826,4.291513205140383
+885046077782581200,2017-07-12T08:00:02Z,27,8,"Use functools.partial to prefill arguments:
+
+> def foo(a,b):
+    return a+b
+> bar = partial(foo, a=1)
+> bar(3)
+4
+
+https://t.co/VWb1OKSN8l",FALSE,FALSE,https://twitter.com/python_tip/status/885046077782581248,"[{'url': 'https://t.co/VWb1OKSN8l', 'expanded_url': 'https://stackoverflow.com/a/15331967', 'display_url': 'stackoverflow.com/a/15331967'}]",[],4.5,158 days 11:02:41,158,3.2727481149383837,4.272748114938384
+879972637694238700,2017-06-28T08:00:00Z,16,3,"split iterator into copies:
+x = itertools.count(2, step=2)
+a, b = itertools.tee(x)
+print(next(a)) # 2
+print(next(a)) # 4
+print(next(b)) # 2",FALSE,FALSE,https://twitter.com/python_tip/status/879972637694238720,[],[],4,144 days 11:02:39,144,3.220031428123285,4.220031428123285
+879274115189919700,2017-06-26T09:44:19Z,16,8,"Calculate the difference between consecutive elements in list:
+>>> import numpy
+>>> numpy.diff([4,3,21])
+array([-1, 18])
+#python #numpy",FALSE,FALSE,https://twitter.com/python_tip/status/879274115189919745,[],[],4,142 days 12:46:58,142,3.212478634113839,4.21247863411384
+877398427121930200,2017-06-21T05:31:00Z,34,14,"Use named groups for more readable regular expressions:
+
+https://t.co/Hu7fU20Vkz
+https://t.co/B30VUIXc4f https://t.co/ts6PAPU4C5",FALSE,FALSE,https://twitter.com/python_tip/status/877398427121930240,"[{'url': 'https://t.co/Hu7fU20Vkz', 'expanded_url': 'https://stackoverflow.com/questions/10059673/named-regular-expression-group-pgroup-nameregexp-what-does-p-stand-for', 'display_url': 'stackoverflow.com/questions/1005…'}, {'url': 'https://t.co/B30VUIXc4f', 'expanded_url': 'https://docs.python.org/3/library/re.html', 'display_url': 'docs.python.org/3/library/re.h…'}]","[{'url': 'https://t.co/ts6PAPU4C5', 'media_url': 'http://pbs.twimg.com/media/DCrSSp9XkAA5ay5.jpg', 'display_url': 'pic.twitter.com/ts6PAPU4C5'}]",5,137 days 08:33:39,137,3.193571738922537,4.193571738922537
+875242817857171500,2017-06-15T06:45:23Z,28,15,Add interactivity to your #Jupyter notebooks with ipywidgets. https://t.co/Ex1H0joaMD https://t.co/54tOsgZCDY,FALSE,FALSE,https://twitter.com/python_tip/status/875242817857171456,"[{'url': 'https://t.co/Ex1H0joaMD', 'expanded_url': 'http://ipywidgets.readthedocs.io/en/latest/index.html', 'display_url': 'ipywidgets.readthedocs.io/en/latest/inde…'}]","[{'url': 'https://t.co/54tOsgZCDY', 'media_url': 'http://pbs.twimg.com/ext_tw_video_thumb/875242780624375808/pu/img/SFdICAW_lfqG3ONf.jpg', 'display_url': 'pic.twitter.com/54tOsgZCDY'}]",4,131 days 09:48:02,131,3.1708352501977095,4.17083525019771
+874536822407286800,2017-06-13T08:00:01Z,20,10,">>> a=collections.Counter([1, 2, 2])
+>>> b=collections.Counter([2, 2, 3])
+>>> a+b
+Counter({2: 4, 1: 1, 3: 1})
+>>> a-b
+Counter({1: 1})",FALSE,FALSE,https://twitter.com/python_tip/status/874536822407286784,[],[],4,129 days 11:02:40,129,3.163244428690523,4.163244428690523
+874159340323610600,2017-06-12T07:00:02Z,40,16,"Read tables from a webpage into a list of #pandas dataframes:
+
+dfs = https://t.co/KBWVZb2pZj_html('https://t.co/0hkIqtoWE4’)
+
+#python https://t.co/ikKblTaXQB",FALSE,FALSE,https://twitter.com/python_tip/status/874159340323610627,"[{'url': 'https://t.co/KBWVZb2pZj', 'expanded_url': 'http://pd.read', 'display_url': 'pd.read'}, {'url': 'https://t.co/0hkIqtoWE4', 'expanded_url': 'https://en.wikipedia.org/wiki/List_of_countries_by_alcohol_consumption_per_capita', 'display_url': 'en.wikipedia.org/wiki/List_of_c…'}]","[{'url': 'https://t.co/ikKblTaXQB', 'media_url': 'http://pbs.twimg.com/media/DCEDGpjXoAAy7mh.jpg', 'display_url': 'pic.twitter.com/ikKblTaXQB'}]",4.5,128 days 10:02:41,128,3.159446729466474,4.159446729466474
+872719047401644e3,2017-06-08T07:36:49Z,30,7,"Get first and last line of a file:
+>>> with open(""somefile"") as f:
+    first, *_, last = f.readlines()
+
+#python3",FALSE,FALSE,https://twitter.com/python_tip/status/872719047401644032,[],[],4,124 days 10:39:28,124,3.14424046106134,4.14424046106134
+871981984964390900,2017-06-06T06:48:00Z,14,4,"Capitalize first letters:
+>>> import string
+>>> string.capwords('some random words')
+'Some Random Words'
+
+#python 
+https://t.co/VjYbkGaL1P",FALSE,FALSE,https://twitter.com/python_tip/status/871981984964390914,"[{'url': 'https://t.co/VjYbkGaL1P', 'expanded_url': 'http://stackoverflow.com/questions/1549641/how-to-capitalize-the-first-letter-of-each-word-in-a-string-python/12336911#12336911', 'display_url': 'stackoverflow.com/questions/1549…'}]",[],4,122 days 09:50:39,122,3.1366279113365128,4.136627911336513
+868012579670679600,2017-05-26T07:55:00Z,26,11,"consecutive pairs:
+>>> mylist = [1, 2, 3, 4]
+>>> a = list(zip(mylist, mylist[1:]))
+>>> print(a)
+[(1, 2), (2, 3), (3, 4)]
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/868012579670679553,[],[],4,111 days 10:57:39,111,3.09464278134645,4.09464278134645
+862578271422042100,2017-05-11T08:01:00Z,15,10,"locals() and globals() return a dictionary of local / global variables:
+
+>>> a = 1
+>>> b = 1
+>>> locals()
+{'a': 1, 'b': 1, ...}
+
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/862578271422042112,[],[],4,96 days 11:03:39,96,3.037056792076902,4.037056792076902
+860403698207305700,2017-05-05T08:00:01Z,7,5,"Generate word clouds in #python with wordcloud package:
+https://t.co/hUKyZnCQ0b
+https://t.co/PUFsXtTPox https://t.co/PT2zTRshVS",FALSE,FALSE,https://twitter.com/python_tip/status/860403698207305730,"[{'url': 'https://t.co/hUKyZnCQ0b', 'expanded_url': 'https://github.com/amueller/word_cloud', 'display_url': 'github.com/amueller/word_…'}, {'url': 'https://t.co/PUFsXtTPox', 'expanded_url': 'http://amueller.github.io/word_cloud/', 'display_url': 'amueller.github.io/word_cloud/'}]","[{'url': 'https://t.co/PT2zTRshVS', 'media_url': 'http://pbs.twimg.com/media/C-_BH_dXkAAn0e7.png', 'display_url': 'pic.twitter.com/PT2zTRshVS'}]",4.5,90 days 11:02:40,90,3.0139085872462146,4.013908587246215
+856719669327253500,2017-04-25T04:01:00Z,17,9,"Saving #python object to file
+
+import pickle
+a = {'hello': 'world'}
+
+pickle.dump(a, open(""save.p"", ""wb""))
+
+pickle.load(open(""save.p"", ""rb""))",FALSE,FALSE,https://twitter.com/python_tip/status/856719669327253505,[],[],4.5,80 days 07:03:39,80,2.9751770751230047,3.9751770751230047
+856402336897544200,2017-04-24T07:00:02Z,17,12,"Measure object size in memory
+
+> import sys
+> x=1
+> sys.getsizeof(x)
+28
+> y=1.0
+> sys.getsizeof(y)
+24
+> z=""1""
+> sys.getsizeof(z)
+50
+#python3",FALSE,FALSE,https://twitter.com/python_tip/status/856402336897544192,[],[],4,79 days 10:02:41,79,2.9712932966897574,3.9712932966897574
+852828279019057200,2017-04-14T10:18:01Z,18,7,"Merge two dictionaries:
+x = {'a':1, 'b':2}
+y = {'c':3, 'd':4}
+z = {**x, **y}
+
+output:
+z = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+#python3",FALSE,FALSE,https://twitter.com/python_tip/status/852828279019057152,[],[],4,69 days 13:20:40,69,2.932346308803037,3.932346308803037
+851430842626965500,2017-04-10T13:45:06Z,5,5,"Split string with multiple delimiters #python
+>>> import re
+>>> print(re.split('\W+', 'Hello,world;a:test'))
+['Hello', 'world', 'a', 'test']",FALSE,FALSE,https://twitter.com/python_tip/status/851430842626965504,[],[],4,65 days 16:47:45,65,2.9167107843740396,3.9167107843740396
+846572807911751700,2017-03-28T04:01:00Z,9,3,"Find minimum value and the corresponding key in a dictionary:
+>>> d = {'a':5,'b':2,'c':4}
+>>> min(zip(d.values(),d.keys()))
+(2, 'b')
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/846572807911751680,[],[],4,52 days 07:03:39,52,2.8656636005703393,3.8656636005703393
+846210427906375700,2017-03-27T04:01:02Z,9,4,"Flattening lists:
+a = [[1, 2], [3, 4], [5, 6]]
+list(itertools.chain.from_iterable(a))
+[1, 2, 3, 4, 5, 6]
+#python see https://t.co/CWt7WIWjDG",FALSE,FALSE,https://twitter.com/python_tip/status/846210427906375681,"[{'url': 'https://t.co/CWt7WIWjDG', 'expanded_url': 'http://sahandsaba.com/thirty-python-language-features-and-tricks-you-may-not-know.html#id1', 'display_url': 'sahandsaba.com/thirty-python-…'}]",[],4.5,51 days 07:03:41,51,2.8617219247527728,3.8617219247527728
+841136990770815e3,2017-03-13T04:01:00Z,13,8,"Name elements in tuples:
+>>> Point = collections.namedtuple('Point', ['x', 'y'])
+>>> p = Point(x=1.0, y=2.0)
+>>> p.x
+1.0
+>>> p.y
+2.0
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/841136990770814977,[],[],4,37 days 07:03:39,37,2.8063083658690724,3.8063083658690724
+838705722779107300,2017-03-06T11:00:01Z,11,5,"Flatten a list of lists with sum
+
+>>> sum([[1, 2], [3], [4, 5], [6, 7, 8]], [])
+[1, 2, 3, 4, 5, 6, 7, 8]
+
+tip by @pybites #python",FALSE,FALSE,https://twitter.com/python_tip/status/838705722779107328,[],[],4.5,30 days 14:02:40,30,2.77843757898483,3.77843757898483
+836088310401486800,2017-02-27T05:39:21Z,7,3,"Inverting a dictionary:
+>>> my_map = { 'a': 1, 'b': 2}
+>>> inv_map = {v: k for k, v in my_map.items()}
+>>> inv_map
+{1: 'a', 2: 'b'}
+#python",FALSE,FALSE,https://twitter.com/python_tip/status/836088310401486850,[],[],4.5,23 days 08:42:00,23,2.750455171259106,3.750455171259106
+835081849969999900,2017-02-24T11:00:02Z,9,2,"Use _ in #python console to retrieve the result of the last statement
+>>> 3 + 4
+7
+>>> _ * 3
+21
+For other uses, see: https://t.co/lJVdDoGGt2",FALSE,FALSE,https://twitter.com/python_tip/status/835081849969999873,"[{'url': 'https://t.co/lJVdDoGGt2', 'expanded_url': 'https://hackernoon.com/understanding-the-underscore-of-python-309d1a029edc#.3kspv0vae', 'display_url': 'hackernoon.com/understanding-…'}]",[],4,20 days 14:02:41,20,2.738428199770991,3.738428199770991
