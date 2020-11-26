@@ -1,9 +1,11 @@
 library(shiny)
 library(tidyverse)
 
-DATA_PATH = "df5.csv"
-NTWEETS <- 50
+DATA_PATH = "df5.csv"  # path to current d.f. with tweets
+all_tweets <- read_csv(DATA_PATH)
+NTWEETS <- 50   # how many tweets should be evaluated in each sesseion
 
+## Campaign & good-bye messages
 campaign = 'pyladies'
 thankyou_messages = list()
 thankyou_messages[['pyladies']] = "<br/><h3> Děkujeme! </h3> 
@@ -14,11 +16,9 @@ nejlepších pythonových, až ji teda budeme mít hotovou.</p>
 <p>Nezapomeň, prosím, kliknout na tlačítko Save, jinak se tvé odpovědi neuloží.</p>
 <br/>"
 
-
-df <- read_csv(DATA_PATH)
-df <- df[sample(nrow(df), NTWEETS),]
-
 server <- function(input, output, session) {
+  
+  df <- all_tweets[sample(nrow(all_tweets), NTWEETS), ]
   
   rv <- reactiveValues(n = 1,
                        done = FALSE,
@@ -96,7 +96,7 @@ ui <- fluidPage(
   sliderInput("n",
               "Tweet nb:",
               min = 1,
-              max = nrow(df),
+              max = NTWEETS,
               value = 1,
               width = "60%"),
   
