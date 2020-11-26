@@ -19,6 +19,7 @@ nejlepších pythonových, až ji teda budeme mít hotovou.</p>
 server <- function(input, output, session) {
   
   df <- all_tweets[sample(nrow(all_tweets), NTWEETS), ]
+  starttime <- Sys.time()
   
   rv <- reactiveValues(n = 1,
                        done = FALSE,
@@ -71,7 +72,8 @@ server <- function(input, output, session) {
       write_csv(content, filename)
       
       filename2 = paste0("responders/", input$name, "-", timestamp, ".txt")
-      content2 = paste(input$name, timestamp, input$email, input$pylevel, campaign, sep="\t")
+      duration = as.numeric(difftime(Sys.time(), starttime, units="secs"))
+      content2 = paste(input$name, timestamp, input$email, input$pylevel, campaign, duration, sep="\t")
       writeLines(content2, filename2)
       
       rv$done = TRUE
