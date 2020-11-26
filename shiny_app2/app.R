@@ -104,7 +104,7 @@ ui <- fluidPage(
          
          radioButtons("eval", "Quality of the tweet (7=best, 1=worst):", selected = "4", inline = TRUE,
                       choices = c("1" = "1", "2" = "2", "3" = "3", "4" = "4", "5" = "5", "6" = "6", "7" = "7")),
-         checkboxInput("duplicated", "Duplicated (= very similar to a previous tip)"), 
+         checkboxInput("duplicated", "I do not understand this tweet."), 
          actionButton("goPrevious", "Previous"),
          actionButton("goNext", "Next"),
          
