@@ -6,4 +6,5 @@ This is a collection of data, code and texts that could in a future, far, far a 
 
 * [twitter_dump](twitter_dump/): filtering Twitter data dump
 * [shiny_app](shiny_app/): simple web app to evaluate a better half of preselected Twitter dump tweets
+* [shiny_app2](shiny_app2/): web app for public evaluation of the top quater of Twitter dump tweets
 
