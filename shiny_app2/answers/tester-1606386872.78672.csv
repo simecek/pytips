@@ -1,0 +1,385 @@
+id,text,eval,duplicated
+1157272812412899328,#Python tip by @RaphaelVallat: one of my favorite thing about #Pandas is combining groupby/aggregate to create a ready-to-publish table:  #Statistics https://t.co/miQA5qhCm0,4,FALSE
+1311069231182753792,"You can save memory by fixing types in your #pandas DataFrame
+
+https://t.co/HjD4toofDM https://t.co/v1iu8IqWWr",4,FALSE
+984325249243086848,"How does Python find modules/packages?
+
+When you try
+
+>>> import spam
+
+Interpreter looks for `spam` in sys.path folders
+
+>>> import sys
+>>> print(sys.path)
+
+You can manipulate sys.path:
+
+>>>  sys.path.append('../path/to/your/modules/')
+>>> print(sys.path)
+
+https://t.co/Vko9R9gEMT https://t.co/2k9tdPle9T",4,FALSE
+1118636503238754304,"How to get a column index from a column name? 
+
+Thanks @Smit65176116 for this tip. #pandas #DataFrame https://t.co/2u7TwdKidk",4,FALSE
+1132889167304597504,"In #numpy index,  ""..."" stands for  ""as many : as needed"".
+
+Example:
+>>> a = np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]]])
+>>> a.shape
+(2,2,3)
+
+* a[..., 1] is equivalent to a[:, :, 1]
+* a[1, ...] is equivalent to a[1, :, :], or a[1]
+* a[0, ..., 0] is equivalent to a[0, :, 0] https://t.co/FEgrlYXtLH",4,FALSE
+1091069962570088448,"Add leading zeros to your strings using zfill()
+
+>>> for i in [1, 11, 222, ""aaa"", 1234]:
+...     str(i).zfill(4)
+... 
+'0001'
+'0011'
+'0222'
+'0aaa'
+'1234'
+
+https://t.co/IdSTEzqRYi
+
+#python",4,FALSE
+1173363459196706816,"#Numpy broadcasting can be tricky
+
+>>> import numpy as np
+>>>
+>>> (np.ones((32,)) + np.ones((32,1))).shape
+(32, 32)
+>>> (np.ones((32,)) + np.ones((1,32))).shape
+(1, 32)
+>>> (np.ones((4,1,3)) + np.ones((7,1))).shape
+(4, 7, 3)
+
+Why? Read two simple rules at https://t.co/iAnh62xI1h https://t.co/iL7s9DyJHI",4,FALSE
+877398427121930240,"Use named groups for more readable regular expressions:
+
+https://t.co/Hu7fU20Vkz
+https://t.co/B30VUIXc4f https://t.co/ts6PAPU4C5",4,FALSE
+1298730513042157568,"#python lists have the count() method that returns the number of occurrences of an element:
+
+>>> lst = [1, 1, 2, 3, 4, 5, 1, 3, 3, 3, 7, 9, 3]
+>>> lst.count(2)
+1
+
+Most common item:
+>>> max(lst, key=lst.count) 
+3",4,FALSE
+1250198338152128512,"Use `parse` package as an alternative to string parsing with regular expressions. In short, parse() is the opposite of format().
+
+https://t.co/lUQObe6umZ
+
+Examples: 👇👇 https://t.co/Z7Sh4jQyoz",4,FALSE
+856719669327253504,"Saving #python object to file
+
+import pickle
+a = {'hello': 'world'}
+
+pickle.dump(a, open(""save.p"", ""wb""))
+
+pickle.load(open(""save.p"", ""rb""))",4,FALSE
+872719047401644032,"Get first and last line of a file:
+>>> with open(""somefile"") as f:
+    first, *_, last = f.readlines()
+
+#python3",4,FALSE
+910865358973784064,"%store magic allows you to pass data between #Jupyter notebooks.
+https://t.co/VDWinlyKuh
+https://t.co/mNmvKudEFq",4,FALSE
+838705722779107328,"Flatten a list of lists with sum
+
+>>> sum([[1, 2], [3], [4, 5], [6, 7, 8]], [])
+[1, 2, 3, 4, 5, 6, 7, 8]
+
+tip by @pybites #python",4,FALSE
+1086388587812319232,"The step parameter in sequence slicing can be negative:
+
+>>> a = [1, 2, 3, 4, 5, 6, 7, 8]
+>>> a[::-1] #reverse
+[8, 7, 6, 5, 4, 3, 2, 1]
+>>> a[::-2]
+[8, 6, 4, 2]
+
+#python #pythontip",4,FALSE
+1159342978294374400,"By default, Python enables us to add new attributes during runtime. However, if you fix the set of attributes with __slots__ magic, you can potentially save a lot of memory.
+
+See https://t.co/2CjGqwhb6m or watch @LivePython video at  https://t.co/O4aMocIwLr https://t.co/Y26tDUXS2p",4,FALSE
+1192938647588409344,"With the walrus operator
+
+while True:
+    line = fp.readline()
+    if not line:
+        break
+    do_something(line)
+
+can be written as:
+
+while line := fp.readline():
+    do_something(line)
+
+More examples: https://t.co/4WCBSdizFF
+
+#python3_8 #walrusoperator",4,FALSE
+1156783020675915776,"List Slicing with None as argument:  
+
+>>> a = [0, 1, 2, 3, 4, 5] 
+>>> LASTTHREE = slice(-3, None) 
+>>> a[LASTTHREE] 
+[3, 4, 5]  
+
+#python",4,FALSE
+969120059892359168,"Python dictionary's method get() can be used with a default value:
+
+>>> dict = {'Name': 'Zabra', 'Age': 7}
+>>> print ""Value : %s"" %  dict.get('Age')
+Value : 7
+>>> print ""Value : %s"" %  dict.get('Education', ""NA"")
+Value : NA",4,FALSE
+912207345312194560,"Make your numbers, dates, etc. human readable:
+
+>>> humanize.intword(123455913)
+'123.5 million'
+
+https://t.co/KsDi4zn50I
+
+#python #i18n",4,FALSE
+886854735260602368,"The symmetric_difference method finds elements that are in exactly one of the two sets:
+>>> {2,4,6} ^ {1,2,3,4}
+{1, 3, 6}
+#python",4,FALSE
+1214803924370239488,"For DataFrame df, `df.corr` computes pairwise correlation of columns.
+
+Extra tips:
+* If your data contains outliers, use rank based Spearman correlation. `df.corr(method=‘spearman’)`
+* For better readability, do not print all digits but `df.corr().round(decimals=3)`.
+
+#pandas https://t.co/qQ3RQrdO9n",4,FALSE
+973076122307936256,"#humanize = module for human friendly representations
+
+import datetime as dt
+import time
+import humanize
+
+t = https://t.co/mj5384TM25()
+time.sleep(10)
+humanize.naturaltime(t)
+
+y = https://t.co/Gt94Oj5rqW()-dt.timedelta(1)
+humanize.naturaldate(y)
+
+(from A.Samuel #PyDataNYC slides) https://t.co/gmfFwXKzOw",4,FALSE
+1319726408957046784,">>> lst = ['alice', 'bob', 'charlie']
+>>> print(', '.join(lst))
+alice, bob, charlie
+>>> print(*lst, sep=', ')
+alice, bob, charlie
+
+#python",4,FALSE
+1051920951997333504,"Select a random sample from #pandas dataframe:
+
+>>> import pandas as pd
+>>> df = https://t.co/KBWVZaKP7L_csv(""data.csv"")
+>>> df.sample(n=5)
+
+https://t.co/0RZGHoVUHw https://t.co/7fqhb4DUxV",4,FALSE
+1161886780041437184,"Worth a try:
+Python Handout by  @daniarh lets you create docs with inline figures, images, videos directly from #Python scripts. No hidden state, supports any text editor. 
+
+https://t.co/miwoWlhbqK https://t.co/guSjuA19fk",4,FALSE
+1324090855741902848,"In #Python3, the print function has options
+* 'sep' to separate the arguments
+* 'end' to be printed after the last argument
+
+>>> lst = ['a', 'b', 'c'] 
+>>> print(*lst) 
+a b c 
+>>> print(*lst, sep=', ', end='!!!\n') 
+a, b, c!!!
+
+https://t.co/Jm8LgioMJb",4,FALSE
+900993650347302912,"Create a download link in your #Jupyter notebook:
+
+from IPython.display import FileLink
+FileLink('data/input.csv')
+
+https://t.co/WAuX2rQ6bL",4,FALSE
+1308124412210802688,"#Python3 Tip from @rickjdon: To zip 2 lists of different lengths use ‘zip_longest()’.
+
+from itertools import zip_longest 
+x =[1, 2] ; y =[3] 
+list(zip_longest(x, y))
+[(1, 3), (2, None)]
+
+https://t.co/Ar5otciOxS",4,FALSE
+1208006114597638144,"Get information about the underlying system with the platform module:
+
+>>> import platform
+>>> platform.architecture()
+('64bit', '')
+>>> platform.machine()
+'x86_64'
+>>> platform.system()
+'Linux'
+
+https://t.co/KJY7BEsrtd",4,FALSE
+1283759556284252160,"Parse #pandas dataframe to #markdown:
+>>> df = pd.DataFrame({'a': [1, 2], 'b': ['x', 'y']})
+>>> https://t.co/yGT52QVczk_markdown()
+'|    |   a | b   |\n|---:|----:|:----|\n|  0 |   1 | x   |\n|  1 |   2 | y   |' https://t.co/GWoOzGGPAL",4,FALSE
+926432146243424256,"Get alphabet in #python:
+
+>>> import string
+>>> print(string.ascii_uppercase)
+ABCDEFGHIJKLMNOPQRSTUVWXYZ",4,FALSE
+1030326397665914880,"Redirecting of stdout in #Python3:
+
+>>> contextlib.redirect_stdout(f)
+
+See an example from @raymondh:
+https://t.co/ZtYLZcWAli
+
+And four other ways to redirect stdout from https://t.co/tJs6sfe5GX https://t.co/chfn252bvg",4,FALSE
+908057688311033856,"Use parse_dates=True option in https://t.co/9kF9eFMeYn_csv to automatically recognize dates.
+https://t.co/AJNMYae1aH
+#python #pandas",4,FALSE
+1237117902488305664,">>> numbers = ['9', '44', '8', '222']
+>>> max(numbers)
+'9'
+>>> max(numbers, key=int)
+'222'
+#python",4,FALSE
+1303329692913668096,"Use handcalcs as  #Jupyter cell magic to render python calculation code in LaTeX 
+
+https://t.co/aWIriXDfyw https://t.co/hNWPIA5ZxT",4,FALSE
+887625256453722112,"How to introspect an object in #python:
+
+l = [1, 2, 3]
+dir(l)
+type(l)
+id(l)
+
+# see also inspect module
+import inspect
+inspect.getmembers(l)",4,FALSE
+996333363391860736,"Difference between list.append() and list.extend(): 
+
+>>> x = [1, 2, 3]
+>>> x.append([4, 5])
+>>> print(x)
+[1, 2, 3, [4, 5]]
+
+>>> x = [1, 2, 3]
+>>> x.extend([4, 5])
+>>> print(x)
+[1, 2, 3, 4, 5]
+
+#python",4,FALSE
+1166460268613967872,"Implicit string concatenation in #python is nice when you have long strings...
+
+>>> s = ('some very very very '
+... 'long long long string')
+>>> s
+'some very very very long long long string'
+
+...but it can surprise you:
+
+>>> lst = [""a"", ""b"" ""c"", ""d""]
+>>> lst
+['a', 'bc', 'd']",4,FALSE
+971762660097363968,"Use textwrap.fill() to print long strings so that they fill a specified number of columns.
+
+>>> print(textwrap.fill(long_str, 60))
+
+#python https://t.co/unhErzp5C4",4,FALSE
+890844283514867712,"Try this:
+>>> from datetime import date
+>>> 'Today is {0:%A}'.format(https://t.co/DAMy3gbWaN())
+#python",4,FALSE
+933258231421345792,"Comparison operator chaining, the reason why 
+
+>>> False == False in [False]
+
+is actually True. Because both '==' and 'in' happens at the same time, the line is equivalent to 
+
+(False == False) and (False in [False])",4,FALSE
+1029973782146904064,"By default, Python compare objects using their ids. Consider the following class:
+
+class Number:
+    def __init__(self, x):
+        self.x = x
+
+n1 = Number(1)
+n2 = Number(1)
+n1 == n2 # False 😲😲
+
+The elegant solution to this problem is to use #dataclasses https://t.co/wxBtxfyLPR",4,FALSE
+1238465351895171072,"Number of values that meet a condition:
+(df.rating > 90).sum()
+df.somecol.isnull().sum()
+
+Proportion of values that meet a condition:
+(df.rating > 90).mean()
+
+#Pandas",4,FALSE
+1316837225867468800,"Merging Dictionaries - new in Python 3.9!
+
+a | b will merge `b` dictionary into `a` dictionary, if there are conflicts,  the rightmost-value will be kept
+
+a |= b will merge `b` into `a` and return the result in `a` (it is also called updating)
+
+Example: 👇 https://t.co/HlrVf8k0vn",4,FALSE
+1174129423148355584,"Do you need to warn the user? 
+
+warnings.warn('I smell something fishy! 🐟')
+
+Do you want to suppress all 'fishy' warnings?
+
+from warnings import catch_warnings, filterwarnings
+
+with catch_warnings():
+   filterwarnings('ignore', message='.*fishy.*')
+   …
+
+https://t.co/tJdqyhfNfV https://t.co/jBEXgGzdYa",4,FALSE
+1106228439131009024,"Select a subset of #pandas #dataframe with numerical columns:
+
+https://t.co/aUIGkWKOMU_dtypes(include=['float', 'int'])
+
+https://t.co/Eobmsd6STZ https://t.co/1EsBDkMs3u",4,FALSE
+1035407587284602880,"Every time you
+
+>>> import your_module
+
+Python creates .pyc file with compiled bytecode. If you want to avoid .pyc files (for example, you do not want to commit them with git), set env. variable PYTHONDONTWRITEBYTECODE or use
+
+import sys
+sys.dont_write_bytecode = True",4,FALSE
+1039030713381605376,"Do not use mutable default arguments (lists, sets, dicts...)
+
+Why? Consider a function:
+
+def append_to(element, to=[]):
+    to.append(element)
+    return to
+
+>>> append_to(12)
+[12]
+# looks ok, but...
+>>> append_to(42)
+[12, 42]
+# what? not ok
+
+Explanation: https://t.co/4V26oZgmw1 https://t.co/TNiTcZox71",4,FALSE
+879972637694238720,"split iterator into copies:
+x = itertools.count(2, step=2)
+a, b = itertools.tee(x)
+print(next(a)) # 2
+print(next(a)) # 4
+print(next(b)) # 2",4,FALSE
