@@ -3,7 +3,7 @@ library(tidyverse)
 
 DATA_PATH = "df5.csv"  # path to current d.f. with tweets
 all_tweets <- read_csv(DATA_PATH)
-NTWEETS <- 50  # how many tweets should be evaluated in each sesseion
+NTWEETS <- 2  # how many tweets should be evaluated in each sesseion
 CAMPAINS <- c('pyladies', 'twitter', 'linkedin')
 
 thankyou_messages = list()
@@ -77,6 +77,16 @@ server <- function(input, output, session) {
   })
   
   output$thanks <- renderUI({
+    query <- parseQueryString(session$clientData$url_search)
+    
+    if (!is.null(query[['campaign']])) {
+      campaign <- query[['campaign']]
+      if (!(campaign %in% CAMPAINS)) campaign <-"default"
+    } else {
+      campaign <-"default"
+    }
+    print(campaign)
+    
     HTML(thankyou_messages[[campaign]])
   })
   
@@ -90,6 +100,17 @@ server <- function(input, output, session) {
   
   observeEvent(input$saveResults, {
     if (!rv$done) {
+      
+      query <- parseQueryString(session$clientData$url_search)
+      if (!is.null(query[['campaign']])) {
+        campaign <- query[['campaign']]
+        if (!(campaign %in% CAMPAINS)) campaign <-"default"
+      } else {
+        campaign <-"default"
+      }
+      
+      print(campaign)
+      
       timestamp = as.numeric(Sys.time())
       
       filename = paste0("answers/", input$name, "-", timestamp, ".csv")
