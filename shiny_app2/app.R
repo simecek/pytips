@@ -85,7 +85,6 @@ server <- function(input, output, session) {
     } else {
       campaign <-"default"
     }
-    print(campaign)
     
     HTML(thankyou_messages[[campaign]])
   })
@@ -108,8 +107,6 @@ server <- function(input, output, session) {
       } else {
         campaign <-"default"
       }
-      
-      print(campaign)
       
       timestamp = as.numeric(Sys.time())
       
