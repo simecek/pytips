@@ -3,7 +3,7 @@ library(tidyverse)
 
 DATA_PATH = "df5.csv"  # path to current d.f. with tweets
 all_tweets <- read_csv(DATA_PATH)
-NTWEETS <- 2  # how many tweets should be evaluated in each sesseion
+NTWEETS <- 50  # how many tweets should be evaluated in each sesseion
 CAMPAINS <- c('pyladies', 'twitter', 'linkedin')
 
 thankyou_messages = list()
