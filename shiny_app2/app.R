@@ -4,13 +4,23 @@ library(tidyverse)
 DATA_PATH = "df5.csv"  # path to current d.f. with tweets
 all_tweets <- read_csv(DATA_PATH)
 NTWEETS <- 50  # how many tweets should be evaluated in each sesseion
-CAMPAINS <- c('pyladies', 'twitter', 'linkedin')
+CAMPAINS <- c('pyladies', 'twitter', 'linkedin', 'm7datasp')
 
 thankyou_messages = list()
 thankyou_messages[['pyladies']] = "<br/><h3> Děkujeme! </h3> 
   <p>A přejeme 
   úspěšné dokončení datového kurzu PyLadies. Když nám vyplníš jméno a email, pošleme ti sbírku
   nejlepších pythonových tipů, až ji teda budeme mít hotovou.</p>
+  
+  <p>Nezapomeň, prosím, kliknout na tlačítko Save, jinak se tvé odpovědi neuloží.</p>
+  <br/>"
+
+thankyou_messages[['m7datasp']] = "<br/><h3> Děkujeme! </h3> 
+  <p>Data pro domací úkol pošlu až se nashromáždí dostatek odpovědí, zatím prosím pracuj s 
+  <a href=\"https://github.com/simecek/dspracticum2020/tree/master/lecture_09/assignment\" target=\"_blank\">umělými
+  daty</a>. Když vyplníš email, pošleme ti sbírku
+  nejlepších pythonových tipů, až ji teda budeme mít hotovou. Pokud patříš do Rkové skupiny a
+  Python je pro tebe španělská vesnice, napiš někam do jména \"rstats\"</p>
   
   <p>Nezapomeň, prosím, kliknout na tlačítko Save, jinak se tvé odpovědi neuloží.</p>
   <br/>"
