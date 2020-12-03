@@ -3,10 +3,13 @@ library(tidyverse)
 
 DATA_PATH = "df5.csv"  # path to current d.f. with tweets
 all_tweets <- read_csv(DATA_PATH)
-NTWEETS <- 50  # how many tweets should be evaluated in each sesseion
-CAMPAINS <- c('pyladies', 'twitter', 'linkedin', 'm7datasp')
+NTWEETS <- 25  # how many tweets should be evaluated in each sesseion
+CAMPAINS <- c('pyladies', 'twitter', 'linkedin', 'm7datasp', 'czpython', 'ceitec', 'dailypython')
 
 thankyou_messages = list()
+
+## TODO: add campaigns 'czpython', 'ceitec', 'dailypython'
+
 thankyou_messages[['pyladies']] = "<br/><h3> Děkujeme! </h3> 
   <p>A přejeme 
   úspěšné dokončení datového kurzu PyLadies. Když nám vyplníš jméno a email, pošleme ti sbírku
