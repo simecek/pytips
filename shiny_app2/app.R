@@ -4,16 +4,21 @@ library(tidyverse)
 DATA_PATH = "df5.csv"  # path to current d.f. with tweets
 all_tweets <- read_csv(DATA_PATH)
 NTWEETS <- 25  # how many tweets should be evaluated in each sesseion
-CAMPAINS <- c('pyladies', 'twitter', 'linkedin', 'm7datasp', 'czpython', 'ceitec', 'dailypython')
+CAMPAINS <- c('pyladies', 'twitter', 'linkedin', 'm7datasp', 'czpython', 'ceitec')
 
 thankyou_messages = list()
-
-## TODO: add campaigns 'czpython', 'ceitec', 'dailypython'
 
 thankyou_messages[['pyladies']] = "<br/><h3> Děkujeme! </h3> 
   <p>A přejeme 
   úspěšné dokončení datového kurzu PyLadies. Když nám vyplníš jméno a email, pošleme ti sbírku
   nejlepších pythonových tipů, až ji teda budeme mít hotovou.</p>
+  
+  <p>Nezapomeň, prosím, kliknout na tlačítko Save, jinak se tvé odpovědi neuloží.</p>
+  <br/>"
+
+thankyou_messages[['czpython']] = "<br/><h3> Děkujeme! </h3> 
+  <p>Když nám vyplníš jméno a email, pošleme ti kupón na 75% slevu, až teda budeme mít sbírku
+  nejlepších pythonových tipů hotovou.</p>
   
   <p>Nezapomeň, prosím, kliknout na tlačítko Save, jinak se tvé odpovědi neuloží.</p>
   <br/>"
@@ -31,6 +36,13 @@ thankyou_messages[['m7datasp']] = "<br/><h3> Děkujeme! </h3>
 thankyou_messages[['twitter']] = thankyou_messages[['linkedin']] = "<br/><h3> Thank you! </h3> 
   <p>We wish you merry python holidays! If you share your name and email with us, we will 
   send you a 75% discount code once the book of the tips is ready.</p>
+  
+  <p>Please, do not forget to hit the \"Save\" button. Otherwise, your answers will not be recorded.</p>
+  <br/>"
+
+thankyou_messages[['ceitec']] = "<br/><h3> Thank you! </h3> 
+  <p>We wish you merry python holidays! If you share your name and email with us, we will 
+  send you a free book of the tips, once it will be ready.</p>
   
   <p>Please, do not forget to hit the \"Save\" button. Otherwise, your answers will not be recorded.</p>
   <br/>"
