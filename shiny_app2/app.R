@@ -20,7 +20,7 @@ thankyou_messages[['czpython']] = "<br/><h3> Děkujeme! </h3>
   <p>Když nám vyplníš jméno a email, pošleme ti kupón na 75% slevu, až teda budeme mít sbírku
   nejlepších pythonových tipů hotovou.</p>
   
-  <p>Nezapomeň, prosím, kliknout na tlačítko Save, jinak se tvé odpovědi neuloží.</p>
+  <p>Nezapomeň, prosím, kliknout na tlačítko Save, jinak se tvé od  povědi neuloží.</p>
   <br/>"
 
 thankyou_messages[['m7datasp']] = "<br/><h3> Děkujeme! </h3> 
@@ -49,7 +49,7 @@ thankyou_messages[['ceitec']] = "<br/><h3> Thank you! </h3>
 
 thankyou_messages[['default']] = "<br/><h3> Thank you! </h3> 
   <p>We wish you merry python holidays! If you share your name and email with us, we will 
-  send you a 50% discount code once the book of the tips is ready.</p>
+  send you a 60% discount code once the book of the tips is ready.</p>
   
   <p>Please, do not forget to hit the \"Save\" button. Otherwise, your answers will not be recorded.</p>
   <br/>"
